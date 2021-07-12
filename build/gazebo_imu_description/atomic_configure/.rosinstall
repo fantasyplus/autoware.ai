@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/build/gazebo_imu_description/devel/setup.sh

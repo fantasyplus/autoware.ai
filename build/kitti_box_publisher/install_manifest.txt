@@ -1,0 +1,5 @@
+/home/ros/autoware.ai/install/kitti_box_publisher/lib/pkgconfig/kitti_box_publisher.pc
+/home/ros/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/cmake/kitti_box_publisherConfig.cmake
+/home/ros/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/cmake/kitti_box_publisherConfig-version.cmake
+/home/ros/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/package.xml
+/home/ros/autoware.ai/install/kitti_box_publisher/lib/kitti_box_publisher/kitti_box_publisher.py

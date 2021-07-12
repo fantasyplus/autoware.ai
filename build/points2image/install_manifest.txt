@@ -1,0 +1,9 @@
+/home/ros/autoware.ai/install/points2image/lib/pkgconfig/points2image.pc
+/home/ros/autoware.ai/install/points2image/share/points2image/cmake/points2imageConfig.cmake
+/home/ros/autoware.ai/install/points2image/share/points2image/cmake/points2imageConfig-version.cmake
+/home/ros/autoware.ai/install/points2image/share/points2image/package.xml
+/home/ros/autoware.ai/install/points2image/lib/libpoints_image.so
+/home/ros/autoware.ai/install/points2image/lib/points2image/vscan2linelist
+/home/ros/autoware.ai/install/points2image/lib/points2image/vscan2image
+/home/ros/autoware.ai/install/points2image/lib/points2image/points2image
+/home/ros/autoware.ai/install/points2image/lib/points2image/points2vscan

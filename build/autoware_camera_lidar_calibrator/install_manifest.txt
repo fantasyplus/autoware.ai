@@ -1,0 +1,12 @@
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/pkgconfig/autoware_camera_lidar_calibrator.pc
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/cmake/autoware_camera_lidar_calibratorConfig.cmake
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/cmake/autoware_camera_lidar_calibratorConfig-version.cmake
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/package.xml
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/cameracalibrator.py
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/cameracheck.py
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/tarfile_calibration.py
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/autoware_camera_lidar_calibration_node
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/launch/camera_lidar_calibration.launch
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/docs/autoware_logo.jpg
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/docs/camera_lidar_calibration.jpg
+/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/docs/camera_calibration.jpg

@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/rosbag_controller/lib/pkgconfig/rosbag_controller.pc
+/home/ros/autoware.ai/install/rosbag_controller/share/rosbag_controller/cmake/rosbag_controllerConfig.cmake
+/home/ros/autoware.ai/install/rosbag_controller/share/rosbag_controller/cmake/rosbag_controllerConfig-version.cmake
+/home/ros/autoware.ai/install/rosbag_controller/share/rosbag_controller/package.xml
+/home/ros/autoware.ai/install/rosbag_controller/lib/librosbag_controller.so
+/home/ros/autoware.ai/install/rosbag_controller/share/rosbag_controller/plugin_description.xml

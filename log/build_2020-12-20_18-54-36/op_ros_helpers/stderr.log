@@ -1,0 +1,11 @@
+[01m[K/home/ros/autoware.ai/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp:[m[K In static member function ‘[01m[Kstatic void PlannerHNS::ROSHelpers::ConvertPredictedTrajectoriesMarkers(std::vector<std::vector<PlannerHNS::WayPoint> >&, visualization_msgs::MarkerArray&, visualization_msgs::MarkerArray&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp:328:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbasic_color[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     double [01;35m[Kbasic_color[m[K = 0.5;
+            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp:330:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbCurrent[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     bool [01;35m[KbCurrent[m[K = false;
+          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp:[m[K In static member function ‘[01m[Kstatic void PlannerHNS::ROSHelpers::TrajectoriesToColoredMarkers(const std::vector<std::vector<PlannerHNS::WayPoint> >&, const std::vector<PlannerHNS::TrajectoryCost>&, const int&, visualization_msgs::MarkerArray&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/op_ros_helpers/src/op_ROSHelpers.cpp:720:10:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     if([01;35m[Ki == iClosest[m[K)
+        [01;35m[K~~^~~~~~~~~~~[m[K

@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/graph_tools': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/graph_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/graph_tools
+Invoked command in '/home/ros/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/graph_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/graph_tools
+Invoking command in '/home/ros/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools --target install -- -j12 -l12

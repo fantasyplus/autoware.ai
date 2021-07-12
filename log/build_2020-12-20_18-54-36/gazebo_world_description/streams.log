@@ -1,0 +1,74 @@
+[0.017s] Invoking command in '/home/ros/autoware.ai/build/gazebo_world_description': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/gazebo_world_description
+[0.231s] -- The C compiler identification is GNU 7.5.0
+[0.325s] -- The CXX compiler identification is GNU 7.5.0
+[0.328s] -- Check for working C compiler: /usr/bin/cc
+[0.483s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.483s] -- Detecting C compiler ABI info
+[0.622s] -- Detecting C compiler ABI info - done
+[0.633s] -- Detecting C compile features
+[0.997s] -- Detecting C compile features - done
+[1.001s] -- Check for working CXX compiler: /usr/bin/c++
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.192s] -- Detecting CXX compiler ABI info
+[1.474s] -- Detecting CXX compiler ABI info - done
+[1.488s] -- Detecting CXX compile features
+[2.642s] -- Detecting CXX compile features - done
+[2.645s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/gazebo_world_description/devel
+[2.645s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[2.645s] -- This workspace overlays: /opt/ros/melodic
+[2.700s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.700s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.700s] -- Using Debian Python package layout
+[2.701s] -- Using empy: /usr/bin/empy
+[3.078s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.078s] -- Call enable_testing()
+[3.097s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/gazebo_world_description/test_results
+[3.143s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.143s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.182s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.183s] -- Looking for pthread.h
+[3.381s] -- Looking for pthread.h - found
+[3.382s] -- Looking for pthread_create
+[3.560s] -- Looking for pthread_create - not found
+[3.560s] -- Looking for pthread_create in pthreads
+[3.849s] -- Looking for pthread_create in pthreads - not found
+[3.849s] -- Looking for pthread_create in pthread
+[4.325s] -- Looking for pthread_create in pthread - found
+[4.327s] -- Found Threads: TRUE  
+[4.333s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.441s] -- catkin 0.7.29
+[4.441s] -- BUILD_SHARED_LIBS is on
+[5.323s] -- Configuring done
+[5.337s] -- Generating done
+[5.339s] -- Build files have been written to: /home/ros/autoware.ai/build/gazebo_world_description
+[5.353s] Invoked command in '/home/ros/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/gazebo_world_description
+[5.355s] Invoking command in '/home/ros/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description -- -j12 -l12
+[5.513s] Invoked command in '/home/ros/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description -- -j12 -l12
+[5.632s] Invoking command in '/home/ros/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description --target tests -- -j12 -l12
+[5.815s] [35m[1mScanning dependencies of target tests[0m
+[5.840s] Built target tests
+[5.867s] Invoked command in '/home/ros/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description --target tests -- -j12 -l12
+[6.014s] Invoking command in '/home/ros/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description --target install -- -j12 -l12
+[6.127s] [36mInstall the project...[0m
+[6.142s] -- Install configuration: "Release"
+[6.142s] -- Installing: /home/ros/autoware.ai/install/gazebo_world_description/lib/pkgconfig/gazebo_world_description.pc
+[6.142s] -- Installing: /home/ros/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig.cmake
+[6.142s] -- Installing: /home/ros/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig-version.cmake
+[6.143s] -- Installing: /home/ros/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/package.xml
+[6.150s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/worlds/citysim_gazebo7.world': No such file or directory
+[6.150s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/worlds/citysim_gazebo9.world': No such file or directory
+[6.150s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/worlds/mcity.world': No such file or directory
+[6.151s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/worlds/mcity_r1.world': No such file or directory
+[6.173s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/construction_cone': No such file or directory
+[6.173s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/dumpster': No such file or directory
+[6.173s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/gas_station': No such file or directory
+[6.173s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/grey_wall': No such file or directory
+[6.174s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/house_1': No such file or directory
+[6.174s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/house_2': No such file or directory
+[6.174s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/house_3': No such file or directory
+[6.174s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/jersey_barrier': No such file or directory
+[6.174s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/mcity': No such file or directory
+[6.174s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/ocean': No such file or directory
+[6.174s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/powerplant': No such file or directory
+[6.174s] cp: cannot stat '/home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description/models/speed_limit_sign': No such file or directory
+[6.181s] Invoked command in '/home/ros/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description --target install -- -j12 -l12

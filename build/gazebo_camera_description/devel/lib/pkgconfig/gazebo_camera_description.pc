@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/gazebo_camera_description/devel
+
+Name: gazebo_camera_description
+Description: Description of gazebo_camera_description
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

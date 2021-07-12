@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator
+
+Name: autoware_camera_lidar_calibrator
+Description: Description of autoware_camera_lidar_calibrator
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/log_tools
+
+Name: log_tools
+Description: Description of log_tools
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

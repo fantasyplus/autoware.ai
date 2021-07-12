@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/op_simu
+
+Name: op_simu
+Description: Description of op_simu
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lop_simu
+Requires: op_utility op_planner

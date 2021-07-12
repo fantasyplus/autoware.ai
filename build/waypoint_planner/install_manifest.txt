@@ -1,0 +1,11 @@
+/home/ros/autoware.ai/install/waypoint_planner/lib/pkgconfig/waypoint_planner.pc
+/home/ros/autoware.ai/install/waypoint_planner/share/waypoint_planner/cmake/waypoint_plannerConfig.cmake
+/home/ros/autoware.ai/install/waypoint_planner/share/waypoint_planner/cmake/waypoint_plannerConfig-version.cmake
+/home/ros/autoware.ai/install/waypoint_planner/share/waypoint_planner/package.xml
+/home/ros/autoware.ai/install/waypoint_planner/lib/waypoint_planner/astar_avoid
+/home/ros/autoware.ai/install/waypoint_planner/lib/waypoint_planner/velocity_set
+/home/ros/autoware.ai/install/waypoint_planner/lib/waypoint_planner/velocity_set_lanelet2
+/home/ros/autoware.ai/install/waypoint_planner/share/waypoint_planner/launch/velocity_set_lanelet2.launch
+/home/ros/autoware.ai/install/waypoint_planner/share/waypoint_planner/launch/velocity_set.launch
+/home/ros/autoware.ai/install/waypoint_planner/share/waypoint_planner/launch/velocity_set_option.launch
+/home/ros/autoware.ai/install/waypoint_planner/share/waypoint_planner/launch/astar_avoid.launch

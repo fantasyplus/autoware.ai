@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/lib/pkgconfig/gazebo_imu_description.pc
+-- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/package.xml
+-- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf
+-- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf/imu.xacro

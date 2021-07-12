@@ -1,0 +1,9 @@
+/home/ros/autoware.ai/install/pos_db/lib/pkgconfig/pos_db.pc
+/home/ros/autoware.ai/install/pos_db/share/pos_db/cmake/pos_dbConfig.cmake
+/home/ros/autoware.ai/install/pos_db/share/pos_db/cmake/pos_dbConfig-version.cmake
+/home/ros/autoware.ai/install/pos_db/share/pos_db/package.xml
+/home/ros/autoware.ai/install/pos_db/lib/pos_db/pos_downloader
+/home/ros/autoware.ai/install/pos_db/lib/libpos_db.so
+/home/ros/autoware.ai/install/pos_db/lib/pos_db/pos_uploader
+/home/ros/autoware.ai/install/pos_db/include/pos_db/include/pos_db.h
+/home/ros/autoware.ai/install/pos_db/share/pos_db/model/prius_model.dae

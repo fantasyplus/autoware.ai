@@ -1,0 +1,84 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _autoware_lanelet2_msgs_generate_messages_check_deps_MapBin[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _autoware_lanelet2_msgs_generate_messages_check_deps_MapBin
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_lisp[0m
+[ 14%] [34m[1mGenerating EusLisp manifest code for autoware_lanelet2_msgs[0m
+[ 28%] [34m[1mGenerating EusLisp code from autoware_lanelet2_msgs/MapBin.msg[0m
+[ 42%] [34m[1mGenerating Javascript code from autoware_lanelet2_msgs/MapBin.msg[0m
+[ 57%] [34m[1mGenerating Lisp code from autoware_lanelet2_msgs/MapBin.msg[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_py[0m
+[ 71%] [34m[1mGenerating C++ code from autoware_lanelet2_msgs/MapBin.msg[0m
+[ 85%] [34m[1mGenerating Python from MSG autoware_lanelet2_msgs/MapBin[0m
+[ 85%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[ 85%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[100%] [34m[1mGenerating Python msg __init__.py for autoware_lanelet2_msgs[0m
+[100%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[100%] Built target autoware_lanelet2_msgs_generate_messages_py
+[100%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages[0m
+[100%] Built target autoware_lanelet2_msgs_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _autoware_lanelet2_msgs_generate_messages_check_deps_MapBin
+[ 14%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[ 42%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[ 57%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[ 85%] Built target autoware_lanelet2_msgs_generate_messages_py
+[100%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[100%] Built target autoware_lanelet2_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/autoware_lanelet2_msgs/msg/MapBin.msg
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/autoware_lanelet2_msgs/cmake/autoware_lanelet2_msgs-msg-paths.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/include/autoware_lanelet2_msgs
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/include/autoware_lanelet2_msgs/MapBin.h
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/roseus/ros/autoware_lanelet2_msgs
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/roseus/ros/autoware_lanelet2_msgs/msg
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/roseus/ros/autoware_lanelet2_msgs/msg/MapBin.l
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/roseus/ros/autoware_lanelet2_msgs/manifest.l
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/common-lisp/ros/autoware_lanelet2_msgs
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/common-lisp/ros/autoware_lanelet2_msgs/msg
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/common-lisp/ros/autoware_lanelet2_msgs/msg/autoware_lanelet2_msgs-msg.asd
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/common-lisp/ros/autoware_lanelet2_msgs/msg/_package.lisp
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/common-lisp/ros/autoware_lanelet2_msgs/msg/MapBin.lisp
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/common-lisp/ros/autoware_lanelet2_msgs/msg/_package_MapBin.lisp
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/gennodejs/ros/autoware_lanelet2_msgs
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/gennodejs/ros/autoware_lanelet2_msgs/msg
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/gennodejs/ros/autoware_lanelet2_msgs/msg/MapBin.js
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/gennodejs/ros/autoware_lanelet2_msgs/msg/_index.js
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/gennodejs/ros/autoware_lanelet2_msgs/_index.js
+Listing /home/ros/autoware.ai/build/autoware_lanelet2_msgs/devel/lib/python2.7/dist-packages/autoware_lanelet2_msgs ...
+Compiling /home/ros/autoware.ai/build/autoware_lanelet2_msgs/devel/lib/python2.7/dist-packages/autoware_lanelet2_msgs/__init__.py ...
+Listing /home/ros/autoware.ai/build/autoware_lanelet2_msgs/devel/lib/python2.7/dist-packages/autoware_lanelet2_msgs/msg ...
+Compiling /home/ros/autoware.ai/build/autoware_lanelet2_msgs/devel/lib/python2.7/dist-packages/autoware_lanelet2_msgs/msg/_MapBin.py ...
+Compiling /home/ros/autoware.ai/build/autoware_lanelet2_msgs/devel/lib/python2.7/dist-packages/autoware_lanelet2_msgs/msg/__init__.py ...
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages/autoware_lanelet2_msgs
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages/autoware_lanelet2_msgs/msg
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages/autoware_lanelet2_msgs/msg/__init__.py
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages/autoware_lanelet2_msgs/msg/_MapBin.pyc
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages/autoware_lanelet2_msgs/msg/__init__.pyc
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages/autoware_lanelet2_msgs/msg/_MapBin.py
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages/autoware_lanelet2_msgs/__init__.py
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages/autoware_lanelet2_msgs/__init__.pyc
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig/autoware_lanelet2_msgs.pc
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/autoware_lanelet2_msgs/cmake/autoware_lanelet2_msgs-msg-extras.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/autoware_lanelet2_msgs/cmake/autoware_lanelet2_msgsConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/autoware_lanelet2_msgs/cmake/autoware_lanelet2_msgsConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_lanelet2_msgs/share/autoware_lanelet2_msgs/package.xml

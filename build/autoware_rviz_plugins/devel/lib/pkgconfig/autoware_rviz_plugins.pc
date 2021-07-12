@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/autoware_rviz_plugins/devel
+
+Name: autoware_rviz_plugins
+Description: Description of autoware_rviz_plugins
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz

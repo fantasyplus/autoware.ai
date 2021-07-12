@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/build/ndt_cpu/devel/setup.sh

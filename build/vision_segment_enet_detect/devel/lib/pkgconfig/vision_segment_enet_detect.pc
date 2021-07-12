@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/vision_segment_enet_detect/devel
+
+Name: vision_segment_enet_detect
+Description: Description of vision_segment_enet_detect
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

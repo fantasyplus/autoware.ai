@@ -1,0 +1,28 @@
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:[m[K In member function ‘[01m[Kautoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MIN_VALUE(const ErrorKey&, double, double, double, double, const string&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:198:32:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kthresh_type[m[K’ with non-automatic storage duration
+   auto identify = [key, value, [01;35m[Kthresh_type[m[K, this](ErrorLevel level)
+                                [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:195:27:[m[K [01;36m[Knote: [m[K‘[01m[Kconst ThreshType thresh_type[m[K’ declared here
+   static const ThreshType [01;36m[Kthresh_type[m[K = "min";
+                           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:[m[K In member function ‘[01m[Kautoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MAX_VALUE(const ErrorKey&, double, double, double, double, const string&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:223:32:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kthresh_type[m[K’ with non-automatic storage duration
+   auto identify = [key, value, [01;35m[Kthresh_type[m[K, this](ErrorLevel level)
+                                [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:220:27:[m[K [01;36m[Knote: [m[K‘[01m[Kconst ThreshType thresh_type[m[K’ declared here
+   static const ThreshType [01;36m[Kthresh_type[m[K = "max";
+                           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:[m[K In member function ‘[01m[Kautoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MIN_VALUE(const ErrorKey&, double, double, double, double, const string&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:198:32:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kthresh_type[m[K’ with non-automatic storage duration
+   auto identify = [key, value, [01;35m[Kthresh_type[m[K, this](ErrorLevel level)
+                                [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:195:27:[m[K [01;36m[Knote: [m[K‘[01m[Kconst ThreshType thresh_type[m[K’ declared here
+   static const ThreshType [01;36m[Kthresh_type[m[K = "min";
+                           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:[m[K In member function ‘[01m[Kautoware_health_checker::ErrorLevel autoware_health_checker::HealthChecker::CHECK_MAX_VALUE(const ErrorKey&, double, double, double, double, const string&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:223:32:[m[K [01;35m[Kwarning: [m[Kcapture of variable ‘[01m[Kthresh_type[m[K’ with non-automatic storage duration
+   auto identify = [key, value, [01;35m[Kthresh_type[m[K, this](ErrorLevel level)
+                                [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/autoware_health_checker/src/health_checker/health_checker.cpp:220:27:[m[K [01;36m[Knote: [m[K‘[01m[Kconst ThreshType thresh_type[m[K’ declared here
+   static const ThreshType [01;36m[Kthresh_type[m[K = "max";
+                           [01;36m[K^~~~~~~~~~~[m[K

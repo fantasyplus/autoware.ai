@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/build/ll2_global_planner/devel/setup.sh

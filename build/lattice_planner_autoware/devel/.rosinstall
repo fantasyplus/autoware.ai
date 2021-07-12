@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/build/lattice_planner_autoware/devel/setup.sh

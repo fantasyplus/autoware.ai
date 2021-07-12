@@ -1,0 +1,1 @@
+autoware_config_msgs:autoware_msgs:nmea_navsat_driver:python-psutil:rospy:std_msgs:tablet_socket_msgs:uvc_camera:velodyne

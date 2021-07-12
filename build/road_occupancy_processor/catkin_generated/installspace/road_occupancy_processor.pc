@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/road_occupancy_processor
+
+Name: road_occupancy_processor
+Description: Description of road_occupancy_processor
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

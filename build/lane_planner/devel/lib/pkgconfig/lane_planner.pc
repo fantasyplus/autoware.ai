@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/lane_planner/devel
+
+Name: lane_planner
+Description: Description of lane_planner
+Version: 1.12.0
+Cflags: -I/home/ros/autoware.ai/src/autoware/core_planning/lane_planner/include
+Libs: -L${prefix}/lib -llane_planner
+Requires: 

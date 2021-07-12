@@ -1,0 +1,1 @@
+cv_bridge:image_transport:libgflags-dev:libgoogle-glog-dev:roscpp:sensor_msgs

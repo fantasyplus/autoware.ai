@@ -1,0 +1,5 @@
+/usr/bin/ld: cannot find -lON
+collect2: error: ld returned 1 exit status
+make[2]: *** [devel/lib/libpoint_pillars_lib.so] Error 1
+make[1]: *** [CMakeFiles/point_pillars_lib.dir/all] Error 2
+make: *** [all] Error 2

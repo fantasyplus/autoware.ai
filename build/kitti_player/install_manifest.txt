@@ -1,0 +1,14 @@
+/home/ros/autoware.ai/install/kitti_player/include/kitti_player/kitti_playerConfig.h
+/home/ros/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/__init__.py
+/home/ros/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg/__init__.py
+/home/ros/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg/__init__.pyc
+/home/ros/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg/kitti_playerConfig.pyc
+/home/ros/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg/kitti_playerConfig.py
+/home/ros/autoware.ai/install/kitti_player/lib/pkgconfig/kitti_player.pc
+/home/ros/autoware.ai/install/kitti_player/share/kitti_player/cmake/kitti_playerConfig.cmake
+/home/ros/autoware.ai/install/kitti_player/share/kitti_player/cmake/kitti_playerConfig-version.cmake
+/home/ros/autoware.ai/install/kitti_player/share/kitti_player/package.xml
+/home/ros/autoware.ai/install/kitti_player/lib/kitti_player/kitti_player
+/home/ros/autoware.ai/install/kitti_player/share/kitti_player/launch/kittiplayer_libviso2.launch
+/home/ros/autoware.ai/install/kitti_player/share/kitti_player/cfg/kitti_player.cfg
+/home/ros/autoware.ai/install/kitti_player/share/kitti_player/cfg/rviz_kitti_player.rviz

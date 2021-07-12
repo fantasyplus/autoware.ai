@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/df1.dir/test/src/hdd_monitor/df1.cpp.o  -o devel/lib/system_monitor/df1 

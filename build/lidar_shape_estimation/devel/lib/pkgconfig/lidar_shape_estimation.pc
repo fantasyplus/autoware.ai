@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/lidar_shape_estimation/devel
+
+Name: lidar_shape_estimation
+Description: Description of lidar_shape_estimation
+Version: 1.12.0
+Cflags: -I/home/ros/autoware.ai/src/autoware/core_perception/lidar_shape_estimation/include
+Libs: -L${prefix}/lib 
+Requires: 

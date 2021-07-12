@@ -1,0 +1,86 @@
+[0.053s] Invoking command in '/home/ros/autoware.ai/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/carla_autoware_bridge
+[0.223s] -- The C compiler identification is GNU 7.5.0
+[0.335s] -- The CXX compiler identification is GNU 7.5.0
+[0.347s] -- Check for working C compiler: /usr/bin/cc
+[0.458s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.460s] -- Detecting C compiler ABI info
+[0.590s] -- Detecting C compiler ABI info - done
+[0.605s] -- Detecting C compile features
+[1.046s] -- Detecting C compile features - done
+[1.050s] -- Check for working CXX compiler: /usr/bin/c++
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.193s] -- Detecting CXX compiler ABI info
+[1.308s] -- Detecting CXX compiler ABI info - done
+[1.319s] -- Detecting CXX compile features
+[1.821s] -- Detecting CXX compile features - done
+[1.824s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/carla_autoware_bridge/devel
+[1.824s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_msgs;/opt/ros/melodic
+[1.824s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_msgs;/opt/ros/melodic
+[1.848s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.848s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.848s] -- Using Debian Python package layout
+[1.848s] -- Using empy: /usr/bin/empy
+[2.058s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.058s] -- Call enable_testing()
+[2.064s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/carla_autoware_bridge/test_results
+[2.086s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.087s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.106s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.107s] -- Looking for pthread.h
+[2.206s] -- Looking for pthread.h - found
+[2.207s] -- Looking for pthread_create
+[2.313s] -- Looking for pthread_create - not found
+[2.314s] -- Looking for pthread_create in pthreads
+[2.417s] -- Looking for pthread_create in pthreads - not found
+[2.417s] -- Looking for pthread_create in pthread
+[2.538s] -- Looking for pthread_create in pthread - found
+[2.540s] -- Found Threads: TRUE  
+[2.545s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.605s] -- catkin 0.7.29
+[2.605s] -- BUILD_SHARED_LIBS is on
+[2.820s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.546s] -- Configuring done
+[3.574s] -- Generating done
+[3.582s] -- Build files have been written to: /home/ros/autoware.ai/build/carla_autoware_bridge
+[3.589s] Invoked command in '/home/ros/autoware.ai/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/carla_autoware_bridge
+[3.594s] Invoking command in '/home/ros/autoware.ai/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/carla_autoware_bridge -- -j12 -l12
+[3.663s] Invoked command in '/home/ros/autoware.ai/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/carla_autoware_bridge -- -j12 -l12
+[3.797s] Invoking command in '/home/ros/autoware.ai/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/carla_autoware_bridge --target tests -- -j12 -l12
+[3.875s] [35m[1mScanning dependencies of target tests[0m
+[3.893s] Built target tests
+[3.907s] Invoked command in '/home/ros/autoware.ai/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/carla_autoware_bridge --target tests -- -j12 -l12
+[4.046s] Invoking command in '/home/ros/autoware.ai/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/carla_autoware_bridge --target install -- -j12 -l12
+[4.116s] [36mInstall the project...[0m
+[4.128s] -- Install configuration: "Release"
+[4.129s] + cd /home/ros/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge
+[4.129s] + mkdir -p /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages
+[4.131s] + /usr/bin/env PYTHONPATH=/home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages:/home/ros/autoware.ai/build/carla_autoware_bridge/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ros/autoware.ai/build/carla_autoware_bridge /usr/bin/python2 /home/ros/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge/setup.py build --build-base /home/ros/autoware.ai/build/carla_autoware_bridge install --root=/ --install-layout=deb --prefix=/home/ros/autoware.ai/install/carla_autoware_bridge --install-scripts=/home/ros/autoware.ai/install/carla_autoware_bridge/bin
+[4.179s] running build
+[4.180s] running build_py
+[4.180s] creating /home/ros/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7
+[4.180s] creating /home/ros/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge
+[4.180s] copying src/carla_autoware_bridge/__init__.py -> /home/ros/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge
+[4.180s] running install
+[4.180s] running install_lib
+[4.181s] creating /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge
+[4.181s] copying /home/ros/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge/__init__.py -> /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge
+[4.181s] byte-compiling /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge/__init__.py to __init__.pyc
+[4.185s] running install_egg_info
+[4.185s] Writing /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge-0.0.0.egg-info
+[4.191s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/pkgconfig/carla_autoware_bridge.pc
+[4.191s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/cmake/carla_autoware_bridgeConfig.cmake
+[4.192s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/cmake/carla_autoware_bridgeConfig-version.cmake
+[4.192s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/package.xml
+[4.193s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_vehicle_status
+[4.193s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_waypoints
+[4.193s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/odometry_to_posestamped
+[4.194s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/vehiclecmd_to_ackermanndrive
+[4.194s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_detected_objects
+[4.194s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch
+[4.195s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge.launch
+[4.195s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/tf.launch
+[4.195s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge_common.launch
+[4.196s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge_with_manual_control.launch
+[4.196s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/config
+[4.197s] -- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/config/sensors.json
+[4.200s] Invoked command in '/home/ros/autoware.ai/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/carla_autoware_bridge --target install -- -j12 -l12

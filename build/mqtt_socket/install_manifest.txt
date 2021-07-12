@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/mqtt_socket/lib/pkgconfig/mqtt_socket.pc
+/home/ros/autoware.ai/install/mqtt_socket/share/mqtt_socket/cmake/mqtt_socketConfig.cmake
+/home/ros/autoware.ai/install/mqtt_socket/share/mqtt_socket/cmake/mqtt_socketConfig-version.cmake
+/home/ros/autoware.ai/install/mqtt_socket/share/mqtt_socket/package.xml
+/home/ros/autoware.ai/install/mqtt_socket/lib/mqtt_socket/mqtt_receiver
+/home/ros/autoware.ai/install/mqtt_socket/lib/mqtt_socket/mqtt_sender

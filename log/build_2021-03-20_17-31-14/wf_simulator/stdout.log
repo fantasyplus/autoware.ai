@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target wf_simulator[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wf_simulator.dir/src/wf_simulator_node.cpp.o[0m
+CMakeFiles/wf_simulator.dir/build.make:94: recipe for target 'CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o' failed
+CMakeFiles/Makefile2:1584: recipe for target 'CMakeFiles/wf_simulator.dir/all' failed
+Makefile:159: recipe for target 'all' failed

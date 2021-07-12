@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/ll2_global_planner
+
+Name: ll2_global_planner
+Description: Description of ll2_global_planner
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lll2_global_planner -lll2_global_planner_nodelet
+Requires: autoware_lanelet2_msgs autoware_msgs geometry_msgs lanelet2_extension nodelet roscpp roslib roslint tf2 tf2_ros

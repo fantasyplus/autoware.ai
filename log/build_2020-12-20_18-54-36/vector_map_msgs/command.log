@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/autoware.ai/build/vector_map_msgs': /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map_msgs -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/vector_map_msgs' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map_msgs -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/vector_map_msgs': /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map_msgs --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/vector_map_msgs' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map_msgs --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/vector_map_msgs': /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map_msgs --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/vector_map_msgs' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map_msgs --target install -- -j12 -l12

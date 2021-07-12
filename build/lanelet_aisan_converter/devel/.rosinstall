@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/build/lanelet_aisan_converter/devel/setup.sh

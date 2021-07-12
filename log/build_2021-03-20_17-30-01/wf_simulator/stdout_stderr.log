@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target wf_simulator[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o[0m
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:[m[K In constructor ‘[01m[KWFSimulatorCore::WFSimulatorCore()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:46:59:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerCallbackSimulation2[m[K’ is not a member of ‘[01m[KWFSimulatorCore[m[K’
+   nh_.createTimer(ros::Duration(dt*10), &WFSimulatorCore::[01;31m[KtimerCallbackSimulation2[m[K, this);
+                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:[m[K At global scope:
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:123:72:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid WFSimulatorCore::timerCallbackSimulation2(const ros::TimerEvent&)[m[K’ member function declared in class ‘[01m[KWFSimulatorCore[m[K’
+ void WFSimulatorCore::timerCallbackSimulation2(const ros::TimerEvent& e[01;31m[K)[m[K{
+                                                                        [01;31m[K^[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:[m[K In member function ‘[01m[Kvoid WFSimulatorCore::timerCallbackSimulation(const ros::TimerEvent&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:154:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteering_angle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   const double [01;35m[Ksteering_angle[m[K = vehicle_sim_model_.getCurrentSteeringAngle();
+                [01;35m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o] Error 1
+CMakeFiles/wf_simulator.dir/build.make:94: recipe for target 'CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o' failed
+CMakeFiles/Makefile2:1584: recipe for target 'CMakeFiles/wf_simulator.dir/all' failed
+make[1]: *** [CMakeFiles/wf_simulator.dir/all] Error 2
+Makefile:159: recipe for target 'all' failed
+make: *** [all] Error 2

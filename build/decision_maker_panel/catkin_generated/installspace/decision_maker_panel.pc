@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/decision_maker_panel
+
+Name: decision_maker_panel
+Description: Description of decision_maker_panel
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz

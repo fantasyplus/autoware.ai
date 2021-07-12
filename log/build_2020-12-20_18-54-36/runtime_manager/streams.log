@@ -1,0 +1,133 @@
+[0.173s] Invoking command in '/home/ros/autoware.ai/build/runtime_manager': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/runtime_manager -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/runtime_manager
+[0.336s] -- The C compiler identification is GNU 7.5.0
+[0.474s] -- The CXX compiler identification is GNU 7.5.0
+[0.481s] -- Check for working C compiler: /usr/bin/cc
+[0.705s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.706s] -- Detecting C compiler ABI info
+[0.875s] -- Detecting C compiler ABI info - done
+[0.894s] -- Detecting C compile features
+[1.508s] -- Detecting C compile features - done
+[1.513s] -- Check for working CXX compiler: /usr/bin/c++
+[1.698s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.699s] -- Detecting CXX compiler ABI info
+[1.911s] -- Detecting CXX compiler ABI info - done
+[1.923s] -- Detecting CXX compile features
+[2.801s] -- Detecting CXX compile features - done
+[2.804s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/runtime_manager/devel
+[2.805s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/opt/ros/melodic
+[2.805s] -- This workspace overlays: /home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/opt/ros/melodic
+[2.863s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.863s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.864s] -- Using Debian Python package layout
+[2.865s] -- Using empy: /usr/bin/empy
+[3.259s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.260s] -- Call enable_testing()
+[3.262s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/runtime_manager/test_results
+[3.289s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.289s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.327s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.328s] -- Looking for pthread.h
+[3.480s] -- Looking for pthread.h - found
+[3.481s] -- Looking for pthread_create
+[3.762s] -- Looking for pthread_create - not found
+[3.762s] -- Looking for pthread_create in pthreads
+[4.028s] -- Looking for pthread_create in pthreads - not found
+[4.029s] -- Looking for pthread_create in pthread
+[4.346s] -- Looking for pthread_create in pthread - found
+[4.347s] -- Found Threads: TRUE  
+[4.354s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.493s] -- catkin 0.7.29
+[4.494s] -- BUILD_SHARED_LIBS is on
+[4.908s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.404s] -- Configuring done
+[5.450s] -- Generating done
+[5.460s] -- Build files have been written to: /home/ros/autoware.ai/build/runtime_manager
+[5.472s] Invoked command in '/home/ros/autoware.ai/build/runtime_manager' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/runtime_manager -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/runtime_manager
+[5.474s] Invoking command in '/home/ros/autoware.ai/build/runtime_manager': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/runtime_manager -- -j12 -l12
+[5.590s] Invoked command in '/home/ros/autoware.ai/build/runtime_manager' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/runtime_manager -- -j12 -l12
+[6.181s] Invoking command in '/home/ros/autoware.ai/build/runtime_manager': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/runtime_manager --target tests -- -j12 -l12
+[6.340s] [35m[1mScanning dependencies of target tests[0m
+[6.374s] Built target tests
+[6.396s] Invoked command in '/home/ros/autoware.ai/build/runtime_manager' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/runtime_manager --target tests -- -j12 -l12
+[6.582s] Invoking command in '/home/ros/autoware.ai/build/runtime_manager': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/runtime_manager --target install -- -j12 -l12
+[6.689s] [36mInstall the project...[0m
+[6.701s] -- Install configuration: "Release"
+[6.702s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/pkgconfig/runtime_manager.pc
+[6.702s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/cmake/runtime_managerConfig.cmake
+[6.703s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/cmake/runtime_managerConfig-version.cmake
+[6.703s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/package.xml
+[6.703s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/ftrace.py
+[6.703s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/proc_manager.py
+[6.703s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/rtmgr.py
+[6.704s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/runtime_manager_dialog.py
+[6.704s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/test_pub.py
+[6.704s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/test_srv.py
+[6.704s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/3dm_gx5_15.sh
+[6.705s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/add_perm.sh
+[6.705s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/adis16470.sh
+[6.705s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/avt_vimba.sh
+[6.705s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/gazebo.sh
+[6.705s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/mti300.sh
+[6.705s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/vg440.sh
+[6.705s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/cleanup
+[6.706s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/run
+[6.706s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/run_proc_manager
+[6.706s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/subnet_chk.py
+[6.706s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/computing.yaml
+[6.706s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/data.yaml
+[6.706s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/empty.yaml
+[6.707s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/interface.yaml
+[6.707s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/main.yaml
+[6.707s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/map.yaml
+[6.707s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/qs.yaml
+[6.707s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/rtmgr.wxg
+[6.708s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/rtmgr_icon.xpm
+[6.708s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/sensing.yaml
+[6.708s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/setup.yaml
+[6.708s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/simulation.yaml
+[6.708s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/state.yaml
+[6.708s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/status.yaml
+[6.708s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/topics.yaml
+[6.709s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/vector_map_files.yaml
+[6.709s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/viewer.yaml
+[6.709s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/autoware_logo_1.png
+[6.709s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/autoware_logo_2.png
+[6.709s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/autoware_logo_2_white.png
+[6.709s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/axe.png
+[6.709s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/database.png
+[6.710s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/dec.png
+[6.710s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/inc.png
+[6.710s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/mobile.png
+[6.710s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/nagoya_university.png
+[6.710s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/tablet.png
+[6.710s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/vehicle.png
+[6.711s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/avt_camera.launch
+[6.711s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/calibration_publisher.launch
+[6.711s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/ex_mat_pub.launch
+[6.711s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/check.launch
+[6.711s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/control.launch
+[6.712s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/init.launch
+[6.712s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/map.launch
+[6.712s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/perception.launch
+[6.712s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/planning.launch
+[6.712s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/sensor.launch
+[6.712s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/set.launch
+[6.713s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl32e.launch
+[6.713s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl64e_s2.launch
+[6.713s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl64e_s3.launch
+[6.713s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp16.launch
+[6.713s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp16_hires.launch
+[6.713s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp32c.launch
+[6.713s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/mqtt_socket.launch
+[6.714s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/points2image.launch
+[6.714s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/setup_tf.launch
+[6.714s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/setup_vehicle_info.launch
+[6.715s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/synchronization.launch
+[6.715s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/tablet_socket.launch
+[6.715s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/traffic_light.launch
+[6.715s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/uvc_camera.launch
+[6.715s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/vehicle_socket.launch
+[6.715s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/vscan.launch
+[6.715s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch
+[6.716s] -- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch/runtime_manager.launch
+[6.721s] Invoked command in '/home/ros/autoware.ai/build/runtime_manager' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/runtime_manager --target install -- -j12 -l12

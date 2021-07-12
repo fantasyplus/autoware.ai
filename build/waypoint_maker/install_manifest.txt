@@ -1,0 +1,16 @@
+/home/ros/autoware.ai/install/waypoint_maker/lib/pkgconfig/waypoint_maker.pc
+/home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig.cmake
+/home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig-version.cmake
+/home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/package.xml
+/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_loader
+/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_replanner
+/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_saver
+/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_clicker
+/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_marker_publisher
+/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_velocity_visualizer
+/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_extractor
+/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_creator
+/home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_loader.launch
+/home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_saver.launch
+/home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_creator.launch
+/home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_velocity_visualizer.launch

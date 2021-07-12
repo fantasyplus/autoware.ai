@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/autoware_quickstart_examples
+
+Name: autoware_quickstart_examples
+Description: Description of autoware_quickstart_examples
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

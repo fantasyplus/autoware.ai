@@ -1,0 +1,56 @@
+[35m[1mScanning dependencies of target gnss[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gnss.dir/src/geo_pos_conv.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libgnss.so[0m
+[100%] Built target gnss
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[ 20%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 20%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 20%] Built target std_msgs_generate_messages_cpp
+[ 20%] Built target roscpp_generate_messages_cpp
+[ 20%] Built target std_msgs_generate_messages_lisp
+[ 20%] Built target std_msgs_generate_messages_nodejs
+[ 40%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 40%] Built target gtest
+[35m[1mScanning dependencies of target test_gnss[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/src/geo_pos_conv.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/test/test_gnss.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/gnss/test_gnss[0m
+[100%] Built target test_gnss
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+[100%] Built target gnss
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
+-- Installing: /home/ros/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/gnss/share/gnss/package.xml
+-- Installing: /home/ros/autoware.ai/install/gnss/include/gnss
+-- Installing: /home/ros/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
+-- Installing: /home/ros/autoware.ai/install/gnss/lib/libgnss.so
+-- Set runtime path of "/home/ros/autoware.ai/install/gnss/lib/libgnss.so" to ""

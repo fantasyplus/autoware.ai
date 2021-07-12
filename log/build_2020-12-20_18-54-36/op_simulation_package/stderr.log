@@ -1,0 +1,30 @@
+In file included from [01m[K/home/ros/autoware.ai/install/op_planner/include/op_planner/RoadNetwork.h:14:0[m[K,
+                 from [01m[K/home/ros/autoware.ai/install/op_ros_helpers/include/op_ros_helpers/op_ROSHelpers.h:10[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/op_simulation_package/nodes/op_perception_simulator/op_perception_simulator_core.cpp:25[m[K:
+[01m[K/home/ros/autoware.ai/install/op_utility/include/op_utility/UtilityH.h:18:0:[m[K [01;35m[Kwarning: [m[K"DEG2RAD" redefined
+ #define DEG2RAD M_PI / 180.
+ 
+In file included from [01m[K/usr/include/pcl-1.8/pcl/PCLPointField.h:12:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/conversions.h:47[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:44[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/op_simulation_package/nodes/op_perception_simulator/op_perception_simulator_core.cpp:19[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/pcl_macros.h:139:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ #define DEG2RAD(x) ((x)*0.017453293)
+ 
+In file included from [01m[K/home/ros/autoware.ai/install/op_planner/include/op_planner/RoadNetwork.h:14:0[m[K,
+                 from [01m[K/home/ros/autoware.ai/install/op_ros_helpers/include/op_ros_helpers/op_ROSHelpers.h:10[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/op_simulation_package/nodes/op_perception_simulator/op_perception_simulator_core.cpp:25[m[K:
+[01m[K/home/ros/autoware.ai/install/op_utility/include/op_utility/UtilityH.h:19:0:[m[K [01;35m[Kwarning: [m[K"RAD2DEG" redefined
+ #define RAD2DEG 180. / M_PI
+ 
+In file included from [01m[K/usr/include/pcl-1.8/pcl/PCLPointField.h:12:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/conversions.h:47[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:44[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/op_simulation_package/nodes/op_perception_simulator/op_perception_simulator_core.cpp:19[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/pcl_macros.h:143:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ #define RAD2DEG(x) ((x)*57.29578)
+ 
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:[m[K In member function ‘[01m[Kvoid CarSimulatorNS::OpenPlannerCarSimulator::MainLoop()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/op_simulation_package/nodes/op_car_simulator/op_car_simulator_core.cpp:796:51:[m[K [01;35m[Kwarning: [m[Kcomparison between ‘[01m[Kenum CarSimulatorNS::MAP_SOURCE_TYPE[m[K’ and ‘[01m[Kenum PlannerHNS::MAP_SOURCE_TYPE[m[K’ [[01;35m[K-Wenum-compare[m[K]
+     else if (m_SimParams.mapSource == PlannerHNS::[01;35m[KMAP_AUTOWARE[m[K && !m_bMap)
+                                                   [01;35m[K^~~~~~~~~~~~[m[K

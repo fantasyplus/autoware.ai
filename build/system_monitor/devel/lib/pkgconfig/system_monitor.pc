@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/system_monitor/devel
+
+Name: system_monitor
+Description: Description of system_monitor
+Version: 1.13.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: std_msgs

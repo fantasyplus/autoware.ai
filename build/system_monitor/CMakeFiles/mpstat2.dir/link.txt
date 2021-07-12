@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/mpstat2.dir/test/src/cpu_monitor/mpstat2.cpp.o  -o devel/lib/system_monitor/mpstat2 

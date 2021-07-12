@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/install/decision_maker_panel/setup.sh

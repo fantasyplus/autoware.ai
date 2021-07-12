@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/install/map_tf_generator/setup.sh

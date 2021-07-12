@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/map_tools/devel
+
+Name: map_tools
+Description: Description of map_tools
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: pcl_conversions pcl_ros roscpp sensor_msgs tf

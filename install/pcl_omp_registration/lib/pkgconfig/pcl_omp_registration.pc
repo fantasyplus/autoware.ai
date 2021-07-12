@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/pcl_omp_registration
+
+Name: pcl_omp_registration
+Description: Description of pcl_omp_registration
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpcl_omp_registration
+Requires: 

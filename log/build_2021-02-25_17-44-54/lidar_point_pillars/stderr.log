@@ -1,0 +1,25 @@
+CUDA is available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart.so
+CUDA Headers: /usr/local/cuda/include
+TensorRT is available!
+NVINFER: /usr/local/lib/libnvinfer.so
+NVPARSERS: /usr/local/lib/libnvparsers.so
+NVONNXPARSERS: /usr/local/lib/libnvonnxparser.so
+CUDNN is available!
+CUDNN_LIBRARY: ON
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "pcl_ros" with any
+  of the following names:
+
+    pcl_rosConfig.cmake
+    pcl_ros-config.cmake
+
+  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+  "pcl_ros_DIR" to a directory containing one of the above files.  If
+  "pcl_ros" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:61 (find_package)
+
+
+make: *** [cmake_check_build_system] Error 1

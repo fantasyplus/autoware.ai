@@ -1,0 +1,16 @@
+<launch>
+
+ <arg name="scene_num" default="noupdate" />
+ <arg name="path_area_list" default='""' />
+ <arg name="pcd_paths" default="/home/ros/demo_autoware/sample_moriyama_data/data/map/pointcloud_map" />
+<!-- /home/ros/demo_autoware/sample_moriyama_data/data/map/pointcloud_map -->
+<!-- /home/ros/pcl_exe/icp_test/icp_demo/point/ -->
+ <node pkg="map_file" type="points_map_loader" name="points_map_loader" output="screen">
+  <param name="area" value="$(arg scene_num)"/>
+  <param name="arealist_path" value="$(arg path_area_list"/>
+  <rosparam subst_value="true">
+    pcd_paths: [ $(arg pcd_paths) ]
+  </rosparam>
+ </node>
+
+</launch>

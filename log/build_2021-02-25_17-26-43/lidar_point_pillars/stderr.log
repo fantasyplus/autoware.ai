@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/usr/lib/libOpenNI2.so', needed by 'devel/lib/lidar_point_pillars/lidar_point_pillars'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/lidar_point_pillars.dir/all] Error 2
+make: *** [all] Error 2

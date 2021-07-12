@@ -1,0 +1,5 @@
+/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig/autoware_build_flags.pc
+/home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake
+/home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig.cmake
+/home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig-version.cmake
+/home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/package.xml

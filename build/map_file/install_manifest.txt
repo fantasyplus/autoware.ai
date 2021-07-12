@@ -1,0 +1,17 @@
+/home/ros/autoware.ai/install/map_file/lib/pkgconfig/map_file.pc
+/home/ros/autoware.ai/install/map_file/share/map_file/cmake/map_fileConfig.cmake
+/home/ros/autoware.ai/install/map_file/share/map_file/cmake/map_fileConfig-version.cmake
+/home/ros/autoware.ai/install/map_file/share/map_file/package.xml
+/home/ros/autoware.ai/install/map_file/lib/libget_file.so
+/home/ros/autoware.ai/install/map_file/lib/map_file/points_map_loader
+/home/ros/autoware.ai/install/map_file/lib/map_file/vector_map_loader
+/home/ros/autoware.ai/install/map_file/lib/map_file/lanelet2_map_loader
+/home/ros/autoware.ai/install/map_file/lib/map_file/lanelet2_map_visualization
+/home/ros/autoware.ai/install/map_file/lib/map_file/points_map_filter
+/home/ros/autoware.ai/install/map_file/include/map_file/get_file.h
+/home/ros/autoware.ai/install/map_file/include/map_file/points_map_filter.h
+/home/ros/autoware.ai/install/map_file/share/map_file/launch/map_filter.launch
+/home/ros/autoware.ai/install/map_file/share/map_file/launch/points_map_loader.launch
+/home/ros/autoware.ai/install/map_file/share/map_file/launch/lanelet2_map_loader.launch
+/home/ros/autoware.ai/install/map_file/share/map_file/launch/map_downloader.launch
+/home/ros/autoware.ai/install/map_file/share/map_file/launch/vector_map_loader.launch

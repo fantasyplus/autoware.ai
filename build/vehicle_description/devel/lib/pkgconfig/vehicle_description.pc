@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/vehicle_description/devel
+
+Name: vehicle_description
+Description: Description of vehicle_description
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

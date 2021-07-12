@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/install/vector_map/setup.sh

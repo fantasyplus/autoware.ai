@@ -1,0 +1,58 @@
+[0.041s] Invoking command in '/home/ros/autoware.ai/build/graph_tools': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/graph_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/graph_tools
+[0.149s] -- The C compiler identification is GNU 7.5.0
+[0.255s] -- The CXX compiler identification is GNU 7.5.0
+[0.262s] -- Check for working C compiler: /usr/bin/cc
+[0.423s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.424s] -- Detecting C compiler ABI info
+[0.680s] -- Detecting C compiler ABI info - done
+[0.695s] -- Detecting C compile features
+[1.477s] -- Detecting C compile features - done
+[1.482s] -- Check for working CXX compiler: /usr/bin/c++
+[1.712s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.714s] -- Detecting CXX compiler ABI info
+[2.025s] -- Detecting CXX compiler ABI info - done
+[2.039s] -- Detecting CXX compile features
+[3.386s] -- Detecting CXX compile features - done
+[3.396s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/graph_tools/devel
+[3.396s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[3.396s] -- This workspace overlays: /opt/ros/melodic
+[3.518s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.518s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.518s] -- Using Debian Python package layout
+[3.518s] -- Using empy: /usr/bin/empy
+[4.377s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.377s] -- Call enable_testing()
+[4.396s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/graph_tools/test_results
+[4.421s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.421s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.483s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.484s] -- Looking for pthread.h
+[4.654s] -- Looking for pthread.h - found
+[4.661s] -- Looking for pthread_create
+[4.881s] -- Looking for pthread_create - not found
+[4.882s] -- Looking for pthread_create in pthreads
+[5.028s] -- Looking for pthread_create in pthreads - not found
+[5.028s] -- Looking for pthread_create in pthread
+[5.235s] -- Looking for pthread_create in pthread - found
+[5.237s] -- Found Threads: TRUE  
+[5.243s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.315s] -- catkin 0.7.29
+[5.316s] -- BUILD_SHARED_LIBS is on
+[5.752s] -- Configuring done
+[5.766s] -- Generating done
+[5.767s] -- Build files have been written to: /home/ros/autoware.ai/build/graph_tools
+[5.776s] Invoked command in '/home/ros/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/graph_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/graph_tools
+[5.781s] Invoking command in '/home/ros/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools -- -j12 -l12
+[5.945s] Invoked command in '/home/ros/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools -- -j12 -l12
+[6.199s] Invoking command in '/home/ros/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools --target tests -- -j12 -l12
+[6.309s] [35m[1mScanning dependencies of target tests[0m
+[6.352s] Built target tests
+[6.389s] Invoked command in '/home/ros/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools --target tests -- -j12 -l12
+[6.513s] Invoking command in '/home/ros/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools --target install -- -j12 -l12
+[6.609s] [36mInstall the project...[0m
+[6.620s] -- Install configuration: "Release"
+[6.621s] -- Installing: /home/ros/autoware.ai/install/graph_tools/lib/pkgconfig/graph_tools.pc
+[6.621s] -- Installing: /home/ros/autoware.ai/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig.cmake
+[6.621s] -- Installing: /home/ros/autoware.ai/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig-version.cmake
+[6.621s] -- Installing: /home/ros/autoware.ai/install/graph_tools/share/graph_tools/package.xml
+[6.626s] Invoked command in '/home/ros/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/graph_tools --target install -- -j12 -l12

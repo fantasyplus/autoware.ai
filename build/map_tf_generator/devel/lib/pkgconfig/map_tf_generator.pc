@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/map_tf_generator/devel
+
+Name: map_tf_generator
+Description: Description of map_tf_generator
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

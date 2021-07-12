@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/vehicle_gazebo_simulation_interface/devel
+
+Name: vehicle_gazebo_simulation_interface
+Description: Description of vehicle_gazebo_simulation_interface
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

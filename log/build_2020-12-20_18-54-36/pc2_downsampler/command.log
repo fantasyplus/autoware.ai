@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/pc2_downsampler': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/pc2_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/pc2_downsampler
+Invoked command in '/home/ros/autoware.ai/build/pc2_downsampler' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/pc2_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/pc2_downsampler
+Invoking command in '/home/ros/autoware.ai/build/pc2_downsampler': /usr/bin/cmake --build /home/ros/autoware.ai/build/pc2_downsampler -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/pc2_downsampler -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/pc2_downsampler': /usr/bin/cmake --build /home/ros/autoware.ai/build/pc2_downsampler --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/pc2_downsampler --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/pc2_downsampler': /usr/bin/cmake --build /home/ros/autoware.ai/build/pc2_downsampler --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/pc2_downsampler --target install -- -j12 -l12

@@ -1,0 +1,9 @@
+CUDA_TOOLKIT_ROOT_DIR not found or specified
+CMake Warning at /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+  CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+  variable and recompile to enable it
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (AW_CHECK_CUDA)
+
+
+'Caffe' is not installed. 'lidar_apollo_cnn_seg_detect' will not be built.

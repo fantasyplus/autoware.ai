@@ -1,0 +1,45 @@
+[0.050s] Invoking command in '/home/ros/autoware.ai/build/autoware_system_msgs': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/messages/autoware_system_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_system_msgs
+[0.115s] -- The C compiler identification is GNU 7.5.0
+[0.174s] -- The CXX compiler identification is GNU 7.5.0
+[0.179s] -- Check for working C compiler: /usr/bin/cc
+[0.259s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.259s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.349s] -- Detecting C compile features
+[0.637s] -- Detecting C compile features - done
+[0.641s] -- Check for working CXX compiler: /usr/bin/c++
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.763s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.868s] -- Detecting CXX compile features
+[1.423s] -- Detecting CXX compile features - done
+[1.425s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/autoware_system_msgs/devel
+[1.426s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.426s] -- This workspace overlays: /opt/ros/melodic
+[1.441s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.441s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.441s] -- Using Debian Python package layout
+[1.441s] -- Using empy: /usr/bin/empy
+[1.693s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.693s] -- Call enable_testing()
+[1.695s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/autoware_system_msgs/test_results
+[1.719s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.720s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.737s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.737s] -- Looking for pthread.h
+[1.863s] -- Looking for pthread.h - found
+[1.863s] -- Looking for pthread_create
+[1.958s] -- Looking for pthread_create - not found
+[1.958s] -- Looking for pthread_create in pthreads
+[2.031s] -- Looking for pthread_create in pthreads - not found
+[2.032s] -- Looking for pthread_create in pthread
+[2.119s] -- Looking for pthread_create in pthread - found
+[2.120s] -- Found Threads: TRUE  
+[2.123s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.173s] -- catkin 0.7.29
+[2.173s] -- BUILD_SHARED_LIBS is on
+[2.292s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.592s] -- autoware_system_msgs: 5 messages, 0 services
+[2.730s] -- Configuring done
+[2.753s] -- Generating done
+[2.757s] -- Build files have been written to: /home/ros/autoware.ai/build/autoware_system_msgs

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ros/autoware.ai/build/op_utilities/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7290b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7290b.dir/build.make CMakeFiles/cmTC_7290b.dir/build
+make[1]: Entering directory '/home/ros/autoware.ai/build/op_utilities/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7290b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7290b.dir/CheckSymbolExists.c.o   -c /home/ros/autoware.ai/build/op_utilities/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7290b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7290b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7290b.dir/CheckSymbolExists.c.o  -o cmTC_7290b 
+CMakeFiles/cmTC_7290b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7290b.dir/build.make:97: recipe for target 'cmTC_7290b' failed
+make[1]: *** [cmTC_7290b] Error 1
+make[1]: Leaving directory '/home/ros/autoware.ai/build/op_utilities/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7290b/fast' failed
+make: *** [cmTC_7290b/fast] Error 2
+
+File /home/ros/autoware.ai/build/op_utilities/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ros/autoware.ai/build/op_utilities/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de054/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de054.dir/build.make CMakeFiles/cmTC_de054.dir/build
+make[1]: Entering directory '/home/ros/autoware.ai/build/op_utilities/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de054.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_de054.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de054.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_de054.dir/CheckFunctionExists.c.o  -o cmTC_de054 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_de054.dir/build.make:97: recipe for target 'cmTC_de054' failed
+make[1]: *** [cmTC_de054] Error 1
+make[1]: Leaving directory '/home/ros/autoware.ai/build/op_utilities/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_de054/fast' failed
+make: *** [cmTC_de054/fast] Error 2
+
+

@@ -1,0 +1,299 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/autoware_launcher/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/autoware_launcher/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/autoware_launcher
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
++ cd /home/ros/autoware.ai/src/autoware/utilities/autoware_launcher
++ mkdir -p /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages:/home/ros/autoware.ai/build/autoware_launcher/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ros/autoware.ai/build/autoware_launcher /usr/bin/python2 /home/ros/autoware.ai/src/autoware/utilities/autoware_launcher/setup.py build --build-base /home/ros/autoware.ai/build/autoware_launcher install --root=/ --install-layout=deb --prefix=/home/ros/autoware.ai/install/autoware_launcher --install-scripts=/home/ros/autoware.ai/install/autoware_launcher/bin
+running build
+running build_py
+creating /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7
+creating /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher
+copying src/autoware_launcher/__init__.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher
+creating /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool
+copying src/autoware_launcher/tool/__init__.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool
+copying src/autoware_launcher/tool/wizard.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool
+copying src/autoware_launcher/tool/editor.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool
+creating /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+copying src/autoware_launcher/core/myutils.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+copying src/autoware_launcher/core/__init__.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+copying src/autoware_launcher/core/launch.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+copying src/autoware_launcher/core/server.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+copying src/autoware_launcher/core/plugin.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+copying src/autoware_launcher/core/basetree.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+copying src/autoware_launcher/core/mylog.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core
+creating /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/procmgr.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/window.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/mirror.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/guimgr.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/__init__.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/treeview.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/summary.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/network.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/widgets.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/quickstart.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+copying src/autoware_launcher/gui/client.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui
+creating /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+copying src/autoware_launcher/gui/simulation/__init__.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+copying src/autoware_launcher/gui/simulation/gazebo.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+copying src/autoware_launcher/gui/simulation/lgsvl.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+copying src/autoware_launcher/gui/simulation/rosbag.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation
+creating /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+copying src/autoware_launcher/gui/plugins/node.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+copying src/autoware_launcher/gui/plugins/camera.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+copying src/autoware_launcher/gui/plugins/basic.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+copying src/autoware_launcher/gui/plugins/__init__.py -> /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins
+running install
+running install_lib
+creating /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/__init__.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher
+creating /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/procmgr.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/window.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/mirror.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/guimgr.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/__init__.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+creating /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation/__init__.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation/gazebo.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation/lgsvl.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/simulation/rosbag.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/treeview.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/summary.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/network.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+creating /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins/node.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins/camera.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins/basic.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/plugins/__init__.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/widgets.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/quickstart.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/gui/client.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui
+creating /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/myutils.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/__init__.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/launch.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/server.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/plugin.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/basetree.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/core/mylog.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core
+creating /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool/__init__.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool/wizard.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool
+copying /home/ros/autoware.ai/build/autoware_launcher/lib.linux-x86_64-2.7/autoware_launcher/tool/editor.py -> /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/__init__.py to __init__.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/procmgr.py to procmgr.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/window.py to window.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/mirror.py to mirror.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/guimgr.py to guimgr.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/__init__.py to __init__.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation/__init__.py to __init__.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation/gazebo.py to gazebo.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation/lgsvl.py to lgsvl.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/simulation/rosbag.py to rosbag.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/treeview.py to treeview.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/summary.py to summary.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/network.py to network.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins/node.py to node.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins/camera.py to camera.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins/basic.py to basic.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/plugins/__init__.py to __init__.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/widgets.py to widgets.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/quickstart.py to quickstart.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/gui/client.py to client.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/myutils.py to myutils.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/__init__.py to __init__.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/launch.py to launch.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/server.py to server.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/plugin.py to plugin.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/basetree.py to basetree.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/core/mylog.py to mylog.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool/__init__.py to __init__.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool/wizard.py to wizard.pyc
+byte-compiling /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher/tool/editor.py to editor.pyc
+running install_egg_info
+Writing /home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages/autoware_launcher-1.12.0.egg-info
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/lib/pkgconfig/autoware_launcher.pc
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/cmake/autoware_launcherConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/cmake/autoware_launcherConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/package.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/lib/autoware_launcher/main
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/lib/autoware_launcher/tool
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/resources
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/resources/dummy.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/resources/skins
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/resources/skins/qt.css
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/resources/skins/autoware.css
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/resources/autoware_logo.png
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/resources/lgsvl.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/resources/rosbagplay.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_group.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/camera_group.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_multi.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/localization.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/decision.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/detect_tl.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/prediction.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_merge.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/sensing.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_node.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/motion.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/mission.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/lidar_single.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/detection.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/detect_obj.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/node/camera_node.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/transform_v2v.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/lane_stop.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/concat.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/concat.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/transform_v2b.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/vehicle.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/lane_rule.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/lane_rule.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/rviz.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/lane_stop.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/waypoint_loader.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/vehicle.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/voxel_grid_filter.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/pure_pursuit.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/waypoint_loader.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/transform_v2b.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/map.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/rviz.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/pure_pursuit.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/map.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/calibration.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/calibration.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/transform_v2v.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/leaf/voxel_grid_filter.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/root
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/root/default.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver/camera
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver/camera/usb.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver/camera/usb.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar/vlp16.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar/vlp32c.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar/vlp32c.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/driver/lidar/vlp16.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/euclidean_cluster.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/yolov3.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/ndt_matching.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/nmea2tfpose.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/astar_avoid.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/ray_ground_filter.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/tl_recognition.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/velocity_set.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/imm_ukf_pda_track.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/range_vision_fusion.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/tl_mxnet.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/vel_pose_connect.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/lane_select.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/tl_projection.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/native_motion_predict.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/plugins/refs/twist_filter.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/.gitignore
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart.launch
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/files
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/files/default.rviz
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/traffic_lights
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/traffic_lights/projection.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/traffic_lights/recognition.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/tracking.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/points_preproc.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/points_detect.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/fusion.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object/images_detect.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/object.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection/traffic_lights.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization/downsampler.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization/vel_pose_connect.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization/localizer.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/vehicle.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/localization.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/decision.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/prediction
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/prediction/native_motion_predict.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/astar_avoid.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/velocity_set.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/pure_pursuit.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/waypoint_loader.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion/twist_filter.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/prediction.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera/camera0.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera/camera0
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera/camera0/calibration.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/camera.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/gnss.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/lidar
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/lidar/transform.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/sensing/lidar.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/motion.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/detection.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/map.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/visualization.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission/lane_stop.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission/lane_rule.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root/mission/lane_select.yaml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher/share/autoware_launcher/profiles/quickstart/root.yaml

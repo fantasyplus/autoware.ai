@@ -1,0 +1,308 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: .
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/map_file/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/home/ros/autoware.ai/install/wf_simulator;/home/ros/autoware.ai/install/lattice_planner;/home/ros/autoware.ai/install/waypoint_planner;/home/ros/autoware.ai/install/waypoint_maker;/home/ros/autoware.ai/install/way_planner;/home/ros/autoware.ai/install/vision_ssd_detect;/home/ros/autoware.ai/install/vision_segment_enet_detect;/home/ros/autoware.ai/install/vision_lane_detect;/home/ros/autoware.ai/install/vision_darknet_detect;/home/ros/autoware.ai/install/vision_beyond_track;/home/ros/autoware.ai/install/vel_pose_diff_checker;/home/ros/autoware.ai/install/vehicle_socket;/home/ros/autoware.ai/install/vehicle_sim_model;/home/ros/autoware.ai/install/vehicle_model;/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher;/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface;/home/ros/autoware.ai/install/vehicle_engage_panel;/home/ros/autoware.ai/install/vehicle_description;/home/ros/autoware.ai/install/trafficlight_recognizer;/home/ros/autoware.ai/install/op_utilities;/home/ros/autoware.ai/install/op_simulation_package;/home/ros/autoware.ai/install/op_local_planner;/home/ros/autoware.ai/install/op_global_planner;/home/ros/autoware.ai/install/lidar_kf_contour_track;/home/ros/autoware.ai/install/op_ros_helpers;/home/ros/autoware.ai/install/ff_waypoint_follower;/home/ros/autoware.ai/install/dp_planner;/home/ros/autoware.ai/install/op_simu;/home/ros/autoware.ai/install/op_planner;/home/ros/autoware.ai/install/op_utility;/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect;/home/ros/autoware.ai/install/vector_map_server;/home/ros/autoware.ai/install/road_occupancy_processor;/home/ros/autoware.ai/install/costmap_generator;/home/ros/autoware.ai/install/object_map;/home/ros/autoware.ai/install/naive_motion_predict;/home/ros/autoware.ai/install/lanelet_aisan_converter;/home/ros/autoware.ai/install/map_file;/home/ros/autoware.ai/install/libvectormap;/home/ros/autoware.ai/install/lane_planner;/home/ros/autoware.ai/install/imm_ukf_pda_track;/home/ros/autoware.ai/install/decision_maker;/home/ros/autoware.ai/install/udon_socket;/home/ros/autoware.ai/install/twist_generator;/home/ros/autoware.ai/install/twist_gate;/home/ros/autoware.ai/install/twist_filter;/home/ros/autoware.ai/install/twist2odom;/home/ros/autoware.ai/install/tablet_socket;/home/ros/autoware.ai/install/runtime_manager;/home/ros/autoware.ai/install/mqtt_socket;/home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/system_monitor;/home/ros/autoware.ai/install/state_machine_lib;/home/ros/autoware.ai/install/sound_player;/home/ros/autoware.ai/install/points2image;/home/ros/autoware.ai/install/rosinterface;/home/ros/autoware.ai/install/rosbag_controller;/home/ros/autoware.ai/install/pure_pursuit;/home/ros/autoware.ai/install/points_preprocessor;/home/ros/autoware.ai/install/mpc_follower;/home/ros/autoware.ai/install/lidar_localizer;/home/ros/autoware.ai/install/emergency_handler;/home/ros/autoware.ai/install/autoware_health_checker;/home/ros/autoware.ai/install/ros_observer;/home/ros/autoware.ai/install/roi_object_filter;/home/ros/autoware.ai/install/range_vision_fusion;/home/ros/autoware.ai/install/pos_db;/home/ros/autoware.ai/install/points_downsampler;/home/ros/autoware.ai/install/pixel_cloud_fusion;/home/ros/autoware.ai/install/pcl_omp_registration;/home/ros/autoware.ai/install/pc2_downsampler;/home/ros/autoware.ai/install/oculus_socket;/home/ros/autoware.ai/install/obj_db;/home/ros/autoware.ai/install/ndt_tku;/home/ros/autoware.ai/install/ndt_cpu;/home/ros/autoware.ai/install/multi_lidar_calibrator;/home/ros/autoware.ai/install/marker_downsampler;/home/ros/autoware.ai/install/map_tools;/home/ros/autoware.ai/install/map_tf_generator;/home/ros/autoware.ai/install/log_tools;/home/ros/autoware.ai/install/ll2_global_planner;/home/ros/autoware.ai/install/lidar_shape_estimation;/home/ros/autoware.ai/install/lidar_point_pillars;/home/ros/autoware.ai/install/lidar_naive_l_shape_detect;/home/ros/autoware.ai/install/lidar_fake_perception;/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect;/home/ros/autoware.ai/install/libwaypoint_follower;/home/ros/autoware.ai/install/lgsvl_simulator_bridge;/home/ros/autoware.ai/install/kitti_launch;/home/ros/autoware.ai/install/kitti_player;/home/ros/autoware.ai/install/kitti_box_publisher;/home/ros/autoware.ai/install/integrated_viewer;/home/ros/autoware.ai/install/image_processor;/home/ros/autoware.ai/install/graph_tools;/home/ros/autoware.ai/install/gnss_localizer;/home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/glviewer;/home/ros/autoware.ai/install/gazebo_world_description;/home/ros/autoware.ai/install/gazebo_imu_description;/home/ros/autoware.ai/install/gazebo_camera_description;/home/ros/autoware.ai/install/freespace_planner;/home/ros/autoware.ai/install/fastvirtualscan;/home/ros/autoware.ai/install/ekf_localizer;/home/ros/autoware.ai/install/detected_objects_visualizer;/home/ros/autoware.ai/install/decision_maker_panel;/home/ros/autoware.ai/install/data_preprocessor;/home/ros/autoware.ai/install/carla_autoware_bridge;/home/ros/autoware.ai/install/calibration_publisher;/home/ros/autoware.ai/install/autoware_system_msgs;/home/ros/autoware.ai/install/autoware_rviz_plugins;/home/ros/autoware.ai/install/autoware_quickstart_examples;/home/ros/autoware.ai/install/autoware_connector;/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator;/home/ros/autoware.ai/install/astar_search;/home/ros/autoware.ai/install/autoware_map_msgs;/home/ros/autoware.ai/install/autoware_launcher_rviz;/home/ros/autoware.ai/install/autoware_launcher;/home/ros/autoware.ai/install/autoware_external_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_bag_tools;/home/ros/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/home/ros/autoware.ai/install/wf_simulator;/home/ros/autoware.ai/install/lattice_planner;/home/ros/autoware.ai/install/waypoint_planner;/home/ros/autoware.ai/install/waypoint_maker;/home/ros/autoware.ai/install/way_planner;/home/ros/autoware.ai/install/vision_ssd_detect;/home/ros/autoware.ai/install/vision_segment_enet_detect;/home/ros/autoware.ai/install/vision_lane_detect;/home/ros/autoware.ai/install/vision_darknet_detect;/home/ros/autoware.ai/install/vision_beyond_track;/home/ros/autoware.ai/install/vel_pose_diff_checker;/home/ros/autoware.ai/install/vehicle_socket;/home/ros/autoware.ai/install/vehicle_sim_model;/home/ros/autoware.ai/install/vehicle_model;/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher;/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface;/home/ros/autoware.ai/install/vehicle_engage_panel;/home/ros/autoware.ai/install/vehicle_description;/home/ros/autoware.ai/install/trafficlight_recognizer;/home/ros/autoware.ai/install/op_utilities;/home/ros/autoware.ai/install/op_simulation_package;/home/ros/autoware.ai/install/op_local_planner;/home/ros/autoware.ai/install/op_global_planner;/home/ros/autoware.ai/install/lidar_kf_contour_track;/home/ros/autoware.ai/install/op_ros_helpers;/home/ros/autoware.ai/install/ff_waypoint_follower;/home/ros/autoware.ai/install/dp_planner;/home/ros/autoware.ai/install/op_simu;/home/ros/autoware.ai/install/op_planner;/home/ros/autoware.ai/install/op_utility;/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect;/home/ros/autoware.ai/install/vector_map_server;/home/ros/autoware.ai/install/road_occupancy_processor;/home/ros/autoware.ai/install/costmap_generator;/home/ros/autoware.ai/install/object_map;/home/ros/autoware.ai/install/naive_motion_predict;/home/ros/autoware.ai/install/lanelet_aisan_converter;/home/ros/autoware.ai/install/map_file;/home/ros/autoware.ai/install/libvectormap;/home/ros/autoware.ai/install/lane_planner;/home/ros/autoware.ai/install/imm_ukf_pda_track;/home/ros/autoware.ai/install/decision_maker;/home/ros/autoware.ai/install/udon_socket;/home/ros/autoware.ai/install/twist_generator;/home/ros/autoware.ai/install/twist_gate;/home/ros/autoware.ai/install/twist_filter;/home/ros/autoware.ai/install/twist2odom;/home/ros/autoware.ai/install/tablet_socket;/home/ros/autoware.ai/install/runtime_manager;/home/ros/autoware.ai/install/mqtt_socket;/home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/system_monitor;/home/ros/autoware.ai/install/state_machine_lib;/home/ros/autoware.ai/install/sound_player;/home/ros/autoware.ai/install/points2image;/home/ros/autoware.ai/install/rosinterface;/home/ros/autoware.ai/install/rosbag_controller;/home/ros/autoware.ai/install/pure_pursuit;/home/ros/autoware.ai/install/points_preprocessor;/home/ros/autoware.ai/install/mpc_follower;/home/ros/autoware.ai/install/lidar_localizer;/home/ros/autoware.ai/install/emergency_handler;/home/ros/autoware.ai/install/autoware_health_checker;/home/ros/autoware.ai/install/ros_observer;/home/ros/autoware.ai/install/roi_object_filter;/home/ros/autoware.ai/install/range_vision_fusion;/home/ros/autoware.ai/install/pos_db;/home/ros/autoware.ai/install/points_downsampler;/home/ros/autoware.ai/install/pixel_cloud_fusion;/home/ros/autoware.ai/install/pcl_omp_registration;/home/ros/autoware.ai/install/pc2_downsampler;/home/ros/autoware.ai/install/oculus_socket;/home/ros/autoware.ai/install/obj_db;/home/ros/autoware.ai/install/ndt_tku;/home/ros/autoware.ai/install/ndt_cpu;/home/ros/autoware.ai/install/multi_lidar_calibrator;/home/ros/autoware.ai/install/marker_downsampler;/home/ros/autoware.ai/install/map_tools;/home/ros/autoware.ai/install/map_tf_generator;/home/ros/autoware.ai/install/log_tools;/home/ros/autoware.ai/install/ll2_global_planner;/home/ros/autoware.ai/install/lidar_shape_estimation;/home/ros/autoware.ai/install/lidar_point_pillars;/home/ros/autoware.ai/install/lidar_naive_l_shape_detect;/home/ros/autoware.ai/install/lidar_fake_perception;/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect;/home/ros/autoware.ai/install/libwaypoint_follower;/home/ros/autoware.ai/install/lgsvl_simulator_bridge;/home/ros/autoware.ai/install/kitti_launch;/home/ros/autoware.ai/install/kitti_player;/home/ros/autoware.ai/install/kitti_box_publisher;/home/ros/autoware.ai/install/integrated_viewer;/home/ros/autoware.ai/install/image_processor;/home/ros/autoware.ai/install/graph_tools;/home/ros/autoware.ai/install/gnss_localizer;/home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/glviewer;/home/ros/autoware.ai/install/gazebo_world_description;/home/ros/autoware.ai/install/gazebo_imu_description;/home/ros/autoware.ai/install/gazebo_camera_description;/home/ros/autoware.ai/install/freespace_planner;/home/ros/autoware.ai/install/fastvirtualscan;/home/ros/autoware.ai/install/ekf_localizer;/home/ros/autoware.ai/install/detected_objects_visualizer;/home/ros/autoware.ai/install/decision_maker_panel;/home/ros/autoware.ai/install/data_preprocessor;/home/ros/autoware.ai/install/carla_autoware_bridge;/home/ros/autoware.ai/install/calibration_publisher;/home/ros/autoware.ai/install/autoware_system_msgs;/home/ros/autoware.ai/install/autoware_rviz_plugins;/home/ros/autoware.ai/install/autoware_quickstart_examples;/home/ros/autoware.ai/install/autoware_connector;/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator;/home/ros/autoware.ai/install/astar_search;/home/ros/autoware.ai/install/autoware_map_msgs;/home/ros/autoware.ai/install/autoware_launcher_rviz;/home/ros/autoware.ai/install/autoware_launcher;/home/ros/autoware.ai/install/autoware_external_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_bag_tools;/home/ros/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/map_file/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found Boost: /usr/include (found version "1.65.1") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic 
+-- Found Boost: /usr/include (found suitable version "1.65.1", minimum required is "1.40.0") found components: system filesystem thread date_time iostreams serialization chrono atomic regex 
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- looking for PCL_COMMON
+-- looking for PCL_OCTREE
+-- looking for PCL_IO
+-- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;-lpthread;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;-lpthread;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+-- Found Boost: /usr/include (found version "1.65.1") found components: filesystem system 
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/map_file
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target vector_map_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_py
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_py
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target pcl_ros_gencfg
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_eus[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target get_file[0m
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_nodejs
+[  7%] [32mBuilding CXX object CMakeFiles/get_file.dir/lib/map_file/get_file.cpp.o[0m
+[35m[1mScanning dependencies of target lanelet2_map_visualization[0m
+[35m[1mScanning dependencies of target lanelet2_map_loader[0m
+[35m[1mScanning dependencies of target points_map_filter[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/lanelet2_map_visualization.dir/nodes/lanelet2_map_loader/lanelet2_map_visualization.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/lanelet2_map_loader.dir/nodes/lanelet2_map_loader/lanelet2_map_loader.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/points_map_filter.dir/nodes/points_map_filter/points_map_filter_node.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/points_map_filter.dir/nodes/points_map_filter/points_map_filter.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library devel/lib/libget_file.so[0m
+[ 46%] Built target get_file
+[35m[1mScanning dependencies of target vector_map_loader[0m
+[35m[1mScanning dependencies of target points_map_loader[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/vector_map_loader.dir/nodes/vector_map_loader/vector_map_loader.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/points_map_loader.dir/nodes/points_map_loader/points_map_loader.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable devel/lib/map_file/lanelet2_map_loader[0m
+[ 69%] Built target lanelet2_map_loader
+[ 76%] [32m[1mLinking CXX executable devel/lib/map_file/lanelet2_map_visualization[0m
+CMakeFiles/points_map_loader.dir/build.make:81: recipe for target 'CMakeFiles/points_map_loader.dir/nodes/points_map_loader/points_map_loader.cpp.o' failed
+CMakeFiles/Makefile2:981: recipe for target 'CMakeFiles/points_map_loader.dir/all' failed
+[ 76%] Built target lanelet2_map_visualization
+[ 84%] [32m[1mLinking CXX executable devel/lib/map_file/points_map_filter[0m
+[ 92%] [32m[1mLinking CXX executable devel/lib/map_file/vector_map_loader[0m
+[ 92%] Built target points_map_filter
+[ 92%] Built target vector_map_loader
+Makefile:159: recipe for target 'all' failed

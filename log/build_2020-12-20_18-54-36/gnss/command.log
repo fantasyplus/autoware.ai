@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/autoware.ai/build/gnss': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/gnss': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/gnss': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss --target install -- -j12 -l12

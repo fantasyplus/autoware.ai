@@ -1,0 +1,11 @@
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp:[m[K In constructor ‘[01m[Kgnss_localizer::Nmea2TFPoseNode::Nmea2TFPoseNode()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[KinitForROS[m[K’ was not declared in this scope
+   [01;31m[KinitForROS[m[K();
+   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp:[m[K At global scope:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp:44:34:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid gnss_localizer::Nmea2TFPoseNode::initForROS()[m[K’ member function declared in class ‘[01m[Kgnss_localizer::Nmea2TFPoseNode[m[K’
+ void Nmea2TFPoseNode::initForROS([01;31m[K)[m[K
+                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/nmea2tfpose.dir/nodes/nmea2tfpose/nmea2tfpose_core.cpp.o] Error 1
+make[1]: *** [CMakeFiles/nmea2tfpose.dir/all] Error 2
+make: *** [all] Error 2

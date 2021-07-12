@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/ros/autoware.ai/src/autoware/utilities/lanelet_aisan_converter
+# Build directory: /home/ros/autoware.ai/build/lanelet_aisan_converter
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_lanelet_aisan_converter_roslint_package "/home/ros/autoware.ai/build/lanelet_aisan_converter/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/ros/autoware.ai/build/lanelet_aisan_converter/test_results/lanelet_aisan_converter/roslint-lanelet_aisan_converter.xml" "--working-dir" "/home/ros/autoware.ai/build/lanelet_aisan_converter" "--return-code" "/opt/ros/melodic/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/ros/autoware.ai/build/lanelet_aisan_converter/test_results/lanelet_aisan_converter/roslint-lanelet_aisan_converter.xml make roslint_lanelet_aisan_converter")
+add_test(_ctest_lanelet_aisan_converter_rostest_test_test_lanelet2aisan_converter.test "/home/ros/autoware.ai/build/lanelet_aisan_converter/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/ros/autoware.ai/build/lanelet_aisan_converter/test_results/lanelet_aisan_converter/rostest-test_test_lanelet2aisan_converter.xml" "--return-code" "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ros/autoware.ai/src/autoware/utilities/lanelet_aisan_converter --package=lanelet_aisan_converter --results-filename test_test_lanelet2aisan_converter.xml --results-base-dir \"/home/ros/autoware.ai/build/lanelet_aisan_converter/test_results\" /home/ros/autoware.ai/src/autoware/utilities/lanelet_aisan_converter/test/test_lanelet2aisan_converter.test ")
+subdirs("gtest")

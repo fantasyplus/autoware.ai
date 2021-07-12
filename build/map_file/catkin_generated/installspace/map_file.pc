@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/map_file
+
+Name: map_file
+Description: Description of map_file
+Version: 1.12.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lget_file /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: autoware_msgs geometry_msgs std_msgs tf2_geometry_msgs visualization_msgs

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/build/lidar_shape_estimation/devel/setup.sh

@@ -1,0 +1,10 @@
+/home/ros/autoware.ai/install/decision_maker/lib/pkgconfig/decision_maker.pc
+/home/ros/autoware.ai/install/decision_maker/share/decision_maker/cmake/decision_makerConfig.cmake
+/home/ros/autoware.ai/install/decision_maker/share/decision_maker/cmake/decision_makerConfig-version.cmake
+/home/ros/autoware.ai/install/decision_maker/share/decision_maker/package.xml
+/home/ros/autoware.ai/install/decision_maker/lib/decision_maker/decision_maker_node
+/home/ros/autoware.ai/install/decision_maker/share/decision_maker/launch/decision_maker.launch
+/home/ros/autoware.ai/install/decision_maker/share/decision_maker/autoware_state_behavior.yaml
+/home/ros/autoware.ai/install/decision_maker/share/decision_maker/autoware_state_motion.yaml
+/home/ros/autoware.ai/install/decision_maker/share/decision_maker/autoware_state_mission.yaml
+/home/ros/autoware.ai/install/decision_maker/share/decision_maker/autoware_state_vehicle.yaml

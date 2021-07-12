@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/vehicle_sim_model
+
+Name: vehicle_sim_model
+Description: Description of vehicle_sim_model
+Version: 1.13.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvehicle_sim_model
+Requires: 

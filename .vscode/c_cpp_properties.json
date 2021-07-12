@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/opt/ros/melodic/include/",
+                "/home/ros/TensorRT-5.0.2.6.Ubuntu-18.04.1.x86_64-gnu.cuda-10.0.cudnn7.3/TensorRT-5.0.2.6/include/**",
+                "/usr/local/cuda/include//**",
+                "${workspaceFolder}/**",
+                "/home/ros/grid_map_ws/**",
+                "/home/ros/Lanelet2/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

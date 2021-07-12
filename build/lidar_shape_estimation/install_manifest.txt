@@ -1,0 +1,8 @@
+/home/ros/autoware.ai/install/lidar_shape_estimation/lib/pkgconfig/lidar_shape_estimation.pc
+/home/ros/autoware.ai/install/lidar_shape_estimation/share/lidar_shape_estimation/cmake/lidar_shape_estimationConfig.cmake
+/home/ros/autoware.ai/install/lidar_shape_estimation/share/lidar_shape_estimation/cmake/lidar_shape_estimationConfig-version.cmake
+/home/ros/autoware.ai/install/lidar_shape_estimation/share/lidar_shape_estimation/package.xml
+/home/ros/autoware.ai/install/lidar_shape_estimation/lib/lidar_shape_estimation/lidar_shape_estimation
+/home/ros/autoware.ai/install/lidar_shape_estimation/share/lidar_shape_estimation/launch/shape_estimation_clustering.launch
+/home/ros/autoware.ai/install/lidar_shape_estimation/share/lidar_shape_estimation/launch/shape_estimation_tracking.launch
+/home/ros/autoware.ai/install/lidar_shape_estimation/share/lidar_shape_estimation/launch/shape_estimation_fusion.launch

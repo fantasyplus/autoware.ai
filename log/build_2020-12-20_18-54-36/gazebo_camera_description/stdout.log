@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/lib/pkgconfig/gazebo_camera_description.pc
+-- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/package.xml
+-- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/urdf
+-- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/urdf/monocular_camera.xacro

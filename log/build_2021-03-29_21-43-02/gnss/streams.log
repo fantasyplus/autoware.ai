@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/home/ros/autoware.ai/build/gnss': /home/ros/.local/bin/cmake --build /home/ros/autoware.ai/build/gnss -- -j12 -l12
+[0.081s] [100%] Built target gnss
+[0.088s] Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /home/ros/.local/bin/cmake --build /home/ros/autoware.ai/build/gnss -- -j12 -l12
+[0.222s] Invoking command in '/home/ros/autoware.ai/build/gnss': /home/ros/.local/bin/cmake --build /home/ros/autoware.ai/build/gnss --target tests -- -j12 -l12
+[0.298s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.298s] [  0%] Built target roscpp_generate_messages_py
+[0.299s] [ 40%] Built target gtest
+[0.300s] [ 40%] Built target rosgraph_msgs_generate_messages_cpp
+[0.300s] [ 40%] Built target roscpp_generate_messages_cpp
+[0.300s] [ 40%] Built target std_msgs_generate_messages_lisp
+[0.300s] [ 40%] Built target roscpp_generate_messages_nodejs
+[0.301s] [ 40%] Built target rosgraph_msgs_generate_messages_eus
+[0.301s] [ 40%] Built target roscpp_generate_messages_eus
+[0.302s] [ 40%] Built target std_msgs_generate_messages_cpp
+[0.302s] [ 40%] Built target rosgraph_msgs_generate_messages_lisp
+[0.303s] [ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.314s] [ 40%] Built target std_msgs_generate_messages_py
+[0.315s] [ 40%] Built target std_msgs_generate_messages_eus
+[0.317s] [ 40%] Built target rosgraph_msgs_generate_messages_py
+[0.317s] [ 40%] Built target roscpp_generate_messages_lisp
+[0.332s] [100%] Built target test_gnss
+[0.346s] [100%] Built target tests
+[0.353s] Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /home/ros/.local/bin/cmake --build /home/ros/autoware.ai/build/gnss --target tests -- -j12 -l12
+[0.533s] Invoking command in '/home/ros/autoware.ai/build/gnss': /home/ros/.local/bin/cmake --install /home/ros/autoware.ai/build/gnss
+[0.571s] -- Install configuration: "Release"
+[0.571s] -- Up-to-date: /home/ros/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
+[0.571s] -- Up-to-date: /home/ros/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
+[0.572s] -- Up-to-date: /home/ros/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+[0.572s] -- Up-to-date: /home/ros/autoware.ai/install/gnss/share/gnss/package.xml
+[0.572s] -- Up-to-date: /home/ros/autoware.ai/install/gnss/include/gnss
+[0.572s] -- Up-to-date: /home/ros/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
+[0.572s] -- Up-to-date: /home/ros/autoware.ai/install/gnss/lib/libgnss.so
+[0.576s] Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /home/ros/.local/bin/cmake --install /home/ros/autoware.ai/build/gnss

@@ -1,0 +1,43 @@
+[0.050s] Invoking command in '/home/ros/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/simulation/gazebo_imu_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/gazebo_imu_description
+[0.125s] -- The C compiler identification is GNU 7.5.0
+[0.189s] -- The CXX compiler identification is GNU 7.5.0
+[0.192s] -- Check for working C compiler: /usr/bin/cc
+[0.271s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.271s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.356s] -- Detecting C compile features
+[0.647s] -- Detecting C compile features - done
+[0.649s] -- Check for working CXX compiler: /usr/bin/c++
+[0.759s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.759s] -- Detecting CXX compiler ABI info
+[0.847s] -- Detecting CXX compiler ABI info - done
+[0.858s] -- Detecting CXX compile features
+[1.373s] -- Detecting CXX compile features - done
+[1.376s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/gazebo_imu_description/devel
+[1.377s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.377s] -- This workspace overlays: /opt/ros/melodic
+[1.399s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.399s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.399s] -- Using Debian Python package layout
+[1.400s] -- Using empy: /usr/bin/empy
+[1.675s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.675s] -- Call enable_testing()
+[1.694s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/gazebo_imu_description/test_results
+[1.718s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.718s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.736s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.738s] -- Looking for pthread.h
+[1.858s] -- Looking for pthread.h - found
+[1.859s] -- Looking for pthread_create
+[1.961s] -- Looking for pthread_create - not found
+[1.961s] -- Looking for pthread_create in pthreads
+[2.051s] -- Looking for pthread_create in pthreads - not found
+[2.051s] -- Looking for pthread_create in pthread
+[2.146s] -- Looking for pthread_create in pthread - found
+[2.147s] -- Found Threads: TRUE  
+[2.151s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.198s] -- catkin 0.7.29
+[2.198s] -- BUILD_SHARED_LIBS is on
+[2.444s] -- Configuring done
+[2.457s] -- Generating done
+[2.458s] -- Build files have been written to: /home/ros/autoware.ai/build/gazebo_imu_description

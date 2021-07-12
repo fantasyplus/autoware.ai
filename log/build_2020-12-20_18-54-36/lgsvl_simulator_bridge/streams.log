@@ -1,0 +1,93 @@
+[0.061s] Invoking command in '/home/ros/autoware.ai/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/simulation/lgsvl_simulator_bridge -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/lgsvl_simulator_bridge
+[0.175s] -- The C compiler identification is GNU 7.5.0
+[0.250s] -- The CXX compiler identification is GNU 7.5.0
+[0.257s] -- Check for working C compiler: /usr/bin/cc
+[0.353s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.353s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.461s] -- Detecting C compile features
+[0.843s] -- Detecting C compile features - done
+[0.843s] -- Check for working CXX compiler: /usr/bin/c++
+[0.968s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.969s] -- Detecting CXX compiler ABI info
+[1.079s] -- Detecting CXX compiler ABI info - done
+[1.092s] -- Detecting CXX compile features
+[1.730s] -- Detecting CXX compile features - done
+[1.732s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/lgsvl_simulator_bridge/devel
+[1.732s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_msgs;/opt/ros/melodic
+[1.732s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_msgs;/opt/ros/melodic
+[1.750s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.751s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.751s] -- Using Debian Python package layout
+[1.752s] -- Using empy: /usr/bin/empy
+[1.994s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.994s] -- Call enable_testing()
+[1.997s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/lgsvl_simulator_bridge/test_results
+[2.023s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.025s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.043s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.044s] -- Looking for pthread.h
+[2.183s] -- Looking for pthread.h - found
+[2.184s] -- Looking for pthread_create
+[2.356s] -- Looking for pthread_create - not found
+[2.356s] -- Looking for pthread_create in pthreads
+[2.510s] -- Looking for pthread_create in pthreads - not found
+[2.511s] -- Looking for pthread_create in pthread
+[2.636s] -- Looking for pthread_create in pthread - found
+[2.638s] -- Found Threads: TRUE  
+[2.644s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.705s] -- catkin 0.7.29
+[2.705s] -- BUILD_SHARED_LIBS is on
+[2.963s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.027s] -- Configuring done
+[4.062s] -- Generating done
+[4.069s] -- Build files have been written to: /home/ros/autoware.ai/build/lgsvl_simulator_bridge
+[4.075s] Invoked command in '/home/ros/autoware.ai/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/simulation/lgsvl_simulator_bridge -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/lgsvl_simulator_bridge
+[4.079s] Invoking command in '/home/ros/autoware.ai/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lgsvl_simulator_bridge -- -j12 -l12
+[4.177s] Invoked command in '/home/ros/autoware.ai/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lgsvl_simulator_bridge -- -j12 -l12
+[4.605s] Invoking command in '/home/ros/autoware.ai/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lgsvl_simulator_bridge --target tests -- -j12 -l12
+[4.773s] [35m[1mScanning dependencies of target tests[0m
+[4.809s] Built target tests
+[4.839s] Invoked command in '/home/ros/autoware.ai/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lgsvl_simulator_bridge --target tests -- -j12 -l12
+[5.036s] Invoking command in '/home/ros/autoware.ai/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lgsvl_simulator_bridge --target install -- -j12 -l12
+[5.181s] [36mInstall the project...[0m
+[5.197s] -- Install configuration: "Release"
+[5.202s] + cd /home/ros/autoware.ai/src/autoware/simulation/lgsvl_simulator_bridge
+[5.202s] + mkdir -p /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages
+[5.212s] + /usr/bin/env PYTHONPATH=/home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/ros/autoware.ai/build/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ros/autoware.ai/build/lgsvl_simulator_bridge /usr/bin/python2 /home/ros/autoware.ai/src/autoware/simulation/lgsvl_simulator_bridge/setup.py build --build-base /home/ros/autoware.ai/build/lgsvl_simulator_bridge install --root=/ --install-layout=deb --prefix=/home/ros/autoware.ai/install/lgsvl_simulator_bridge --install-scripts=/home/ros/autoware.ai/install/lgsvl_simulator_bridge/bin
+[5.274s] running build
+[5.274s] running build_py
+[5.275s] creating /home/ros/autoware.ai/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7
+[5.275s] creating /home/ros/autoware.ai/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge
+[5.275s] copying src/lgsvl_simulator_bridge/configurator.py -> /home/ros/autoware.ai/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge
+[5.276s] copying src/lgsvl_simulator_bridge/__init__.py -> /home/ros/autoware.ai/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge
+[5.277s] running install
+[5.277s] running install_lib
+[5.278s] creating /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge
+[5.278s] copying /home/ros/autoware.ai/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge/configurator.py -> /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge
+[5.278s] copying /home/ros/autoware.ai/build/lgsvl_simulator_bridge/lib.linux-x86_64-2.7/lgsvl_simulator_bridge/__init__.py -> /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge
+[5.278s] byte-compiling /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge/configurator.py to configurator.pyc
+[5.283s] byte-compiling /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge/__init__.py to __init__.pyc
+[5.284s] running install_egg_info
+[5.284s] Writing /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge-1.12.0.egg-info
+[5.294s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/pkgconfig/lgsvl_simulator_bridge.pc
+[5.294s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig.cmake
+[5.294s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig-version.cmake
+[5.294s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/package.xml
+[5.294s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch
+[5.294s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/bridge.launch
+[5.295s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/lgsvl_simulator.launch
+[5.295s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/rviz
+[5.295s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/rviz/lgsvl_simulator.rviz
+[5.295s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/config
+[5.295s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/config/sample.json
+[5.295s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media
+[5.295s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/autoware.png
+[5.295s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/lgsvl_simulator_bridge.png
+[5.298s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/resource
+[5.298s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/resource/LgsvlSimulatorConfigratorPlugin.ui
+[5.298s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/launch_sim.bash
+[5.299s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/__init__.py
+[5.299s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/configurator.py
+[5.299s] -- Installing: /home/ros/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/plugin.xml
+[5.307s] Invoked command in '/home/ros/autoware.ai/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lgsvl_simulator_bridge --target install -- -j12 -l12

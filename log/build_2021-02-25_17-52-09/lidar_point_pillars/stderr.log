@@ -1,0 +1,12 @@
+CUDA is available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart.so
+CUDA Headers: /usr/local/cuda/include
+TensorRT is available!
+NVINFER: /usr/local/lib/libnvinfer.so
+NVPARSERS: /usr/local/lib/libnvparsers.so
+NVONNXPARSERS: /usr/local/lib/libnvonnxparser.so
+CUDNN is available!
+CUDNN_LIBRARY: ON
+make[2]: *** No rule to make target '/usr/lib/libOpenNI.so', needed by 'devel/lib/lidar_point_pillars/lidar_point_pillars'.  Stop.
+make[1]: *** [CMakeFiles/lidar_point_pillars.dir/all] Error 2
+make: *** [all] Error 2

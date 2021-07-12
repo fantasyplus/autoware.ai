@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/runtime_manager
+
+Name: runtime_manager
+Description: Description of runtime_manager
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

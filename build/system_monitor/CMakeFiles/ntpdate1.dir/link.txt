@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/ntpdate1.dir/test/src/ntp_monitor/ntpdate1.cpp.o  -o devel/lib/system_monitor/ntpdate1 

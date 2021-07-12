@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_build_flags -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_build_flags -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_build_flags --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_build_flags --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_build_flags --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_build_flags --target install -- -j12 -l12

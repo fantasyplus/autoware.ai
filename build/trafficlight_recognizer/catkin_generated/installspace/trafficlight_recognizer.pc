@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/trafficlight_recognizer
+
+Name: trafficlight_recognizer
+Description: Description of trafficlight_recognizer
+Version: 1.12.0
+Cflags: -I/usr/include/eigen3
+Libs: -L${prefix}/lib -llibcontext
+Requires: 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc devel/lib/liblibvectormap.a  CMakeFiles/libvectormap.dir/src/vector_map.cpp.o
+/usr/bin/ranlib devel/lib/liblibvectormap.a

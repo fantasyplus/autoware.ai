@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/install/pixel_cloud_fusion/setup.sh

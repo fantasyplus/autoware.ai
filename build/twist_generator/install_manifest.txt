@@ -1,0 +1,7 @@
+/home/ros/autoware.ai/install/twist_generator/lib/pkgconfig/twist_generator.pc
+/home/ros/autoware.ai/install/twist_generator/share/twist_generator/cmake/twist_generatorConfig.cmake
+/home/ros/autoware.ai/install/twist_generator/share/twist_generator/cmake/twist_generatorConfig-version.cmake
+/home/ros/autoware.ai/install/twist_generator/share/twist_generator/package.xml
+/home/ros/autoware.ai/install/twist_generator/lib/twist_generator/vehicle_status_converter
+/home/ros/autoware.ai/install/twist_generator/share/twist_generator/launch/vehicle_status_converter.launch
+/home/ros/autoware.ai/install/twist_generator/include/twist_generator/vehicle_status_converter.hpp

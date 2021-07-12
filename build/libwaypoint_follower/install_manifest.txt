@@ -1,0 +1,8 @@
+/home/ros/autoware.ai/install/libwaypoint_follower/lib/pkgconfig/libwaypoint_follower.pc
+/home/ros/autoware.ai/install/libwaypoint_follower/share/libwaypoint_follower/cmake/libwaypoint_followerConfig.cmake
+/home/ros/autoware.ai/install/libwaypoint_follower/share/libwaypoint_follower/cmake/libwaypoint_followerConfig-version.cmake
+/home/ros/autoware.ai/install/libwaypoint_follower/share/libwaypoint_follower/package.xml
+/home/ros/autoware.ai/install/libwaypoint_follower/lib/liblibwaypoint_follower.so
+/home/ros/autoware.ai/install/libwaypoint_follower/include/libwaypoint_follower/libwaypoint_follower.h
+/home/ros/autoware.ai/install/libwaypoint_follower/include/libwaypoint_follower/pure_pursuit.h
+/home/ros/autoware.ai/install/libwaypoint_follower/include/libwaypoint_follower/test_libwaypoint_follower.h

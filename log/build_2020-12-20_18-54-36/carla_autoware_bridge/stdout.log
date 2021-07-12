@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/carla_autoware_bridge/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_msgs;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/autoware_msgs;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/carla_autoware_bridge/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/carla_autoware_bridge
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
++ cd /home/ros/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge
++ mkdir -p /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages:/home/ros/autoware.ai/build/carla_autoware_bridge/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ros/autoware.ai/build/carla_autoware_bridge /usr/bin/python2 /home/ros/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge/setup.py build --build-base /home/ros/autoware.ai/build/carla_autoware_bridge install --root=/ --install-layout=deb --prefix=/home/ros/autoware.ai/install/carla_autoware_bridge --install-scripts=/home/ros/autoware.ai/install/carla_autoware_bridge/bin
+running build
+running build_py
+creating /home/ros/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7
+creating /home/ros/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge
+copying src/carla_autoware_bridge/__init__.py -> /home/ros/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge
+running install
+running install_lib
+creating /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge
+copying /home/ros/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge/__init__.py -> /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge
+byte-compiling /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge/__init__.py to __init__.pyc
+running install_egg_info
+Writing /home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge-0.0.0.egg-info
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/pkgconfig/carla_autoware_bridge.pc
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/cmake/carla_autoware_bridgeConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/cmake/carla_autoware_bridgeConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/package.xml
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_vehicle_status
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_waypoints
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/odometry_to_posestamped
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/vehiclecmd_to_ackermanndrive
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_detected_objects
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge.launch
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/tf.launch
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge_common.launch
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge_with_manual_control.launch
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/config
+-- Installing: /home/ros/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/config/sensors.json

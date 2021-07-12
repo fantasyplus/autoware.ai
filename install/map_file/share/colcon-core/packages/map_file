@@ -1,0 +1,1 @@
+autoware_msgs:curl:geometry_msgs:lanelet2_extension:libboost-filesystem-dev:libpcl-all-dev:pcl_ros:roscpp:std_msgs:tf:tf2_geometry_msgs:tf2_ros:vector_map:visualization_msgs

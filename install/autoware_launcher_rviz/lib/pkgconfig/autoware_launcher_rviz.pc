@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/autoware_launcher_rviz
+
+Name: autoware_launcher_rviz
+Description: Description of autoware_launcher_rviz
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz

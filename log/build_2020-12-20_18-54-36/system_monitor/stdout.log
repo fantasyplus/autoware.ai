@@ -1,0 +1,326 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/system_monitor/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/system_monitor/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Could NOT find NVML (missing: NVML_LIBRARIES NVML_INCLUDE_DIRS) 
+-- NVML include dir: NVML_INCLUDE_DIRS-NOTFOUND
+-- NVML library : NVML_LIBRARIES-NOTFOUND
+-- HOST_SYSTEM_VERSION: 5.4.0-42-generic
+-- SYSTEM_PROCESSOR: x86_64
+-- CPU PLATFORM: intel
+-- GPU PLATFORM: unknown
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   serialization
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/system_monitor
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sort1[0m
+[  2%] [32mBuilding CXX object CMakeFiles/sort1.dir/test/src/process_monitor/sort1.cpp.o[0m
+[  4%] [32m[1mLinking CXX executable devel/lib/system_monitor/sort1[0m
+[  4%] Built target sort1
+[35m[1mScanning dependencies of target top3[0m
+[  6%] [32mBuilding CXX object CMakeFiles/top3.dir/test/src/process_monitor/top3.cpp.o[0m
+[  8%] [32m[1mLinking CXX executable devel/lib/system_monitor/top3[0m
+[  8%] Built target top3
+[35m[1mScanning dependencies of target free1[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/free1.dir/test/src/mem_monitor/free1.cpp.o[0m
+[ 12%] [32m[1mLinking CXX executable devel/lib/system_monitor/free1[0m
+[ 12%] Built target free1
+[35m[1mScanning dependencies of target mpstat1[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/mpstat1.dir/test/src/cpu_monitor/mpstat1.cpp.o[0m
+[ 16%] [32m[1mLinking CXX executable devel/lib/system_monitor/mpstat1[0m
+[ 16%] Built target mpstat1
+[35m[1mScanning dependencies of target echo1[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/echo1.dir/test/src/process_monitor/sort1.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable devel/lib/system_monitor/echo1[0m
+[ 20%] Built target echo1
+[35m[1mScanning dependencies of target sed1[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/sed1.dir/test/src/process_monitor/sed1.cpp.o[0m
+[ 24%] [32m[1mLinking CXX executable devel/lib/system_monitor/sed1[0m
+[ 24%] Built target sed1
+[35m[1mScanning dependencies of target mpstat2[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/mpstat2.dir/test/src/cpu_monitor/mpstat2.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable devel/lib/system_monitor/mpstat2[0m
+[ 28%] Built target mpstat2
+[35m[1mScanning dependencies of target df1[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/df1.dir/test/src/hdd_monitor/df1.cpp.o[0m
+[ 32%] [32m[1mLinking CXX executable devel/lib/system_monitor/df1[0m
+[ 32%] Built target df1
+[35m[1mScanning dependencies of target top1[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/top1.dir/test/src/process_monitor/top1.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable devel/lib/system_monitor/top1[0m
+[ 36%] Built target top1
+[35m[1mScanning dependencies of target ntpdate1[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ntpdate1.dir/test/src/ntp_monitor/ntpdate1.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable devel/lib/system_monitor/ntpdate1[0m
+[ 40%] Built target ntpdate1
+[35m[1mScanning dependencies of target top2[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/top2.dir/test/src/process_monitor/top2.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable devel/lib/system_monitor/top2[0m
+[ 44%] Built target top2
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[ 44%] Built target diagnostic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 44%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 44%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 44%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[ 44%] Built target diagnostic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 44%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 44%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 44%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 44%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 44%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target ntp_monitor[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ntp_monitor.dir/src/ntp_monitor/ntp_monitor_node.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ntp_monitor.dir/src/ntp_monitor/ntp_monitor.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable devel/lib/system_monitor/ntp_monitor[0m
+[ 50%] Built target ntp_monitor
+[35m[1mScanning dependencies of target hdd_monitor[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/hdd_monitor.dir/src/hdd_monitor/hdd_monitor_node.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/hdd_monitor.dir/src/hdd_monitor/hdd_monitor.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable devel/lib/system_monitor/hdd_monitor[0m
+[ 56%] Built target hdd_monitor
+[35m[1mScanning dependencies of target hdd_reader[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/hdd_reader.dir/reader/hdd_reader/hdd_reader.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable devel/lib/system_monitor/hdd_reader[0m
+[ 60%] Built target hdd_reader
+[35m[1mScanning dependencies of target mem_monitor[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/mem_monitor.dir/src/mem_monitor/mem_monitor_node.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/mem_monitor.dir/src/mem_monitor/mem_monitor.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable devel/lib/system_monitor/mem_monitor[0m
+[ 66%] Built target mem_monitor
+[35m[1mScanning dependencies of target msr_reader[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/msr_reader.dir/reader/msr_reader/msr_reader.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable devel/lib/system_monitor/msr_reader[0m
+[ 70%] Built target msr_reader
+[35m[1mScanning dependencies of target cpu_monitor[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/cpu_monitor.dir/src/cpu_monitor/cpu_monitor_node.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/cpu_monitor.dir/src/cpu_monitor/intel_cpu_monitor.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/cpu_monitor.dir/src/cpu_monitor/cpu_monitor_base.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable devel/lib/system_monitor/cpu_monitor[0m
+[ 78%] Built target cpu_monitor
+[35m[1mScanning dependencies of target gpu_monitor[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/gpu_monitor.dir/src/gpu_monitor/gpu_monitor_node.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/gpu_monitor.dir/src/gpu_monitor/unknown_gpu_monitor.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/gpu_monitor.dir/src/gpu_monitor/gpu_monitor_base.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable devel/lib/system_monitor/gpu_monitor[0m
+[ 86%] Built target gpu_monitor
+[35m[1mScanning dependencies of target net_monitor[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/net_monitor.dir/src/net_monitor/net_monitor_node.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/net_monitor.dir/src/net_monitor/nl80211.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/net_monitor.dir/src/net_monitor/net_monitor.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable devel/lib/system_monitor/net_monitor[0m
+[ 94%] Built target net_monitor
+[35m[1mScanning dependencies of target process_monitor[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/process_monitor.dir/src/process_monitor/process_monitor_node.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/process_monitor.dir/src/process_monitor/process_monitor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/system_monitor/process_monitor[0m
+[100%] Built target process_monitor
+[35m[1mScanning dependencies of target gtest[0m
+[  4%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  8%] [32m[1mLinking CXX shared library libgtest.so[0m
+[  8%] Built target gtest
+[35m[1mScanning dependencies of target test_net_monitor[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/test_net_monitor.dir/test/src/net_monitor/test_net_monitor.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/test_net_monitor.dir/src/net_monitor/nl80211.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/test_net_monitor.dir/src/net_monitor/net_monitor.cpp.o[0m
+[ 26%] [32m[1mLinking CXX executable devel/lib/system_monitor/test_net_monitor[0m
+[ 26%] Built target test_net_monitor
+[35m[1mScanning dependencies of target test_cpu_monitor[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/test_cpu_monitor.dir/test/src/cpu_monitor/test_intel_cpu_monitor.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/test_cpu_monitor.dir/src/cpu_monitor/intel_cpu_monitor.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/test_cpu_monitor.dir/src/cpu_monitor/cpu_monitor_base.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable devel/lib/system_monitor/test_cpu_monitor[0m
+[ 43%] Built target test_cpu_monitor
+[35m[1mScanning dependencies of target test_mem_monitor[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/test_mem_monitor.dir/test/src/mem_monitor/test_mem_monitor.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/test_mem_monitor.dir/src/mem_monitor/mem_monitor.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable devel/lib/system_monitor/test_mem_monitor[0m
+[ 56%] Built target test_mem_monitor
+[35m[1mScanning dependencies of target test_gpu_monitor[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/test_gpu_monitor.dir/test/src/gpu_monitor/test_unknown_gpu_monitor.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/test_gpu_monitor.dir/src/gpu_monitor/unknown_gpu_monitor.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/test_gpu_monitor.dir/src/gpu_monitor/gpu_monitor_base.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable devel/lib/system_monitor/test_gpu_monitor[0m
+[ 73%] Built target test_gpu_monitor
+[35m[1mScanning dependencies of target test_process_monitor[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/test_process_monitor.dir/test/src/process_monitor/test_process_monitor.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/test_process_monitor.dir/src/process_monitor/process_monitor.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable devel/lib/system_monitor/test_process_monitor[0m
+[ 86%] Built target test_process_monitor
+[35m[1mScanning dependencies of target test_ntp_monitor[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/test_ntp_monitor.dir/test/src/ntp_monitor/test_ntp_monitor.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/test_ntp_monitor.dir/src/ntp_monitor/ntp_monitor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/system_monitor/test_ntp_monitor[0m
+[100%] Built target test_ntp_monitor
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  4%] Built target sort1
+[  8%] Built target top3
+[ 12%] Built target free1
+[ 16%] Built target mpstat1
+[ 20%] Built target echo1
+[ 24%] Built target sed1
+[ 28%] Built target mpstat2
+[ 32%] Built target df1
+[ 36%] Built target top1
+[ 40%] Built target ntpdate1
+[ 44%] Built target top2
+[ 44%] Built target diagnostic_msgs_generate_messages_eus
+[ 44%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 44%] Built target rosgraph_msgs_generate_messages_py
+[ 44%] Built target roscpp_generate_messages_eus
+[ 44%] Built target diagnostic_msgs_generate_messages_nodejs
+[ 44%] Built target std_msgs_generate_messages_cpp
+[ 44%] Built target roscpp_generate_messages_lisp
+[ 44%] Built target rosgraph_msgs_generate_messages_cpp
+[ 44%] Built target rosgraph_msgs_generate_messages_lisp
+[ 44%] Built target rosgraph_msgs_generate_messages_eus
+[ 50%] Built target ntp_monitor
+[ 56%] Built target hdd_monitor
+[ 60%] Built target hdd_reader
+[ 66%] Built target mem_monitor
+[ 70%] Built target msr_reader
+[ 78%] Built target cpu_monitor
+[ 86%] Built target gpu_monitor
+[ 94%] Built target net_monitor
+[100%] Built target process_monitor
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/pkgconfig/system_monitor.pc
+-- Installing: /home/ros/autoware.ai/install/system_monitor/share/system_monitor/cmake/system_monitorConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/system_monitor/share/system_monitor/cmake/system_monitorConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/system_monitor/share/system_monitor/package.xml
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/cpu_monitor
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/cpu_monitor" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/hdd_monitor
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/hdd_monitor" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/mem_monitor
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/mem_monitor" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/net_monitor
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/net_monitor" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/ntp_monitor
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/ntp_monitor" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/process_monitor
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/process_monitor" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/gpu_monitor
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/gpu_monitor" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/msr_reader
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/msr_reader" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/hdd_reader
+-- Set runtime path of "/home/ros/autoware.ai/install/system_monitor/lib/system_monitor/hdd_reader" to ""
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/net_monitor
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/net_monitor/nl80211.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/net_monitor/net_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/gpu_monitor
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/gpu_monitor/tegra_gpu_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/gpu_monitor/gpu_monitor_base.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/gpu_monitor/nvml_gpu_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/gpu_monitor/unknown_gpu_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/hdd_monitor
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/hdd_monitor/hdd_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/mem_monitor
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/mem_monitor/mem_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/ntp_monitor
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/ntp_monitor/ntp_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/process_monitor
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/process_monitor/process_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/process_monitor/diag_task.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/system_monitor_utility.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/cpu_monitor
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/cpu_monitor/intel_cpu_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/cpu_monitor/tegra_cpu_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/cpu_monitor/unknown_cpu_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/cpu_monitor/arm_cpu_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/cpu_monitor/raspi_cpu_monitor.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/include/system_monitor/cpu_monitor/cpu_monitor_base.h
+-- Installing: /home/ros/autoware.ai/install/system_monitor/share/system_monitor/launch
+-- Installing: /home/ros/autoware.ai/install/system_monitor/share/system_monitor/launch/system_monitor.launch
+-- Installing: /home/ros/autoware.ai/install/system_monitor/share/system_monitor/config
+-- Installing: /home/ros/autoware.ai/install/system_monitor/share/system_monitor/config/system_monitor.yaml
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/mpstat1
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/mpstat2
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/df1
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/free1
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/ntpdate1
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/top1
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/top2
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/top3
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/echo1
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/sort1
+-- Installing: /home/ros/autoware.ai/install/system_monitor/lib/system_monitor/sed1

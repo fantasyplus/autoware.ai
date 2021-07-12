@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/autoware_launcher_rviz/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/autoware_launcher_rviz/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- CUDA compilation status: .
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/autoware_launcher_rviz
+[ 25%] [34m[1mGenerating src/moc_module_panel.cpp[0m
+[35m[1mScanning dependencies of target autoware_launcher_rviz[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/autoware_launcher_rviz.dir/src/moc_module_panel.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/autoware_launcher_rviz.dir/src/module_panel.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libautoware_launcher_rviz.so[0m
+[100%] Built target autoware_launcher_rviz
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[100%] Built target autoware_launcher_rviz
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/lib/pkgconfig/autoware_launcher_rviz.pc
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/cmake/autoware_launcher_rvizConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/cmake/autoware_launcher_rvizConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/package.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/lib/libautoware_launcher_rviz.so
+-- Set runtime path of "/home/ros/autoware.ai/install/autoware_launcher_rviz/lib/libautoware_launcher_rviz.so" to ""
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/plugin_description.xml
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/icons/icons
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/icons/icons/classes
+-- Installing: /home/ros/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/icons/icons/classes/ModulePanel.png

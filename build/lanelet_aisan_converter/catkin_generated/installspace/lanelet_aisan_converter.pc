@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/lanelet_aisan_converter
+
+Name: lanelet_aisan_converter
+Description: Description of lanelet_aisan_converter
+Version: 0.1.0
+Cflags: -I/usr/include
+Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: 

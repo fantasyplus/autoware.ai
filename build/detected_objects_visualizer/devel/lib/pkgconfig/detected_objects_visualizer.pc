@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/detected_objects_visualizer/devel
+
+Name: detected_objects_visualizer
+Description: Description of detected_objects_visualizer
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

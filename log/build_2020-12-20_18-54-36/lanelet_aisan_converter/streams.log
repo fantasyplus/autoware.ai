@@ -1,0 +1,484 @@
+[0.042s] Invoking command in '/home/ros/autoware.ai/build/lanelet_aisan_converter': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/lanelet_aisan_converter -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/lanelet_aisan_converter
+[0.133s] -- The C compiler identification is GNU 7.5.0
+[0.213s] -- The CXX compiler identification is GNU 7.5.0
+[0.220s] -- Check for working C compiler: /usr/bin/cc
+[0.310s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.311s] -- Detecting C compiler ABI info
+[0.403s] -- Detecting C compiler ABI info - done
+[0.417s] -- Detecting C compile features
+[0.691s] -- Detecting C compile features - done
+[0.695s] -- Check for working CXX compiler: /usr/bin/c++
+[0.796s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.798s] -- Detecting CXX compiler ABI info
+[0.899s] -- Detecting CXX compiler ABI info - done
+[0.912s] -- Detecting CXX compile features
+[1.383s] -- Detecting CXX compile features - done
+[1.385s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/lanelet_aisan_converter/devel
+[1.386s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/map_file;/home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/opt/ros/melodic
+[1.386s] -- This workspace overlays: /home/ros/autoware.ai/install/map_file;/home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/opt/ros/melodic
+[1.405s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.405s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.405s] -- Using Debian Python package layout
+[1.405s] -- Using empy: /usr/bin/empy
+[1.623s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.623s] -- Call enable_testing()
+[1.626s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/lanelet_aisan_converter/test_results
+[1.653s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.654s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.672s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.674s] -- Looking for pthread.h
+[1.761s] -- Looking for pthread.h - found
+[1.762s] -- Looking for pthread_create
+[1.852s] -- Looking for pthread_create - not found
+[1.852s] -- Looking for pthread_create in pthreads
+[1.925s] -- Looking for pthread_create in pthreads - not found
+[1.925s] -- Looking for pthread_create in pthread
+[2.013s] -- Looking for pthread_create in pthread - found
+[2.014s] -- Found Threads: TRUE  
+[2.020s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.077s] -- catkin 0.7.29
+[2.077s] -- BUILD_SHARED_LIBS is on
+[2.292s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.703s] -- Boost version: 1.65.1
+[2.703s] -- Found the following Boost libraries:
+[2.704s] --   wserialization
+[2.704s] --   thread
+[2.704s] --   random
+[2.704s] --   serialization
+[2.704s] --   log_setup
+[2.705s] --   prg_exec_monitor
+[2.705s] --   wave
+[2.705s] --   system
+[2.705s] --   chrono
+[2.705s] --   filesystem
+[2.705s] --   locale
+[2.705s] --   timer
+[2.705s] --   date_time
+[2.706s] --   regex
+[2.706s] --   graph
+[2.706s] --   program_options
+[2.706s] --   unit_test_framework
+[2.706s] --   log
+[2.706s] --   atomic
+[3.073s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.184s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.186s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.198s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[3.220s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[3.221s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[3.428s] -- Boost version: 1.65.1
+[3.429s] -- Found the following Boost libraries:
+[3.429s] --   filesystem
+[3.429s] --   system
+[3.636s] -- Configuring done
+[3.753s] -- Generating done
+[3.773s] -- Build files have been written to: /home/ros/autoware.ai/build/lanelet_aisan_converter
+[3.785s] Invoked command in '/home/ros/autoware.ai/build/lanelet_aisan_converter' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/lanelet_aisan_converter -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/lanelet_aisan_converter
+[3.787s] Invoking command in '/home/ros/autoware.ai/build/lanelet_aisan_converter': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lanelet_aisan_converter -- -j12 -l12
+[3.851s] [35m[1mScanning dependencies of target uuid_msgs_generate_messages_py[0m
+[3.864s] [  0%] Built target uuid_msgs_generate_messages_py
+[3.878s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[3.897s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[3.911s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[3.925s] [  0%] Built target std_msgs_generate_messages_eus
+[3.939s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[3.954s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[3.971s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[3.986s] [  0%] Built target actionlib_msgs_generate_messages_py
+[4.001s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[4.017s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[4.031s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[4.044s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[4.056s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[4.069s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.082s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[4.099s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[4.119s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[4.137s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.155s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[4.171s] [  0%] Built target tf_generate_messages_eus
+[4.186s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[4.199s] [  0%] Built target tf_generate_messages_lisp
+[4.213s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[4.232s] [  0%] Built target tf_generate_messages_nodejs
+[4.248s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[4.265s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[4.279s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[4.293s] [  0%] Built target roscpp_generate_messages_lisp
+[4.307s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[4.321s] [  0%] Built target roscpp_generate_messages_py
+[4.336s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[4.350s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.365s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[4.380s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.394s] [35m[1mScanning dependencies of target geographic_msgs_generate_messages_lisp[0m
+[4.409s] [  0%] Built target geographic_msgs_generate_messages_lisp
+[4.424s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[4.439s] [  0%] Built target roscpp_generate_messages_eus
+[4.456s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[4.470s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.485s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[4.499s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.516s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[4.530s] [  0%] Built target pcl_msgs_generate_messages_py
+[4.543s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[4.559s] [  0%] Built target actionlib_generate_messages_eus
+[4.573s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[4.587s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.604s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[4.617s] [  0%] Built target actionlib_generate_messages_lisp
+[4.633s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[4.646s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[4.664s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[4.678s] [  0%] Built target tf_generate_messages_cpp
+[4.691s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[4.704s] [  0%] Built target actionlib_generate_messages_nodejs
+[4.717s] [35m[1mScanning dependencies of target geographic_msgs_generate_messages_nodejs[0m
+[4.734s] [  0%] Built target geographic_msgs_generate_messages_nodejs
+[4.749s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[4.764s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[4.787s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[4.803s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.816s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[4.829s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.841s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[4.855s] [  0%] Built target actionlib_generate_messages_py
+[4.872s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[4.887s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.901s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[4.914s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[4.931s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[4.945s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[4.961s] [35m[1mScanning dependencies of target geographic_msgs_generate_messages_eus[0m
+[4.975s] [  0%] Built target geographic_msgs_generate_messages_eus
+[4.989s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[5.003s] [  0%] Built target roscpp_generate_messages_cpp
+[5.019s] [35m[1mScanning dependencies of target geographic_msgs_generate_messages_py[0m
+[5.033s] [  0%] Built target geographic_msgs_generate_messages_py
+[5.048s] [35m[1mScanning dependencies of target uuid_msgs_generate_messages_eus[0m
+[5.062s] [  0%] Built target uuid_msgs_generate_messages_eus
+[5.078s] [35m[1mScanning dependencies of target uuid_msgs_generate_messages_cpp[0m
+[5.092s] [  0%] Built target uuid_msgs_generate_messages_cpp
+[5.106s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[5.121s] [  0%] Built target vector_map_msgs_generate_messages_py
+[5.135s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[5.148s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[5.162s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[5.176s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[5.190s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[5.204s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[5.218s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[5.233s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[5.248s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[5.267s] [  0%] Built target visualization_msgs_generate_messages_py
+[5.282s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[5.301s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[5.314s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[5.328s] [  0%] Built target visualization_msgs_generate_messages_eus
+[5.343s] [35m[1mScanning dependencies of target uuid_msgs_generate_messages_nodejs[0m
+[5.356s] [  0%] Built target uuid_msgs_generate_messages_nodejs
+[5.371s] [35m[1mScanning dependencies of target uuid_msgs_generate_messages_lisp[0m
+[5.388s] [  0%] Built target uuid_msgs_generate_messages_lisp
+[5.402s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[5.415s] [  0%] Built target geometry_msgs_generate_messages_py
+[5.429s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[5.445s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[5.463s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[5.477s] [  0%] Built target actionlib_generate_messages_cpp
+[5.492s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[5.509s] [  0%] Built target pcl_msgs_generate_messages_eus
+[5.520s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[5.539s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[5.552s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[5.574s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[5.589s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[5.604s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[5.617s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[5.630s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[5.644s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[5.660s] [  0%] Built target std_msgs_generate_messages_py
+[5.672s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[5.685s] [  0%] Built target autoware_msgs_generate_messages_py
+[5.699s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[5.715s] [  0%] Built target std_msgs_generate_messages_nodejs
+[5.733s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[5.749s] [  0%] Built target sensor_msgs_generate_messages_eus
+[5.763s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[5.777s] [  0%] Built target _catkin_empty_exported_target
+[5.792s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[5.807s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[5.821s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[5.841s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[5.862s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[5.883s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[5.899s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[5.913s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[5.928s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[5.945s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[5.958s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[5.971s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[5.985s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[6.000s] [  0%] Built target sensor_msgs_generate_messages_py
+[6.014s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[6.027s] [  0%] Built target tf_generate_messages_py
+[6.041s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[6.059s] [  0%] Built target std_msgs_generate_messages_cpp
+[6.073s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[6.089s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[6.102s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[6.116s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[6.130s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[6.143s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[6.156s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[6.169s] [  0%] Built target autoware_msgs_generate_messages_eus
+[6.185s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[6.201s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[6.214s] [35m[1mScanning dependencies of target geographic_msgs_generate_messages_cpp[0m
+[6.228s] [  0%] Built target geographic_msgs_generate_messages_cpp
+[6.241s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[6.256s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[6.272s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[6.286s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[6.300s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[6.315s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[6.329s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[6.343s] [  0%] Built target roscpp_generate_messages_nodejs
+[6.356s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[6.371s] [  0%] Built target std_msgs_generate_messages_lisp
+[6.388s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[6.402s] [  0%] Built target geometry_msgs_generate_messages_eus
+[6.417s] [35m[1mScanning dependencies of target lanelet_helper[0m
+[6.488s] [  9%] [32mBuilding CXX object CMakeFiles/lanelet_helper.dir/lib/lanelet_helper/lanelet_helper.cpp.o[0m
+[19.154s] [ 18%] [32m[1mLinking CXX static library devel/lib/liblanelet_helper.a[0m
+[19.195s] [ 18%] Built target lanelet_helper
+[19.209s] [35m[1mScanning dependencies of target aisan_map[0m
+[19.231s] [ 27%] [32mBuilding CXX object CMakeFiles/aisan_map.dir/lib/aisan_map/aisan_map.cpp.o[0m
+[22.367s] [ 36%] [32m[1mLinking CXX static library devel/lib/libaisan_map.a[0m
+[22.408s] [ 36%] Built target aisan_map
+[22.422s] [35m[1mScanning dependencies of target lanelet2aisan_converter[0m
+[22.515s] [ 45%] [32mBuilding CXX object CMakeFiles/lanelet2aisan_converter.dir/lib/lanelet2aisan_converter/create_basic_shape.cpp.o[0m
+[27.042s] [ 54%] [32mBuilding CXX object CMakeFiles/lanelet2aisan_converter.dir/lib/lanelet2aisan_converter/lanelet2aisan_converter.cpp.o[0m
+[35.810s] [ 63%] [32mBuilding CXX object CMakeFiles/lanelet2aisan_converter.dir/lib/lanelet2aisan_converter/overwrite.cpp.o[0m
+[44.825s] [ 72%] [32mBuilding CXX object CMakeFiles/lanelet2aisan_converter.dir/lib/lanelet2aisan_converter/create_feature.cpp.o[0m
+[60.722s] [ 81%] [32m[1mLinking CXX static library devel/lib/liblanelet2aisan_converter.a[0m
+[60.773s] [ 81%] Built target lanelet2aisan_converter
+[60.789s] [35m[1mScanning dependencies of target lanelet2aisan[0m
+[60.853s] [ 90%] [32mBuilding CXX object CMakeFiles/lanelet2aisan.dir/nodes/lanelet2aisan/lanelet2aisan.cpp.o[0m
+[66.403s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet_aisan_converter/lanelet2aisan[0m
+[66.783s] [100%] Built target lanelet2aisan
+[66.802s] Invoked command in '/home/ros/autoware.ai/build/lanelet_aisan_converter' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lanelet_aisan_converter -- -j12 -l12
+[66.932s] Invoking command in '/home/ros/autoware.ai/build/lanelet_aisan_converter': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lanelet_aisan_converter --target tests -- -j12 -l12
+[67.039s] [  0%] Built target uuid_msgs_generate_messages_py
+[67.069s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[67.101s] [  0%] Built target std_msgs_generate_messages_eus
+[67.131s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[67.164s] [  0%] Built target actionlib_msgs_generate_messages_py
+[67.194s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[67.221s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[67.249s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[67.277s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[67.308s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[67.339s] [  0%] Built target tf_generate_messages_eus
+[67.369s] [  0%] Built target tf_generate_messages_lisp
+[67.399s] [  0%] Built target tf_generate_messages_nodejs
+[67.429s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[67.457s] [  0%] Built target roscpp_generate_messages_lisp
+[67.487s] [  0%] Built target roscpp_generate_messages_py
+[67.516s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[67.549s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[67.576s] [  0%] Built target geographic_msgs_generate_messages_lisp
+[67.608s] [  0%] Built target roscpp_generate_messages_eus
+[67.643s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[67.673s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[67.702s] [  0%] Built target pcl_msgs_generate_messages_py
+[67.734s] [  0%] Built target actionlib_generate_messages_eus
+[67.771s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[67.806s] [  0%] Built target actionlib_generate_messages_lisp
+[67.839s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[67.869s] [  0%] Built target tf_generate_messages_cpp
+[67.902s] [  0%] Built target actionlib_generate_messages_nodejs
+[67.937s] [  0%] Built target geographic_msgs_generate_messages_nodejs
+[67.964s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[67.991s] [  0%] Built target tf2_msgs_generate_messages_eus
+[68.019s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[68.046s] [  0%] Built target actionlib_generate_messages_py
+[68.072s] [  0%] Built target tf2_msgs_generate_messages_py
+[68.099s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[68.126s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[68.153s] [  0%] Built target geographic_msgs_generate_messages_eus
+[68.182s] [  0%] Built target roscpp_generate_messages_cpp
+[68.210s] [  0%] Built target geographic_msgs_generate_messages_py
+[68.239s] [  0%] Built target uuid_msgs_generate_messages_eus
+[68.267s] [  0%] Built target uuid_msgs_generate_messages_cpp
+[68.293s] [  0%] Built target vector_map_msgs_generate_messages_py
+[68.318s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[68.348s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[68.376s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[68.405s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[68.434s] [  0%] Built target visualization_msgs_generate_messages_py
+[68.464s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[68.496s] [  0%] Built target visualization_msgs_generate_messages_eus
+[68.527s] [  0%] Built target uuid_msgs_generate_messages_nodejs
+[68.555s] [  0%] Built target uuid_msgs_generate_messages_lisp
+[68.584s] [  0%] Built target geometry_msgs_generate_messages_py
+[68.614s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[68.644s] [  0%] Built target actionlib_generate_messages_cpp
+[68.676s] [  0%] Built target pcl_msgs_generate_messages_eus
+[68.706s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[68.737s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[68.766s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[68.797s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[68.827s] [  0%] Built target std_msgs_generate_messages_py
+[68.856s] [  0%] Built target autoware_msgs_generate_messages_py
+[68.885s] [  0%] Built target std_msgs_generate_messages_nodejs
+[68.913s] [  0%] Built target sensor_msgs_generate_messages_eus
+[68.954s] [  0%] Built target _catkin_empty_exported_target
+[68.981s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[69.011s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[69.040s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[69.071s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[69.104s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[69.131s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[69.166s] [  0%] Built target sensor_msgs_generate_messages_py
+[69.194s] [  0%] Built target tf_generate_messages_py
+[69.223s] [  0%] Built target std_msgs_generate_messages_cpp
+[69.251s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[69.280s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[69.295s] [35m[1mScanning dependencies of target gtest[0m
+[69.319s] [  7%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[75.989s] [ 15%] [32m[1mLinking CXX shared library libgtest.so[0m
+[76.096s] [ 15%] Built target gtest
+[76.122s] [ 15%] Built target autoware_msgs_generate_messages_lisp
+[76.148s] [ 15%] Built target autoware_msgs_generate_messages_eus
+[76.175s] [ 15%] Built target jsk_recognition_msgs_generate_messages_cpp
+[76.201s] [ 15%] Built target geographic_msgs_generate_messages_cpp
+[76.227s] [ 15%] Built target pcl_msgs_generate_messages_cpp
+[76.253s] [ 15%] Built target geometry_msgs_generate_messages_lisp
+[76.279s] [ 15%] Built target geometry_msgs_generate_messages_nodejs
+[76.304s] [ 15%] Built target roscpp_generate_messages_nodejs
+[76.331s] [ 15%] Built target std_msgs_generate_messages_lisp
+[76.358s] [ 15%] Built target geometry_msgs_generate_messages_eus
+[76.394s] [ 30%] Built target lanelet_helper
+[76.430s] [ 46%] Built target aisan_map
+[76.479s] [ 84%] Built target lanelet2aisan_converter
+[76.497s] [35m[1mScanning dependencies of target test_lanelet2aisan_converter[0m
+[76.576s] [ 92%] [32mBuilding CXX object CMakeFiles/test_lanelet2aisan_converter.dir/test/src/test_lanelet2aisan_converter.cpp.o[0m
+[84.912s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet_aisan_converter/test_lanelet2aisan_converter[0m
+[85.317s] [100%] Built target test_lanelet2aisan_converter
+[85.331s] [35m[1mScanning dependencies of target tests[0m
+[85.346s] [100%] Built target tests
+[85.364s] Invoked command in '/home/ros/autoware.ai/build/lanelet_aisan_converter' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lanelet_aisan_converter --target tests -- -j12 -l12
+[85.474s] Invoking command in '/home/ros/autoware.ai/build/lanelet_aisan_converter': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lanelet_aisan_converter --target install -- -j12 -l12
+[85.550s] [  0%] Built target uuid_msgs_generate_messages_py
+[85.581s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[85.610s] [  0%] Built target std_msgs_generate_messages_eus
+[85.640s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[85.671s] [  0%] Built target actionlib_msgs_generate_messages_py
+[85.702s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[85.731s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[85.763s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[85.792s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[85.821s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[85.850s] [  0%] Built target tf_generate_messages_eus
+[85.881s] [  0%] Built target tf_generate_messages_lisp
+[85.911s] [  0%] Built target tf_generate_messages_nodejs
+[85.941s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[85.972s] [  0%] Built target roscpp_generate_messages_lisp
+[86.002s] [  0%] Built target roscpp_generate_messages_py
+[86.031s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[86.063s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[86.093s] [  0%] Built target geographic_msgs_generate_messages_lisp
+[86.121s] [  0%] Built target roscpp_generate_messages_eus
+[86.151s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[86.182s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[86.212s] [  0%] Built target pcl_msgs_generate_messages_py
+[86.242s] [  0%] Built target actionlib_generate_messages_eus
+[86.273s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[86.302s] [  0%] Built target actionlib_generate_messages_lisp
+[86.331s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[86.363s] [  0%] Built target tf_generate_messages_cpp
+[86.392s] [  0%] Built target actionlib_generate_messages_nodejs
+[86.421s] [  0%] Built target geographic_msgs_generate_messages_nodejs
+[86.451s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[86.484s] [  0%] Built target tf2_msgs_generate_messages_eus
+[86.513s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[86.543s] [  0%] Built target actionlib_generate_messages_py
+[86.574s] [  0%] Built target tf2_msgs_generate_messages_py
+[86.603s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[86.632s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[86.663s] [  0%] Built target geographic_msgs_generate_messages_eus
+[86.694s] [  0%] Built target roscpp_generate_messages_cpp
+[86.721s] [  0%] Built target geographic_msgs_generate_messages_py
+[86.750s] [  0%] Built target uuid_msgs_generate_messages_eus
+[86.780s] [  0%] Built target uuid_msgs_generate_messages_cpp
+[86.808s] [  0%] Built target vector_map_msgs_generate_messages_py
+[86.836s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[86.864s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[86.891s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[86.918s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[86.946s] [  0%] Built target visualization_msgs_generate_messages_py
+[86.983s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[87.015s] [  0%] Built target visualization_msgs_generate_messages_eus
+[87.050s] [  0%] Built target uuid_msgs_generate_messages_nodejs
+[87.080s] [  0%] Built target uuid_msgs_generate_messages_lisp
+[87.109s] [  0%] Built target geometry_msgs_generate_messages_py
+[87.136s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[87.163s] [  0%] Built target actionlib_generate_messages_cpp
+[87.191s] [  0%] Built target pcl_msgs_generate_messages_eus
+[87.220s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[87.247s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[87.278s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[87.309s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[87.345s] [  0%] Built target std_msgs_generate_messages_py
+[87.379s] [  0%] Built target autoware_msgs_generate_messages_py
+[87.420s] [  0%] Built target std_msgs_generate_messages_nodejs
+[87.451s] [  0%] Built target sensor_msgs_generate_messages_eus
+[87.488s] [  0%] Built target _catkin_empty_exported_target
+[87.516s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[87.556s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[87.592s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[87.624s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[87.653s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[87.683s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[87.716s] [  0%] Built target sensor_msgs_generate_messages_py
+[87.742s] [  0%] Built target tf_generate_messages_py
+[87.771s] [  0%] Built target std_msgs_generate_messages_cpp
+[87.803s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[87.831s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[87.861s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[87.893s] [  0%] Built target autoware_msgs_generate_messages_eus
+[87.921s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[87.949s] [  0%] Built target geographic_msgs_generate_messages_cpp
+[87.980s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[88.013s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[88.040s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[88.067s] [  0%] Built target roscpp_generate_messages_nodejs
+[88.096s] [  0%] Built target std_msgs_generate_messages_lisp
+[88.124s] [  0%] Built target geometry_msgs_generate_messages_eus
+[88.166s] [ 18%] Built target lanelet_helper
+[88.194s] [ 36%] Built target aisan_map
+[88.246s] [ 81%] Built target lanelet2aisan_converter
+[88.287s] [100%] Built target lanelet2aisan
+[88.319s] [36mInstall the project...[0m
+[88.331s] -- Install configuration: "Release"
+[88.331s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/lib/pkgconfig/lanelet_aisan_converter.pc
+[88.332s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/share/lanelet_aisan_converter/cmake/lanelet_aisan_converterConfig.cmake
+[88.332s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/share/lanelet_aisan_converter/cmake/lanelet_aisan_converterConfig-version.cmake
+[88.332s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/share/lanelet_aisan_converter/package.xml
+[88.332s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/lib/lanelet_aisan_converter/lanelet2aisan
+[88.333s] -- Set runtime path of "/home/ros/autoware.ai/install/lanelet_aisan_converter/lib/lanelet_aisan_converter/lanelet2aisan" to ""
+[88.333s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/lib/liblanelet_helper.a
+[88.334s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/lib/liblanelet2aisan_converter.a
+[88.334s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/lib/libaisan_map.a
+[88.335s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter
+[88.335s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/aisan_map
+[88.335s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/aisan_map/aisan_map.h
+[88.335s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/aisan_map/supported_vector_map_msgs.h
+[88.336s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/aisan_map/csv_def.h
+[88.336s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/lanelet2aisan_converter
+[88.336s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/lanelet2aisan_converter/lanelet2aisan_converter.h
+[88.336s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/lanelet2aisan_converter/unique_id_handler.h
+[88.336s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/lanelet_helper
+[88.336s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/include/lanelet_aisan_converter/lanelet_helper/lanelet_helper.h
+[88.336s] -- Installing: /home/ros/autoware.ai/install/lanelet_aisan_converter/share/lanelet_aisan_converter/scripts/launch_vector_map_loader.sh
+[88.343s] Invoked command in '/home/ros/autoware.ai/build/lanelet_aisan_converter' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lanelet_aisan_converter --target install -- -j12 -l12

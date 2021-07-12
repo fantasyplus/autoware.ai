@@ -1,0 +1,12 @@
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/lib/pkgconfig/lidar_euclidean_cluster_detect.pc
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/cmake/lidar_euclidean_cluster_detectConfig.cmake
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/cmake/lidar_euclidean_cluster_detectConfig-version.cmake
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/package.xml
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/gpu_euclidean_clustering.h
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/cluster.h
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/include/lidar_euclidean_cluster_detect/gencolors.cpp
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/lib/lidar_euclidean_cluster_detect/lidar_euclidean_cluster_detect
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch/euclidean_clustering_Exp.launch
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch/lidar_euclidean_cluster_detect.launch
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/launch/lidar_euclidean_cluster_detect_param.launch
+/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/share/lidar_euclidean_cluster_detect/config/params.yaml

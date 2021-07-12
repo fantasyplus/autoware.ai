@@ -1,0 +1,115 @@
+CUDA_TOOLKIT_ROOT_DIR not found or specified
+CMake Warning at /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+  CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+  variable and recompile to enable it
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (AW_CHECK_CUDA)
+
+
+CMake Warning at CMakeLists.txt:158 (message):
+  Building vision_darknet_detect without CUDA
+
+
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:[m[K In function ‘[01m[Kload_regression_labels_paths[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:574:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfscanf(file, "%f", &(y.vals[i][j]))[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:[m[K In function ‘[01m[Kload_cifar10_data[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:1354:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(bytes, 1, 3073, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:[m[K In function ‘[01m[Kload_all_cifar10[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/data.c:1417:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfread(bytes, 1, 3073, fp)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_connected_weights[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1085:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.biases, sizeof(float), l.outputs, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1086:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.weights, sizeof(float), l.outputs*l.inputs, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1093:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.scales, sizeof(float), l.outputs, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1094:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_mean, sizeof(float), l.outputs, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1095:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_variance, sizeof(float), l.outputs, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_batchnorm_weights[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1109:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.scales, sizeof(float), l.c, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1110:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.rolling_mean, sizeof(float), l.c, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1111:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.rolling_variance, sizeof(float), l.c, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_convolutional_weights_binary[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1121:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.biases, sizeof(float), l.n, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1123:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.scales, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1124:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_mean, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1125:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_variance, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1131:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(&mean, sizeof(float), 1, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1135:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfread(&c, sizeof(char), 1, fp)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_convolutional_weights[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1156:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.biases, sizeof(float), l.n, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1158:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.scales, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1159:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_mean, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1160:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(l.rolling_variance, sizeof(float), l.n, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1188:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(l.weights, sizeof(float), num, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:[m[K In function ‘[01m[Kload_weights_upto[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1217:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(&major, sizeof(int), 1, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1218:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(&minor, sizeof(int), 1, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1219:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(&revision, sizeof(int), 1, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1221:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(net->seen, sizeof(size_t), 1, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1224:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfread(&iseen, sizeof(int), 1, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1279:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfread(l.biases, sizeof(float), l.outputs, fp)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/parser.c:1280:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfread(l.weights, sizeof(float), size, fp)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c:[m[K In function ‘[01m[Kread_file[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c:267:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfread(text, 1, size, fp)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c:[m[K In function ‘[01m[Kfgetl[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/vision_darknet_detect/darknet/src/utils.c:355:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfgets[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfgets(&line[curr], readsize, fp)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

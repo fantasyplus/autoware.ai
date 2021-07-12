@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/emergency_handler/devel
+
+Name: emergency_handler
+Description: Description of emergency_handler
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib -lsystem_status_filter
+Requires: autoware_msgs autoware_system_msgs autoware_health_checker std_msgs

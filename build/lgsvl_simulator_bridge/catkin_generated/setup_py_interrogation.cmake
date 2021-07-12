@@ -1,0 +1,7 @@
+set(lgsvl_simulator_bridge_SETUP_PY_SETUP_MODULE "distutils.core")
+set(lgsvl_simulator_bridge_SETUP_PY_VERSION "1.12.0")
+set(lgsvl_simulator_bridge_SETUP_PY_SCRIPTS "")
+set(lgsvl_simulator_bridge_SETUP_PY_PACKAGES "lgsvl_simulator_bridge")
+set(lgsvl_simulator_bridge_SETUP_PY_PACKAGE_DIRS "src/lgsvl_simulator_bridge")
+set(lgsvl_simulator_bridge_SETUP_PY_MODULES "")
+set(lgsvl_simulator_bridge_SETUP_PY_MODULE_DIRS "")

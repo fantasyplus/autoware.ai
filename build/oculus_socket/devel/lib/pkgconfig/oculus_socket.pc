@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/oculus_socket/devel
+
+Name: oculus_socket
+Description: Description of oculus_socket
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,62 @@
+[0.049s] Invoking command in '/home/ros/autoware.ai/build/gnss': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss -- -j12 -l12
+[0.276s] [35m[1mScanning dependencies of target gnss[0m
+[0.335s] [ 50%] [32mBuilding CXX object CMakeFiles/gnss.dir/src/geo_pos_conv.cpp.o[0m
+[0.661s] [100%] [32m[1mLinking CXX shared library devel/lib/libgnss.so[0m
+[1.200s] [100%] Built target gnss
+[1.307s] Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss -- -j12 -l12
+[2.743s] Invoking command in '/home/ros/autoware.ai/build/gnss': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss --target tests -- -j12 -l12
+[3.141s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[3.147s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[3.175s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[3.175s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[3.175s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[3.176s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[3.185s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[3.194s] [35m[1mScanning dependencies of target gtest[0m
+[3.195s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[3.198s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[3.210s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.216s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[3.219s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[3.233s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.236s] [  0%] Built target std_msgs_generate_messages_eus
+[3.252s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[3.260s] [  0%] Built target roscpp_generate_messages_py
+[3.275s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.301s] [  0%] Built target std_msgs_generate_messages_py
+[3.309s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[3.309s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.313s] [  0%] Built target roscpp_generate_messages_eus
+[3.313s] [  0%] Built target roscpp_generate_messages_lisp
+[3.326s] [ 20%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.336s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[3.359s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[3.359s] [ 20%] Built target roscpp_generate_messages_nodejs
+[3.359s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[3.396s] [ 20%] Built target std_msgs_generate_messages_cpp
+[3.451s] [ 20%] Built target roscpp_generate_messages_cpp
+[3.452s] [ 20%] Built target std_msgs_generate_messages_lisp
+[3.459s] [ 20%] Built target std_msgs_generate_messages_nodejs
+[13.576s] [ 40%] [32m[1mLinking CXX shared library libgtest.so[0m
+[13.709s] [ 40%] Built target gtest
+[13.734s] [35m[1mScanning dependencies of target test_gnss[0m
+[13.784s] [ 60%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/src/geo_pos_conv.cpp.o[0m
+[13.788s] [ 80%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/test/test_gnss.cpp.o[0m
+[16.276s] [100%] [32m[1mLinking CXX executable devel/lib/gnss/test_gnss[0m
+[16.738s] [100%] Built target test_gnss
+[16.793s] [35m[1mScanning dependencies of target tests[0m
+[16.912s] [100%] Built target tests
+[16.944s] Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss --target tests -- -j12 -l12
+[18.020s] Invoking command in '/home/ros/autoware.ai/build/gnss': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss --target install -- -j12 -l12
+[18.250s] [100%] Built target gnss
+[18.337s] [36mInstall the project...[0m
+[18.349s] -- Install configuration: "Release"
+[18.349s] -- Installing: /home/ros/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
+[18.349s] -- Installing: /home/ros/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
+[18.349s] -- Installing: /home/ros/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+[18.350s] -- Installing: /home/ros/autoware.ai/install/gnss/share/gnss/package.xml
+[18.350s] -- Installing: /home/ros/autoware.ai/install/gnss/include/gnss
+[18.350s] -- Installing: /home/ros/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
+[18.350s] -- Installing: /home/ros/autoware.ai/install/gnss/lib/libgnss.so
+[18.350s] -- Set runtime path of "/home/ros/autoware.ai/install/gnss/lib/libgnss.so" to ""
+[18.355s] Invoked command in '/home/ros/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gnss --target install -- -j12 -l12

@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/autoware_lanelet2_msgs/devel
+
+Name: autoware_lanelet2_msgs
+Description: Description of autoware_lanelet2_msgs
+Version: 1.13.0
+Cflags: -I/home/ros/autoware.ai/build/autoware_lanelet2_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

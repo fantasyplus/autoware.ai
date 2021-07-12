@@ -1,0 +1,7 @@
+/home/ros/autoware.ai/install/udon_socket/lib/pkgconfig/udon_socket.pc
+/home/ros/autoware.ai/install/udon_socket/share/udon_socket/cmake/udon_socketConfig.cmake
+/home/ros/autoware.ai/install/udon_socket/share/udon_socket/cmake/udon_socketConfig-version.cmake
+/home/ros/autoware.ai/install/udon_socket/share/udon_socket/package.xml
+/home/ros/autoware.ai/install/udon_socket/lib/libudon.so
+/home/ros/autoware.ai/install/udon_socket/lib/udon_socket/udon_receiver
+/home/ros/autoware.ai/install/udon_socket/lib/udon_socket/udon_sender

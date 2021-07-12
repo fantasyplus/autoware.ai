@@ -1,0 +1,10 @@
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/lib/pkgconfig/vehicle_gazebo_simulation_launcher.pc
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/cmake/vehicle_gazebo_simulation_launcherConfig.cmake
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/cmake/vehicle_gazebo_simulation_launcherConfig-version.cmake
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/package.xml
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/launch/world_test.launch
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/launch/rviz_test.launch
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/launch/gazebo_launcher.launch
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/scripts/upgrade_gazebo_stable_version.sh
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/scripts/setup.sh
+/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share/vehicle_gazebo_simulation_launcher/scripts/download_model.sh

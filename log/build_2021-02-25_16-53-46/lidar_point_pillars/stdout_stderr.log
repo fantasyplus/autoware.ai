@@ -1,0 +1,10 @@
+-- CUDA compilation status: 1.
+CMake Error at /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:32 (message):
+  GPU support on Melodic requires Eigen version>= 3.3.7
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (AW_CHECK_CUDA)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ros/autoware.ai/build/lidar_point_pillars/CMakeFiles/CMakeOutput.log".
+See also "/home/ros/autoware.ai/build/lidar_point_pillars/CMakeFiles/CMakeError.log".

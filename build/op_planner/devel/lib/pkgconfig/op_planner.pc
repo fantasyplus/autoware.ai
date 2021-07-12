@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/op_planner/devel
+
+Name: op_planner
+Description: Description of op_planner
+Version: 1.12.0
+Cflags: -I/home/ros/autoware.ai/src/autoware/common/op_planner/include -I/usr/include
+Libs: -L${prefix}/lib -lop_planner /usr/lib/x86_64-linux-gnu/libtinyxml.so
+Requires: op_utility

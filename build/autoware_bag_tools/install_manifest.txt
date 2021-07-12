@@ -1,0 +1,7 @@
+/home/ros/autoware.ai/install/autoware_bag_tools/lib/pkgconfig/autoware_bag_tools.pc
+/home/ros/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/cmake/autoware_bag_toolsConfig.cmake
+/home/ros/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/cmake/autoware_bag_toolsConfig-version.cmake
+/home/ros/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/package.xml
+/home/ros/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/change_frame_id.py
+/home/ros/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/replace_msg_time_with_hdr.py
+/home/ros/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/nmea2kml

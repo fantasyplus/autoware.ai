@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: .
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/vehicle_engage_panel/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/vehicle_engage_panel/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Using Qt5 based on the rviz_QT_VERSION: 5.9.5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/vehicle_engage_panel
+[35m[1mScanning dependencies of target vehicle_engage_panel_autogen[0m
+[ 25%] [34m[1mAutomatic MOC for target vehicle_engage_panel[0m
+[ 25%] Built target vehicle_engage_panel_autogen
+[35m[1mScanning dependencies of target vehicle_engage_panel[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vehicle_engage_panel.dir/src/vehicle_engage_panel.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/vehicle_engage_panel.dir/vehicle_engage_panel_autogen/mocs_compilation.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libvehicle_engage_panel.so[0m
+[100%] Built target vehicle_engage_panel
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 25%] [34m[1mAutomatic MOC for target vehicle_engage_panel[0m
+[ 25%] Built target vehicle_engage_panel_autogen
+[100%] Built target vehicle_engage_panel
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/lib/pkgconfig/vehicle_engage_panel.pc
+-- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/cmake/vehicle_engage_panelConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/cmake/vehicle_engage_panelConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/package.xml
+-- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/lib/libvehicle_engage_panel.so
+-- Set runtime path of "/home/ros/autoware.ai/install/vehicle_engage_panel/lib/libvehicle_engage_panel.so" to ""
+-- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/plugin_description.xml

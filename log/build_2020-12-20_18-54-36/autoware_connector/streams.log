@@ -1,0 +1,349 @@
+[0.101s] Invoking command in '/home/ros/autoware.ai/build/autoware_connector': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/autoware_connector -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_connector
+[0.232s] -- The C compiler identification is GNU 7.5.0
+[0.349s] -- The CXX compiler identification is GNU 7.5.0
+[0.355s] -- Check for working C compiler: /usr/bin/cc
+[0.570s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.571s] -- Detecting C compiler ABI info
+[0.721s] -- Detecting C compiler ABI info - done
+[0.735s] -- Detecting C compile features
+[1.200s] -- Detecting C compile features - done
+[1.204s] -- Check for working CXX compiler: /usr/bin/c++
+[1.375s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.376s] -- Detecting CXX compiler ABI info
+[1.543s] -- Detecting CXX compiler ABI info - done
+[1.554s] -- Detecting CXX compile features
+[2.203s] -- Detecting CXX compile features - done
+[2.206s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/autoware_connector/devel
+[2.207s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.207s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.242s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.242s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.242s] -- Using Debian Python package layout
+[2.242s] -- Using empy: /usr/bin/empy
+[2.527s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.528s] -- Call enable_testing()
+[2.531s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/autoware_connector/test_results
+[2.568s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.568s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.602s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.606s] -- Looking for pthread.h
+[2.804s] -- Looking for pthread.h - found
+[2.804s] -- Looking for pthread_create
+[2.930s] -- Looking for pthread_create - not found
+[2.930s] -- Looking for pthread_create in pthreads
+[3.036s] -- Looking for pthread_create in pthreads - not found
+[3.036s] -- Looking for pthread_create in pthread
+[3.161s] -- Looking for pthread_create in pthread - found
+[3.163s] -- Found Threads: TRUE  
+[3.170s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.254s] -- catkin 0.7.29
+[3.254s] -- BUILD_SHARED_LIBS is on
+[3.473s] -- CUDA compilation status: .
+[3.567s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.022s] -- Configuring done
+[4.078s] -- Generating done
+[4.093s] -- Build files have been written to: /home/ros/autoware.ai/build/autoware_connector
+[4.104s] Invoked command in '/home/ros/autoware.ai/build/autoware_connector' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/autoware_connector -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_connector
+[4.105s] Invoking command in '/home/ros/autoware.ai/build/autoware_connector': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_connector -- -j12 -l12
+[4.175s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[4.192s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.209s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[4.222s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[4.254s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[4.272s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[4.299s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[4.318s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[4.349s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[4.381s] [  0%] Built target autoware_msgs_generate_messages_eus
+[4.437s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_cpp[0m
+[4.494s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[4.516s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_lisp[0m
+[4.555s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[4.593s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_nodejs[0m
+[4.654s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[4.710s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[4.744s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[4.774s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[4.821s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[4.859s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[4.876s] [  0%] Built target sensor_msgs_generate_messages_py
+[4.896s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[4.911s] [  0%] Built target tf_generate_messages_py
+[4.932s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[4.956s] [  0%] Built target autoware_msgs_generate_messages_py
+[4.974s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[4.990s] [  0%] Built target std_msgs_generate_messages_py
+[5.047s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[5.080s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[5.111s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[5.130s] [  0%] Built target std_msgs_generate_messages_cpp
+[5.149s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[5.167s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[5.183s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[5.218s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[5.259s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[5.299s] [  0%] Built target std_msgs_generate_messages_eus
+[5.333s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[5.377s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[5.410s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[5.460s] [  0%] Built target geometry_msgs_generate_messages_py
+[5.506s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_py[0m
+[5.534s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[5.553s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[5.576s] [  0%] Built target sensor_msgs_generate_messages_eus
+[5.592s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[5.631s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[5.648s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[5.667s] [  0%] Built target roscpp_generate_messages_nodejs
+[5.701s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[5.725s] [  0%] Built target std_msgs_generate_messages_lisp
+[5.752s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[5.777s] [  0%] Built target std_msgs_generate_messages_nodejs
+[5.795s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[5.808s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[5.822s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[5.836s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[5.849s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[5.865s] [  0%] Built target pcl_msgs_generate_messages_eus
+[5.888s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[5.942s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[5.955s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[5.974s] [  0%] Built target actionlib_msgs_generate_messages_py
+[5.993s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[6.028s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[6.044s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[6.077s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[6.096s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[6.134s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.158s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[6.183s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[6.203s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[6.216s] [  0%] Built target nav_msgs_generate_messages_cpp
+[6.230s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[6.246s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[6.255s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[6.291s] [  0%] Built target nav_msgs_generate_messages_lisp
+[6.310s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[6.322s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[6.340s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[6.356s] [  0%] Built target roscpp_generate_messages_lisp
+[6.371s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[6.390s] [  0%] Built target roscpp_generate_messages_py
+[6.412s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[6.437s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[6.453s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[6.484s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[6.499s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[6.515s] [  0%] Built target roscpp_generate_messages_eus
+[6.536s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[6.552s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[6.566s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_eus[0m
+[6.585s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[6.599s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[6.619s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[6.637s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[6.651s] [  0%] Built target actionlib_generate_messages_nodejs
+[6.667s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[6.684s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[6.705s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[6.719s] [  0%] Built target tf_generate_messages_cpp
+[6.736s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[6.764s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[6.792s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[6.808s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[6.828s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[6.846s] [  0%] Built target tf_generate_messages_eus
+[6.865s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[6.888s] [  0%] Built target tf_generate_messages_lisp
+[6.902s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[6.915s] [  0%] Built target tf_generate_messages_nodejs
+[6.929s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[6.942s] [  0%] Built target pcl_msgs_generate_messages_py
+[6.968s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[6.982s] [  0%] Built target actionlib_generate_messages_eus
+[6.995s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[7.012s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[7.031s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[7.046s] [  0%] Built target actionlib_generate_messages_lisp
+[7.059s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[7.087s] [  0%] Built target tf2_msgs_generate_messages_py
+[7.103s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[7.118s] [  0%] Built target actionlib_generate_messages_py
+[7.139s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[7.161s] [  0%] Built target nav_msgs_generate_messages_eus
+[7.176s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[7.199s] [  0%] Built target tf2_msgs_generate_messages_eus
+[7.229s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[7.247s] [  0%] Built target nav_msgs_generate_messages_py
+[7.263s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[7.296s] [  0%] Built target geometry_msgs_generate_messages_eus
+[7.313s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[7.325s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[7.354s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[7.368s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[7.391s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[7.410s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[7.424s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[7.447s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[7.462s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[7.481s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[7.501s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[7.527s] [  0%] Built target actionlib_generate_messages_cpp
+[7.545s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[7.570s] [  0%] Built target roscpp_generate_messages_cpp
+[7.590s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[7.602s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[7.619s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[7.631s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[7.648s] [35m[1mScanning dependencies of target can_odometry[0m
+[7.688s] [ 16%] [32mBuilding CXX object CMakeFiles/can_odometry.dir/nodes/can_odometry/can_odometry_node.cpp.o[0m
+[10.268s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[10.268s]                  from [01m[K/home/ros/autoware.ai/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_node.cpp:18[m[K:
+[10.268s] [01m[K/home/ros/autoware.ai/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_core.h:[m[K In member function ‘[01m[Kvoid autoware_connector::Odometry::updateOdometry(double, double, const ros::Time&)[m[K’:
+[10.268s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K-Wformat=[m[K]
+[10.269s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[10.269s]                                                                                                                                                                                 [01;35m[K^[m[K
+[10.269s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[10.269s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[10.269s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.269s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[10.269s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[10.269s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.270s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[10.270s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[10.270s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[10.270s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[10.270s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[10.270s]                        [01;36m[K^~~~~~~[m[K
+[10.270s] [01m[K/home/ros/autoware.ai/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_core.h:60:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[10.270s]      [01;36m[KR[m[KOS_INFO("dt : %f delta (x y th) : (%f %f %f %f)", dt, delta_x, delta_y, delta_th);
+[10.270s]      [01;36m[K^[m[K
+[10.764s] [ 33%] [32mBuilding CXX object CMakeFiles/can_odometry.dir/nodes/can_odometry/can_odometry_core.cpp.o[0m
+[13.511s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[13.512s]                  from [01m[K/home/ros/autoware.ai/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_core.h:23[m[K,
+[13.512s]                  from [01m[K/home/ros/autoware.ai/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_core.cpp:17[m[K:
+[13.512s] [01m[K/home/ros/autoware.ai/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_core.h:[m[K In member function ‘[01m[Kvoid autoware_connector::Odometry::updateOdometry(double, double, const ros::Time&)[m[K’:
+[13.512s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K-Wformat=[m[K]
+[13.512s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[13.513s]                                                                                                                                                                                 [01;35m[K^[m[K
+[13.513s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[13.513s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[13.513s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.513s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[13.513s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[13.514s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.514s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[13.514s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[13.514s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[13.514s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[13.514s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[13.515s]                        [01;36m[K^~~~~~~[m[K
+[13.515s] [01m[K/home/ros/autoware.ai/src/autoware/core_perception/autoware_connector/nodes/can_odometry/can_odometry_core.h:60:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[13.515s]      [01;36m[KR[m[KOS_INFO("dt : %f delta (x y th) : (%f %f %f %f)", dt, delta_x, delta_y, delta_th);
+[13.515s]      [01;36m[K^[m[K
+[15.195s] [ 50%] [32m[1mLinking CXX executable devel/lib/autoware_connector/can_odometry[0m
+[15.430s] [ 50%] Built target can_odometry
+[15.464s] [35m[1mScanning dependencies of target can_status_translator[0m
+[15.529s] [ 66%] [32mBuilding CXX object CMakeFiles/can_status_translator.dir/nodes/can_status_translator/can_status_translator_node.cpp.o[0m
+[18.877s] [ 83%] [32mBuilding CXX object CMakeFiles/can_status_translator.dir/nodes/can_status_translator/can_status_translator_core.cpp.o[0m
+[24.212s] [100%] [32m[1mLinking CXX executable devel/lib/autoware_connector/can_status_translator[0m
+[24.420s] [100%] Built target can_status_translator
+[24.437s] Invoked command in '/home/ros/autoware.ai/build/autoware_connector' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_connector -- -j12 -l12
+[24.701s] Invoking command in '/home/ros/autoware.ai/build/autoware_connector': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_connector --target tests -- -j12 -l12
+[24.790s] [35m[1mScanning dependencies of target tests[0m
+[24.804s] Built target tests
+[24.832s] Invoked command in '/home/ros/autoware.ai/build/autoware_connector' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_connector --target tests -- -j12 -l12
+[25.062s] Invoking command in '/home/ros/autoware.ai/build/autoware_connector': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_connector --target install -- -j12 -l12
+[25.153s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[25.191s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[25.226s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[25.263s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[25.301s] [  0%] Built target autoware_msgs_generate_messages_eus
+[25.341s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[25.387s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[25.422s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[25.451s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[25.486s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[25.514s] [  0%] Built target sensor_msgs_generate_messages_py
+[25.547s] [  0%] Built target tf_generate_messages_py
+[25.582s] [  0%] Built target autoware_msgs_generate_messages_py
+[25.618s] [  0%] Built target std_msgs_generate_messages_py
+[25.649s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[25.678s] [  0%] Built target std_msgs_generate_messages_cpp
+[25.711s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[25.747s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[25.788s] [  0%] Built target std_msgs_generate_messages_eus
+[25.825s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[25.855s] [  0%] Built target geometry_msgs_generate_messages_py
+[25.884s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[25.915s] [  0%] Built target sensor_msgs_generate_messages_eus
+[25.939s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[25.976s] [  0%] Built target roscpp_generate_messages_nodejs
+[26.004s] [  0%] Built target std_msgs_generate_messages_lisp
+[26.042s] [  0%] Built target std_msgs_generate_messages_nodejs
+[26.076s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[26.107s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[26.135s] [  0%] Built target pcl_msgs_generate_messages_eus
+[26.172s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[26.208s] [  0%] Built target actionlib_msgs_generate_messages_py
+[26.249s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[26.288s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[26.322s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[26.350s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[26.378s] [  0%] Built target nav_msgs_generate_messages_cpp
+[26.416s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[26.447s] [  0%] Built target nav_msgs_generate_messages_lisp
+[26.480s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[26.505s] [  0%] Built target roscpp_generate_messages_lisp
+[26.531s] [  0%] Built target roscpp_generate_messages_py
+[26.570s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[26.603s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[26.636s] [  0%] Built target roscpp_generate_messages_eus
+[26.672s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[26.708s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[26.737s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[26.758s] [  0%] Built target actionlib_generate_messages_nodejs
+[26.781s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[26.804s] [  0%] Built target tf_generate_messages_cpp
+[26.826s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[26.861s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[26.903s] [  0%] Built target tf_generate_messages_eus
+[26.939s] [  0%] Built target tf_generate_messages_lisp
+[26.986s] [  0%] Built target tf_generate_messages_nodejs
+[27.014s] [  0%] Built target pcl_msgs_generate_messages_py
+[27.042s] [  0%] Built target actionlib_generate_messages_eus
+[27.066s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[27.100s] [  0%] Built target actionlib_generate_messages_lisp
+[27.138s] [  0%] Built target tf2_msgs_generate_messages_py
+[27.180s] [  0%] Built target actionlib_generate_messages_py
+[27.208s] [  0%] Built target nav_msgs_generate_messages_eus
+[27.249s] [  0%] Built target tf2_msgs_generate_messages_eus
+[27.275s] [  0%] Built target nav_msgs_generate_messages_py
+[27.305s] [  0%] Built target geometry_msgs_generate_messages_eus
+[27.335s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[27.379s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[27.415s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[27.445s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[27.477s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[27.523s] [  0%] Built target actionlib_generate_messages_cpp
+[27.578s] [  0%] Built target roscpp_generate_messages_cpp
+[27.605s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[27.641s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[27.696s] [ 50%] Built target can_odometry
+[27.732s] [100%] Built target can_status_translator
+[27.763s] [36mInstall the project...[0m
+[27.774s] -- Install configuration: "Release"
+[27.775s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/lib/pkgconfig/autoware_connector.pc
+[27.775s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/cmake/autoware_connectorConfig.cmake
+[27.776s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/cmake/autoware_connectorConfig-version.cmake
+[27.776s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/package.xml
+[27.776s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/lib/autoware_connector/can_status_translator
+[27.776s] -- Set runtime path of "/home/ros/autoware.ai/install/autoware_connector/lib/autoware_connector/can_status_translator" to ""
+[27.777s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/lib/autoware_connector/can_odometry
+[27.777s] -- Set runtime path of "/home/ros/autoware.ai/install/autoware_connector/lib/autoware_connector/can_odometry" to ""
+[27.777s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch
+[27.777s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch/can_status_translator.launch
+[27.777s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch/can2odom.launch
+[27.777s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch/vel_pose_connect.launch
+[27.778s] -- Installing: /home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch/localization_connect.launch
+[27.782s] Invoked command in '/home/ros/autoware.ai/build/autoware_connector' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_connector --target install -- -j12 -l12

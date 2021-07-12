@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/sound_player
+
+Name: sound_player
+Description: Description of sound_player
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

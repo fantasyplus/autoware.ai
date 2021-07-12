@@ -1,0 +1,33 @@
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp:17:0[m[K:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:[m[K In constructor ‘[01m[KVelocitySetInfo::VelocitySetInfo()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:53:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KVelocitySetInfo::set_pose_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   bool [01;35m[Kset_pose_[m[K;
+        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:45:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint VelocitySetInfo::wpidx_detectionResultByOtherNodes_[m[K’ [[01;35m[K-Wreorder[m[K]
+   int  [01;35m[Kwpidx_detectionResultByOtherNodes_[m[K; // waypoints index@finalwaypoints
+        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp:27:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KVelocitySetInfo[m[K::VelocitySetInfo()
+ [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/src/astar_avoid/astar_avoid.cpp:17:0[m[K:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h:[m[K In constructor ‘[01m[KAstarAvoid::AstarAvoid()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h:105:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KAstarAvoid::closest_waypoint_initialized_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   bool [01;35m[Kclosest_waypoint_initialized_[m[K;
+        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/astar_avoid/astar_avoid.h:87:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AstarAvoid::terminate_thread_[m[K’ [[01;35m[K-Wreorder[m[K]
+   bool [01;35m[Kterminate_thread_[m[K;
+        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/src/astar_avoid/astar_avoid.cpp:19:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAstarAvoid[m[K::AstarAvoid()
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp:17:0[m[K:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:[m[K In constructor ‘[01m[KVelocitySetInfo::VelocitySetInfo()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:53:8:[m[K [01;35m[Kwarning: [m[K‘[01m[KVelocitySetInfo::set_pose_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   bool [01;35m[Kset_pose_[m[K;
+        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/include/waypoint_planner/velocity_set/velocity_set_info.h:45:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint VelocitySetInfo::wpidx_detectionResultByOtherNodes_[m[K’ [[01;35m[K-Wreorder[m[K]
+   int  [01;35m[Kwpidx_detectionResultByOtherNodes_[m[K; // waypoints index@finalwaypoints
+        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_planner/src/velocity_set/velocity_set_info.cpp:27:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KVelocitySetInfo[m[K::VelocitySetInfo()
+ [01;35m[K^~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/ros_observer.dir/src/ros_observer.cpp.o  -o devel/lib/ros_observer/ros_observer -lrt -lboost_thread -lboost_chrono -lboost_system -lboost_date_time -lboost_atomic -lpthread 

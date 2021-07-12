@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/op_ros_helpers
+
+Name: op_ros_helpers
+Description: Description of op_ros_helpers
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lop_ros_helpers
+Requires: autoware_msgs geometry_msgs libwaypoint_follower vector_map_msgs

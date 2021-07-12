@@ -1,0 +1,125 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/runtime_manager/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/runtime_manager/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/runtime_manager
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/pkgconfig/runtime_manager.pc
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/cmake/runtime_managerConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/cmake/runtime_managerConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/package.xml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/ftrace.py
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/proc_manager.py
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/rtmgr.py
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/runtime_manager_dialog.py
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/test_pub.py
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/test_srv.py
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/3dm_gx5_15.sh
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/add_perm.sh
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/adis16470.sh
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/avt_vimba.sh
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/gazebo.sh
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/mti300.sh
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/vg440.sh
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/cleanup
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/run
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/run_proc_manager
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/scripts/subnet_chk.py
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/computing.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/data.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/empty.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/interface.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/main.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/map.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/qs.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/rtmgr.wxg
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/rtmgr_icon.xpm
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/sensing.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/setup.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/simulation.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/state.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/status.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/topics.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/vector_map_files.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/viewer.yaml
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/autoware_logo_1.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/autoware_logo_2.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/autoware_logo_2_white.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/axe.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/database.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/dec.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/inc.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/mobile.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/nagoya_university.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/tablet.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/lib/runtime_manager/images/vehicle.png
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/avt_camera.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/calibration_publisher.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/ex_mat_pub.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/check.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/control.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/init.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/map.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/perception.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/planning.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/sensor.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/set.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl32e.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl64e_s2.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_hdl64e_s3.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp16.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp16_hires.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/velodyne_vlp32c.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/mqtt_socket.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/points2image.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/setup_tf.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/setup_vehicle_info.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/synchronization.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/tablet_socket.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/traffic_light.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/uvc_camera.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/vehicle_socket.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch_files/vscan.launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch
+-- Installing: /home/ros/autoware.ai/install/runtime_manager/share/runtime_manager/launch/runtime_manager.launch

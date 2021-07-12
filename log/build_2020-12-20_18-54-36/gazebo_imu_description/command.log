@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description --target install -- -j12 -l12

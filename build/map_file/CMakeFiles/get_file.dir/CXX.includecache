@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ros/autoware.ai/src/autoware/common/map_file/include/map_file/get_file.h
+cstdint
+-
+string
+-
+netinet/in.h
+-
+
+/home/ros/autoware.ai/src/autoware/common/map_file/lib/map_file/get_file.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+string
+-
+fstream
+-
+sstream
+-
+ext/stdio_filebuf.h
+-
+curl/curl.h
+-
+map_file/get_file.h
+-
+

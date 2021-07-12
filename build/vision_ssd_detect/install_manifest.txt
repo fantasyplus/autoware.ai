@@ -1,0 +1,4 @@
+/home/ros/autoware.ai/install/vision_ssd_detect/lib/pkgconfig/vision_ssd_detect.pc
+/home/ros/autoware.ai/install/vision_ssd_detect/share/vision_ssd_detect/cmake/vision_ssd_detectConfig.cmake
+/home/ros/autoware.ai/install/vision_ssd_detect/share/vision_ssd_detect/cmake/vision_ssd_detectConfig-version.cmake
+/home/ros/autoware.ai/install/vision_ssd_detect/share/vision_ssd_detect/package.xml

@@ -1,0 +1,15 @@
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by
+  "jsk_recognition_msgs" with any of the following names:
+
+    jsk_recognition_msgsConfig.cmake
+    jsk_recognition_msgs-config.cmake
+
+  Add the installation prefix of "jsk_recognition_msgs" to CMAKE_PREFIX_PATH
+  or set "jsk_recognition_msgs_DIR" to a directory containing one of the
+  above files.  If "jsk_recognition_msgs" provides a separate development
+  package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:4 (find_package)
+
+

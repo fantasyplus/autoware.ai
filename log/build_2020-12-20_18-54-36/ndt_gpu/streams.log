@@ -1,0 +1,172 @@
+[0.128s] Invoking command in '/home/ros/autoware.ai/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/ndt_gpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/ndt_gpu
+[0.522s] -- The C compiler identification is GNU 7.5.0
+[0.803s] -- The CXX compiler identification is GNU 7.5.0
+[0.809s] -- Check for working C compiler: /usr/bin/cc
+[1.186s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.186s] -- Detecting C compiler ABI info
+[1.639s] -- Detecting C compiler ABI info - done
+[1.650s] -- Detecting C compile features
+[2.981s] -- Detecting C compile features - done
+[2.985s] -- Check for working CXX compiler: /usr/bin/c++
+[3.396s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.396s] -- Detecting CXX compiler ABI info
+[3.788s] -- Detecting CXX compiler ABI info - done
+[3.801s] -- Detecting CXX compile features
+[4.932s] -- Detecting CXX compile features - done
+[4.935s] -- CUDA compilation status: .
+[4.936s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/ndt_gpu/devel
+[4.937s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[4.937s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[4.964s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.964s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.964s] -- Using Debian Python package layout
+[4.965s] -- Using empy: /usr/bin/empy
+[5.234s] -- Using CATKIN_ENABLE_TESTING: ON
+[5.234s] -- Call enable_testing()
+[5.243s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/ndt_gpu/test_results
+[5.267s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[5.268s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[5.282s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[5.284s] -- Looking for pthread.h
+[5.412s] -- Looking for pthread.h - found
+[5.413s] -- Looking for pthread_create
+[5.545s] -- Looking for pthread_create - not found
+[5.546s] -- Looking for pthread_create in pthreads
+[5.680s] -- Looking for pthread_create in pthreads - not found
+[5.680s] -- Looking for pthread_create in pthread
+[5.914s] -- Looking for pthread_create in pthread - found
+[5.915s] -- Found Threads: TRUE  
+[5.920s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.988s] -- catkin 0.7.29
+[5.988s] -- BUILD_SHARED_LIBS is on
+[6.278s] -- Checking for module 'eigen3'
+[6.359s] --   Found eigen3, version 3.3.4
+[6.596s] -- Found eigen: /usr/include/eigen3  
+[6.805s] -- Boost version: 1.65.1
+[6.805s] -- Found the following Boost libraries:
+[6.805s] --   system
+[6.805s] --   filesystem
+[6.805s] --   thread
+[6.809s] --   date_time
+[6.810s] --   iostreams
+[6.810s] --   serialization
+[6.810s] --   chrono
+[6.810s] --   atomic
+[6.810s] --   regex
+[6.813s] -- Checking for module 'libopenni'
+[6.929s] --   Found libopenni, version 1.5.4.0
+[7.311s] -- Found openni: /usr/lib/libOpenNI.so  
+[7.311s] -- Checking for module 'libopenni2'
+[7.366s] --   Found libopenni2, version 2.2.0.3
+[7.644s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[7.653s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[7.654s] ** WARNING ** io features related to ensenso will be disabled
+[7.659s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[7.660s] ** WARNING ** io features related to davidSDK will be disabled
+[7.661s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[7.666s] ** WARNING ** io features related to dssdk will be disabled
+[7.667s] ** WARNING ** io features related to pcap will be disabled
+[7.667s] ** WARNING ** io features related to png will be disabled
+[7.757s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[7.757s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[7.757s] but this file does not exist.  Possible reasons include:
+[7.757s] * The file was deleted, renamed, or moved to another location.
+[7.757s] * An install or uninstall procedure did not complete successfully.
+[7.758s] * The installation package was faulty and contained
+[7.758s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[7.758s] but not all the files it references.
+[7.758s] 
+[7.759s] -- The imported target "vtk" references the file
+[7.760s]    "/usr/bin/vtk"
+[7.760s] but this file does not exist.  Possible reasons include:
+[7.760s] * The file was deleted, renamed, or moved to another location.
+[7.760s] * An install or uninstall procedure did not complete successfully.
+[7.760s] * The installation package was faulty and contained
+[7.761s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[7.761s] but not all the files it references.
+[7.761s] 
+[7.847s] -- Found libusb-1.0: /usr/include  
+[7.847s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[7.848s] -- Checking for module 'flann'
+[7.949s] --   Found flann, version 1.9.1
+[8.145s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[8.281s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[8.282s] ** WARNING ** visualization features related to ensenso will be disabled
+[8.290s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[8.290s] ** WARNING ** visualization features related to davidSDK will be disabled
+[8.302s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[8.302s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[8.302s] ** WARNING ** visualization features related to dssdk will be disabled
+[8.302s] ** WARNING ** visualization features related to rssdk will be disabled
+[8.444s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[8.494s] -- looking for PCL_COMMON
+[8.496s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[8.496s] -- looking for PCL_OCTREE
+[8.498s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[8.499s] -- looking for PCL_IO
+[8.501s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[8.501s] -- looking for PCL_KDTREE
+[8.504s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[8.504s] -- looking for PCL_SEARCH
+[8.506s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[8.507s] -- looking for PCL_SAMPLE_CONSENSUS
+[8.509s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[8.509s] -- looking for PCL_FILTERS
+[8.512s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[8.512s] -- looking for PCL_2D
+[8.513s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[8.514s] -- looking for PCL_GEOMETRY
+[8.514s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[8.515s] -- looking for PCL_FEATURES
+[8.517s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[8.519s] -- looking for PCL_ML
+[8.521s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[8.522s] -- looking for PCL_SEGMENTATION
+[8.526s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[8.528s] -- looking for PCL_VISUALIZATION
+[8.532s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[8.533s] -- looking for PCL_SURFACE
+[8.536s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[8.536s] -- looking for PCL_REGISTRATION
+[8.539s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[8.540s] -- looking for PCL_KEYPOINTS
+[8.543s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[8.544s] -- looking for PCL_TRACKING
+[8.547s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[8.548s] -- looking for PCL_RECOGNITION
+[8.551s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[8.553s] -- looking for PCL_STEREO
+[8.556s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[8.557s] -- looking for PCL_APPS
+[8.559s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[8.563s] -- looking for PCL_IN_HAND_SCANNER
+[8.564s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  
+[8.565s] -- looking for PCL_MODELER
+[8.566s] -- Found PCL_MODELER: /usr/include/pcl-1.8  
+[8.566s] -- looking for PCL_POINT_CLOUD_EDITOR
+[8.568s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  
+[8.568s] -- looking for PCL_OUTOFCORE
+[8.571s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[8.572s] -- looking for PCL_PEOPLE
+[8.575s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[8.618s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+[8.624s] CUDA_TOOLKIT_ROOT_DIR not found or specified
+[8.645s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[8.661s] CMake Warning at /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+[8.661s]   CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+[8.661s]   variable and recompile to enable it
+[8.661s] Call Stack (most recent call first):
+[8.661s]   CMakeLists.txt:22 (AW_CHECK_CUDA)
+[8.662s] 
+[8.662s] 
+[8.662s] ndt_gpu will not be built, CUDA was not found.
+[8.662s] -- Configuring done
+[8.690s] -- Generating done
+[8.694s] -- Build files have been written to: /home/ros/autoware.ai/build/ndt_gpu
+[8.707s] Invoked command in '/home/ros/autoware.ai/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/ndt_gpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/ndt_gpu
+[8.711s] Invoking command in '/home/ros/autoware.ai/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_gpu -- -j12 -l12
+[8.939s] Invoked command in '/home/ros/autoware.ai/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_gpu -- -j12 -l12
+[9.263s] Invoking command in '/home/ros/autoware.ai/build/ndt_gpu': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_gpu --target tests -- -j12 -l12
+[9.638s] [35m[1mScanning dependencies of target tests[0m
+[9.695s] Built target tests
+[9.739s] Invoked command in '/home/ros/autoware.ai/build/ndt_gpu' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_gpu --target tests -- -j12 -l12

@@ -1,0 +1,299 @@
+[0.161s] Invoking command in '/home/ros/autoware.ai/build/tablet_socket': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/tablet_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/tablet_socket
+[0.265s] -- The C compiler identification is GNU 7.5.0
+[0.360s] -- The CXX compiler identification is GNU 7.5.0
+[0.368s] -- Check for working C compiler: /usr/bin/cc
+[0.526s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.527s] -- Detecting C compiler ABI info
+[0.695s] -- Detecting C compiler ABI info - done
+[0.709s] -- Detecting C compile features
+[1.169s] -- Detecting C compile features - done
+[1.174s] -- Check for working CXX compiler: /usr/bin/c++
+[1.364s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.366s] -- Detecting CXX compiler ABI info
+[1.545s] -- Detecting CXX compiler ABI info - done
+[1.558s] -- Detecting CXX compile features
+[2.322s] -- Detecting CXX compile features - done
+[2.325s] -- CUDA compilation status: .
+[2.327s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/tablet_socket/devel
+[2.328s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.329s] -- This workspace overlays: /home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.363s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.363s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.364s] -- Using Debian Python package layout
+[2.364s] -- Using empy: /usr/bin/empy
+[2.609s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.609s] -- Call enable_testing()
+[2.612s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/tablet_socket/test_results
+[2.648s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.648s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.666s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.668s] -- Looking for pthread.h
+[2.840s] -- Looking for pthread.h - found
+[2.841s] -- Looking for pthread_create
+[3.108s] -- Looking for pthread_create - not found
+[3.108s] -- Looking for pthread_create in pthreads
+[3.332s] -- Looking for pthread_create in pthreads - not found
+[3.332s] -- Looking for pthread_create in pthread
+[3.765s] -- Looking for pthread_create in pthread - found
+[3.766s] -- Found Threads: TRUE  
+[3.772s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.846s] -- catkin 0.7.29
+[3.847s] -- BUILD_SHARED_LIBS is on
+[4.341s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.923s] -- Configuring done
+[4.971s] -- Generating done
+[4.986s] -- Build files have been written to: /home/ros/autoware.ai/build/tablet_socket
+[4.997s] Invoked command in '/home/ros/autoware.ai/build/tablet_socket' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/tablet_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/tablet_socket
+[4.998s] Invoking command in '/home/ros/autoware.ai/build/tablet_socket': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/tablet_socket -- -j12 -l12
+[5.075s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[5.102s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[5.123s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[5.139s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[5.169s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[5.187s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[5.202s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[5.219s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[5.240s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[5.257s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[5.271s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[5.286s] [  0%] Built target autoware_msgs_generate_messages_eus
+[5.301s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_cpp[0m
+[5.316s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[5.331s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_lisp[0m
+[5.345s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[5.360s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_nodejs[0m
+[5.374s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[5.389s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[5.406s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[5.422s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[5.436s] [  0%] Built target sensor_msgs_generate_messages_py
+[5.470s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[5.493s] [  0%] Built target autoware_msgs_generate_messages_py
+[5.555s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[5.611s] [  0%] Built target std_msgs_generate_messages_py
+[5.645s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[5.697s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[5.729s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[5.745s] [  0%] Built target std_msgs_generate_messages_cpp
+[5.759s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[5.784s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[5.798s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[5.813s] [  0%] Built target std_msgs_generate_messages_eus
+[5.828s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[5.844s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[5.858s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[5.872s] [  0%] Built target geometry_msgs_generate_messages_py
+[5.887s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_py[0m
+[5.901s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[5.919s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_cpp[0m
+[5.937s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[5.954s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[5.971s] [  0%] Built target sensor_msgs_generate_messages_eus
+[5.984s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[5.998s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[6.013s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[6.030s] [  0%] Built target roscpp_generate_messages_nodejs
+[6.045s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[6.068s] [  0%] Built target std_msgs_generate_messages_lisp
+[6.084s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[6.098s] [  0%] Built target std_msgs_generate_messages_nodejs
+[6.116s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[6.130s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[6.152s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[6.167s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[6.182s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[6.197s] [  0%] Built target pcl_msgs_generate_messages_eus
+[6.211s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[6.225s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[6.242s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[6.258s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[6.274s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[6.289s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.305s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[6.319s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[6.340s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[6.355s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[6.371s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[6.388s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.406s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[6.421s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[6.436s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[6.455s] [  0%] Built target roscpp_generate_messages_lisp
+[6.470s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[6.487s] [  0%] Built target roscpp_generate_messages_py
+[6.503s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[6.520s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[6.537s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[6.554s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[6.572s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[6.629s] [  0%] Built target roscpp_generate_messages_eus
+[6.652s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[6.687s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[6.715s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_eus[0m
+[6.737s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[6.768s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[6.788s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[6.820s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_lisp[0m
+[6.852s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[6.895s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[6.921s] [  0%] Built target tf_generate_messages_py
+[6.951s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_nodejs[0m
+[6.979s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[7.012s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[7.027s] [  0%] Built target tf_generate_messages_nodejs
+[7.054s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[7.094s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[7.119s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_py[0m
+[7.132s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[7.157s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[7.184s] [  0%] Built target actionlib_generate_messages_nodejs
+[7.211s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[7.242s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[7.278s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[7.310s] [  0%] Built target tf_generate_messages_cpp
+[7.350s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[7.364s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[7.420s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[7.436s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[7.449s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[7.475s] [  0%] Built target tf_generate_messages_eus
+[7.501s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[7.527s] [  0%] Built target tf_generate_messages_lisp
+[7.553s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[7.578s] [  0%] Built target pcl_msgs_generate_messages_py
+[7.602s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[7.628s] [  0%] Built target actionlib_generate_messages_eus
+[7.651s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[7.668s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[7.691s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[7.715s] [  0%] Built target actionlib_generate_messages_lisp
+[7.733s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[7.772s] [  0%] Built target tf2_msgs_generate_messages_py
+[7.789s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[7.805s] [  0%] Built target actionlib_generate_messages_py
+[7.827s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_eus[0m
+[7.840s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[7.856s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[7.875s] [  0%] Built target tf2_msgs_generate_messages_eus
+[7.890s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[7.908s] [  0%] Built target geometry_msgs_generate_messages_eus
+[7.937s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[7.955s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[7.978s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[7.990s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[8.008s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[8.035s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[8.054s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[8.066s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[8.097s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[8.117s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[8.130s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[8.151s] [  0%] Built target actionlib_generate_messages_cpp
+[8.190s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[8.204s] [  0%] Built target roscpp_generate_messages_cpp
+[8.231s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[8.251s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[8.282s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[8.319s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[8.347s] [35m[1mScanning dependencies of target tablet_sender[0m
+[8.385s] [ 25%] [32mBuilding CXX object CMakeFiles/tablet_sender.dir/nodes/tablet_sender/tablet_sender.cpp.o[0m
+[12.176s] [ 50%] [32m[1mLinking CXX executable devel/lib/tablet_socket/tablet_sender[0m
+[12.400s] [ 50%] Built target tablet_sender
+[12.441s] [35m[1mScanning dependencies of target tablet_receiver[0m
+[12.491s] [ 75%] [32mBuilding CXX object CMakeFiles/tablet_receiver.dir/nodes/tablet_receiver/tablet_receiver.cpp.o[0m
+[16.814s] [100%] [32m[1mLinking CXX executable devel/lib/tablet_socket/tablet_receiver[0m
+[17.079s] [100%] Built target tablet_receiver
+[17.109s] Invoked command in '/home/ros/autoware.ai/build/tablet_socket' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/tablet_socket -- -j12 -l12
+[17.448s] Invoking command in '/home/ros/autoware.ai/build/tablet_socket': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/tablet_socket --target tests -- -j12 -l12
+[17.554s] [35m[1mScanning dependencies of target tests[0m
+[17.577s] Built target tests
+[17.598s] Invoked command in '/home/ros/autoware.ai/build/tablet_socket' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/tablet_socket --target tests -- -j12 -l12
+[17.746s] Invoking command in '/home/ros/autoware.ai/build/tablet_socket': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/tablet_socket --target install -- -j12 -l12
+[17.907s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[17.967s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[18.026s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[18.095s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[18.155s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[18.200s] [  0%] Built target autoware_msgs_generate_messages_eus
+[18.272s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[18.319s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[18.389s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[18.457s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[18.520s] [  0%] Built target sensor_msgs_generate_messages_py
+[18.574s] [  0%] Built target autoware_msgs_generate_messages_py
+[18.651s] [  0%] Built target std_msgs_generate_messages_py
+[18.716s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[18.778s] [  0%] Built target std_msgs_generate_messages_cpp
+[18.838s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[18.895s] [  0%] Built target std_msgs_generate_messages_eus
+[18.956s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[19.042s] [  0%] Built target geometry_msgs_generate_messages_py
+[19.098s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[19.169s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[19.237s] [  0%] Built target sensor_msgs_generate_messages_eus
+[19.289s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[19.328s] [  0%] Built target roscpp_generate_messages_nodejs
+[19.364s] [  0%] Built target std_msgs_generate_messages_lisp
+[19.418s] [  0%] Built target std_msgs_generate_messages_nodejs
+[19.508s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[19.562s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[19.645s] [  0%] Built target pcl_msgs_generate_messages_eus
+[19.718s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[19.785s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[19.864s] [  0%] Built target actionlib_msgs_generate_messages_py
+[19.941s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[19.986s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[20.070s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[20.136s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[20.265s] [  0%] Built target roscpp_generate_messages_lisp
+[20.324s] [  0%] Built target roscpp_generate_messages_py
+[20.378s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[20.444s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[20.480s] [  0%] Built target roscpp_generate_messages_eus
+[20.545s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[20.599s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[20.624s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[20.672s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[20.698s] [  0%] Built target tf_generate_messages_py
+[20.747s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[20.824s] [  0%] Built target tf_generate_messages_nodejs
+[20.910s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[20.999s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[21.073s] [  0%] Built target actionlib_generate_messages_nodejs
+[21.190s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[21.294s] [  0%] Built target tf_generate_messages_cpp
+[21.363s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[21.406s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[21.483s] [  0%] Built target tf_generate_messages_eus
+[21.583s] [  0%] Built target tf_generate_messages_lisp
+[21.711s] [  0%] Built target pcl_msgs_generate_messages_py
+[21.844s] [  0%] Built target actionlib_generate_messages_eus
+[21.981s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[22.135s] [  0%] Built target actionlib_generate_messages_lisp
+[22.246s] [  0%] Built target tf2_msgs_generate_messages_py
+[22.305s] [  0%] Built target actionlib_generate_messages_py
+[22.403s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[22.480s] [  0%] Built target tf2_msgs_generate_messages_eus
+[22.518s] [  0%] Built target geometry_msgs_generate_messages_eus
+[22.587s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[22.631s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[22.685s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[22.739s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[22.808s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[22.848s] [  0%] Built target actionlib_generate_messages_cpp
+[22.899s] [  0%] Built target roscpp_generate_messages_cpp
+[22.953s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[22.995s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[23.055s] [ 50%] Built target tablet_sender
+[23.122s] [100%] Built target tablet_receiver
+[23.163s] [36mInstall the project...[0m
+[23.180s] -- Install configuration: "Release"
+[23.180s] -- Installing: /home/ros/autoware.ai/install/tablet_socket/lib/pkgconfig/tablet_socket.pc
+[23.181s] -- Installing: /home/ros/autoware.ai/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig.cmake
+[23.181s] -- Installing: /home/ros/autoware.ai/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig-version.cmake
+[23.181s] -- Installing: /home/ros/autoware.ai/install/tablet_socket/share/tablet_socket/package.xml
+[23.182s] -- Installing: /home/ros/autoware.ai/install/tablet_socket/lib/tablet_socket/tablet_receiver
+[23.183s] -- Set runtime path of "/home/ros/autoware.ai/install/tablet_socket/lib/tablet_socket/tablet_receiver" to ""
+[23.183s] -- Installing: /home/ros/autoware.ai/install/tablet_socket/lib/tablet_socket/tablet_sender
+[23.184s] -- Set runtime path of "/home/ros/autoware.ai/install/tablet_socket/lib/tablet_socket/tablet_sender" to ""
+[23.189s] Invoked command in '/home/ros/autoware.ai/build/tablet_socket' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/tablet_socket --target install -- -j12 -l12

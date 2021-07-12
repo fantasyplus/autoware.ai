@@ -1,0 +1,9 @@
+/home/ros/autoware.ai/install/integrated_viewer/lib/pkgconfig/integrated_viewer.pc
+/home/ros/autoware.ai/install/integrated_viewer/share/integrated_viewer/cmake/integrated_viewerConfig.cmake
+/home/ros/autoware.ai/install/integrated_viewer/share/integrated_viewer/cmake/integrated_viewerConfig-version.cmake
+/home/ros/autoware.ai/install/integrated_viewer/share/integrated_viewer/package.xml
+/home/ros/autoware.ai/install/integrated_viewer/lib/libintegrated_viewer.so
+/home/ros/autoware.ai/install/integrated_viewer/share/integrated_viewer/rviz_plugin_description.xml
+/home/ros/autoware.ai/install/integrated_viewer/share/integrated_viewer/node/image_viewer_plugin/autoware_logo.png
+/home/ros/autoware.ai/install/integrated_viewer/share/integrated_viewer/node/image_viewer_plugin/car.png
+/home/ros/autoware.ai/install/integrated_viewer/share/integrated_viewer/node/image_viewer_plugin/pedestrian.png

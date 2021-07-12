@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/system_monitor': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/system_monitor -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/system_monitor
+Invoked command in '/home/ros/autoware.ai/build/system_monitor' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/system_monitor -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/system_monitor
+Invoking command in '/home/ros/autoware.ai/build/system_monitor': /usr/bin/cmake --build /home/ros/autoware.ai/build/system_monitor -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/system_monitor' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/system_monitor -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/system_monitor': /usr/bin/cmake --build /home/ros/autoware.ai/build/system_monitor --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/system_monitor' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/system_monitor --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/system_monitor': /usr/bin/cmake --build /home/ros/autoware.ai/build/system_monitor --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/system_monitor' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/system_monitor --target install -- -j12 -l12

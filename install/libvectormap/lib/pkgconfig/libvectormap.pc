@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/libvectormap
+
+Name: libvectormap
+Description: Description of libvectormap
+Version: 1.12.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -llibvectormap
+Requires: vector_map vector_map_msgs

@@ -1,0 +1,394 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: .
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/waypoint_maker/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/lane_planner;/home/ros/autoware.ai/install/libwaypoint_follower;/home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/lane_planner;/home/ros/autoware.ai/install/libwaypoint_follower;/home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/waypoint_maker/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.65.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/waypoint_maker
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_eus[0m
+[  0%] Built target tablet_socket_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_cpp[0m
+[  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[  0%] Built target vector_map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_lisp[0m
+[  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  0%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[  0%] Built target autoware_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[  0%] Built target _catkin_empty_exported_target
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_nodejs[0m
+[  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_py[0m
+[  0%] Built target tablet_socket_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[  0%] Built target autoware_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_eus[0m
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_nodejs[0m
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target waypoint_clicker[0m
+[  5%] [32mBuilding CXX object CMakeFiles/waypoint_clicker.dir/nodes/waypoint_clicker/waypoint_clicker.cpp.o[0m
+[ 10%] [32m[1mLinking CXX executable devel/lib/waypoint_maker/waypoint_clicker[0m
+[ 10%] Built target waypoint_clicker
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[ 10%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[ 10%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[ 10%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 10%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[ 10%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[ 10%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_config_msgs_generate_messages_py[0m
+[ 10%] Built target autoware_config_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 10%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[ 10%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 10%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target waypoint_marker_publisher[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/waypoint_marker_publisher.dir/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp.o[0m
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/waypoint_maker/nodes/waypoint_marker_publisher/waypoint_marker_publisher.cpp:223:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid {anonymous}::createGlobalLaneArrayMarker(std_msgs::ColorRGBA, const LaneArray&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ void [01;35m[KcreateGlobalLaneArrayMarker[m[K(std_msgs::ColorRGBA color, const autoware_msgs::LaneArray& lane_waypoints_array)
+      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 20%] [32m[1mLinking CXX executable devel/lib/waypoint_maker/waypoint_marker_publisher[0m
+[ 20%] Built target waypoint_marker_publisher
+[35m[1mScanning dependencies of target waypoint_replanner[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/waypoint_replanner.dir/nodes/waypoint_replanner/waypoint_replanner.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/waypoint_replanner.dir/nodes/waypoint_replanner/waypoint_replanner_node.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable devel/lib/waypoint_maker/waypoint_replanner[0m
+[ 35%] Built target waypoint_replanner
+[35m[1mScanning dependencies of target waypoint_velocity_visualizer[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/waypoint_velocity_visualizer.dir/nodes/waypoint_velocity_visualizer/waypoint_velocity_visualizer.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable devel/lib/waypoint_maker/waypoint_velocity_visualizer[0m
+[ 45%] Built target waypoint_velocity_visualizer
+[35m[1mScanning dependencies of target waypoint_creator[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/waypoint_creator.dir/nodes/waypoint_creator/waypoint_creator_node.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/waypoint_creator.dir/nodes/waypoint_creator/interpolate.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/waypoint_creator.dir/nodes/waypoint_creator/waypoint_creator_core.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable devel/lib/waypoint_maker/waypoint_creator[0m
+[ 65%] Built target waypoint_creator
+[35m[1mScanning dependencies of target waypoint_saver[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/waypoint_saver.dir/nodes/waypoint_saver/waypoint_saver.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable devel/lib/waypoint_maker/waypoint_saver[0m
+[ 75%] Built target waypoint_saver
+[35m[1mScanning dependencies of target waypoint_loader[0m
+[35m[1mScanning dependencies of target waypoint_extractor[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/waypoint_extractor.dir/nodes/waypoint_extractor/waypoint_extractor.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/waypoint_loader.dir/nodes/waypoint_loader/waypoint_loader_core.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/waypoint_loader.dir/nodes/waypoint_loader/waypoint_loader_node.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable devel/lib/waypoint_maker/waypoint_extractor[0m
+[100%] [32m[1mLinking CXX executable devel/lib/waypoint_maker/waypoint_loader[0m
+[100%] Built target waypoint_extractor
+[100%] Built target waypoint_loader
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target tablet_socket_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[  0%] Built target autoware_config_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target vector_map_msgs_generate_messages_py
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target tablet_socket_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target autoware_config_msgs_generate_messages_eus
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target autoware_config_msgs_generate_messages_cpp
+[ 10%] Built target waypoint_clicker
+[ 10%] Built target tf_generate_messages_cpp
+[ 10%] Built target pcl_msgs_generate_messages_lisp
+[ 10%] Built target actionlib_generate_messages_lisp
+[ 10%] Built target geometry_msgs_generate_messages_cpp
+[ 10%] Built target actionlib_generate_messages_eus
+[ 10%] Built target pcl_msgs_generate_messages_py
+[ 10%] Built target autoware_config_msgs_generate_messages_py
+[ 10%] Built target rosgraph_msgs_generate_messages_py
+[ 10%] Built target actionlib_msgs_generate_messages_eus
+[ 10%] Built target roscpp_generate_messages_eus
+[ 20%] Built target waypoint_marker_publisher
+[ 35%] Built target waypoint_replanner
+[ 45%] Built target waypoint_velocity_visualizer
+[ 65%] Built target waypoint_creator
+[ 75%] Built target waypoint_saver
+[ 90%] Built target waypoint_loader
+[100%] Built target waypoint_extractor
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/pkgconfig/waypoint_maker.pc
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/package.xml
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_loader
+-- Set runtime path of "/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_loader" to ""
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_replanner
+-- Set runtime path of "/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_replanner" to ""
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_saver
+-- Set runtime path of "/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_saver" to ""
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_clicker
+-- Set runtime path of "/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_clicker" to ""
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_marker_publisher
+-- Set runtime path of "/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_marker_publisher" to ""
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_velocity_visualizer
+-- Set runtime path of "/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_velocity_visualizer" to ""
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_extractor
+-- Set runtime path of "/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_extractor" to ""
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_creator
+-- Set runtime path of "/home/ros/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_creator" to ""
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_loader.launch
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_saver.launch
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_creator.launch
+-- Installing: /home/ros/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_velocity_visualizer.launch

@@ -1,0 +1,139 @@
+[0.035s] Invoking command in '/home/ros/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/udon_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/udon_socket
+[0.161s] -- The C compiler identification is GNU 7.5.0
+[0.270s] -- The CXX compiler identification is GNU 7.5.0
+[0.276s] -- Check for working C compiler: /usr/bin/cc
+[0.451s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.452s] -- Detecting C compiler ABI info
+[0.629s] -- Detecting C compiler ABI info - done
+[0.643s] -- Detecting C compile features
+[1.120s] -- Detecting C compile features - done
+[1.124s] -- Check for working CXX compiler: /usr/bin/c++
+[1.311s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.312s] -- Detecting CXX compiler ABI info
+[1.492s] -- Detecting CXX compiler ABI info - done
+[1.505s] -- Detecting CXX compile features
+[2.185s] -- Detecting CXX compile features - done
+[2.187s] -- CUDA compilation status: .
+[2.189s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/udon_socket/devel
+[2.190s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.190s] -- This workspace overlays: /home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.208s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.209s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.209s] -- Using Debian Python package layout
+[2.210s] -- Using empy: /usr/bin/empy
+[2.426s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.426s] -- Call enable_testing()
+[2.429s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/udon_socket/test_results
+[2.455s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.455s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.481s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.482s] -- Looking for pthread.h
+[2.624s] -- Looking for pthread.h - found
+[2.625s] -- Looking for pthread_create
+[2.782s] -- Looking for pthread_create - not found
+[2.783s] -- Looking for pthread_create in pthreads
+[2.906s] -- Looking for pthread_create in pthreads - not found
+[2.906s] -- Looking for pthread_create in pthread
+[3.064s] -- Looking for pthread_create in pthread - found
+[3.066s] -- Found Threads: TRUE  
+[3.071s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.146s] -- catkin 0.7.29
+[3.147s] -- BUILD_SHARED_LIBS is on
+[3.742s] -- Configuring done
+[3.773s] -- Generating done
+[3.779s] -- Build files have been written to: /home/ros/autoware.ai/build/udon_socket
+[3.791s] Invoked command in '/home/ros/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/udon_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/udon_socket
+[3.794s] Invoking command in '/home/ros/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/udon_socket -- -j12 -l12
+[3.987s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[4.040s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.142s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[4.232s] [  0%] Built target roscpp_generate_messages_lisp
+[4.296s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[4.351s] [  0%] Built target roscpp_generate_messages_eus
+[4.392s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[4.437s] [  0%] Built target std_msgs_generate_messages_py
+[4.484s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[4.515s] [  0%] Built target roscpp_generate_messages_nodejs
+[4.551s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[4.607s] [  0%] Built target roscpp_generate_messages_py
+[4.660s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[4.696s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[4.734s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[4.749s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[4.774s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[4.804s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.845s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.860s] [  0%] Built target std_msgs_generate_messages_eus
+[4.901s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[4.926s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.953s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[4.966s] [  0%] Built target roscpp_generate_messages_cpp
+[4.997s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[5.023s] [  0%] Built target std_msgs_generate_messages_cpp
+[5.061s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_cpp[0m
+[5.074s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[5.114s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_lisp[0m
+[5.141s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[5.167s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[5.209s] [  0%] Built target std_msgs_generate_messages_lisp
+[5.242s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[5.271s] [  0%] Built target std_msgs_generate_messages_nodejs
+[5.305s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_eus[0m
+[5.331s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[5.398s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_nodejs[0m
+[5.472s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[5.492s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_py[0m
+[5.510s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[5.554s] [35m[1mScanning dependencies of target udon[0m
+[5.587s] [ 16%] [32mBuilding CXX object CMakeFiles/udon.dir/lib/udon_socket/udon.cpp.o[0m
+[5.763s] [ 33%] [32m[1mLinking CXX shared library devel/lib/libudon.so[0m
+[5.828s] [ 33%] Built target udon
+[5.856s] [35m[1mScanning dependencies of target udon_sender[0m
+[5.889s] [ 50%] [32mBuilding CXX object CMakeFiles/udon_sender.dir/nodes/udon_sender/udon_sender.cpp.o[0m
+[11.602s] [ 66%] [32m[1mLinking CXX executable devel/lib/udon_socket/udon_sender[0m
+[11.828s] [ 66%] Built target udon_sender
+[11.849s] [35m[1mScanning dependencies of target udon_receiver[0m
+[11.875s] [ 83%] [32mBuilding CXX object CMakeFiles/udon_receiver.dir/nodes/udon_receiver/udon_receiver.cpp.o[0m
+[14.213s] [100%] [32m[1mLinking CXX executable devel/lib/udon_socket/udon_receiver[0m
+[14.445s] [100%] Built target udon_receiver
+[14.475s] Invoked command in '/home/ros/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/udon_socket -- -j12 -l12
+[14.645s] Invoking command in '/home/ros/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/udon_socket --target tests -- -j12 -l12
+[14.787s] [35m[1mScanning dependencies of target tests[0m
+[14.838s] Built target tests
+[14.877s] Invoked command in '/home/ros/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/udon_socket --target tests -- -j12 -l12
+[15.462s] Invoking command in '/home/ros/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/udon_socket --target install -- -j12 -l12
+[15.592s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[15.675s] [  0%] Built target roscpp_generate_messages_lisp
+[15.729s] [  0%] Built target roscpp_generate_messages_eus
+[15.777s] [  0%] Built target std_msgs_generate_messages_py
+[15.815s] [  0%] Built target roscpp_generate_messages_nodejs
+[15.851s] [  0%] Built target roscpp_generate_messages_py
+[15.916s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[15.953s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[16.000s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[16.030s] [  0%] Built target std_msgs_generate_messages_eus
+[16.065s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[16.092s] [  0%] Built target roscpp_generate_messages_cpp
+[16.132s] [  0%] Built target std_msgs_generate_messages_cpp
+[16.178s] [  0%] Built target tablet_socket_msgs_generate_messages_cpp
+[16.215s] [  0%] Built target tablet_socket_msgs_generate_messages_lisp
+[16.268s] [  0%] Built target std_msgs_generate_messages_lisp
+[16.295s] [  0%] Built target std_msgs_generate_messages_nodejs
+[16.328s] [  0%] Built target tablet_socket_msgs_generate_messages_eus
+[16.379s] [  0%] Built target tablet_socket_msgs_generate_messages_nodejs
+[16.411s] [  0%] Built target tablet_socket_msgs_generate_messages_py
+[16.447s] [ 33%] Built target udon
+[16.490s] [ 66%] Built target udon_sender
+[16.527s] [100%] Built target udon_receiver
+[16.555s] [36mInstall the project...[0m
+[16.566s] -- Install configuration: "Release"
+[16.566s] -- Installing: /home/ros/autoware.ai/install/udon_socket/lib/pkgconfig/udon_socket.pc
+[16.567s] -- Installing: /home/ros/autoware.ai/install/udon_socket/share/udon_socket/cmake/udon_socketConfig.cmake
+[16.567s] -- Installing: /home/ros/autoware.ai/install/udon_socket/share/udon_socket/cmake/udon_socketConfig-version.cmake
+[16.567s] -- Installing: /home/ros/autoware.ai/install/udon_socket/share/udon_socket/package.xml
+[16.567s] -- Installing: /home/ros/autoware.ai/install/udon_socket/lib/libudon.so
+[16.567s] -- Installing: /home/ros/autoware.ai/install/udon_socket/lib/udon_socket/udon_receiver
+[16.567s] -- Set runtime path of "/home/ros/autoware.ai/install/udon_socket/lib/udon_socket/udon_receiver" to ""
+[16.568s] -- Installing: /home/ros/autoware.ai/install/udon_socket/lib/udon_socket/udon_sender
+[16.573s] -- Set runtime path of "/home/ros/autoware.ai/install/udon_socket/lib/udon_socket/udon_sender" to ""
+[16.580s] Invoked command in '/home/ros/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/udon_socket --target install -- -j12 -l12

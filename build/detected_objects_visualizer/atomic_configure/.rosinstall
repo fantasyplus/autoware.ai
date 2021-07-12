@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/build/detected_objects_visualizer/devel/setup.sh

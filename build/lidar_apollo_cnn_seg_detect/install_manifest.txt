@@ -1,0 +1,4 @@
+/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/lib/pkgconfig/lidar_apollo_cnn_seg_detect.pc
+/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/share/lidar_apollo_cnn_seg_detect/cmake/lidar_apollo_cnn_seg_detectConfig.cmake
+/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/share/lidar_apollo_cnn_seg_detect/cmake/lidar_apollo_cnn_seg_detectConfig-version.cmake
+/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/share/lidar_apollo_cnn_seg_detect/package.xml

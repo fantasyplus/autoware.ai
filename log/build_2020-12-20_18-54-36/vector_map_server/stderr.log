@@ -1,0 +1,6 @@
+[01m[K/home/ros/autoware.ai/src/autoware/common/vector_map_server/nodes/vector_map_server/vector_map_server.cpp:317:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::vector<vector_map_msgs::Lane_<std::allocator<void> >, std::allocator<vector_map_msgs::Lane_<std::allocator<void> > > > {anonymous}::findNearLanes(const vector_map::VectorMap&, const std::vector<vector_map_msgs::Lane_<std::allocator<void> >, std::allocator<vector_map_msgs::Lane_<std::allocator<void> > > >&, const Point&, double)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ std::vector<Lane> [01;35m[KfindNearLanes[m[K(const VectorMap& vmap, const std::vector<Lane>& lanes, const Point& base_point,
+                   [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/vector_map_server/nodes/vector_map_server/vector_map_server.cpp:104:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool {anonymous}::isMergingLane(const Lane&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ bool [01;35m[KisMergingLane[m[K(const Lane& lane)
+      [01;35m[K^~~~~~~~~~~~~[m[K

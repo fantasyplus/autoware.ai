@@ -1,0 +1,5 @@
+/home/ros/autoware.ai/install/gazebo_imu_description/lib/pkgconfig/gazebo_imu_description.pc
+/home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig.cmake
+/home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig-version.cmake
+/home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/package.xml
+/home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf/imu.xacro

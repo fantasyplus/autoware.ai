@@ -1,0 +1,10 @@
+/home/ros/autoware.ai/install/autoware_connector/lib/pkgconfig/autoware_connector.pc
+/home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/cmake/autoware_connectorConfig.cmake
+/home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/cmake/autoware_connectorConfig-version.cmake
+/home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/package.xml
+/home/ros/autoware.ai/install/autoware_connector/lib/autoware_connector/can_status_translator
+/home/ros/autoware.ai/install/autoware_connector/lib/autoware_connector/can_odometry
+/home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch/can_status_translator.launch
+/home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch/can2odom.launch
+/home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch/vel_pose_connect.launch
+/home/ros/autoware.ai/install/autoware_connector/share/autoware_connector/launch/localization_connect.launch

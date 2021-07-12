@@ -1,0 +1,8 @@
+/home/ros/autoware.ai/install/pixel_cloud_fusion/lib/pkgconfig/pixel_cloud_fusion.pc
+/home/ros/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/cmake/pixel_cloud_fusionConfig.cmake
+/home/ros/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/cmake/pixel_cloud_fusionConfig-version.cmake
+/home/ros/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/package.xml
+/home/ros/autoware.ai/install/pixel_cloud_fusion/lib/pixel_cloud_fusion/pixel_cloud_fusion
+/home/ros/autoware.ai/install/pixel_cloud_fusion/lib/libpixel_cloud_fusion_lib.so
+/home/ros/autoware.ai/install/pixel_cloud_fusion/include/pixel_cloud_fusion/pixel_cloud_fusion.h
+/home/ros/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/launch/pixel_cloud_fusion.launch

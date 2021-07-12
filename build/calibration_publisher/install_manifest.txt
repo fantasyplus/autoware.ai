@@ -1,0 +1,5 @@
+/home/ros/autoware.ai/install/calibration_publisher/lib/pkgconfig/calibration_publisher.pc
+/home/ros/autoware.ai/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig.cmake
+/home/ros/autoware.ai/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig-version.cmake
+/home/ros/autoware.ai/install/calibration_publisher/share/calibration_publisher/package.xml
+/home/ros/autoware.ai/install/calibration_publisher/lib/calibration_publisher/calibration_publisher

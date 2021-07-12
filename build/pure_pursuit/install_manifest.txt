@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/pure_pursuit/lib/pkgconfig/pure_pursuit.pc
+/home/ros/autoware.ai/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+/home/ros/autoware.ai/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+/home/ros/autoware.ai/install/pure_pursuit/share/pure_pursuit/package.xml
+/home/ros/autoware.ai/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
+/home/ros/autoware.ai/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.launch

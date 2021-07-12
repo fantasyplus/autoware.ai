@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/graph_tools/devel
+
+Name: graph_tools
+Description: Description of graph_tools
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

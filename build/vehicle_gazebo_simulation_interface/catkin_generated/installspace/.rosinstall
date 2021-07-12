@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface/setup.sh

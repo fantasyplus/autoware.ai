@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/vehicle_engage_panel
+
+Name: vehicle_engage_panel
+Description: Description of vehicle_engage_panel
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz

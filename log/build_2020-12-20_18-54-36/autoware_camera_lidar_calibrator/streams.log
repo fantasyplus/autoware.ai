@@ -1,0 +1,495 @@
+[0.068s] Invoking command in '/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/autoware_camera_lidar_calibrator -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator
+[0.236s] -- The C compiler identification is GNU 7.5.0
+[0.341s] -- The CXX compiler identification is GNU 7.5.0
+[0.346s] -- Check for working C compiler: /usr/bin/cc
+[0.458s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.458s] -- Detecting C compiler ABI info
+[0.564s] -- Detecting C compiler ABI info - done
+[0.576s] -- Detecting C compile features
+[0.944s] -- Detecting C compile features - done
+[0.946s] -- Check for working CXX compiler: /usr/bin/c++
+[1.112s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.113s] -- Detecting CXX compiler ABI info
+[1.376s] -- Detecting CXX compiler ABI info - done
+[1.385s] -- Detecting CXX compile features
+[2.055s] -- Detecting CXX compile features - done
+[2.065s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.066s] -- CUDA compilation status: .
+[2.068s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/devel
+[2.068s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.068s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.097s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.098s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.099s] -- Using Debian Python package layout
+[2.099s] -- Using empy: /usr/bin/empy
+[2.305s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.305s] -- Call enable_testing()
+[2.314s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/test_results
+[2.340s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.341s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.391s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.391s] -- Looking for pthread.h
+[2.557s] -- Looking for pthread.h - found
+[2.558s] -- Looking for pthread_create
+[2.801s] -- Looking for pthread_create - not found
+[2.801s] -- Looking for pthread_create in pthreads
+[2.981s] -- Looking for pthread_create in pthreads - not found
+[2.981s] -- Looking for pthread_create in pthread
+[3.121s] -- Looking for pthread_create in pthread - found
+[3.122s] -- Found Threads: TRUE  
+[3.128s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.191s] -- catkin 0.7.29
+[3.191s] -- BUILD_SHARED_LIBS is on
+[3.498s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.886s] -- Found OpenCV: /usr (found version "3.2.0") 
+[4.899s] -- Checking for module 'eigen3'
+[4.940s] --   Found eigen3, version 3.3.4
+[5.155s] -- Found eigen: /usr/include/eigen3  
+[5.266s] -- Boost version: 1.65.1
+[5.267s] -- Found the following Boost libraries:
+[5.267s] --   system
+[5.267s] --   filesystem
+[5.267s] --   thread
+[5.267s] --   date_time
+[5.267s] --   iostreams
+[5.268s] --   serialization
+[5.268s] --   chrono
+[5.268s] --   atomic
+[5.268s] --   regex
+[5.270s] -- Checking for module 'libopenni'
+[5.294s] --   Found libopenni, version 1.5.4.0
+[5.385s] -- Found openni: /usr/lib/libOpenNI.so  
+[5.386s] -- Checking for module 'libopenni2'
+[5.413s] --   Found libopenni2, version 2.2.0.3
+[5.470s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[5.480s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[5.480s] ** WARNING ** io features related to ensenso will be disabled
+[5.485s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[5.485s] ** WARNING ** io features related to davidSDK will be disabled
+[5.487s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[5.487s] ** WARNING ** io features related to dssdk will be disabled
+[5.488s] ** WARNING ** io features related to pcap will be disabled
+[5.488s] ** WARNING ** io features related to png will be disabled
+[5.566s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.566s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.567s] but this file does not exist.  Possible reasons include:
+[5.567s] * The file was deleted, renamed, or moved to another location.
+[5.567s] * An install or uninstall procedure did not complete successfully.
+[5.567s] * The installation package was faulty and contained
+[5.567s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[5.567s] but not all the files it references.
+[5.568s] 
+[5.575s] -- The imported target "vtk" references the file
+[5.575s]    "/usr/bin/vtk"
+[5.575s] but this file does not exist.  Possible reasons include:
+[5.575s] * The file was deleted, renamed, or moved to another location.
+[5.575s] * An install or uninstall procedure did not complete successfully.
+[5.575s] * The installation package was faulty and contained
+[5.576s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[5.576s] but not all the files it references.
+[5.576s] 
+[5.669s] -- Found libusb-1.0: /usr/include  
+[5.669s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.670s] -- Checking for module 'flann'
+[5.742s] --   Found flann, version 1.9.1
+[5.834s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[5.895s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[5.895s] ** WARNING ** visualization features related to ensenso will be disabled
+[5.899s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[5.900s] ** WARNING ** visualization features related to davidSDK will be disabled
+[5.901s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[5.902s] ** WARNING ** visualization features related to dssdk will be disabled
+[5.903s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[5.903s] ** WARNING ** visualization features related to rssdk will be disabled
+[5.958s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[6.006s] -- looking for PCL_COMMON
+[6.009s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.009s] -- looking for PCL_OCTREE
+[6.013s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.013s] -- looking for PCL_IO
+[6.017s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.018s] -- looking for PCL_KDTREE
+[6.020s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.021s] -- looking for PCL_SEARCH
+[6.024s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.024s] -- looking for PCL_SAMPLE_CONSENSUS
+[6.028s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.028s] -- looking for PCL_FILTERS
+[6.031s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.032s] -- looking for PCL_2D
+[6.032s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[6.033s] -- looking for PCL_GEOMETRY
+[6.034s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[6.034s] -- looking for PCL_FEATURES
+[6.037s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.038s] -- looking for PCL_ML
+[6.041s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.041s] -- looking for PCL_SEGMENTATION
+[6.044s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.045s] -- looking for PCL_VISUALIZATION
+[6.048s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.049s] -- looking for PCL_SURFACE
+[6.051s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.052s] -- looking for PCL_REGISTRATION
+[6.054s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.055s] -- looking for PCL_KEYPOINTS
+[6.057s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.058s] -- looking for PCL_TRACKING
+[6.060s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.061s] -- looking for PCL_RECOGNITION
+[6.063s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.064s] -- looking for PCL_STEREO
+[6.067s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.068s] -- looking for PCL_APPS
+[6.071s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.074s] -- looking for PCL_IN_HAND_SCANNER
+[6.076s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  
+[6.076s] -- looking for PCL_MODELER
+[6.077s] -- Found PCL_MODELER: /usr/include/pcl-1.8  
+[6.077s] -- looking for PCL_POINT_CLOUD_EDITOR
+[6.078s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  
+[6.078s] -- looking for PCL_OUTOFCORE
+[6.081s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.082s] -- looking for PCL_PEOPLE
+[6.085s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.124s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+[6.942s] -- Configuring done
+[7.106s] -- Generating done
+[7.123s] -- Build files have been written to: /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator
+[7.140s] Invoked command in '/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/autoware_camera_lidar_calibrator -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator
+[7.141s] Invoking command in '/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator -- -j12 -l12
+[7.232s] [35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[7.259s] [  0%] Built target std_srvs_generate_messages_lisp
+[7.300s] [35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[7.332s] [  0%] Built target topic_tools_generate_messages_cpp
+[7.345s] [35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[7.375s] [  0%] Built target std_srvs_generate_messages_py
+[7.410s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[7.451s] [  0%] Built target geometry_msgs_generate_messages_py
+[7.490s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[7.508s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[7.526s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[7.545s] [  0%] Built target roscpp_generate_messages_cpp
+[7.569s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[7.593s] [  0%] Built target pcl_msgs_generate_messages_eus
+[7.633s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[7.668s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[7.707s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[7.753s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[7.787s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[7.809s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[7.826s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[7.856s] [  0%] Built target std_msgs_generate_messages_py
+[7.880s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[7.909s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.953s] [35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[7.989s] [  0%] Built target bond_generate_messages_lisp
+[8.002s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[8.031s] [  0%] Built target sensor_msgs_generate_messages_eus
+[8.062s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[8.090s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[8.113s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[8.156s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[8.170s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[8.183s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[8.197s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[8.210s] [  0%] Built target tf_generate_messages_py
+[8.229s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[8.259s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[8.281s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[8.338s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[8.401s] [35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[8.416s] [  0%] Built target nodelet_generate_messages_nodejs
+[8.444s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[8.471s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[8.495s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[8.525s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[8.543s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[8.572s] [  0%] Built target std_msgs_generate_messages_cpp
+[8.595s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[8.606s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[8.620s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[8.634s] [  0%] Built target sensor_msgs_generate_messages_py
+[8.652s] [35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[8.665s] [  0%] Built target nodelet_generate_messages_py
+[8.686s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[8.704s] [  0%] Built target geometry_msgs_generate_messages_eus
+[8.716s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[8.744s] [  0%] Built target std_msgs_generate_messages_lisp
+[8.759s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[8.775s] [  0%] Built target roscpp_generate_messages_nodejs
+[8.794s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[8.816s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[8.844s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[8.867s] [  0%] Built target actionlib_generate_messages_eus
+[8.883s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[8.896s] [  0%] Built target pcl_msgs_generate_messages_py
+[8.915s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[8.931s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[8.946s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[8.960s] [  0%] Built target actionlib_generate_messages_lisp
+[8.999s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[9.014s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[9.036s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[9.058s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[9.074s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[9.094s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[9.112s] [35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[9.134s] [  0%] Built target topic_tools_generate_messages_lisp
+[9.163s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[9.188s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[9.206s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[9.224s] [  0%] Built target autoware_msgs_generate_messages_eus
+[9.236s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[9.260s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[9.274s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[9.298s] [  0%] Built target autoware_msgs_generate_messages_py
+[9.314s] [35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[9.340s] [  0%] Built target nodelet_generate_messages_lisp
+[9.365s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[9.385s] [  0%] Built target actionlib_generate_messages_nodejs
+[9.411s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[9.426s] [  0%] Built target tf_generate_messages_cpp
+[9.445s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[9.469s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[9.486s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[9.503s] [  0%] Built target std_msgs_generate_messages_eus
+[9.516s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[9.535s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[9.562s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[9.578s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[9.594s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[9.610s] [  0%] Built target actionlib_msgs_generate_messages_py
+[9.626s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[9.640s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[9.657s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[9.675s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[9.708s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[9.728s] [  0%] Built target tf_generate_messages_eus
+[9.752s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[9.766s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[9.785s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[9.807s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[9.824s] [35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[9.843s] [  0%] Built target std_srvs_generate_messages_cpp
+[9.859s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[9.872s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[9.901s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[9.920s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[9.941s] [35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[9.962s] [  0%] Built target std_srvs_generate_messages_eus
+[9.981s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[9.995s] [  0%] Built target roscpp_generate_messages_lisp
+[10.008s] [35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[10.029s] [  0%] Built target bond_generate_messages_eus
+[10.050s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[10.063s] [  0%] Built target roscpp_generate_messages_py
+[10.083s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[10.106s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[10.135s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[10.164s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[10.202s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[10.221s] [  0%] Built target roscpp_generate_messages_eus
+[10.250s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[10.268s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[10.281s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[10.294s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[10.341s] [35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[10.355s] [  0%] Built target pcl_ros_gencfg
+[10.410s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[10.446s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[10.479s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[10.514s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[10.538s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[10.560s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[10.583s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[10.616s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[10.642s] [35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[10.657s] [  0%] Built target dynamic_reconfigure_gencfg
+[10.674s] [35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[10.696s] [  0%] Built target nodelet_generate_messages_cpp
+[10.709s] [35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[10.724s] [  0%] Built target bond_generate_messages_py
+[10.737s] [35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[10.768s] [  0%] Built target std_srvs_generate_messages_nodejs
+[10.782s] [35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[10.800s] [  0%] Built target nodelet_generate_messages_eus
+[10.819s] [35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[10.836s] [  0%] Built target bond_generate_messages_cpp
+[10.875s] [35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[10.901s] [  0%] Built target bond_generate_messages_nodejs
+[10.913s] [35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[10.951s] [  0%] Built target topic_tools_generate_messages_py
+[10.964s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[10.980s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[11.004s] [35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[11.027s] [  0%] Built target nodelet_topic_tools_gencfg
+[11.050s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[11.071s] [  0%] Built target _catkin_empty_exported_target
+[11.097s] [35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[11.112s] [  0%] Built target topic_tools_generate_messages_eus
+[11.133s] [35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[11.149s] [  0%] Built target topic_tools_generate_messages_nodejs
+[11.164s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[11.185s] [  0%] Built target tf_generate_messages_lisp
+[11.213s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[11.245s] [  0%] Built target tf_generate_messages_nodejs
+[11.269s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[11.301s] [  0%] Built target actionlib_generate_messages_cpp
+[11.318s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[11.332s] [  0%] Built target actionlib_generate_messages_py
+[11.358s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[11.372s] [  0%] Built target tf2_msgs_generate_messages_py
+[11.385s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[11.399s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[11.413s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[11.429s] [  0%] Built target tf2_msgs_generate_messages_eus
+[11.459s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[11.489s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[11.524s] [35m[1mScanning dependencies of target autoware_camera_lidar_calibration_node[0m
+[11.649s] [ 50%] [32mBuilding CXX object CMakeFiles/autoware_camera_lidar_calibration_node.dir/src/autoware_camera_lidar_calibration/camera_lidar_calibration_node.cpp.o[0m
+[24.107s] [100%] [32m[1mLinking CXX executable devel/lib/autoware_camera_lidar_calibrator/autoware_camera_lidar_calibration_node[0m
+[26.272s] [100%] Built target autoware_camera_lidar_calibration_node
+[26.294s] Invoked command in '/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator -- -j12 -l12
+[26.647s] Invoking command in '/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator --target tests -- -j12 -l12
+[26.746s] [35m[1mScanning dependencies of target tests[0m
+[26.760s] Built target tests
+[26.790s] Invoked command in '/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator --target tests -- -j12 -l12
+[27.007s] Invoking command in '/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator --target install -- -j12 -l12
+[27.112s] [  0%] Built target std_srvs_generate_messages_lisp
+[27.142s] [  0%] Built target topic_tools_generate_messages_cpp
+[27.188s] [  0%] Built target std_srvs_generate_messages_py
+[27.221s] [  0%] Built target geometry_msgs_generate_messages_py
+[27.256s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[27.299s] [  0%] Built target roscpp_generate_messages_cpp
+[27.338s] [  0%] Built target pcl_msgs_generate_messages_eus
+[27.370s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[27.396s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[27.436s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[27.473s] [  0%] Built target std_msgs_generate_messages_py
+[27.514s] [  0%] Built target std_msgs_generate_messages_nodejs
+[27.565s] [  0%] Built target bond_generate_messages_lisp
+[27.599s] [  0%] Built target sensor_msgs_generate_messages_eus
+[27.632s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[27.678s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[27.712s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[27.757s] [  0%] Built target tf_generate_messages_py
+[27.796s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[27.823s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[27.862s] [  0%] Built target nodelet_generate_messages_nodejs
+[27.911s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[27.940s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[27.969s] [  0%] Built target std_msgs_generate_messages_cpp
+[27.994s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[28.041s] [  0%] Built target sensor_msgs_generate_messages_py
+[28.074s] [  0%] Built target nodelet_generate_messages_py
+[28.108s] [  0%] Built target geometry_msgs_generate_messages_eus
+[28.145s] [  0%] Built target std_msgs_generate_messages_lisp
+[28.185s] [  0%] Built target roscpp_generate_messages_nodejs
+[28.218s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[28.247s] [  0%] Built target actionlib_generate_messages_eus
+[28.277s] [  0%] Built target pcl_msgs_generate_messages_py
+[28.303s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[28.341s] [  0%] Built target actionlib_generate_messages_lisp
+[28.369s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[28.405s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[28.440s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[28.477s] [  0%] Built target topic_tools_generate_messages_lisp
+[28.517s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[28.545s] [  0%] Built target autoware_msgs_generate_messages_eus
+[28.577s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[28.601s] [  0%] Built target autoware_msgs_generate_messages_py
+[28.634s] [  0%] Built target nodelet_generate_messages_lisp
+[28.664s] [  0%] Built target actionlib_generate_messages_nodejs
+[28.697s] [  0%] Built target tf_generate_messages_cpp
+[28.726s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[28.755s] [  0%] Built target std_msgs_generate_messages_eus
+[28.788s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[28.820s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[28.854s] [  0%] Built target actionlib_msgs_generate_messages_py
+[28.897s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[28.928s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[28.966s] [  0%] Built target tf_generate_messages_eus
+[29.016s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[29.046s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[29.072s] [  0%] Built target std_srvs_generate_messages_cpp
+[29.101s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[29.134s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[29.178s] [  0%] Built target std_srvs_generate_messages_eus
+[29.208s] [  0%] Built target roscpp_generate_messages_lisp
+[29.241s] [  0%] Built target bond_generate_messages_eus
+[29.269s] [  0%] Built target roscpp_generate_messages_py
+[29.300s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[29.337s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[29.369s] [  0%] Built target roscpp_generate_messages_eus
+[29.404s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[29.438s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[29.466s] [  0%] Built target pcl_ros_gencfg
+[29.493s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[29.527s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[29.567s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[29.594s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[29.619s] [  0%] Built target dynamic_reconfigure_gencfg
+[29.661s] [  0%] Built target nodelet_generate_messages_cpp
+[29.692s] [  0%] Built target bond_generate_messages_py
+[29.729s] [  0%] Built target std_srvs_generate_messages_nodejs
+[29.758s] [  0%] Built target nodelet_generate_messages_eus
+[29.789s] [  0%] Built target bond_generate_messages_cpp
+[29.827s] [  0%] Built target bond_generate_messages_nodejs
+[29.877s] [  0%] Built target topic_tools_generate_messages_py
+[29.916s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[29.944s] [  0%] Built target nodelet_topic_tools_gencfg
+[29.972s] [  0%] Built target _catkin_empty_exported_target
+[30.015s] [  0%] Built target topic_tools_generate_messages_eus
+[30.041s] [  0%] Built target topic_tools_generate_messages_nodejs
+[30.075s] [  0%] Built target tf_generate_messages_lisp
+[30.115s] [  0%] Built target tf_generate_messages_nodejs
+[30.143s] [  0%] Built target actionlib_generate_messages_cpp
+[30.181s] [  0%] Built target actionlib_generate_messages_py
+[30.213s] [  0%] Built target tf2_msgs_generate_messages_py
+[30.247s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[30.295s] [  0%] Built target tf2_msgs_generate_messages_eus
+[30.333s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[30.388s] [100%] Built target autoware_camera_lidar_calibration_node
+[30.417s] [36mInstall the project...[0m
+[30.429s] -- Install configuration: "Release"
+[30.429s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/pkgconfig/autoware_camera_lidar_calibrator.pc
+[30.430s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/cmake/autoware_camera_lidar_calibratorConfig.cmake
+[30.430s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/cmake/autoware_camera_lidar_calibratorConfig-version.cmake
+[30.430s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/package.xml
+[30.430s] + cd /home/ros/autoware.ai/src/autoware/utilities/autoware_camera_lidar_calibrator
+[30.430s] + mkdir -p /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages
+[30.431s] + /usr/bin/env PYTHONPATH=/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages:/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator /usr/bin/python2 /home/ros/autoware.ai/src/autoware/utilities/autoware_camera_lidar_calibrator/setup.py build --build-base /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator install --root=/ --install-layout=deb --prefix=/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator --install-scripts=/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/bin
+[30.481s] running build
+[30.481s] running build_py
+[30.482s] creating /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7
+[30.482s] creating /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration
+[30.482s] copying src/autoware_camera_calibration/camera_calibrator.py -> /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration
+[30.482s] copying src/autoware_camera_calibration/__init__.py -> /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration
+[30.482s] copying src/autoware_camera_calibration/calibrator.py -> /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration
+[30.483s] copying src/autoware_camera_calibration/camera_checker.py -> /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration
+[30.483s] running install
+[30.483s] running install_lib
+[30.483s] creating /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration
+[30.484s] copying /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration/camera_calibrator.py -> /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration
+[30.484s] copying /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration/__init__.py -> /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration
+[30.484s] copying /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration/calibrator.py -> /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration
+[30.484s] copying /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator/lib.linux-x86_64-2.7/autoware_camera_calibration/camera_checker.py -> /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration
+[30.484s] byte-compiling /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration/camera_calibrator.py to camera_calibrator.pyc
+[30.490s] byte-compiling /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration/__init__.py to __init__.pyc
+[30.491s] byte-compiling /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration/calibrator.py to calibrator.pyc
+[30.500s] byte-compiling /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_calibration/camera_checker.py to camera_checker.pyc
+[30.502s] running install_egg_info
+[30.502s] Writing /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages/autoware_camera_lidar_calibrator-1.12.0.egg-info
+[30.508s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/cameracalibrator.py
+[30.508s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/cameracheck.py
+[30.509s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/tarfile_calibration.py
+[30.509s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/autoware_camera_lidar_calibration_node
+[30.513s] -- Set runtime path of "/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/autoware_camera_lidar_calibrator/autoware_camera_lidar_calibration_node" to ""
+[30.513s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/launch
+[30.513s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/launch/camera_lidar_calibration.launch
+[30.513s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/docs
+[30.513s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/docs/autoware_logo.jpg
+[30.513s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/docs/camera_lidar_calibration.jpg
+[30.514s] -- Installing: /home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share/autoware_camera_lidar_calibrator/docs/camera_calibration.jpg
+[30.521s] Invoked command in '/home/ros/autoware.ai/build/autoware_camera_lidar_calibrator' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_camera_lidar_calibrator --target install -- -j12 -l12

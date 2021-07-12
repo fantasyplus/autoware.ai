@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/lib/pkgconfig/lidar_naive_l_shape_detect.pc
+/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/share/lidar_naive_l_shape_detect/cmake/lidar_naive_l_shape_detectConfig.cmake
+/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/share/lidar_naive_l_shape_detect/cmake/lidar_naive_l_shape_detectConfig-version.cmake
+/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/share/lidar_naive_l_shape_detect/package.xml
+/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/lib/lidar_naive_l_shape_detect/lidar_naive_l_shape_detect
+/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/share/lidar_naive_l_shape_detect/launch/lidar_naive_l_shape_detect.launch

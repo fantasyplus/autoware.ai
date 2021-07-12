@@ -1,0 +1,10 @@
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:48:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid AstarNavi::currentPoseCallback(const PoseStamped&)[m[K’ does not match any in class ‘[01m[KAstarNavi[m[K’
+ void [01;31m[KAstarNavi[m[K::currentPoseCallback(const geometry_msgs::PoseStamped &msg)
+      [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:17:0[m[K:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/include/freespace_planner/astar_navi.h:68:8:[m[K [01;31m[Kerror: [m[Kcandidate is: void AstarNavi::currentPoseCallback(const PoseWithCovarianceStamped&)
+   void [01;31m[KcurrentPoseCallback[m[K(const geometry_msgs::PoseWithCovarianceStamped& msg);
+        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/astar_navi.dir/src/astar_navi/astar_navi.cpp.o] Error 1
+make[1]: *** [CMakeFiles/astar_navi.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,19 @@
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:[m[K In member function ‘[01m[Kvoid WFSimulatorCore::timerCallbackSimulation2(const ros::TimerEvent&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:128:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_twist[m[K’ was not declared in this scope
+   vs.speed = [01;31m[Kcurrent_twist[m[K.linear.x * MPS2KMPH;
+              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:128:14:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcurrent_pose_[m[K’
+   vs.speed = [01;36m[Kcurrent_twist[m[K.linear.x * MPS2KMPH;
+              [01;36m[K^~~~~~~~~~~~~[m[K
+              [32m[Kcurrent_pose_[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:129:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteering_angle[m[K’ was not declared in this scope
+   vs.angle = [01;31m[Ksteering_angle[m[K;
+              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:[m[K In member function ‘[01m[Kvoid WFSimulatorCore::timerCallbackSimulation(const ros::TimerEvent&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:154:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteering_angle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   const double [01;35m[Ksteering_angle[m[K = vehicle_sim_model_.getCurrentSteeringAngle();
+                [01;35m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/wf_simulator.dir/all] Error 2
+make: *** [all] Error 2

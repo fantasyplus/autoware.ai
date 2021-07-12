@@ -1,0 +1,10 @@
+/home/ros/autoware.ai/install/ros_observer/lib/pkgconfig/ros_observer.pc
+/home/ros/autoware.ai/install/ros_observer/share/ros_observer/cmake/ros_observerConfig.cmake
+/home/ros/autoware.ai/install/ros_observer/share/ros_observer/cmake/ros_observerConfig-version.cmake
+/home/ros/autoware.ai/install/ros_observer/share/ros_observer/package.xml
+/home/ros/autoware.ai/install/ros_observer/include/ros_observer/ros_observer.h
+/home/ros/autoware.ai/install/ros_observer/include/ros_observer/lib_ros_observer.h
+/home/ros/autoware.ai/install/ros_observer/lib/ros_observer/ros_observer
+/home/ros/autoware.ai/install/ros_observer/lib/liblib_ros_observer.so
+/home/ros/autoware.ai/install/ros_observer/share/ros_observer/launch/test.launch
+/home/ros/autoware.ai/install/ros_observer/share/ros_observer/launch/ros_observer.launch

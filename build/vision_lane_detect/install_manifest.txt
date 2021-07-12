@@ -1,0 +1,5 @@
+/home/ros/autoware.ai/install/vision_lane_detect/lib/pkgconfig/vision_lane_detect.pc
+/home/ros/autoware.ai/install/vision_lane_detect/share/vision_lane_detect/cmake/vision_lane_detectConfig.cmake
+/home/ros/autoware.ai/install/vision_lane_detect/share/vision_lane_detect/cmake/vision_lane_detectConfig-version.cmake
+/home/ros/autoware.ai/install/vision_lane_detect/share/vision_lane_detect/package.xml
+/home/ros/autoware.ai/install/vision_lane_detect/lib/vision_lane_detect/vision_lane_detect

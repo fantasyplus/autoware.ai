@@ -1,0 +1,24 @@
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_class.cpp:[m[K In constructor ‘[01m[KTestClass::TestClass()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_class.cpp:54:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int idx = 0; [01;35m[Kidx < costmap_.info.width*costmap_.info.height[m[K; ++idx)
+                     [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_class.cpp:60:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int row = 0; [01;35m[Krow < costmap_.info.height[m[K; ++row)
+                     [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_class.cpp:62:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int col = 0; [01;35m[Kcol < costmap_.info.width[m[K; ++col)
+                       [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:[m[K In member function ‘[01m[Kvirtual void TestSuite_checkSetPath_Test::TestBody()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:143:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int row = 0; [01;35m[Krow < test_obj_.costmap_.info.height[m[K; ++row)
+                     [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:145:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int col = 0; [01;35m[Kcol < test_obj_.costmap_.info.width[m[K; ++col)
+                       [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:18:0[m[K:
+/usr/src/googletest/googletest/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int][m[K’:
+[01m[K/usr/src/googletest/googletest/include/gtest/gtest.h:1421:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int; bool lhs_is_null_literal = false][m[K’
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:30:3:[m[K   required from here
+[01m[K/usr/src/googletest/googletest/include/gtest/gtest.h:1392:11:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   if ([01;35m[Klhs == rhs[m[K) {
+       [01;35m[K~~~~^~~~~~[m[K

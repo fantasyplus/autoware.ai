@@ -1,0 +1,9 @@
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:18:0[m[K:
+[01m[K/home/ros/autoware.ai/install/op_ros_helpers/include/op_ros_helpers/op_ROSHelpers.h:10:10:[m[K [01;31m[Kfatal error: [m[Kop_planner/RoadNetwork.h: No such file or directory
+ #include [01;31m[K"op_planner/RoadNetwork.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/astar_navi.dir/src/astar_navi/astar_navi.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/astar_navi.dir/all] Error 2
+make: *** [all] Error 2

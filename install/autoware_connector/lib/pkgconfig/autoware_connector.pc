@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/autoware_connector
+
+Name: autoware_connector
+Description: Description of autoware_connector
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

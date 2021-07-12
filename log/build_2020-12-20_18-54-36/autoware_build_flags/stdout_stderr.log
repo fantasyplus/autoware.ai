@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig/autoware_build_flags.pc
+-- Installing: /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/package.xml

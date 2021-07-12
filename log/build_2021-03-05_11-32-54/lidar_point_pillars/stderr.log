@@ -1,0 +1,9 @@
+CUDA is available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart_static.a;Threads::Threads;dl;/usr/lib/x86_64-linux-gnu/librt.so
+CUDA Headers: /usr/local/cuda/include
+TensorRT is available!
+NVINFER: /usr/local/lib/libnvinfer.so
+NVPARSERS: /usr/local/lib/libnvparsers.so
+NVONNXPARSERS: /usr/local/lib/libnvonnxparser.so
+CUDNN is NOT Available
+PointPillars won't be built, CUDA and/or TensorRT were not found.

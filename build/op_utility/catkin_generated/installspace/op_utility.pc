@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/op_utility
+
+Name: op_utility
+Description: Description of op_utility
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lop_utility
+Requires: vector_map_msgs vector_map_server

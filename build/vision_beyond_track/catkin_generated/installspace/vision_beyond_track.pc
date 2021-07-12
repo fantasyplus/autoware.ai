@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/vision_beyond_track
+
+Name: vision_beyond_track
+Description: Description of vision_beyond_track
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

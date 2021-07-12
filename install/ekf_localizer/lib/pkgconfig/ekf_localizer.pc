@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/ekf_localizer
+
+Name: ekf_localizer
+Description: Description of ekf_localizer
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: amathutils_lib autoware_msgs geometry_msgs sensor_msgs std_msgs

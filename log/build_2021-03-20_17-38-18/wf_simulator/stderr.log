@@ -1,0 +1,8 @@
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:[m[K In constructor ‘[01m[KWFSimulatorCore::WFSimulatorCore()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/simulation/wf_simulator/src/wf_simulator_core.cpp:46:59:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerCallbackSimulation2[m[K’ is not a member of ‘[01m[KWFSimulatorCore[m[K’
+   nh_.createTimer(ros::Duration(dt*10), &WFSimulatorCore::[01;31m[KtimerCallbackSimulation2[m[K, this);
+                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/wf_simulator.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,8 @@
+/home/ros/autoware.ai/install/wf_simulator/lib/pkgconfig/wf_simulator.pc
+/home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/cmake/wf_simulatorConfig.cmake
+/home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/cmake/wf_simulatorConfig-version.cmake
+/home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/package.xml
+/home/ros/autoware.ai/install/wf_simulator/lib/wf_simulator/wf_simulator
+/home/ros/autoware.ai/install/wf_simulator/include/wf_simulator/vehicle_model_ros.h
+/home/ros/autoware.ai/install/wf_simulator/include/wf_simulator/wf_simulator_core.h
+/home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/launch/wf_simulator.launch

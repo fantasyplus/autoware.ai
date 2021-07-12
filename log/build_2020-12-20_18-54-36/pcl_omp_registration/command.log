@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/pcl_omp_registration -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/pcl_omp_registration
+Invoked command in '/home/ros/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/pcl_omp_registration -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/pcl_omp_registration
+Invoking command in '/home/ros/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/ros/autoware.ai/build/pcl_omp_registration -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/pcl_omp_registration -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/ros/autoware.ai/build/pcl_omp_registration --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/pcl_omp_registration --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/ros/autoware.ai/build/pcl_omp_registration --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/pcl_omp_registration --target install -- -j12 -l12

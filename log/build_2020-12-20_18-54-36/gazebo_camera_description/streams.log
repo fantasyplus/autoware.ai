@@ -1,0 +1,16 @@
+[0.052s] Invoking command in '/home/ros/autoware.ai/build/gazebo_camera_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_camera_description -- -j12 -l12
+[0.232s] Invoked command in '/home/ros/autoware.ai/build/gazebo_camera_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_camera_description -- -j12 -l12
+[0.588s] Invoking command in '/home/ros/autoware.ai/build/gazebo_camera_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_camera_description --target tests -- -j12 -l12
+[1.105s] [35m[1mScanning dependencies of target tests[0m
+[1.214s] Built target tests
+[1.375s] Invoked command in '/home/ros/autoware.ai/build/gazebo_camera_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_camera_description --target tests -- -j12 -l12
+[2.061s] Invoking command in '/home/ros/autoware.ai/build/gazebo_camera_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_camera_description --target install -- -j12 -l12
+[2.363s] [36mInstall the project...[0m
+[2.425s] -- Install configuration: "Release"
+[2.425s] -- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/lib/pkgconfig/gazebo_camera_description.pc
+[2.426s] -- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig.cmake
+[2.426s] -- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig-version.cmake
+[2.426s] -- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/package.xml
+[2.426s] -- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/urdf
+[2.426s] -- Installing: /home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/urdf/monocular_camera.xacro
+[2.432s] Invoked command in '/home/ros/autoware.ai/build/gazebo_camera_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_camera_description --target install -- -j12 -l12

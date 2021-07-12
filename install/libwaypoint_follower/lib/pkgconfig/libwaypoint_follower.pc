@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/libwaypoint_follower
+
+Name: libwaypoint_follower
+Description: Description of libwaypoint_follower
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llibwaypoint_follower
+Requires: amathutils_lib autoware_msgs geometry_msgs std_msgs

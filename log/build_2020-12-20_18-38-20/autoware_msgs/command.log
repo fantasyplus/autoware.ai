@@ -1,0 +1,2 @@
+Invoking command in '/home/ros/autoware.ai/build/autoware_msgs': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/messages/autoware_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_msgs
+Invoked command in '/home/ros/autoware.ai/build/autoware_msgs' returned '1': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/messages/autoware_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_msgs

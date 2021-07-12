@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/vector_map_server
+
+Name: vector_map_server
+Description: Description of vector_map_server
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime geometry_msgs autoware_msgs vector_map_msgs vector_map visualization_msgs

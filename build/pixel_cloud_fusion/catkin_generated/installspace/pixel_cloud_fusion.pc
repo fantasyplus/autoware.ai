@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/pixel_cloud_fusion
+
+Name: pixel_cloud_fusion
+Description: Description of pixel_cloud_fusion
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport pcl_conversions pcl_ros

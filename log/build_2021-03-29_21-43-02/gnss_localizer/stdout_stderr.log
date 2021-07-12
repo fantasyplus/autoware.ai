@@ -1,0 +1,67 @@
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target nmea_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target nmea_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target nmea_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target nmea_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target nmea_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target nmea2tfpose[0m
+[ 40%] Built target fix2tfpose
+[ 60%] [32mBuilding CXX object CMakeFiles/nmea2tfpose.dir/nodes/nmea2tfpose/nmea2tfpose_core.cpp.o[0m
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp:[m[K In constructor ‘[01m[Kgnss_localizer::Nmea2TFPoseNode::Nmea2TFPoseNode()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[KinitForROS[m[K’ was not declared in this scope
+   [01;31m[KinitForROS[m[K();
+   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp:[m[K At global scope:
+[01m[K/home/ros/autoware.ai/src/autoware/core_perception/gnss_localizer/nodes/nmea2tfpose/nmea2tfpose_core.cpp:44:34:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid gnss_localizer::Nmea2TFPoseNode::initForROS()[m[K’ member function declared in class ‘[01m[Kgnss_localizer::Nmea2TFPoseNode[m[K’
+ void Nmea2TFPoseNode::initForROS([01;31m[K)[m[K
+                                  [01;31m[K^[m[K
+CMakeFiles/nmea2tfpose.dir/build.make:81: recipe for target 'CMakeFiles/nmea2tfpose.dir/nodes/nmea2tfpose/nmea2tfpose_core.cpp.o' failed
+make[2]: *** [CMakeFiles/nmea2tfpose.dir/nodes/nmea2tfpose/nmea2tfpose_core.cpp.o] Error 1
+CMakeFiles/Makefile2:431: recipe for target 'CMakeFiles/nmea2tfpose.dir/all' failed
+make[1]: *** [CMakeFiles/nmea2tfpose.dir/all] Error 2
+Makefile:159: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,82 @@
+[0.038s] Invoking command in '/home/ros/autoware.ai/build/data_preprocessor': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/data_preprocessor -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/data_preprocessor
+[0.130s] -- The C compiler identification is GNU 7.5.0
+[0.223s] -- The CXX compiler identification is GNU 7.5.0
+[0.229s] -- Check for working C compiler: /usr/bin/cc
+[0.343s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.344s] -- Detecting C compiler ABI info
+[0.475s] -- Detecting C compiler ABI info - done
+[0.482s] -- Detecting C compile features
+[0.770s] -- Detecting C compile features - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++
+[0.908s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.909s] -- Detecting CXX compiler ABI info
+[1.022s] -- Detecting CXX compiler ABI info - done
+[1.035s] -- Detecting CXX compile features
+[1.561s] -- Detecting CXX compile features - done
+[1.562s] -- CUDA compilation status: .
+[1.564s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/data_preprocessor/devel
+[1.564s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.564s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.579s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.579s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.579s] -- Using Debian Python package layout
+[1.579s] -- Using empy: /usr/bin/empy
+[1.798s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.799s] -- Call enable_testing()
+[1.801s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/data_preprocessor/test_results
+[1.828s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.828s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.851s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.852s] -- Looking for pthread.h
+[1.964s] -- Looking for pthread.h - found
+[1.966s] -- Looking for pthread_create
+[2.067s] -- Looking for pthread_create - not found
+[2.067s] -- Looking for pthread_create in pthreads
+[2.147s] -- Looking for pthread_create in pthreads - not found
+[2.147s] -- Looking for pthread_create in pthread
+[2.243s] -- Looking for pthread_create in pthread - found
+[2.244s] -- Found Threads: TRUE  
+[2.251s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.303s] -- catkin 0.7.29
+[2.304s] -- BUILD_SHARED_LIBS is on
+[3.328s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.792s] -- Found OpenCV: /usr (found version "3.2.0") 
+[3.979s] -- Configuring done
+[4.098s] -- Generating done
+[4.109s] -- Build files have been written to: /home/ros/autoware.ai/build/data_preprocessor
+[4.120s] Invoked command in '/home/ros/autoware.ai/build/data_preprocessor' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/data_preprocessor -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/data_preprocessor
+[4.121s] Invoking command in '/home/ros/autoware.ai/build/data_preprocessor': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/data_preprocessor -- -j12 -l12
+[4.189s] [35m[1mScanning dependencies of target get_PCD[0m
+[4.276s] [ 16%] [32mBuilding CXX object CMakeFiles/get_PCD.dir/nodes/get_PCD/get_PCD.cpp.o[0m
+[13.989s] [ 33%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_PCD[0m
+[14.854s] [ 33%] Built target get_PCD
+[14.874s] [35m[1mScanning dependencies of target get_Depth[0m
+[14.956s] [ 50%] [32mBuilding CXX object CMakeFiles/get_Depth.dir/nodes/get_Depth/get_Depth.cpp.o[0m
+[26.311s] [ 66%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_Depth[0m
+[27.212s] [ 66%] Built target get_Depth
+[27.240s] [35m[1mScanning dependencies of target get_Image[0m
+[27.288s] [ 83%] [32mBuilding CXX object CMakeFiles/get_Image.dir/nodes/get_Image/get_Image.cpp.o[0m
+[32.063s] [100%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_Image[0m
+[32.950s] [100%] Built target get_Image
+[32.967s] Invoked command in '/home/ros/autoware.ai/build/data_preprocessor' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/data_preprocessor -- -j12 -l12
+[33.197s] Invoking command in '/home/ros/autoware.ai/build/data_preprocessor': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/data_preprocessor --target tests -- -j12 -l12
+[33.287s] [35m[1mScanning dependencies of target tests[0m
+[33.317s] Built target tests
+[33.339s] Invoked command in '/home/ros/autoware.ai/build/data_preprocessor' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/data_preprocessor --target tests -- -j12 -l12
+[33.610s] Invoking command in '/home/ros/autoware.ai/build/data_preprocessor': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/data_preprocessor --target install -- -j12 -l12
+[33.711s] [ 33%] Built target get_PCD
+[33.752s] [ 66%] Built target get_Depth
+[33.796s] [100%] Built target get_Image
+[33.831s] [36mInstall the project...[0m
+[33.844s] -- Install configuration: "Release"
+[33.845s] -- Installing: /home/ros/autoware.ai/install/data_preprocessor/lib/pkgconfig/data_preprocessor.pc
+[33.845s] -- Installing: /home/ros/autoware.ai/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig.cmake
+[33.845s] -- Installing: /home/ros/autoware.ai/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig-version.cmake
+[33.846s] -- Installing: /home/ros/autoware.ai/install/data_preprocessor/share/data_preprocessor/package.xml
+[33.846s] -- Installing: /home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Image
+[33.846s] -- Set runtime path of "/home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Image" to ""
+[33.846s] -- Installing: /home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_PCD
+[33.846s] -- Set runtime path of "/home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_PCD" to ""
+[33.846s] -- Installing: /home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Depth
+[33.847s] -- Set runtime path of "/home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Depth" to ""
+[33.855s] Invoked command in '/home/ros/autoware.ai/build/data_preprocessor' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/data_preprocessor --target install -- -j12 -l12

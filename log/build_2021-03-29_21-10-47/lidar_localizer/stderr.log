@@ -1,0 +1,25 @@
+** WARNING ** io features related to ensenso will be disabled
+** WARNING ** io features related to davidSDK will be disabled
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to ensenso will be disabled
+** WARNING ** visualization features related to davidSDK will be disabled
+** WARNING ** visualization features related to dssdk will be disabled
+** WARNING ** visualization features related to rssdk will be disabled
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "jsk_rviz_plugins"
+  with any of the following names:
+
+    jsk_rviz_pluginsConfig.cmake
+    jsk_rviz_plugins-config.cmake
+
+  Add the installation prefix of "jsk_rviz_plugins" to CMAKE_PREFIX_PATH or
+  set "jsk_rviz_plugins_DIR" to a directory containing one of the above
+  files.  If "jsk_rviz_plugins" provides a separate development package or
+  SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:42 (find_package)
+
+

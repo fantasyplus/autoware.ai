@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/tablet_socket_msgs
+
+Name: tablet_socket_msgs
+Description: Description of tablet_socket_msgs
+Version: 1.13.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/rosinterface/lib/pkgconfig/rosinterface.pc
+/home/ros/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+/home/ros/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+/home/ros/autoware.ai/install/rosinterface/share/rosinterface/package.xml
+/home/ros/autoware.ai/install/rosinterface/include/rosinterface/rosinterface.h
+/home/ros/autoware.ai/install/rosinterface/lib/librosinterface.so

@@ -1,0 +1,22 @@
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:[m[K In constructor ‘[01m[KAstarNavi::AstarNavi()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:29:19:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+   pub_PathsRviz = [01;31m[Knh[m[K.advertise<visualization_msgs::MarkerArray>("global_waypoints_rviz", 1, true);
+                   [01;31m[K^~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:29:19:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knh_[m[K’
+   pub_PathsRviz = [01;36m[Knh[m[K.advertise<visualization_msgs::MarkerArray>("global_waypoints_rviz", 1, true);
+                   [01;36m[K^~[m[K
+                   [32m[Knh_[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:29:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   pub_PathsRviz = nh.advertise<visualization_msgs::MarkerArray[01;31m[K>[m[K("global_waypoints_rviz", 1, true);
+                                                               [01;31m[K^[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:[m[K In member function ‘[01m[Kvoid AstarNavi::publishWaypoints(const Path&, const double&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:172:80:[m[K [01;31m[Kerror: [m[K‘[01m[KpathsToVisualize[m[K’ was not declared in this scope
+ S::ROSHelpers::createGlobalLaneArrayMarker(total_color, lane_array, [01;31m[KpathsToVisualize[m[K);
+                                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/freespace_planner/src/astar_navi/astar_navi.cpp:172:80:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcanonicalize[m[K’
+ S::ROSHelpers::createGlobalLaneArrayMarker(total_color, lane_array, [01;36m[KpathsToVisualize[m[K);
+                                                                     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+                                                                                [32m[Kcanonicalize[m[K
+make[2]: *** [CMakeFiles/astar_navi.dir/src/astar_navi/astar_navi.cpp.o] Error 1
+make[1]: *** [CMakeFiles/astar_navi.dir/all] Error 2
+make: *** [all] Error 2

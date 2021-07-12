@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/kitti_player/devel
+
+Name: kitti_player
+Description: Description of kitti_player
+Version: 1.12.0
+Cflags: -I/home/ros/autoware.ai/build/kitti_player/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure

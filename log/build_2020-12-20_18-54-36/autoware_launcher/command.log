@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/autoware_launcher': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/autoware_launcher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_launcher
+Invoked command in '/home/ros/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/autoware_launcher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_launcher
+Invoking command in '/home/ros/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_launcher -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_launcher -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_launcher --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_launcher --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_launcher --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_launcher --target install -- -j12 -l12

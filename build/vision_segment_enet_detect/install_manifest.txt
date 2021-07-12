@@ -1,0 +1,4 @@
+/home/ros/autoware.ai/install/vision_segment_enet_detect/lib/pkgconfig/vision_segment_enet_detect.pc
+/home/ros/autoware.ai/install/vision_segment_enet_detect/share/vision_segment_enet_detect/cmake/vision_segment_enet_detectConfig.cmake
+/home/ros/autoware.ai/install/vision_segment_enet_detect/share/vision_segment_enet_detect/cmake/vision_segment_enet_detectConfig-version.cmake
+/home/ros/autoware.ai/install/vision_segment_enet_detect/share/vision_segment_enet_detect/package.xml

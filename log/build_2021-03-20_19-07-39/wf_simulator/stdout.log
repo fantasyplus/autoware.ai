@@ -1,0 +1,93 @@
+[35m[1mScanning dependencies of target wf_simulator[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable devel/lib/wf_simulator/wf_simulator[0m
+[100%] Built target wf_simulator
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[ 33%] Built target gtest
+[ 33%] Built target tf_generate_messages_lisp
+[ 33%] Built target actionlib_generate_messages_cpp
+[ 33%] Built target geometry_msgs_generate_messages_cpp
+[ 33%] Built target tf_generate_messages_eus
+[ 33%] Built target tf_generate_messages_nodejs
+[ 33%] Built target rosgraph_msgs_generate_messages_py
+[ 33%] Built target jsk_recognition_msgs_generate_messages_eus
+[ 33%] Built target roscpp_generate_messages_cpp
+[ 33%] Built target sensor_msgs_generate_messages_py
+[ 33%] Built target pcl_msgs_generate_messages_eus
+[ 33%] Built target roscpp_generate_messages_nodejs
+[ 33%] Built target tf_generate_messages_py
+[ 33%] Built target rosgraph_msgs_generate_messages_eus
+[ 33%] Built target roscpp_generate_messages_py
+[ 33%] Built target roscpp_generate_messages_eus
+[ 33%] Built target std_msgs_generate_messages_py
+[ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 33%] Built target std_msgs_generate_messages_eus
+[ 33%] Built target actionlib_generate_messages_eus
+[ 33%] Built target tf2_msgs_generate_messages_eus
+[ 33%] Built target tf2_msgs_generate_messages_nodejs
+[ 33%] Built target tf2_msgs_generate_messages_cpp
+[ 33%] Built target tf2_msgs_generate_messages_lisp
+[ 33%] Built target autoware_msgs_generate_messages_py
+[ 33%] Built target autoware_system_msgs_generate_messages_eus
+[ 33%] Built target actionlib_msgs_generate_messages_py
+[ 33%] Built target actionlib_msgs_generate_messages_nodejs
+[ 33%] Built target roscpp_generate_messages_lisp
+[ 33%] Built target autoware_system_msgs_generate_messages_lisp
+[ 33%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[ 33%] Built target std_msgs_generate_messages_lisp
+[ 33%] Built target autoware_system_msgs_generate_messages_cpp
+[ 33%] Built target pcl_msgs_generate_messages_nodejs
+[ 33%] Built target std_msgs_generate_messages_nodejs
+[ 33%] Built target jsk_footstep_msgs_generate_messages_eus
+[ 33%] Built target pcl_msgs_generate_messages_lisp
+[ 33%] Built target _catkin_empty_exported_target
+[ 33%] Built target jsk_footstep_msgs_generate_messages_lisp
+[ 33%] Built target tf_generate_messages_cpp
+[ 33%] Built target sensor_msgs_generate_messages_cpp
+[ 33%] Built target geometry_msgs_generate_messages_lisp
+[ 33%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[ 33%] Built target autoware_msgs_generate_messages_eus
+[ 33%] Built target jsk_recognition_msgs_generate_messages_py
+[ 33%] Built target autoware_system_msgs_generate_messages_nodejs
+[ 33%] Built target pcl_msgs_generate_messages_py
+[ 33%] Built target autoware_msgs_generate_messages_cpp
+[ 33%] Built target geometry_msgs_generate_messages_eus
+[ 33%] Built target jsk_recognition_msgs_generate_messages_cpp
+[ 33%] Built target autoware_system_msgs_generate_messages_py
+[ 33%] Built target geometry_msgs_generate_messages_py
+[ 33%] Built target geometry_msgs_generate_messages_nodejs
+[ 33%] Built target jsk_recognition_msgs_generate_messages_lisp
+[ 33%] Built target actionlib_generate_messages_py
+[ 33%] Built target std_msgs_generate_messages_cpp
+[ 33%] Built target sensor_msgs_generate_messages_nodejs
+[ 33%] Built target jsk_footstep_msgs_generate_messages_py
+[ 33%] Built target actionlib_msgs_generate_messages_eus
+[ 33%] Built target jsk_footstep_msgs_generate_messages_cpp
+[ 33%] Built target actionlib_generate_messages_lisp
+[ 33%] Built target tf2_msgs_generate_messages_py
+[ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[ 33%] Built target autoware_msgs_generate_messages_lisp
+[ 33%] Built target autoware_msgs_generate_messages_nodejs
+[ 33%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target test-wf_simulator[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test-wf_simulator.dir/src/wf_simulator_core.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable devel/lib/wf_simulator/test-wf_simulator[0m
+[100%] Built target test-wf_simulator
+[100%] Built target tests
+-- Install configuration: "Release"
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/lib/pkgconfig/wf_simulator.pc
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/cmake/wf_simulatorConfig.cmake
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/cmake/wf_simulatorConfig-version.cmake
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/package.xml
+-- Installing: /home/ros/autoware.ai/install/wf_simulator/lib/wf_simulator/wf_simulator
+-- Set runtime path of "/home/ros/autoware.ai/install/wf_simulator/lib/wf_simulator/wf_simulator" to ""
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/include/wf_simulator
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/include/wf_simulator/vehicle_model_ros.h
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/include/wf_simulator/wf_simulator_core.h
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/launch
+-- Up-to-date: /home/ros/autoware.ai/install/wf_simulator/share/wf_simulator/launch/wf_simulator.launch

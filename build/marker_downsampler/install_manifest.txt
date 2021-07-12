@@ -1,0 +1,5 @@
+/home/ros/autoware.ai/install/marker_downsampler/lib/pkgconfig/marker_downsampler.pc
+/home/ros/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig.cmake
+/home/ros/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig-version.cmake
+/home/ros/autoware.ai/install/marker_downsampler/share/marker_downsampler/package.xml
+/home/ros/autoware.ai/install/marker_downsampler/lib/marker_downsampler/app.py

@@ -1,0 +1,15 @@
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:[m[K In static member function ‘[01m[Kstatic void PlannerXNS::ROSHelpers::ConvertFromPlannerHRectangleToAutowareRviz(const std::vector<PlannerHNS::GPSPoint>&, visualization_msgs::Marker&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:142:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kid[m[K = 0;
+       [01;35m[K^~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:[m[K In static member function ‘[01m[Kstatic void PlannerXNS::ROSHelpers::ConvertFromPlannerHToAutowareVisualizePathFormat(const std::vector<PlannerHNS::WayPoint>&, const std::vector<std::vector<std::vector<PlannerHNS::WayPoint> > >&, const PlannerHNS::LocalPlannerH&, visualization_msgs::MarkerArray&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:245:12:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       if([01;35m[Ki == localPlanner.m_iSafeTrajectory[m[K && il == localPlanner.m_iCurrentTotalPathId)
+          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:245:52:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       if(i == localPlanner.m_iSafeTrajectory && [01;35m[Kil == localPlanner.m_iCurrentTotalPathId[m[K)
+                                                 [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:[m[K In static member function ‘[01m[Kstatic void PlannerXNS::ROSHelpers::ConvertFromAutowareCloudClusterObstaclesToPlannerH(const PlannerHNS::WayPoint&, const PlannerHNS::CAR_BASIC_INFO&, const CloudClusterArray&, std::vector<PlannerHNS::DetectedObject>&, int&, int&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/dp_planner/nodes/ROSHelpers.cpp:646:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     double [01;35m[Ksize[m[K = (obj.w+obj.l)/2.0;
+            [01;35m[K^~~~[m[K

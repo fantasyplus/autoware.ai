@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+/home/ros/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+/home/ros/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+/home/ros/autoware.ai/install/oculus_socket/share/oculus_socket/package.xml
+/home/ros/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender
+/home/ros/autoware.ai/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch

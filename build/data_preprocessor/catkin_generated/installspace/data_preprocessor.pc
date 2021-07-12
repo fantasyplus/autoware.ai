@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/data_preprocessor
+
+Name: data_preprocessor
+Description: Description of data_preprocessor
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

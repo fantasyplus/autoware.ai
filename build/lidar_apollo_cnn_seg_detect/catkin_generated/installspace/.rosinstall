@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/setup.sh

@@ -1,0 +1,16 @@
+[0.060s] Invoking command in '/home/ros/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description -- -j12 -l12
+[0.245s] Invoked command in '/home/ros/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description -- -j12 -l12
+[0.768s] Invoking command in '/home/ros/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description --target tests -- -j12 -l12
+[1.196s] [35m[1mScanning dependencies of target tests[0m
+[1.359s] Built target tests
+[1.454s] Invoked command in '/home/ros/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description --target tests -- -j12 -l12
+[2.163s] Invoking command in '/home/ros/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description --target install -- -j12 -l12
+[2.505s] [36mInstall the project...[0m
+[2.546s] -- Install configuration: "Release"
+[2.546s] -- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/lib/pkgconfig/gazebo_imu_description.pc
+[2.546s] -- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig.cmake
+[2.546s] -- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig-version.cmake
+[2.547s] -- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/package.xml
+[2.547s] -- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf
+[2.547s] -- Installing: /home/ros/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf/imu.xacro
+[2.553s] Invoked command in '/home/ros/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_imu_description --target install -- -j12 -l12

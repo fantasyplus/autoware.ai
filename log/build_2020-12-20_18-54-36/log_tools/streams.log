@@ -1,0 +1,63 @@
+[0.016s] Invoking command in '/home/ros/autoware.ai/build/log_tools': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/log_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/log_tools
+[0.112s] -- The C compiler identification is GNU 7.5.0
+[0.199s] -- The CXX compiler identification is GNU 7.5.0
+[0.205s] -- Check for working C compiler: /usr/bin/cc
+[0.295s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.295s] -- Detecting C compiler ABI info
+[0.402s] -- Detecting C compiler ABI info - done
+[0.416s] -- Detecting C compile features
+[0.813s] -- Detecting C compile features - done
+[0.817s] -- Check for working CXX compiler: /usr/bin/c++
+[0.980s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.980s] -- Detecting CXX compiler ABI info
+[1.120s] -- Detecting CXX compiler ABI info - done
+[1.132s] -- Detecting CXX compile features
+[1.904s] -- Detecting CXX compile features - done
+[1.905s] -- CUDA compilation status: .
+[1.907s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/log_tools/devel
+[1.907s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.907s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.932s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.934s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.934s] -- Using Debian Python package layout
+[1.934s] -- Using empy: /usr/bin/empy
+[2.199s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.200s] -- Call enable_testing()
+[2.206s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/log_tools/test_results
+[2.236s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.236s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.257s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.258s] -- Looking for pthread.h
+[2.398s] -- Looking for pthread.h - found
+[2.399s] -- Looking for pthread_create
+[2.503s] -- Looking for pthread_create - not found
+[2.510s] -- Looking for pthread_create in pthreads
+[2.662s] -- Looking for pthread_create in pthreads - not found
+[2.662s] -- Looking for pthread_create in pthread
+[2.809s] -- Looking for pthread_create in pthread - found
+[2.811s] -- Found Threads: TRUE  
+[2.816s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.868s] -- catkin 0.7.29
+[2.869s] -- BUILD_SHARED_LIBS is on
+[3.299s] -- Configuring done
+[3.315s] -- Generating done
+[3.317s] -- Build files have been written to: /home/ros/autoware.ai/build/log_tools
+[3.328s] Invoked command in '/home/ros/autoware.ai/build/log_tools' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/log_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/log_tools
+[3.330s] Invoking command in '/home/ros/autoware.ai/build/log_tools': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/log_tools -- -j12 -l12
+[3.404s] Invoked command in '/home/ros/autoware.ai/build/log_tools' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/log_tools -- -j12 -l12
+[3.507s] Invoking command in '/home/ros/autoware.ai/build/log_tools': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/log_tools --target tests -- -j12 -l12
+[3.610s] [35m[1mScanning dependencies of target tests[0m
+[3.624s] Built target tests
+[3.645s] Invoked command in '/home/ros/autoware.ai/build/log_tools' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/log_tools --target tests -- -j12 -l12
+[3.810s] Invoking command in '/home/ros/autoware.ai/build/log_tools': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/log_tools --target install -- -j12 -l12
+[3.961s] [36mInstall the project...[0m
+[3.974s] -- Install configuration: "Release"
+[3.974s] -- Installing: /home/ros/autoware.ai/install/log_tools/lib/pkgconfig/log_tools.pc
+[3.975s] -- Installing: /home/ros/autoware.ai/install/log_tools/share/log_tools/cmake/log_toolsConfig.cmake
+[3.976s] -- Installing: /home/ros/autoware.ai/install/log_tools/share/log_tools/cmake/log_toolsConfig-version.cmake
+[3.976s] -- Installing: /home/ros/autoware.ai/install/log_tools/share/log_tools/package.xml
+[3.976s] -- Installing: /home/ros/autoware.ai/install/log_tools/lib/log_tools/client.py
+[3.976s] -- Installing: /home/ros/autoware.ai/install/log_tools/lib/log_tools/common.py
+[3.976s] -- Installing: /home/ros/autoware.ai/install/log_tools/lib/log_tools/recorder.py
+[3.977s] -- Installing: /home/ros/autoware.ai/install/log_tools/lib/log_tools/server.py
+[3.984s] Invoked command in '/home/ros/autoware.ai/build/log_tools' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/log_tools --target install -- -j12 -l12

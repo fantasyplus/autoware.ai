@@ -1,0 +1,15 @@
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:[m[K In member function ‘[01m[Kvoid waypoint_follower::PurePursuitNode::initForROS()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:98:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::NodeHandle[m[K’ has no member named ‘[01m[Kadverties[m[K’; did you mean ‘[01m[Kadvertise[m[K’?
+   pub_flag=nh_.[01;31m[Kadverties[m[K<std_msgs::Int8>("pub_flag",1);
+                [01;31m[K^~~~~~~~~[m[K
+                [32m[Kadvertise[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:98:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   pub_flag=nh_.adverties<std_msgs::Int8[01;31m[K>[m[K("pub_flag",1);
+                                        [01;31m[K^[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/pure_pursuit/src/pure_pursuit_core.cpp:98:53:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   pub_flag=nh_.adverties<std_msgs::Int8>("pub_flag",[01;35m[K1[m[K);
+                                                     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/pure_pursuit.dir/src/pure_pursuit_core.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/pure_pursuit.dir/all] Error 2
+make: *** [all] Error 2

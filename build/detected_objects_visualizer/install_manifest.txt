@@ -1,0 +1,12 @@
+/home/ros/autoware.ai/install/detected_objects_visualizer/lib/pkgconfig/detected_objects_visualizer.pc
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/cmake/detected_objects_visualizerConfig.cmake
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/cmake/detected_objects_visualizerConfig-version.cmake
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/package.xml
+/home/ros/autoware.ai/install/detected_objects_visualizer/lib/detected_objects_visualizer/visualize_detected_objects
+/home/ros/autoware.ai/install/detected_objects_visualizer/lib/detected_objects_visualizer/visualize_rects
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/models/bike.dae
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/models/car.dae
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/models/box.dae
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/models/truck.dae
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/models/bus.dae
+/home/ros/autoware.ai/install/detected_objects_visualizer/share/detected_objects_visualizer/models/person.dae

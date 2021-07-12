@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/waypoint_planner
+
+Name: waypoint_planner
+Description: Description of waypoint_planner
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

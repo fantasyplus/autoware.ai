@@ -1,0 +1,5 @@
+/home/ros/autoware.ai/install/gazebo_camera_description/lib/pkgconfig/gazebo_camera_description.pc
+/home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig.cmake
+/home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig-version.cmake
+/home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/package.xml
+/home/ros/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/urdf/monocular_camera.xacro

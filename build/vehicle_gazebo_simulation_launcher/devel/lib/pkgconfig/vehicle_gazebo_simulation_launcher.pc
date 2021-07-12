@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/vehicle_gazebo_simulation_launcher/devel
+
+Name: vehicle_gazebo_simulation_launcher
+Description: Description of vehicle_gazebo_simulation_launcher
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

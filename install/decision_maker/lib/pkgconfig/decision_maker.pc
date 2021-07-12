@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/decision_maker
+
+Name: decision_maker
+Description: Description of decision_maker
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

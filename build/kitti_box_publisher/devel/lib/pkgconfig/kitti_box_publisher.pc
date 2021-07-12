@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/kitti_box_publisher/devel
+
+Name: kitti_box_publisher
+Description: Description of kitti_box_publisher
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

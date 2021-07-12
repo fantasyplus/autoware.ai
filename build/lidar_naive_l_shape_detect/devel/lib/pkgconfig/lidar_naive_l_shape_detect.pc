@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/lidar_naive_l_shape_detect/devel
+
+Name: lidar_naive_l_shape_detect
+Description: Description of lidar_naive_l_shape_detect
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: pcl_ros autoware_msgs

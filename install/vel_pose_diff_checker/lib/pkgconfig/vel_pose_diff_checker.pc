@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/vel_pose_diff_checker
+
+Name: vel_pose_diff_checker
+Description: Description of vel_pose_diff_checker
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

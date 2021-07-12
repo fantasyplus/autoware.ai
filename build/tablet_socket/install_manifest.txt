@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/tablet_socket/lib/pkgconfig/tablet_socket.pc
+/home/ros/autoware.ai/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig.cmake
+/home/ros/autoware.ai/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig-version.cmake
+/home/ros/autoware.ai/install/tablet_socket/share/tablet_socket/package.xml
+/home/ros/autoware.ai/install/tablet_socket/lib/tablet_socket/tablet_receiver
+/home/ros/autoware.ai/install/tablet_socket/lib/tablet_socket/tablet_sender

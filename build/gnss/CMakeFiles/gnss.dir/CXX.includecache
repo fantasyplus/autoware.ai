@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ros/autoware.ai/src/autoware/common/gnss/include/gnss/geo_pos_conv.hpp
+
+/home/ros/autoware.ai/src/autoware/common/gnss/src/geo_pos_conv.cpp
+gnss/geo_pos_conv.hpp
+-
+cmath
+-
+

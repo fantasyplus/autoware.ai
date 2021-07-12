@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/gnss_localizer/devel
+
+Name: gnss_localizer
+Description: Description of gnss_localizer
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+/home/ros/autoware.ai/install/autoware_rviz_plugins/lib/pkgconfig/autoware_rviz_plugins.pc
+/home/ros/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/cmake/autoware_rviz_pluginsConfig.cmake
+/home/ros/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/cmake/autoware_rviz_pluginsConfig-version.cmake
+/home/ros/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/package.xml
+/home/ros/autoware.ai/install/autoware_rviz_plugins/lib/libautoware_rviz_plugins.so
+/home/ros/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/media/flag.dae
+/home/ros/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/icons/classes/OpFlag.png
+/home/ros/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/plugin_description.xml

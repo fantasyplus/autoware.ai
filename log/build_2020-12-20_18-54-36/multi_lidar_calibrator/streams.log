@@ -1,0 +1,77 @@
+[0.027s] Invoking command in '/home/ros/autoware.ai/build/multi_lidar_calibrator': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/multi_lidar_calibrator -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/multi_lidar_calibrator
+[0.141s] -- The C compiler identification is GNU 7.5.0
+[0.243s] -- The CXX compiler identification is GNU 7.5.0
+[0.249s] -- Check for working C compiler: /usr/bin/cc
+[0.363s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.363s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.475s] -- Detecting C compile features
+[0.835s] -- Detecting C compile features - done
+[0.839s] -- Check for working CXX compiler: /usr/bin/c++
+[0.986s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.987s] -- Detecting CXX compiler ABI info
+[1.114s] -- Detecting CXX compiler ABI info - done
+[1.126s] -- Detecting CXX compile features
+[1.873s] -- Detecting CXX compile features - done
+[1.876s] -- CUDA compilation status: .
+[1.887s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/multi_lidar_calibrator/devel
+[1.887s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.888s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.919s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.920s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.920s] -- Using Debian Python package layout
+[1.921s] -- Using empy: /usr/bin/empy
+[2.159s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.160s] -- Call enable_testing()
+[2.162s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/multi_lidar_calibrator/test_results
+[2.188s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.188s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.205s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.207s] -- Looking for pthread.h
+[2.317s] -- Looking for pthread.h - found
+[2.318s] -- Looking for pthread_create
+[2.433s] -- Looking for pthread_create - not found
+[2.434s] -- Looking for pthread_create in pthreads
+[2.544s] -- Looking for pthread_create in pthreads - not found
+[2.544s] -- Looking for pthread_create in pthread
+[2.659s] -- Looking for pthread_create in pthread - found
+[2.660s] -- Found Threads: TRUE  
+[2.666s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.733s] -- catkin 0.7.29
+[2.733s] -- BUILD_SHARED_LIBS is on
+[3.743s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.487s] -- Found OpenCV: /usr (found version "3.2.0") 
+[4.494s] -- Configuring done
+[4.597s] -- Generating done
+[4.611s] -- Build files have been written to: /home/ros/autoware.ai/build/multi_lidar_calibrator
+[4.620s] Invoked command in '/home/ros/autoware.ai/build/multi_lidar_calibrator' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/multi_lidar_calibrator -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/multi_lidar_calibrator
+[4.626s] Invoking command in '/home/ros/autoware.ai/build/multi_lidar_calibrator': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/multi_lidar_calibrator -- -j12 -l12
+[4.783s] [35m[1mScanning dependencies of target multi_lidar_calibrator_lib[0m
+[4.945s] [ 25%] [32mBuilding CXX object CMakeFiles/multi_lidar_calibrator_lib.dir/src/multi_lidar_calibrator.cpp.o[0m
+[46.015s] [ 50%] [32m[1mLinking CXX shared library devel/lib/libmulti_lidar_calibrator_lib.so[0m
+[49.926s] [ 50%] Built target multi_lidar_calibrator_lib
+[49.956s] [35m[1mScanning dependencies of target multi_lidar_calibrator[0m
+[50.113s] [ 75%] [32mBuilding CXX object CMakeFiles/multi_lidar_calibrator.dir/src/multi_lidar_calibrator_node.cpp.o[0m
+[69.593s] [100%] [32m[1mLinking CXX executable devel/lib/multi_lidar_calibrator/multi_lidar_calibrator[0m
+[70.707s] [100%] Built target multi_lidar_calibrator
+[70.722s] Invoked command in '/home/ros/autoware.ai/build/multi_lidar_calibrator' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/multi_lidar_calibrator -- -j12 -l12
+[70.970s] Invoking command in '/home/ros/autoware.ai/build/multi_lidar_calibrator': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/multi_lidar_calibrator --target tests -- -j12 -l12
+[71.057s] [35m[1mScanning dependencies of target tests[0m
+[71.070s] Built target tests
+[71.087s] Invoked command in '/home/ros/autoware.ai/build/multi_lidar_calibrator' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/multi_lidar_calibrator --target tests -- -j12 -l12
+[71.367s] Invoking command in '/home/ros/autoware.ai/build/multi_lidar_calibrator': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/multi_lidar_calibrator --target install -- -j12 -l12
+[71.476s] [ 50%] Built target multi_lidar_calibrator_lib
+[71.542s] [100%] Built target multi_lidar_calibrator
+[71.591s] [36mInstall the project...[0m
+[71.613s] -- Install configuration: "Release"
+[71.613s] -- Installing: /home/ros/autoware.ai/install/multi_lidar_calibrator/lib/pkgconfig/multi_lidar_calibrator.pc
+[71.614s] -- Installing: /home/ros/autoware.ai/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig.cmake
+[71.614s] -- Installing: /home/ros/autoware.ai/install/multi_lidar_calibrator/share/multi_lidar_calibrator/cmake/multi_lidar_calibratorConfig-version.cmake
+[71.615s] -- Installing: /home/ros/autoware.ai/install/multi_lidar_calibrator/share/multi_lidar_calibrator/package.xml
+[71.615s] -- Installing: /home/ros/autoware.ai/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator
+[71.625s] -- Set runtime path of "/home/ros/autoware.ai/install/multi_lidar_calibrator/lib/multi_lidar_calibrator/multi_lidar_calibrator" to ""
+[71.625s] -- Installing: /home/ros/autoware.ai/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so
+[71.649s] -- Set runtime path of "/home/ros/autoware.ai/install/multi_lidar_calibrator/lib/libmulti_lidar_calibrator_lib.so" to ""
+[71.650s] -- Installing: /home/ros/autoware.ai/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch
+[71.650s] -- Installing: /home/ros/autoware.ai/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch/multi_lidar_calibrator.launch
+[71.660s] Invoked command in '/home/ros/autoware.ai/build/multi_lidar_calibrator' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/multi_lidar_calibrator --target install -- -j12 -l12

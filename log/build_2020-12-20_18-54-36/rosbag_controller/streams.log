@@ -1,0 +1,87 @@
+[0.033s] Invoking command in '/home/ros/autoware.ai/build/rosbag_controller': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/rosbag_controller -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/rosbag_controller
+[0.137s] -- The C compiler identification is GNU 7.5.0
+[0.219s] -- The CXX compiler identification is GNU 7.5.0
+[0.225s] -- Check for working C compiler: /usr/bin/cc
+[0.326s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.327s] -- Detecting C compiler ABI info
+[0.461s] -- Detecting C compiler ABI info - done
+[0.476s] -- Detecting C compile features
+[0.894s] -- Detecting C compile features - done
+[0.899s] -- Check for working CXX compiler: /usr/bin/c++
+[1.022s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.024s] -- Detecting CXX compiler ABI info
+[1.143s] -- Detecting CXX compiler ABI info - done
+[1.155s] -- Detecting CXX compile features
+[1.765s] -- Detecting CXX compile features - done
+[1.767s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/rosbag_controller/devel
+[1.767s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.767s] -- This workspace overlays: /opt/ros/melodic
+[1.791s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.792s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.792s] -- Using Debian Python package layout
+[1.793s] -- Using empy: /usr/bin/empy
+[2.032s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.032s] -- Call enable_testing()
+[2.035s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/rosbag_controller/test_results
+[2.060s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.060s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.076s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.078s] -- Looking for pthread.h
+[2.178s] -- Looking for pthread.h - found
+[2.178s] -- Looking for pthread_create
+[2.307s] -- Looking for pthread_create - not found
+[2.309s] -- Looking for pthread_create in pthreads
+[2.392s] -- Looking for pthread_create in pthreads - not found
+[2.392s] -- Looking for pthread_create in pthread
+[2.514s] -- Looking for pthread_create in pthread - found
+[2.516s] -- Found Threads: TRUE  
+[2.522s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.577s] -- catkin 0.7.29
+[2.577s] -- BUILD_SHARED_LIBS is on
+[2.954s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.270s] -- Using Qt5 based on the rviz_QT_VERSION: 5.9.5
+[3.386s] -- Boost version: 1.65.1
+[3.386s] -- Found the following Boost libraries:
+[3.386s] --   date_time
+[3.386s] --   filesystem
+[3.386s] --   program_options
+[3.386s] --   regex
+[3.387s] --   thread
+[3.387s] --   system
+[3.387s] --   chrono
+[3.387s] --   atomic
+[3.396s] -- Found BZip2: /usr/lib/x86_64-linux-gnu/libbz2.so (found version "1.0.6") 
+[3.397s] -- Looking for BZ2_bzCompressInit
+[3.516s] -- Looking for BZ2_bzCompressInit - found
+[3.715s] -- Checking to see if CXX compiler accepts flag -Wl,--version-script,"/home/ros/autoware.ai/build/rosbag_controller/class_loader_hide_library_symbols__rosbag_controller.script"
+[3.904s] -- Checking to see if CXX compiler accepts flag -Wl,--version-script,"/home/ros/autoware.ai/build/rosbag_controller/class_loader_hide_library_symbols__rosbag_controller.script" - yes
+[3.907s] -- Configuring done
+[3.961s] -- Generating done
+[3.972s] -- Build files have been written to: /home/ros/autoware.ai/build/rosbag_controller
+[3.985s] Invoked command in '/home/ros/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/rosbag_controller -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/rosbag_controller
+[3.986s] Invoking command in '/home/ros/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller -- -j12 -l12
+[4.077s] [ 16%] [34m[1mGenerating ui_autoware_rosbag_plugin.h[0m
+[4.149s] [ 33%] [34m[1mGenerating src/moc_autoware_rosbag_plugin.cpp[0m
+[5.260s] [35m[1mScanning dependencies of target rosbag_controller[0m
+[5.376s] [ 50%] [32mBuilding CXX object CMakeFiles/rosbag_controller.dir/src/moc_autoware_rosbag_plugin.cpp.o[0m
+[15.390s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbag_controller.dir/src/autoware_rosbag_plugin.cpp.o[0m
+[28.614s] [ 83%] [32mBuilding CXX object CMakeFiles/rosbag_controller.dir/src/core/recorder.cpp.o[0m
+[42.269s] [100%] [32m[1mLinking CXX shared library devel/lib/librosbag_controller.so[0m
+[43.276s] [100%] Built target rosbag_controller
+[43.295s] Invoked command in '/home/ros/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller -- -j12 -l12
+[43.515s] Invoking command in '/home/ros/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller --target tests -- -j12 -l12
+[43.624s] [35m[1mScanning dependencies of target tests[0m
+[43.642s] Built target tests
+[43.659s] Invoked command in '/home/ros/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller --target tests -- -j12 -l12
+[43.911s] Invoking command in '/home/ros/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller --target install -- -j12 -l12
+[44.048s] [100%] Built target rosbag_controller
+[44.082s] [36mInstall the project...[0m
+[44.094s] -- Install configuration: "Release"
+[44.095s] -- Installing: /home/ros/autoware.ai/install/rosbag_controller/lib/pkgconfig/rosbag_controller.pc
+[44.096s] -- Installing: /home/ros/autoware.ai/install/rosbag_controller/share/rosbag_controller/cmake/rosbag_controllerConfig.cmake
+[44.096s] -- Installing: /home/ros/autoware.ai/install/rosbag_controller/share/rosbag_controller/cmake/rosbag_controllerConfig-version.cmake
+[44.096s] -- Installing: /home/ros/autoware.ai/install/rosbag_controller/share/rosbag_controller/package.xml
+[44.097s] -- Installing: /home/ros/autoware.ai/install/rosbag_controller/lib/librosbag_controller.so
+[44.104s] -- Set runtime path of "/home/ros/autoware.ai/install/rosbag_controller/lib/librosbag_controller.so" to ""
+[44.104s] -- Installing: /home/ros/autoware.ai/install/rosbag_controller/share/rosbag_controller/plugin_description.xml
+[44.111s] Invoked command in '/home/ros/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller --target install -- -j12 -l12

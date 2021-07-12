@@ -1,0 +1,14 @@
+/home/ros/autoware.ai/install/autoware_quickstart_examples/lib/pkgconfig/autoware_quickstart_examples.pc
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/cmake/autoware_quickstart_examplesConfig.cmake
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/cmake/autoware_quickstart_examplesConfig-version.cmake
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/package.xml
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_sensing.launch
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_mission_planning.launch
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_detection.launch
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_localization.launch
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_map.launch
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/default.rviz
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_motion_planning.launch
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/README.md
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/autoware.rviz
+/home/ros/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/tf_local.launch

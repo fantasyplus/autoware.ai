@@ -1,0 +1,75 @@
+[0.212s] Invoking command in '/home/ros/autoware.ai/build/vehicle_engage_panel': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/vehicle_engage_panel -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vehicle_engage_panel
+[0.417s] -- The C compiler identification is GNU 7.5.0
+[0.570s] -- The CXX compiler identification is GNU 7.5.0
+[0.576s] -- Check for working C compiler: /usr/bin/cc
+[0.874s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.875s] -- Detecting C compiler ABI info
+[1.249s] -- Detecting C compiler ABI info - done
+[1.273s] -- Detecting C compile features
+[1.813s] -- Detecting C compile features - done
+[1.817s] -- Check for working CXX compiler: /usr/bin/c++
+[1.931s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.932s] -- Detecting CXX compiler ABI info
+[2.079s] -- Detecting CXX compiler ABI info - done
+[2.093s] -- Detecting CXX compile features
+[3.404s] -- Detecting CXX compile features - done
+[3.406s] -- CUDA compilation status: .
+[3.408s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/vehicle_engage_panel/devel
+[3.408s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[3.408s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[3.456s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.456s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.457s] -- Using Debian Python package layout
+[3.458s] -- Using empy: /usr/bin/empy
+[3.819s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.819s] -- Call enable_testing()
+[3.822s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/vehicle_engage_panel/test_results
+[3.847s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.847s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.864s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.866s] -- Looking for pthread.h
+[4.010s] -- Looking for pthread.h - found
+[4.011s] -- Looking for pthread_create
+[4.130s] -- Looking for pthread_create - not found
+[4.130s] -- Looking for pthread_create in pthreads
+[4.215s] -- Looking for pthread_create in pthreads - not found
+[4.216s] -- Looking for pthread_create in pthread
+[4.310s] -- Looking for pthread_create in pthread - found
+[4.312s] -- Found Threads: TRUE  
+[4.318s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.377s] -- catkin 0.7.29
+[4.378s] -- BUILD_SHARED_LIBS is on
+[4.584s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.050s] -- Using Qt5 based on the rviz_QT_VERSION: 5.9.5
+[5.284s] -- Configuring done
+[5.342s] -- Generating done
+[5.357s] -- Build files have been written to: /home/ros/autoware.ai/build/vehicle_engage_panel
+[5.366s] Invoked command in '/home/ros/autoware.ai/build/vehicle_engage_panel' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/vehicle_engage_panel -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vehicle_engage_panel
+[5.370s] Invoking command in '/home/ros/autoware.ai/build/vehicle_engage_panel': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_engage_panel -- -j12 -l12
+[5.441s] [35m[1mScanning dependencies of target vehicle_engage_panel_autogen[0m
+[5.456s] [ 25%] [34m[1mAutomatic MOC for target vehicle_engage_panel[0m
+[5.557s] [ 25%] Built target vehicle_engage_panel_autogen
+[5.585s] [35m[1mScanning dependencies of target vehicle_engage_panel[0m
+[5.656s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicle_engage_panel.dir/src/vehicle_engage_panel.cpp.o[0m
+[11.226s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_engage_panel.dir/vehicle_engage_panel_autogen/mocs_compilation.cpp.o[0m
+[14.216s] [100%] [32m[1mLinking CXX shared library devel/lib/libvehicle_engage_panel.so[0m
+[14.904s] [100%] Built target vehicle_engage_panel
+[14.921s] Invoked command in '/home/ros/autoware.ai/build/vehicle_engage_panel' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_engage_panel -- -j12 -l12
+[15.282s] Invoking command in '/home/ros/autoware.ai/build/vehicle_engage_panel': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_engage_panel --target tests -- -j12 -l12
+[15.378s] [35m[1mScanning dependencies of target tests[0m
+[15.391s] Built target tests
+[15.406s] Invoked command in '/home/ros/autoware.ai/build/vehicle_engage_panel' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_engage_panel --target tests -- -j12 -l12
+[15.629s] Invoking command in '/home/ros/autoware.ai/build/vehicle_engage_panel': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_engage_panel --target install -- -j12 -l12
+[15.731s] [ 25%] [34m[1mAutomatic MOC for target vehicle_engage_panel[0m
+[15.756s] [ 25%] Built target vehicle_engage_panel_autogen
+[15.811s] [100%] Built target vehicle_engage_panel
+[15.869s] [36mInstall the project...[0m
+[15.886s] -- Install configuration: "Release"
+[15.886s] -- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/lib/pkgconfig/vehicle_engage_panel.pc
+[15.886s] -- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/cmake/vehicle_engage_panelConfig.cmake
+[15.886s] -- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/cmake/vehicle_engage_panelConfig-version.cmake
+[15.887s] -- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/package.xml
+[15.887s] -- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/lib/libvehicle_engage_panel.so
+[15.889s] -- Set runtime path of "/home/ros/autoware.ai/install/vehicle_engage_panel/lib/libvehicle_engage_panel.so" to ""
+[15.889s] -- Installing: /home/ros/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/plugin_description.xml
+[15.896s] Invoked command in '/home/ros/autoware.ai/build/vehicle_engage_panel' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_engage_panel --target install -- -j12 -l12

@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/vector_map/lib/pkgconfig/vector_map.pc
+/home/ros/autoware.ai/install/vector_map/share/vector_map/cmake/vector_mapConfig.cmake
+/home/ros/autoware.ai/install/vector_map/share/vector_map/cmake/vector_mapConfig-version.cmake
+/home/ros/autoware.ai/install/vector_map/share/vector_map/package.xml
+/home/ros/autoware.ai/install/vector_map/include/vector_map/vector_map.h
+/home/ros/autoware.ai/install/vector_map/lib/libvector_map.so

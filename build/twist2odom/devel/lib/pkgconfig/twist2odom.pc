@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/twist2odom/devel
+
+Name: twist2odom
+Description: Description of twist2odom
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs

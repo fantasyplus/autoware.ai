@@ -1,0 +1,10 @@
+/home/ros/autoware.ai/install/image_processor/lib/pkgconfig/image_processor.pc
+/home/ros/autoware.ai/install/image_processor/share/image_processor/cmake/image_processorConfig.cmake
+/home/ros/autoware.ai/install/image_processor/share/image_processor/cmake/image_processorConfig-version.cmake
+/home/ros/autoware.ai/install/image_processor/share/image_processor/package.xml
+/home/ros/autoware.ai/install/image_processor/lib/image_processor/image_rotator
+/home/ros/autoware.ai/install/image_processor/lib/image_processor/image_rectifier
+/home/ros/autoware.ai/install/image_processor/share/image_processor/launch/launch/image_rotator_ladybug.launch
+/home/ros/autoware.ai/install/image_processor/share/image_processor/launch/launch/image_rectifier_ladybug.launch
+/home/ros/autoware.ai/install/image_processor/share/image_processor/launch/launch/image_rotator.launch
+/home/ros/autoware.ai/install/image_processor/share/image_processor/launch/launch/image_rectifier.launch

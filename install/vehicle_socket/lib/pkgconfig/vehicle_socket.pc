@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/vehicle_socket
+
+Name: vehicle_socket
+Description: Description of vehicle_socket
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

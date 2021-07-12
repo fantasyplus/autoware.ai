@@ -1,0 +1,109 @@
+[0.076s] Invoking command in '/home/ros/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/map_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/map_tools
+[0.234s] -- The C compiler identification is GNU 7.5.0
+[0.359s] -- The CXX compiler identification is GNU 7.5.0
+[0.371s] -- Check for working C compiler: /usr/bin/cc
+[0.633s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.634s] -- Detecting C compiler ABI info
+[0.758s] -- Detecting C compiler ABI info - done
+[0.774s] -- Detecting C compile features
+[1.288s] -- Detecting C compile features - done
+[1.293s] -- Check for working CXX compiler: /usr/bin/c++
+[1.492s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.493s] -- Detecting CXX compiler ABI info
+[1.677s] -- Detecting CXX compiler ABI info - done
+[1.690s] -- Detecting CXX compile features
+[2.370s] -- Detecting CXX compile features - done
+[2.372s] -- CUDA compilation status: .
+[2.374s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/map_tools/devel
+[2.375s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.375s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.395s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.396s] -- Using Debian Python package layout
+[2.396s] -- Using empy: /usr/bin/empy
+[2.632s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.632s] -- Call enable_testing()
+[2.635s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/map_tools/test_results
+[2.661s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.661s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.684s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.685s] -- Looking for pthread.h
+[2.798s] -- Looking for pthread.h - found
+[2.799s] -- Looking for pthread_create
+[2.924s] -- Looking for pthread_create - not found
+[2.925s] -- Looking for pthread_create in pthreads
+[3.035s] -- Looking for pthread_create in pthreads - not found
+[3.036s] -- Looking for pthread_create in pthread
+[3.183s] -- Looking for pthread_create in pthread - found
+[3.185s] -- Found Threads: TRUE  
+[3.191s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.264s] -- catkin 0.7.29
+[3.265s] -- BUILD_SHARED_LIBS is on
+[4.391s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.099s] -- Configuring done
+[5.326s] -- Generating done
+[5.339s] -- Build files have been written to: /home/ros/autoware.ai/build/map_tools
+[5.350s] Invoked command in '/home/ros/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/map_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/map_tools
+[5.351s] Invoking command in '/home/ros/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/map_tools -- -j12 -l12
+[5.420s] [35m[1mScanning dependencies of target pcd_grid_divider[0m
+[5.508s] [  7%] [32mBuilding CXX object CMakeFiles/pcd_grid_divider.dir/nodes/pcd_grid_divider/pcd_grid_divider.cpp.o[0m
+[17.847s] [ 14%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd_grid_divider[0m
+[18.703s] [ 14%] Built target pcd_grid_divider
+[18.742s] [35m[1mScanning dependencies of target pcd_filter[0m
+[18.849s] [ 21%] [32mBuilding CXX object CMakeFiles/pcd_filter.dir/nodes/pcd_filter/pcd_filter.cpp.o[0m
+[32.710s] [ 28%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd_filter[0m
+[36.570s] [ 28%] Built target pcd_filter
+[36.588s] [35m[1mScanning dependencies of target pcd_binarizer[0m
+[36.652s] [ 35%] [32mBuilding CXX object CMakeFiles/pcd_binarizer.dir/nodes/pcd_binarizer/pcd_binarizer.cpp.o[0m
+[48.141s] [ 42%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd_binarizer[0m
+[48.980s] [ 42%] Built target pcd_binarizer
+[49.003s] [35m[1mScanning dependencies of target pcd_arealist[0m
+[49.088s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_arealist.dir/nodes/pcd_arealist/pcd_arealist.cpp.o[0m
+[60.237s] [ 57%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd_arealist[0m
+[61.101s] [ 57%] Built target pcd_arealist
+[61.122s] [35m[1mScanning dependencies of target csv2pcd[0m
+[61.185s] [ 64%] [32mBuilding CXX object CMakeFiles/csv2pcd.dir/nodes/pcd_converter/csv2pcd.cpp.o[0m
+[72.267s] [ 71%] [32m[1mLinking CXX executable devel/lib/map_tools/csv2pcd[0m
+[73.132s] [ 71%] Built target csv2pcd
+[73.161s] [35m[1mScanning dependencies of target pcd2csv[0m
+[73.237s] [ 78%] [32mBuilding CXX object CMakeFiles/pcd2csv.dir/nodes/pcd_converter/pcd2csv.cpp.o[0m
+[83.470s] [ 85%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd2csv[0m
+[84.272s] [ 85%] Built target pcd2csv
+[84.291s] [35m[1mScanning dependencies of target map_extender[0m
+[84.399s] [ 92%] [32mBuilding CXX object CMakeFiles/map_extender.dir/nodes/map_extender/map_extender.cpp.o[0m
+[119.012s] [100%] [32m[1mLinking CXX executable devel/lib/map_tools/map_extender[0m
+[123.114s] [100%] Built target map_extender
+[123.147s] Invoked command in '/home/ros/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/map_tools -- -j12 -l12
+[123.843s] Invoking command in '/home/ros/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/map_tools --target tests -- -j12 -l12
+[123.950s] [35m[1mScanning dependencies of target tests[0m
+[123.969s] Built target tests
+[124.029s] Invoked command in '/home/ros/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/map_tools --target tests -- -j12 -l12
+[124.761s] Invoking command in '/home/ros/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/map_tools --target install -- -j12 -l12
+[124.928s] [ 14%] Built target pcd_grid_divider
+[124.977s] [ 28%] Built target pcd_filter
+[125.064s] [ 42%] Built target pcd_binarizer
+[125.166s] [ 57%] Built target pcd_arealist
+[125.359s] [ 71%] Built target csv2pcd
+[125.489s] [ 85%] Built target pcd2csv
+[125.582s] [100%] Built target map_extender
+[125.700s] [36mInstall the project...[0m
+[125.721s] -- Install configuration: "Release"
+[125.721s] -- Installing: /home/ros/autoware.ai/install/map_tools/lib/pkgconfig/map_tools.pc
+[125.722s] -- Installing: /home/ros/autoware.ai/install/map_tools/share/map_tools/cmake/map_toolsConfig.cmake
+[125.722s] -- Installing: /home/ros/autoware.ai/install/map_tools/share/map_tools/cmake/map_toolsConfig-version.cmake
+[125.722s] -- Installing: /home/ros/autoware.ai/install/map_tools/share/map_tools/package.xml
+[125.722s] -- Installing: /home/ros/autoware.ai/install/map_tools/lib/map_tools/csv2pcd
+[125.729s] -- Set runtime path of "/home/ros/autoware.ai/install/map_tools/lib/map_tools/csv2pcd" to ""
+[125.730s] -- Installing: /home/ros/autoware.ai/install/map_tools/lib/map_tools/map_extender
+[125.765s] -- Set runtime path of "/home/ros/autoware.ai/install/map_tools/lib/map_tools/map_extender" to ""
+[125.765s] -- Installing: /home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd2csv
+[125.769s] -- Set runtime path of "/home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd2csv" to ""
+[125.770s] -- Installing: /home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd_arealist
+[125.774s] -- Set runtime path of "/home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd_arealist" to ""
+[125.774s] -- Installing: /home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd_binarizer
+[125.777s] -- Set runtime path of "/home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd_binarizer" to ""
+[125.778s] -- Installing: /home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd_filter
+[125.782s] -- Set runtime path of "/home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd_filter" to ""
+[125.782s] -- Installing: /home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd_grid_divider
+[125.786s] -- Set runtime path of "/home/ros/autoware.ai/install/map_tools/lib/map_tools/pcd_grid_divider" to ""
+[125.793s] Invoked command in '/home/ros/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/map_tools --target install -- -j12 -l12

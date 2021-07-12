@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/gazebo_world_description': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/gazebo_world_description
+Invoked command in '/home/ros/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/visualization/gazebo_world_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/gazebo_world_description
+Invoking command in '/home/ros/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/gazebo_world_description --target install -- -j12 -l12

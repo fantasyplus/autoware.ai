@@ -1,0 +1,87 @@
+[0.044s] Invoking command in '/home/ros/autoware.ai/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/common/vehicle_sim_model -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vehicle_sim_model
+[0.216s] -- The C compiler identification is GNU 7.5.0
+[0.322s] -- The CXX compiler identification is GNU 7.5.0
+[0.327s] -- Check for working C compiler: /usr/bin/cc
+[0.535s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.535s] -- Detecting C compiler ABI info
+[0.702s] -- Detecting C compiler ABI info - done
+[0.702s] -- Detecting C compile features
+[1.309s] -- Detecting C compile features - done
+[1.313s] -- Check for working CXX compiler: /usr/bin/c++
+[1.523s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.524s] -- Detecting CXX compiler ABI info
+[1.772s] -- Detecting CXX compiler ABI info - done
+[1.783s] -- Detecting CXX compile features
+[3.080s] -- Detecting CXX compile features - done
+[3.080s] -- CUDA compilation status: .
+[3.080s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/vehicle_sim_model/devel
+[3.080s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[3.081s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[3.102s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.103s] -- Using Debian Python package layout
+[3.104s] -- Using empy: /usr/bin/empy
+[3.484s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.484s] -- Call enable_testing()
+[3.501s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/vehicle_sim_model/test_results
+[3.537s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.537s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.640s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.641s] -- Looking for pthread.h
+[4.041s] -- Looking for pthread.h - found
+[4.042s] -- Looking for pthread_create
+[4.457s] -- Looking for pthread_create - not found
+[4.457s] -- Looking for pthread_create in pthreads
+[4.901s] -- Looking for pthread_create in pthreads - not found
+[4.902s] -- Looking for pthread_create in pthread
+[5.264s] -- Looking for pthread_create in pthread - found
+[5.265s] -- Found Threads: TRUE  
+[5.271s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.340s] -- catkin 0.7.29
+[5.340s] -- BUILD_SHARED_LIBS is on
+[5.949s] -- Configuring done
+[5.966s] -- Generating done
+[5.971s] -- Build files have been written to: /home/ros/autoware.ai/build/vehicle_sim_model
+[5.980s] Invoked command in '/home/ros/autoware.ai/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/common/vehicle_sim_model -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vehicle_sim_model
+[5.981s] Invoking command in '/home/ros/autoware.ai/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_sim_model -- -j12 -l12
+[6.083s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[6.108s] [  0%] Built target _catkin_empty_exported_target
+[6.140s] [35m[1mScanning dependencies of target vehicle_sim_model[0m
+[6.198s] [ 20%] [32mBuilding CXX object CMakeFiles/vehicle_sim_model.dir/src/vehicle_model_ideal.cpp.o[0m
+[6.204s] [ 40%] [32mBuilding CXX object CMakeFiles/vehicle_sim_model.dir/src/vehicle_model_interface.cpp.o[0m
+[6.204s] [ 60%] [32mBuilding CXX object CMakeFiles/vehicle_sim_model.dir/src/vehicle_model_constant_acceleration.cpp.o[0m
+[6.207s] [ 80%] [32mBuilding CXX object CMakeFiles/vehicle_sim_model.dir/src/vehicle_model_time_delay.cpp.o[0m
+[8.368s] [100%] [32m[1mLinking CXX shared library devel/lib/libvehicle_sim_model.so[0m
+[8.579s] [100%] Built target vehicle_sim_model
+[8.611s] Invoked command in '/home/ros/autoware.ai/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_sim_model -- -j12 -l12
+[8.885s] Invoking command in '/home/ros/autoware.ai/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_sim_model --target tests -- -j12 -l12
+[9.005s] [35m[1mScanning dependencies of target gtest[0m
+[9.028s] [  0%] Built target _catkin_empty_exported_target
+[9.041s] [ 11%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.099s] [ 66%] Built target vehicle_sim_model
+[15.820s] [ 77%] [32m[1mLinking CXX shared library libgtest.so[0m
+[16.072s] [ 77%] Built target gtest
+[16.129s] [35m[1mScanning dependencies of target test-vehicle_sim_model[0m
+[16.200s] [ 88%] [32mBuilding CXX object CMakeFiles/test-vehicle_sim_model.dir/test/src/test_vehicle_sim_model.cpp.o[0m
+[19.091s] [100%] [32m[1mLinking CXX executable devel/lib/vehicle_sim_model/test-vehicle_sim_model[0m
+[19.294s] [100%] Built target test-vehicle_sim_model
+[19.311s] [35m[1mScanning dependencies of target tests[0m
+[19.324s] [100%] Built target tests
+[19.342s] Invoked command in '/home/ros/autoware.ai/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_sim_model --target tests -- -j12 -l12
+[19.492s] Invoking command in '/home/ros/autoware.ai/build/vehicle_sim_model': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_sim_model --target install -- -j12 -l12
+[19.649s] [  0%] Built target _catkin_empty_exported_target
+[19.704s] [100%] Built target vehicle_sim_model
+[19.733s] [36mInstall the project...[0m
+[19.746s] -- Install configuration: "Release"
+[19.747s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/lib/pkgconfig/vehicle_sim_model.pc
+[19.747s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/share/vehicle_sim_model/cmake/vehicle_sim_modelConfig.cmake
+[19.747s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/share/vehicle_sim_model/cmake/vehicle_sim_modelConfig-version.cmake
+[19.747s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/share/vehicle_sim_model/package.xml
+[19.747s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/lib/libvehicle_sim_model.so
+[19.750s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model
+[19.750s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_ideal.h
+[19.751s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_interface.h
+[19.751s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_constant_acceleration.h
+[19.751s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/include/vehicle_sim_model/vehicle_model_time_delay.h
+[19.751s] -- Installing: /home/ros/autoware.ai/install/vehicle_sim_model/lib/vehicle_sim_model/fitParamDelayInputModel.py
+[19.755s] Invoked command in '/home/ros/autoware.ai/build/vehicle_sim_model' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_sim_model --target install -- -j12 -l12

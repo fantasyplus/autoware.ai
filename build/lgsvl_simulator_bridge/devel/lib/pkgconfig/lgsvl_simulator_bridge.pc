@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/lgsvl_simulator_bridge/devel
+
+Name: lgsvl_simulator_bridge
+Description: Description of lgsvl_simulator_bridge
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/rosinterface
+
+Name: rosinterface
+Description: Description of rosinterface
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrosinterface
+Requires: 

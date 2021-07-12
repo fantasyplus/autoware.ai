@@ -1,0 +1,72 @@
+[0.096s] Invoking command in '/home/ros/autoware.ai/build/lidar_point_pillars': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/lidar_point_pillars -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/lidar_point_pillars
+[0.264s] -- The C compiler identification is GNU 7.5.0
+[0.386s] -- The CXX compiler identification is GNU 7.5.0
+[0.394s] -- Check for working C compiler: /usr/bin/cc
+[0.620s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.621s] -- Detecting C compiler ABI info
+[0.766s] -- Detecting C compiler ABI info - done
+[0.781s] -- Detecting C compile features
+[1.335s] -- Detecting C compile features - done
+[1.340s] -- Check for working CXX compiler: /usr/bin/c++
+[1.603s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.604s] -- Detecting CXX compiler ABI info
+[1.806s] -- Detecting CXX compiler ABI info - done
+[1.836s] -- Detecting CXX compile features
+[2.763s] -- Detecting CXX compile features - done
+[2.767s] CUDA_TOOLKIT_ROOT_DIR not found or specified
+[2.785s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[2.787s] -- CUDA compilation status: .
+[2.788s] CMake Warning at /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+[2.788s]   CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+[2.788s]   variable and recompile to enable it
+[2.788s] Call Stack (most recent call first):
+[2.788s]   CMakeLists.txt:9 (AW_CHECK_CUDA)
+[2.788s] 
+[2.788s] 
+[2.788s] CUDA NOT FOUND OR INCOMPATIBLE CMAKE VERSION FOUND
+[2.792s] TensorRT is NOT Available
+[2.796s] CUDNN is NOT Available
+[2.798s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/lidar_point_pillars/devel
+[2.798s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.799s] -- This workspace overlays: /home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[2.843s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.843s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.843s] -- Using Debian Python package layout
+[2.844s] -- Using empy: /usr/bin/empy
+[3.134s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.135s] -- Call enable_testing()
+[3.147s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/lidar_point_pillars/test_results
+[3.178s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.178s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.199s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.201s] -- Looking for pthread.h
+[3.598s] -- Looking for pthread.h - found
+[3.600s] -- Looking for pthread_create
+[3.921s] -- Looking for pthread_create - not found
+[3.921s] -- Looking for pthread_create in pthreads
+[4.168s] -- Looking for pthread_create in pthreads - not found
+[4.168s] -- Looking for pthread_create in pthread
+[4.431s] -- Looking for pthread_create in pthread - found
+[4.436s] -- Found Threads: TRUE  
+[4.446s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.522s] -- catkin 0.7.29
+[4.522s] -- BUILD_SHARED_LIBS is on
+[5.013s] PointPillars won't be built, CUDA and/or TensorRT were not found.
+[5.017s] -- Configuring done
+[5.024s] -- Generating done
+[5.027s] -- Build files have been written to: /home/ros/autoware.ai/build/lidar_point_pillars
+[5.044s] Invoked command in '/home/ros/autoware.ai/build/lidar_point_pillars' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/lidar_point_pillars -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/lidar_point_pillars
+[5.045s] Invoking command in '/home/ros/autoware.ai/build/lidar_point_pillars': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lidar_point_pillars -- -j12 -l12
+[5.137s] Invoked command in '/home/ros/autoware.ai/build/lidar_point_pillars' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lidar_point_pillars -- -j12 -l12
+[5.249s] Invoking command in '/home/ros/autoware.ai/build/lidar_point_pillars': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lidar_point_pillars --target tests -- -j12 -l12
+[5.462s] [35m[1mScanning dependencies of target tests[0m
+[5.503s] Built target tests
+[5.529s] Invoked command in '/home/ros/autoware.ai/build/lidar_point_pillars' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lidar_point_pillars --target tests -- -j12 -l12
+[5.621s] Invoking command in '/home/ros/autoware.ai/build/lidar_point_pillars': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lidar_point_pillars --target install -- -j12 -l12
+[5.702s] [36mInstall the project...[0m
+[5.721s] -- Install configuration: "Release"
+[5.722s] -- Installing: /home/ros/autoware.ai/install/lidar_point_pillars/lib/pkgconfig/lidar_point_pillars.pc
+[5.722s] -- Installing: /home/ros/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/cmake/lidar_point_pillarsConfig.cmake
+[5.723s] -- Installing: /home/ros/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/cmake/lidar_point_pillarsConfig-version.cmake
+[5.723s] -- Installing: /home/ros/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/package.xml
+[5.728s] Invoked command in '/home/ros/autoware.ai/build/lidar_point_pillars' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/lidar_point_pillars --target install -- -j12 -l12

@@ -1,0 +1,13 @@
+/home/ros/autoware.ai/install/costmap_generator/lib/pkgconfig/costmap_generator.pc
+/home/ros/autoware.ai/install/costmap_generator/share/costmap_generator/cmake/costmap_generatorConfig.cmake
+/home/ros/autoware.ai/install/costmap_generator/share/costmap_generator/cmake/costmap_generatorConfig-version.cmake
+/home/ros/autoware.ai/install/costmap_generator/share/costmap_generator/package.xml
+/home/ros/autoware.ai/install/costmap_generator/lib/costmap_generator/costmap_generator
+/home/ros/autoware.ai/install/costmap_generator/lib/costmap_generator/costmap_generator_lanelet2
+/home/ros/autoware.ai/install/costmap_generator/share/costmap_generator/launch/costmap_generator.launch
+/home/ros/autoware.ai/install/costmap_generator/share/costmap_generator/launch/costmap_generator_lanelet2.launch
+/home/ros/autoware.ai/install/costmap_generator/share/costmap_generator/launch/costmap_generator_option.launch
+/home/ros/autoware.ai/install/costmap_generator/include/costmap_generator/points_to_costmap.h
+/home/ros/autoware.ai/install/costmap_generator/include/costmap_generator/costmap_generator_lanelet2.h
+/home/ros/autoware.ai/install/costmap_generator/include/costmap_generator/costmap_generator.h
+/home/ros/autoware.ai/install/costmap_generator/include/costmap_generator/objects_to_costmap.h

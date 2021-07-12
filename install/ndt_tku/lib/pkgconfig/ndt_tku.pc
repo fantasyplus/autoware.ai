@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/ndt_tku
+
+Name: ndt_tku
+Description: Description of ndt_tku
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lndt_tku
+Requires: 

@@ -1,0 +1,59 @@
+[0.043s] Invoking command in '/home/ros/autoware.ai/build/marker_downsampler': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/marker_downsampler
+[0.299s] -- The C compiler identification is GNU 7.5.0
+[0.436s] -- The CXX compiler identification is GNU 7.5.0
+[0.441s] -- Check for working C compiler: /usr/bin/cc
+[0.602s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.603s] -- Detecting C compiler ABI info
+[0.849s] -- Detecting C compiler ABI info - done
+[0.861s] -- Detecting C compile features
+[1.721s] -- Detecting C compile features - done
+[1.725s] -- Check for working CXX compiler: /usr/bin/c++
+[2.015s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.016s] -- Detecting CXX compiler ABI info
+[2.308s] -- Detecting CXX compiler ABI info - done
+[2.342s] -- Detecting CXX compile features
+[4.084s] -- Detecting CXX compile features - done
+[4.087s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/marker_downsampler/devel
+[4.087s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[4.087s] -- This workspace overlays: /opt/ros/melodic
+[4.124s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.125s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.126s] -- Using Debian Python package layout
+[4.126s] -- Using empy: /usr/bin/empy
+[4.407s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.408s] -- Call enable_testing()
+[4.411s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/marker_downsampler/test_results
+[4.444s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.444s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.462s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.464s] -- Looking for pthread.h
+[4.631s] -- Looking for pthread.h - found
+[4.631s] -- Looking for pthread_create
+[4.806s] -- Looking for pthread_create - not found
+[4.807s] -- Looking for pthread_create in pthreads
+[5.006s] -- Looking for pthread_create in pthreads - not found
+[5.006s] -- Looking for pthread_create in pthread
+[5.270s] -- Looking for pthread_create in pthread - found
+[5.270s] -- Found Threads: TRUE  
+[5.270s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.331s] -- catkin 0.7.29
+[5.332s] -- BUILD_SHARED_LIBS is on
+[5.926s] -- Configuring done
+[5.951s] -- Generating done
+[5.956s] -- Build files have been written to: /home/ros/autoware.ai/build/marker_downsampler
+[5.963s] Invoked command in '/home/ros/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/marker_downsampler
+[5.966s] Invoking command in '/home/ros/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/ros/autoware.ai/build/marker_downsampler -- -j12 -l12
+[6.033s] Invoked command in '/home/ros/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/marker_downsampler -- -j12 -l12
+[6.199s] Invoking command in '/home/ros/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/ros/autoware.ai/build/marker_downsampler --target tests -- -j12 -l12
+[6.296s] [35m[1mScanning dependencies of target tests[0m
+[6.329s] Built target tests
+[6.350s] Invoked command in '/home/ros/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/marker_downsampler --target tests -- -j12 -l12
+[6.610s] Invoking command in '/home/ros/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/ros/autoware.ai/build/marker_downsampler --target install -- -j12 -l12
+[6.695s] [36mInstall the project...[0m
+[6.706s] -- Install configuration: "Release"
+[6.707s] -- Installing: /home/ros/autoware.ai/install/marker_downsampler/lib/pkgconfig/marker_downsampler.pc
+[6.707s] -- Installing: /home/ros/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig.cmake
+[6.707s] -- Installing: /home/ros/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig-version.cmake
+[6.707s] -- Installing: /home/ros/autoware.ai/install/marker_downsampler/share/marker_downsampler/package.xml
+[6.708s] -- Installing: /home/ros/autoware.ai/install/marker_downsampler/lib/marker_downsampler/app.py
+[6.711s] Invoked command in '/home/ros/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/marker_downsampler --target install -- -j12 -l12

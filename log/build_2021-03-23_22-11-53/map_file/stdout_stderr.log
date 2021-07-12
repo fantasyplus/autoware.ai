@@ -1,0 +1,149 @@
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[  0%] Built target vector_map_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_nodejs
+[ 15%] Built target get_file
+[35m[1mScanning dependencies of target points_map_loader[0m
+[ 38%] Built target lanelet2_map_loader
+[ 46%] Built target lanelet2_map_visualization
+[ 61%] Built target vector_map_loader
+[ 84%] Built target points_map_filter
+[ 92%] [32mBuilding CXX object CMakeFiles/points_map_loader.dir/nodes/points_map_loader/points_map_loader.cpp.o[0m
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:49:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   pnh.param<std::string>("pcd_paths", pcd_paths,[01;35m[K'""'[m[K);
+                                                 [01;35m[K^~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param<std::__cxx11::string>(const char [10], std::vector<std::__cxx11::basic_string<char> >&, int)[m[K’
+   pnh.param<std::string>("pcd_paths", pcd_paths,'""'[01;31m[K)[m[K;
+                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:42[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:23[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool ros::NodeHandle::param(const string&, T&, const T&) const
+   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:53:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kpcd_paths[m[K’ (type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’) to type ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’
+   pnh.param<std::string>("pcd_paths", pcd_paths,'""'[01;36m[K)[m[K;
+                                                     [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:42[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:23[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> T ros::NodeHandle::param(const string&, const T&) const
+   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:53:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+   pnh.param<std::string>("pcd_paths", pcd_paths,'""'[01;36m[K)[m[K;
+                                                     [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/points_map_loader.dir/nodes/points_map_loader/points_map_loader.cpp.o] Error 1
+CMakeFiles/points_map_loader.dir/build.make:81: recipe for target 'CMakeFiles/points_map_loader.dir/nodes/points_map_loader/points_map_loader.cpp.o' failed
+CMakeFiles/Makefile2:981: recipe for target 'CMakeFiles/points_map_loader.dir/all' failed
+make[1]: *** [CMakeFiles/points_map_loader.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:159: recipe for target 'all' failed

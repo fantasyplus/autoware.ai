@@ -1,0 +1,15 @@
+/home/ros/autoware.ai/install/vision_darknet_detect/lib/pkgconfig/vision_darknet_detect.pc
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig.cmake
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig-version.cmake
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/package.xml
+/home/ros/autoware.ai/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so
+/home/ros/autoware.ai/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo3_detect.launch
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo2_detect.launch
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3.cfg
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
+/home/ros/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg

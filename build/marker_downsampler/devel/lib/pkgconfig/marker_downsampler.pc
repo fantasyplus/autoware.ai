@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/marker_downsampler/devel
+
+Name: marker_downsampler
+Description: Description of marker_downsampler
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

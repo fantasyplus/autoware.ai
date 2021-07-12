@@ -1,0 +1,7 @@
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::publish_pcd(sensor_msgs::PointCloud2, const int*)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:379:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+     pcl::fromROSMsg(*[01;31m[Kmsg[m[K, *pcl_pc_ptr);
+                      [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/points_map_loader.dir/nodes/points_map_loader/points_map_loader.cpp.o] Error 1
+make[1]: *** [CMakeFiles/points_map_loader.dir/all] Error 2
+make: *** [all] Error 2

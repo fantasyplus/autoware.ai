@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/points2image/devel
+
+Name: points2image
+Description: Description of points2image
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

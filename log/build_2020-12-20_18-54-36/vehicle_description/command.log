@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/vehicle_description': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vehicle_description
+Invoked command in '/home/ros/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vehicle_description
+Invoking command in '/home/ros/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description --target install -- -j12 -l12

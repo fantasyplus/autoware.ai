@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: .
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/data_preprocessor/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/data_preprocessor/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /usr (found version "3.2.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/data_preprocessor
+[35m[1mScanning dependencies of target get_PCD[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/get_PCD.dir/nodes/get_PCD/get_PCD.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_PCD[0m
+[ 33%] Built target get_PCD
+[35m[1mScanning dependencies of target get_Depth[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/get_Depth.dir/nodes/get_Depth/get_Depth.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_Depth[0m
+[ 66%] Built target get_Depth
+[35m[1mScanning dependencies of target get_Image[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/get_Image.dir/nodes/get_Image/get_Image.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/data_preprocessor/get_Image[0m
+[100%] Built target get_Image
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 33%] Built target get_PCD
+[ 66%] Built target get_Depth
+[100%] Built target get_Image
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/data_preprocessor/lib/pkgconfig/data_preprocessor.pc
+-- Installing: /home/ros/autoware.ai/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/data_preprocessor/share/data_preprocessor/package.xml
+-- Installing: /home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Image
+-- Set runtime path of "/home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Image" to ""
+-- Installing: /home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_PCD
+-- Set runtime path of "/home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_PCD" to ""
+-- Installing: /home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Depth
+-- Set runtime path of "/home/ros/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Depth" to ""

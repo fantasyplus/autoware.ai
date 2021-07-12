@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/autoware.ai/build/vehicle_engage_panel/devel/setup.sh

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: autoware_camera_lidar_calibrator
+Version: 1.12.0
+Summary: Autoware CameraLidarCalibration tools, this package includes work from
+      http://www.ros.org/wiki/camera_calibration
+Home-page: UNKNOWN
+Author: Abraham Monrroy <abrahammonrroy@yahoo.com>, Jacob Lambert <jacob.lambert@tier4.jp>
+Author-email: UNKNOWN
+License: Apache 2
+Description: UNKNOWN
+Platform: UNKNOWN

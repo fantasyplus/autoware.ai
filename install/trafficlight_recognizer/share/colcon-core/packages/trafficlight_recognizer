@@ -1,0 +1,1 @@
+autoware_msgs:cmake_modules:cv_bridge:eigen:geometry_msgs:lanelet2_extension:libvectormap:qtbase5-dev:roscpp:roslint:sensor_msgs:std_msgs:tf:vector_map:vector_map_server:visualization_msgs

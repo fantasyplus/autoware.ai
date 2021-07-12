@@ -1,0 +1,27 @@
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::param<std::__cxx11::string>(const char [10], std::vector<std::__cxx11::basic_string<char> >&, const char [1])[m[K’
+   pnh.param<std::string>("pcd_paths", pcd_paths,""[01;31m[K)[m[K;
+                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:42[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:23[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> bool ros::NodeHandle::param(const string&, T&, const T&) const
+   bool [01;36m[Kparam[m[K(const std::string& param_name, T& param_val, const T& default_val) const
+        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2120:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:51:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kpcd_paths[m[K’ (type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’) to type ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’
+   pnh.param<std::string>("pcd_paths", pcd_paths,""[01;36m[K)[m[K;
+                                                   [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/pcl_conversions/pcl_conversions.h:42[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:23[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> T ros::NodeHandle::param(const string&, const T&) const
+   T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val) const
+     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:2153:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:51:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+   pnh.param<std::string>("pcd_paths", pcd_paths,""[01;36m[K)[m[K;
+                                                   [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/points_map_loader.dir/nodes/points_map_loader/points_map_loader.cpp.o] Error 1
+make[1]: *** [CMakeFiles/points_map_loader.dir/all] Error 2
+make: *** [all] Error 2

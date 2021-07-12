@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/autoware.ai/build/ros_observer': /usr/bin/cmake --build /home/ros/autoware.ai/build/ros_observer -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/ros_observer' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ros_observer -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/ros_observer': /usr/bin/cmake --build /home/ros/autoware.ai/build/ros_observer --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/ros_observer' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ros_observer --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/ros_observer': /usr/bin/cmake --build /home/ros/autoware.ai/build/ros_observer --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/ros_observer' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ros_observer --target install -- -j12 -l12

@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/vehicle_socket/lib/pkgconfig/vehicle_socket.pc
+/home/ros/autoware.ai/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig.cmake
+/home/ros/autoware.ai/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig-version.cmake
+/home/ros/autoware.ai/install/vehicle_socket/share/vehicle_socket/package.xml
+/home/ros/autoware.ai/install/vehicle_socket/lib/vehicle_socket/vehicle_sender
+/home/ros/autoware.ai/install/vehicle_socket/lib/vehicle_socket/vehicle_receiver

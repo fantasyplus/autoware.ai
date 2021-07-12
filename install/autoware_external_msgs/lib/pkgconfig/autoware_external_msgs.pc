@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/autoware_external_msgs
+
+Name: autoware_external_msgs
+Description: Description of autoware_external_msgs
+Version: 1.13.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

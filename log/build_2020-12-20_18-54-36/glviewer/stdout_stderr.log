@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- CUDA compilation status: .
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/glviewer/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/glviewer/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/glviewer
+[35m[1mScanning dependencies of target glviewer_autogen[0m
+[ 16%] [34m[1mAutomatic MOC for target glviewer[0m
+[ 16%] Built target glviewer_autogen
+[ 33%] [34m[1mGenerating include/glviewer/moc_glviewer.cpp[0m
+[35m[1mScanning dependencies of target glviewer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/glviewer.dir/GLViewer/glviewer.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:430:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/visualization/glviewer/include/glviewer/glviewer.h:22[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/visualization/glviewer/GLViewer/glviewer.cpp:17[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:[m[K In member function ‘[01m[Kvoid GLViewer::addDisplayLists(GLuint, GLuint)[m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:194:66:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)(& list)+16).Eigen::DenseStorage<double, 16, 4, 4, 0>::m_data[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     DenseStorage(const DenseStorage& other) : m_data(other.m_data[01;35m[K)[m[K {
+                                                                  [01;35m[K^[m[K
+[ 66%] [32mBuilding CXX object CMakeFiles/glviewer.dir/glviewer_autogen/mocs_compilation.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/glviewer.dir/include/glviewer/moc_glviewer.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libglviewer.so[0m
+[100%] Built target glviewer
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 16%] [34m[1mAutomatic MOC for target glviewer[0m
+[ 16%] Built target glviewer_autogen
+[100%] Built target glviewer
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/glviewer/lib/pkgconfig/glviewer.pc
+-- Installing: /home/ros/autoware.ai/install/glviewer/share/glviewer/cmake/glviewerConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/glviewer/share/glviewer/cmake/glviewerConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/glviewer/share/glviewer/package.xml
+-- Installing: /home/ros/autoware.ai/install/glviewer/include/glviewer
+-- Installing: /home/ros/autoware.ai/install/glviewer/include/glviewer/glviewer.h
+-- Installing: /home/ros/autoware.ai/install/glviewer/lib/libglviewer.so
+-- Set runtime path of "/home/ros/autoware.ai/install/glviewer/lib/libglviewer.so" to ""

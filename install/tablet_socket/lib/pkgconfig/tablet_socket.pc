@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/tablet_socket
+
+Name: tablet_socket
+Description: Description of tablet_socket
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

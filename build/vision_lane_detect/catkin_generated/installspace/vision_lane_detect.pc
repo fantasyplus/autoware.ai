@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/vision_lane_detect
+
+Name: vision_lane_detect
+Description: Description of vision_lane_detect
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

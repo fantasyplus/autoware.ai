@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/lidar_point_pillars/devel
+
+Name: lidar_point_pillars
+Description: Description of lidar_point_pillars
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roslib pcl_ros autoware_msgs

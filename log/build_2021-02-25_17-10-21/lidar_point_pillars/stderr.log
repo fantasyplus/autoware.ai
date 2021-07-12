@@ -1,0 +1,20 @@
+CUDA is available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart.so
+CUDA Headers: /usr/local/cuda/include
+TensorRT is available!
+NVINFER: /usr/local/lib/libnvinfer.so
+NVPARSERS: /usr/local/lib/libnvparsers.so
+NVONNXPARSERS: /usr/local/lib/libnvonnxparser.so
+CUDNN is available!
+CUDNN_LIBRARY: ON
+CMake Error at /opt/ros/melodic/share/pcl_ros/cmake/pcl_rosConfig.cmake:113 (message):
+  Project 'pcl_ros' specifies '/usr/include/eigen3' as an include dir, which
+  is not found.  It does neither exist as an absolute directory nor in
+  '${prefix}//usr/include/eigen3'.  Check the issue tracker
+  'https://github.com/ros-perception/perception_pcl/issues' and consider
+  creating a ticket if the problem has not been reported yet.
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:61 (find_package)
+
+

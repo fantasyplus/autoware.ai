@@ -1,0 +1,25 @@
+** WARNING ** io features related to ensenso will be disabled
+** WARNING ** io features related to davidSDK will be disabled
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to ensenso will be disabled
+** WARNING ** visualization features related to davidSDK will be disabled
+** WARNING ** visualization features related to dssdk will be disabled
+** WARNING ** visualization features related to rssdk will be disabled
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "ndt_gpu" with any
+  of the following names:
+
+    ndt_gpuConfig.cmake
+    ndt_gpu-config.cmake
+
+  Add the installation prefix of "ndt_gpu" to CMAKE_PREFIX_PATH or set
+  "ndt_gpu_DIR" to a directory containing one of the above files.  If
+  "ndt_gpu" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:42 (find_package)
+
+

@@ -1,0 +1,15 @@
+CUDA is available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart_static.a;Threads::Threads;dl;/usr/lib/x86_64-linux-gnu/librt.so
+CUDA Headers: /usr/local/cuda/include
+TensorRT is available!
+NVINFER: /usr/local/lib/libnvinfer.so
+NVPARSERS: /usr/local/lib/libnvparsers.so
+NVONNXPARSERS: /usr/local/lib/libnvonnxparser.so
+CUDNN is available!
+CUDNN_LIBRARY: /usr/local/cuda/lib64
+WARNING: Target "point_pillars_lib" requests linking to directory "/usr/local/cuda/lib64".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "lidar_point_pillars" requests linking to directory "/usr/local/cuda/lib64".  Targets may link only to libraries.  CMake is dropping the item.
+make[2]: *** No rule to make target '/usr/lib/libOpenNI.so', needed by 'devel/lib/lidar_point_pillars/lidar_point_pillars'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/lidar_point_pillars.dir/all] Error 2
+make: *** [all] Error 2

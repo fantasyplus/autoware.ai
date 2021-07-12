@@ -1,0 +1,10 @@
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   pnh.getParam<std::string[01;31m[K>[m[K("pcd_paths", pcd_paths);
+                           [01;31m[K^[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:490:42:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   pnh.getParam<std::string>("pcd_paths", [01;35m[Kpcd_paths[m[K);
+                                          [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/points_map_loader.dir/nodes/points_map_loader/points_map_loader.cpp.o] Error 1
+make[1]: *** [CMakeFiles/points_map_loader.dir/all] Error 2
+make: *** [all] Error 2

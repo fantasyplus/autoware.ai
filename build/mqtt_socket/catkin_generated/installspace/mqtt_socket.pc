@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/mqtt_socket
+
+Name: mqtt_socket
+Description: Description of mqtt_socket
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

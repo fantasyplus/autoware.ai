@@ -1,0 +1,12 @@
+CMake Error at /home/ros/autoware.ai/install/op_global_planner/share/op_global_planner/cmake/op_global_plannerConfig.cmake:110 (message):
+  Project 'op_global_planner' specifies 'include' as an include dir, which is
+  not found.  It does not exist in
+  '/home/ros/autoware.ai/install/op_global_planner/include'.  Report the
+  problem to the maintainer 'Yusuke FUJII <yusuke.fujii@tier4.jp>' and
+  request to fix the problem.
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:5 (find_package)
+
+
+make: *** [cmake_check_build_system] Error 1

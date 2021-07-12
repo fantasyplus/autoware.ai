@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/calibration_publisher
+
+Name: calibration_publisher
+Description: Description of calibration_publisher
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

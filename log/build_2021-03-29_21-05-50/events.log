@@ -1,0 +1,680 @@
+[0.000000] (-) TimerEvent: {}
+[0.000565] (-) JobUnselected: {'identifier': 'amathutils_lib'}
+[0.000610] (-) JobUnselected: {'identifier': 'astar_search'}
+[0.000629] (-) JobUnselected: {'identifier': 'autoware_bag_tools'}
+[0.000656] (-) JobUnselected: {'identifier': 'autoware_build_flags'}
+[0.000672] (-) JobUnselected: {'identifier': 'autoware_camera_lidar_calibrator'}
+[0.000696] (-) JobUnselected: {'identifier': 'autoware_can_msgs'}
+[0.001118] (-) JobUnselected: {'identifier': 'autoware_config_msgs'}
+[0.001394] (-) JobUnselected: {'identifier': 'autoware_connector'}
+[0.001443] (-) JobUnselected: {'identifier': 'autoware_external_msgs'}
+[0.001529] (-) JobUnselected: {'identifier': 'autoware_health_checker'}
+[0.001573] (-) JobUnselected: {'identifier': 'autoware_lanelet2_msgs'}
+[0.001601] (-) JobUnselected: {'identifier': 'autoware_launcher'}
+[0.001627] (-) JobUnselected: {'identifier': 'autoware_launcher_rviz'}
+[0.001652] (-) JobUnselected: {'identifier': 'autoware_map_msgs'}
+[0.001678] (-) JobUnselected: {'identifier': 'autoware_msgs'}
+[0.001704] (-) JobUnselected: {'identifier': 'autoware_quickstart_examples'}
+[0.001731] (-) JobUnselected: {'identifier': 'autoware_rviz_plugins'}
+[0.001765] (-) JobUnselected: {'identifier': 'autoware_system_msgs'}
+[0.001792] (-) JobUnselected: {'identifier': 'calibration_publisher'}
+[0.001822] (-) JobUnselected: {'identifier': 'carla_autoware_bridge'}
+[0.001887] (-) JobUnselected: {'identifier': 'costmap_generator'}
+[0.001929] (-) JobUnselected: {'identifier': 'data_preprocessor'}
+[0.001944] (-) JobUnselected: {'identifier': 'decision_maker'}
+[0.001982] (-) JobUnselected: {'identifier': 'decision_maker_panel'}
+[0.002017] (-) JobUnselected: {'identifier': 'detected_objects_visualizer'}
+[0.002145] (-) JobUnselected: {'identifier': 'dp_planner'}
+[0.002181] (-) JobUnselected: {'identifier': 'ekf_localizer'}
+[0.002198] (-) JobUnselected: {'identifier': 'emergency_handler'}
+[0.002212] (-) JobUnselected: {'identifier': 'fastvirtualscan'}
+[0.002236] (-) JobUnselected: {'identifier': 'ff_waypoint_follower'}
+[0.002294] (-) JobUnselected: {'identifier': 'freespace_planner'}
+[0.002309] (-) JobUnselected: {'identifier': 'gazebo_camera_description'}
+[0.002328] (-) JobUnselected: {'identifier': 'gazebo_imu_description'}
+[0.002362] (-) JobUnselected: {'identifier': 'gazebo_world_description'}
+[0.002469] (-) JobUnselected: {'identifier': 'glviewer'}
+[0.002489] (-) JobUnselected: {'identifier': 'gnss'}
+[0.002505] (-) JobUnselected: {'identifier': 'gnss_localizer'}
+[0.002519] (-) JobUnselected: {'identifier': 'graph_tools'}
+[0.002534] (-) JobUnselected: {'identifier': 'image_processor'}
+[0.002549] (-) JobUnselected: {'identifier': 'imm_ukf_pda_track'}
+[0.002564] (-) JobUnselected: {'identifier': 'integrated_viewer'}
+[0.002578] (-) JobUnselected: {'identifier': 'kitti_box_publisher'}
+[0.002592] (-) JobUnselected: {'identifier': 'kitti_launch'}
+[0.002618] (-) JobUnselected: {'identifier': 'kitti_player'}
+[0.002657] (-) JobUnselected: {'identifier': 'lane_planner'}
+[0.002677] (-) JobUnselected: {'identifier': 'lanelet2_extension'}
+[0.002692] (-) JobUnselected: {'identifier': 'lanelet_aisan_converter'}
+[0.002710] (-) JobUnselected: {'identifier': 'lattice_planner'}
+[0.002725] (-) JobUnselected: {'identifier': 'lgsvl_simulator_bridge'}
+[0.002945] (-) JobUnselected: {'identifier': 'libvectormap'}
+[0.002973] (-) JobUnselected: {'identifier': 'libwaypoint_follower'}
+[0.003014] (-) JobUnselected: {'identifier': 'lidar_apollo_cnn_seg_detect'}
+[0.003035] (-) JobUnselected: {'identifier': 'lidar_euclidean_cluster_detect'}
+[0.003050] (-) JobUnselected: {'identifier': 'lidar_fake_perception'}
+[0.003068] (-) JobUnselected: {'identifier': 'lidar_kf_contour_track'}
+[0.003082] (-) JobUnselected: {'identifier': 'lidar_naive_l_shape_detect'}
+[0.003195] (-) JobUnselected: {'identifier': 'lidar_point_pillars'}
+[0.003222] (-) JobUnselected: {'identifier': 'lidar_shape_estimation'}
+[0.003296] (-) JobUnselected: {'identifier': 'll2_global_planner'}
+[0.003332] (-) JobUnselected: {'identifier': 'log_tools'}
+[0.003361] (-) JobUnselected: {'identifier': 'map_file'}
+[0.003458] (-) JobUnselected: {'identifier': 'map_tf_generator'}
+[0.003485] (-) JobUnselected: {'identifier': 'map_tools'}
+[0.003524] (-) JobUnselected: {'identifier': 'marker_downsampler'}
+[0.003544] (-) JobUnselected: {'identifier': 'mpc_follower'}
+[0.003559] (-) JobUnselected: {'identifier': 'mqtt_socket'}
+[0.003577] (-) JobUnselected: {'identifier': 'multi_lidar_calibrator'}
+[0.003592] (-) JobUnselected: {'identifier': 'naive_motion_predict'}
+[0.003697] (-) JobUnselected: {'identifier': 'ndt_cpu'}
+[0.003727] (-) JobUnselected: {'identifier': 'ndt_gpu'}
+[0.003742] (-) JobUnselected: {'identifier': 'ndt_tku'}
+[0.003766] (-) JobUnselected: {'identifier': 'obj_db'}
+[0.003781] (-) JobUnselected: {'identifier': 'object_map'}
+[0.004237] (-) JobUnselected: {'identifier': 'oculus_socket'}
+[0.004408] (-) JobUnselected: {'identifier': 'op_global_planner'}
+[0.004439] (-) JobUnselected: {'identifier': 'op_local_planner'}
+[0.004485] (-) JobUnselected: {'identifier': 'op_planner'}
+[0.004525] (-) JobUnselected: {'identifier': 'op_ros_helpers'}
+[0.004575] (-) JobUnselected: {'identifier': 'op_simu'}
+[0.004600] (-) JobUnselected: {'identifier': 'op_simulation_package'}
+[0.004625] (-) JobUnselected: {'identifier': 'op_utilities'}
+[0.004653] (-) JobUnselected: {'identifier': 'op_utility'}
+[0.004692] (-) JobUnselected: {'identifier': 'pc2_downsampler'}
+[0.004716] (-) JobUnselected: {'identifier': 'pcl_omp_registration'}
+[0.004740] (-) JobUnselected: {'identifier': 'pixel_cloud_fusion'}
+[0.004768] (-) JobUnselected: {'identifier': 'points2image'}
+[0.004792] (-) JobUnselected: {'identifier': 'points_downsampler'}
+[0.004816] (-) JobUnselected: {'identifier': 'points_preprocessor'}
+[0.004839] (-) JobUnselected: {'identifier': 'pos_db'}
+[0.004863] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.004887] (-) JobUnselected: {'identifier': 'range_vision_fusion'}
+[0.004929] (-) JobUnselected: {'identifier': 'road_occupancy_processor'}
+[0.004953] (-) JobUnselected: {'identifier': 'roi_object_filter'}
+[0.004982] (-) JobUnselected: {'identifier': 'ros_observer'}
+[0.005011] (-) JobUnselected: {'identifier': 'rosbag_controller'}
+[0.005053] (-) JobUnselected: {'identifier': 'rosinterface'}
+[0.005075] (-) JobUnselected: {'identifier': 'runtime_manager'}
+[0.005089] (-) JobUnselected: {'identifier': 'sound_player'}
+[0.005107] (-) JobUnselected: {'identifier': 'state_machine_lib'}
+[0.005122] (-) JobUnselected: {'identifier': 'system_monitor'}
+[0.005181] (-) JobUnselected: {'identifier': 'tablet_socket'}
+[0.005197] (-) JobUnselected: {'identifier': 'tablet_socket_msgs'}
+[0.005214] (-) JobUnselected: {'identifier': 'trafficlight_recognizer'}
+[0.005229] (-) JobUnselected: {'identifier': 'twist2odom'}
+[0.005244] (-) JobUnselected: {'identifier': 'twist_filter'}
+[0.005259] (-) JobUnselected: {'identifier': 'twist_gate'}
+[0.005273] (-) JobUnselected: {'identifier': 'twist_generator'}
+[0.005296] (-) JobUnselected: {'identifier': 'udon_socket'}
+[0.005347] (-) JobUnselected: {'identifier': 'vector_map'}
+[0.005369] (-) JobUnselected: {'identifier': 'vector_map_msgs'}
+[0.005383] (-) JobUnselected: {'identifier': 'vector_map_server'}
+[0.005401] (-) JobUnselected: {'identifier': 'vehicle_description'}
+[0.005415] (-) JobUnselected: {'identifier': 'vehicle_engage_panel'}
+[0.005473] (-) JobUnselected: {'identifier': 'vehicle_gazebo_simulation_interface'}
+[0.005488] (-) JobUnselected: {'identifier': 'vehicle_gazebo_simulation_launcher'}
+[0.005504] (-) JobUnselected: {'identifier': 'vehicle_model'}
+[0.005519] (-) JobUnselected: {'identifier': 'vehicle_sim_model'}
+[0.005534] (-) JobUnselected: {'identifier': 'vehicle_socket'}
+[0.005560] (-) JobUnselected: {'identifier': 'vel_pose_diff_checker'}
+[0.005628] (-) JobUnselected: {'identifier': 'vision_beyond_track'}
+[0.005666] (-) JobUnselected: {'identifier': 'vision_darknet_detect'}
+[0.005681] (-) JobUnselected: {'identifier': 'vision_lane_detect'}
+[0.005698] (-) JobUnselected: {'identifier': 'vision_segment_enet_detect'}
+[0.005713] (-) JobUnselected: {'identifier': 'vision_ssd_detect'}
+[0.005928] (-) JobUnselected: {'identifier': 'way_planner'}
+[0.006092] (-) JobUnselected: {'identifier': 'waypoint_maker'}
+[0.006153] (-) JobUnselected: {'identifier': 'waypoint_planner'}
+[0.006209] (-) JobUnselected: {'identifier': 'wf_simulator'}
+[0.006248] (lidar_localizer) JobQueued: {'identifier': 'lidar_localizer', 'dependencies': OrderedDict([('autoware_build_flags', '/home/ros/autoware.ai/install/autoware_build_flags'), ('autoware_config_msgs', '/home/ros/autoware.ai/install/autoware_config_msgs'), ('autoware_msgs', '/home/ros/autoware.ai/install/autoware_msgs'), ('autoware_system_msgs', '/home/ros/autoware.ai/install/autoware_system_msgs'), ('ndt_cpu', '/home/ros/autoware.ai/install/ndt_cpu'), ('ndt_tku', '/home/ros/autoware.ai/install/ndt_tku'), ('pcl_omp_registration', '/home/ros/autoware.ai/install/pcl_omp_registration'), ('ros_observer', '/home/ros/autoware.ai/install/ros_observer'), ('autoware_health_checker', '/home/ros/autoware.ai/install/autoware_health_checker'), ('ndt_gpu', '/home/ros/autoware.ai/install/ndt_gpu')])}
+[0.006294] (lidar_localizer) JobStarted: {'identifier': 'lidar_localizer'}
+[0.099666] (-) TimerEvent: {}
+[0.103612] (lidar_localizer) JobProgress: {'identifier': 'lidar_localizer', 'progress': 'cmake'}
+[0.104555] (lidar_localizer) Command: {'cmd': ['/home/ros/.local/bin/cmake', '/home/ros/autoware.ai/src/autoware/core_perception/lidar_localizer', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/lidar_localizer'], 'cwd': '/home/ros/autoware.ai/build/lidar_localizer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:8889/'), ('USER', 'ros'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('all_proxy', 'socks://127.0.0.1:1089/'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1363'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/ros/autoware.ai/install/autoware_health_checker/share:/home/ros/autoware.ai/install/ros_observer/share:/home/ros/autoware.ai/install/pcl_omp_registration/share:/home/ros/autoware.ai/install/ndt_tku/share:/home/ros/autoware.ai/install/ndt_cpu/share:/home/ros/autoware.ai/install/autoware_system_msgs/share:/home/ros/autoware.ai/install/autoware_msgs/share:/home/ros/autoware.ai/install/autoware_config_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:/home/ros/catkin_ws/src:/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/share:/home/ros/autoware.ai/install/wf_simulator/share:/home/ros/autoware.ai/install/lattice_planner/share:/home/ros/autoware.ai/install/waypoint_planner/share:/home/ros/autoware.ai/install/waypoint_maker/share:/home/ros/autoware.ai/install/way_planner/share:/home/ros/autoware.ai/install/vision_ssd_detect/share:/home/ros/autoware.ai/install/vision_segment_enet_detect/share:/home/ros/autoware.ai/install/vision_lane_detect/share:/home/ros/autoware.ai/install/vision_darknet_detect/share:/home/ros/autoware.ai/install/vision_beyond_track/share:/home/ros/autoware.ai/install/vel_pose_diff_checker/share:/home/ros/autoware.ai/install/vehicle_socket/share:/home/ros/autoware.ai/install/vehicle_sim_model/share:/home/ros/autoware.ai/install/vehicle_model/share:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/share:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface/share:/home/ros/autoware.ai/install/vehicle_engage_panel/share:/home/ros/autoware.ai/install/vehicle_description/share:/home/ros/autoware.ai/install/trafficlight_recognizer/share:/home/ros/autoware.ai/install/op_utilities/share:/home/ros/autoware.ai/install/op_simulation_package/share:/home/ros/autoware.ai/install/op_local_planner/share:/home/ros/autoware.ai/install/op_global_planner/share:/home/ros/autoware.ai/install/lidar_kf_contour_track/share:/home/ros/autoware.ai/install/op_ros_helpers/share:/home/ros/autoware.ai/install/ff_waypoint_follower/share:/home/ros/autoware.ai/install/dp_planner/share:/home/ros/autoware.ai/install/op_simu/share:/home/ros/autoware.ai/install/op_planner/share:/home/ros/autoware.ai/install/op_utility/share:/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/share:/home/ros/autoware.ai/install/vector_map_server/share:/home/ros/autoware.ai/install/road_occupancy_processor/share:/home/ros/autoware.ai/install/costmap_generator/share:/home/ros/autoware.ai/install/object_map/share:/home/ros/autoware.ai/install/naive_motion_predict/share:/home/ros/autoware.ai/install/lanelet_aisan_converter/share:/home/ros/autoware.ai/install/map_file/share:/home/ros/autoware.ai/install/libvectormap/share:/home/ros/autoware.ai/install/lane_planner/share:/home/ros/autoware.ai/install/imm_ukf_pda_track/share:/home/ros/autoware.ai/install/decision_maker/share:/home/ros/autoware.ai/install/vector_map/share:/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/udon_socket/share:/home/ros/autoware.ai/install/twist_generator/share:/home/ros/autoware.ai/install/twist_gate/share:/home/ros/autoware.ai/install/twist_filter/share:/home/ros/autoware.ai/install/twist2odom/share:/home/ros/autoware.ai/install/tablet_socket/share:/home/ros/autoware.ai/install/runtime_manager/share:/home/ros/autoware.ai/install/mqtt_socket/share:/home/ros/autoware.ai/install/tablet_socket_msgs/share:/home/ros/autoware.ai/install/system_monitor/share:/home/ros/autoware.ai/install/state_machine_lib/share:/home/ros/autoware.ai/install/sound_player/share:/home/ros/autoware.ai/install/points2image/share:/home/ros/autoware.ai/install/rosinterface/share:/home/ros/autoware.ai/install/rosbag_controller/share:/home/ros/autoware.ai/install/pure_pursuit/share:/home/ros/autoware.ai/install/points_preprocessor/share:/home/ros/autoware.ai/install/mpc_follower/share:/home/ros/autoware.ai/install/lidar_localizer/share:/home/ros/autoware.ai/install/emergency_handler/share:/home/ros/autoware.ai/install/roi_object_filter/share:/home/ros/autoware.ai/install/range_vision_fusion/share:/home/ros/autoware.ai/install/pos_db/share:/home/ros/autoware.ai/install/points_downsampler/share:/home/ros/autoware.ai/install/pixel_cloud_fusion/share:/home/ros/autoware.ai/install/pc2_downsampler/share:/home/ros/autoware.ai/install/oculus_socket/share:/home/ros/autoware.ai/install/obj_db/share:/home/ros/autoware.ai/install/multi_lidar_calibrator/share:/home/ros/autoware.ai/install/marker_downsampler/share:/home/ros/autoware.ai/install/map_tools/share:/home/ros/autoware.ai/install/map_tf_generator/share:/home/ros/autoware.ai/install/log_tools/share:/home/ros/autoware.ai/install/ll2_global_planner/share:/home/ros/autoware.ai/install/lidar_shape_estimation/share:/home/ros/autoware.ai/install/lidar_point_pillars/share:/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/share:/home/ros/autoware.ai/install/lidar_fake_perception/share:/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/share:/home/ros/autoware.ai/install/libwaypoint_follower/share:/home/ros/autoware.ai/install/lgsvl_simulator_bridge/share:/home/ros/autoware.ai/install/lanelet2_extension/share:/home/ros/autoware.ai/install/kitti_launch/share:/home/ros/autoware.ai/install/kitti_player/share:/home/ros/autoware.ai/install/kitti_box_publisher/share:/home/ros/autoware.ai/install/integrated_viewer/share:/home/ros/autoware.ai/install/image_processor/share:/home/ros/autoware.ai/install/graph_tools/share:/home/ros/autoware.ai/install/gnss_localizer/share:/home/ros/autoware.ai/install/gnss/share:/home/ros/autoware.ai/install/glviewer/share:/home/ros/autoware.ai/install/gazebo_world_description/share:/home/ros/autoware.ai/install/gazebo_imu_description/share:/home/ros/autoware.ai/install/gazebo_camera_description/share:/home/ros/autoware.ai/install/freespace_planner/share:/home/ros/autoware.ai/install/fastvirtualscan/share:/home/ros/autoware.ai/install/ekf_localizer/share:/home/ros/autoware.ai/install/detected_objects_visualizer/share:/home/ros/autoware.ai/install/decision_maker_panel/share:/home/ros/autoware.ai/install/data_preprocessor/share:/home/ros/autoware.ai/install/carla_autoware_bridge/share:/home/ros/autoware.ai/install/calibration_publisher/share:/home/ros/autoware.ai/install/autoware_rviz_plugins/share:/home/ros/autoware.ai/install/autoware_quickstart_examples/share:/home/ros/autoware.ai/install/autoware_connector/share:/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/share:/home/ros/autoware.ai/install/astar_search/share:/home/ros/autoware.ai/install/amathutils_lib/share:/home/ros/autoware.ai/install/autoware_map_msgs/share:/home/ros/autoware.ai/install/autoware_launcher_rviz/share:/home/ros/autoware.ai/install/autoware_launcher/share:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/share:/home/ros/autoware.ai/install/autoware_external_msgs/share:/home/ros/autoware.ai/install/autoware_can_msgs/share:/home/ros/autoware.ai/install/autoware_bag_tools/share:/home/ros/catkin_ws/src:/opt/ros/melodic/share'), ('CUDA_INSTALL_DIR', '/usr/local/cuda'), ('LD_LIBRARY_PATH', '/home/ros/autoware.ai/install/autoware_health_checker/lib:/home/ros/autoware.ai/install/ros_observer/lib:/home/ros/autoware.ai/install/pcl_omp_registration/lib:/home/ros/autoware.ai/install/ndt_tku/lib:/home/ros/autoware.ai/install/ndt_cpu/lib:/home/ros/autoware.ai/install/wf_simulator/lib:/home/ros/autoware.ai/install/lattice_planner/lib:/home/ros/autoware.ai/install/waypoint_planner/lib:/home/ros/autoware.ai/install/waypoint_maker/lib:/home/ros/autoware.ai/install/way_planner/lib:/home/ros/autoware.ai/install/vision_ssd_detect/lib:/home/ros/autoware.ai/install/vision_segment_enet_detect/lib:/home/ros/autoware.ai/install/vision_lane_detect/lib:/home/ros/autoware.ai/install/vision_darknet_detect/lib:/home/ros/autoware.ai/install/vision_beyond_track/lib:/home/ros/autoware.ai/install/vel_pose_diff_checker/lib:/home/ros/autoware.ai/install/vehicle_socket/lib:/home/ros/autoware.ai/install/vehicle_sim_model/lib:/home/ros/autoware.ai/install/vehicle_model/lib:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/lib:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface/lib:/home/ros/autoware.ai/install/vehicle_engage_panel/lib:/home/ros/autoware.ai/install/vehicle_description/lib:/home/ros/autoware.ai/install/trafficlight_recognizer/lib:/home/ros/autoware.ai/install/op_utilities/lib:/home/ros/autoware.ai/install/op_simulation_package/lib:/home/ros/autoware.ai/install/op_local_planner/lib:/home/ros/autoware.ai/install/op_global_planner/lib:/home/ros/autoware.ai/install/lidar_kf_contour_track/lib:/home/ros/autoware.ai/install/op_ros_helpers/lib:/home/ros/autoware.ai/install/ff_waypoint_follower/lib:/home/ros/autoware.ai/install/dp_planner/lib:/home/ros/autoware.ai/install/op_simu/lib:/home/ros/autoware.ai/install/op_planner/lib:/home/ros/autoware.ai/install/op_utility/lib:/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/lib:/home/ros/autoware.ai/install/vector_map_server/lib:/home/ros/autoware.ai/install/road_occupancy_processor/lib:/home/ros/autoware.ai/install/costmap_generator/lib:/home/ros/autoware.ai/install/object_map/lib:/home/ros/autoware.ai/install/naive_motion_predict/lib:/home/ros/autoware.ai/install/lanelet_aisan_converter/lib:/home/ros/autoware.ai/install/map_file/lib:/home/ros/autoware.ai/install/libvectormap/lib:/home/ros/autoware.ai/install/lane_planner/lib:/home/ros/autoware.ai/install/imm_ukf_pda_track/lib:/home/ros/autoware.ai/install/decision_maker/lib:/home/ros/autoware.ai/install/vector_map/lib:/home/ros/autoware.ai/install/vector_map_msgs/lib:/home/ros/autoware.ai/install/udon_socket/lib:/home/ros/autoware.ai/install/twist_generator/lib:/home/ros/autoware.ai/install/twist_gate/lib:/home/ros/autoware.ai/install/twist_filter/lib:/home/ros/autoware.ai/install/twist2odom/lib:/home/ros/autoware.ai/install/tablet_socket/lib:/home/ros/autoware.ai/install/runtime_manager/lib:/home/ros/autoware.ai/install/mqtt_socket/lib:/home/ros/autoware.ai/install/tablet_socket_msgs/lib:/home/ros/autoware.ai/install/system_monitor/lib:/home/ros/autoware.ai/install/state_machine_lib/lib:/home/ros/autoware.ai/install/sound_player/lib:/home/ros/autoware.ai/install/points2image/lib:/home/ros/autoware.ai/install/rosinterface/lib:/home/ros/autoware.ai/install/rosbag_controller/lib:/home/ros/autoware.ai/install/pure_pursuit/lib:/home/ros/autoware.ai/install/points_preprocessor/lib:/home/ros/autoware.ai/install/mpc_follower/lib:/home/ros/autoware.ai/install/lidar_localizer/lib:/home/ros/autoware.ai/install/emergency_handler/lib:/home/ros/autoware.ai/install/roi_object_filter/lib:/home/ros/autoware.ai/install/range_vision_fusion/lib:/home/ros/autoware.ai/install/pos_db/lib:/home/ros/autoware.ai/install/points_downsampler/lib:/home/ros/autoware.ai/install/pixel_cloud_fusion/lib:/home/ros/autoware.ai/install/pc2_downsampler/lib:/home/ros/autoware.ai/install/oculus_socket/lib:/home/ros/autoware.ai/install/obj_db/lib:/home/ros/autoware.ai/install/multi_lidar_calibrator/lib:/home/ros/autoware.ai/install/marker_downsampler/lib:/home/ros/autoware.ai/install/map_tools/lib:/home/ros/autoware.ai/install/map_tf_generator/lib:/home/ros/autoware.ai/install/log_tools/lib:/home/ros/autoware.ai/install/ll2_global_planner/lib:/home/ros/autoware.ai/install/lidar_shape_estimation/lib:/home/ros/autoware.ai/install/lidar_point_pillars/lib:/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/lib:/home/ros/autoware.ai/install/lidar_fake_perception/lib:/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/lib:/home/ros/autoware.ai/install/libwaypoint_follower/lib:/home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib:/home/ros/autoware.ai/install/lanelet2_extension/lib:/home/ros/autoware.ai/install/kitti_launch/lib:/home/ros/autoware.ai/install/kitti_player/lib:/home/ros/autoware.ai/install/kitti_box_publisher/lib:/home/ros/autoware.ai/install/integrated_viewer/lib:/home/ros/autoware.ai/install/image_processor/lib:/home/ros/autoware.ai/install/graph_tools/lib:/home/ros/autoware.ai/install/gnss_localizer/lib:/home/ros/autoware.ai/install/gnss/lib:/home/ros/autoware.ai/install/glviewer/lib:/home/ros/autoware.ai/install/gazebo_world_description/lib:/home/ros/autoware.ai/install/gazebo_imu_description/lib:/home/ros/autoware.ai/install/gazebo_camera_description/lib:/home/ros/autoware.ai/install/freespace_planner/lib:/home/ros/autoware.ai/install/fastvirtualscan/lib:/home/ros/autoware.ai/install/ekf_localizer/lib:/home/ros/autoware.ai/install/detected_objects_visualizer/lib:/home/ros/autoware.ai/install/decision_maker_panel/lib:/home/ros/autoware.ai/install/data_preprocessor/lib:/home/ros/autoware.ai/install/carla_autoware_bridge/lib:/home/ros/autoware.ai/install/calibration_publisher/lib:/home/ros/autoware.ai/install/autoware_system_msgs/lib:/home/ros/autoware.ai/install/autoware_rviz_plugins/lib:/home/ros/autoware.ai/install/autoware_quickstart_examples/lib:/home/ros/autoware.ai/install/autoware_connector/lib:/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib:/home/ros/autoware.ai/install/astar_search/lib:/home/ros/autoware.ai/install/amathutils_lib/lib:/home/ros/autoware.ai/install/autoware_msgs/lib:/home/ros/autoware.ai/install/autoware_map_msgs/lib:/home/ros/autoware.ai/install/autoware_launcher_rviz/lib:/home/ros/autoware.ai/install/autoware_launcher/lib:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib:/home/ros/autoware.ai/install/autoware_external_msgs/lib:/home/ros/autoware.ai/install/autoware_config_msgs/lib:/home/ros/autoware.ai/install/autoware_can_msgs/lib:/home/ros/autoware.ai/install/autoware_build_flags/lib:/home/ros/autoware.ai/install/autoware_bag_tools/lib:/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/lib64:/home/ros/TensorRT-5.0.2.6.Ubuntu-18.04.1.x86_64-gnu.cuda-10.0.cudnn7.3/TensorRT-5.0.2.6/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ros'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('TF_CPP_MIN_LOG_LEVEL', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:8889/'), ('COLCON_PREFIX_PATH', '/home/ros/autoware.ai/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('ALL_PROXY', 'socks://127.0.0.1:1089/'), ('LOGNAME', 'ros'), ('GTK_IM_MODULE', 'fcitx'), ('DESKTOP_AUTOSTART_ID', '104d8ea9ded3d8e08816170316148955500000012760007'), ('http_proxy', 'http://127.0.0.1:8889/'), ('_', '/usr/bin/colcon'), ('CUDNN_INSTALL_DIR', '/usr/local/cuda'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/ros/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/ros/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/ros_observer/lib/pkgconfig:/home/ros/autoware.ai/install/pcl_omp_registration/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/pcl_omp_registration/lib/pkgconfig:/home/ros/autoware.ai/install/ndt_tku/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/ndt_tku/lib/pkgconfig:/home/ros/autoware.ai/install/ndt_cpu/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/ndt_cpu/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:/home/ros/autoware.ai/install/wf_simulator/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lattice_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/waypoint_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/waypoint_maker/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/way_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vision_ssd_detect/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vision_segment_enet_detect/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vision_lane_detect/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vision_darknet_detect/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vision_beyond_track/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vel_pose_diff_checker/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vehicle_socket/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vehicle_model/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vehicle_engage_panel/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vehicle_description/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/trafficlight_recognizer/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/op_utilities/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/op_simulation_package/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/op_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/op_global_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lidar_kf_contour_track/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/op_ros_helpers/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/ff_waypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/dp_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/op_simu/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/op_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/op_utility/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/road_occupancy_processor/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/costmap_generator/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/object_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/naive_motion_predict/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet_aisan_converter/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lane_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/imm_ukf_pda_track/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/decision_maker/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/udon_socket/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/twist_generator/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/twist_gate/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/twist_filter/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/twist2odom/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/mqtt_socket/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/system_monitor/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/state_machine_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/sound_player/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/points2image/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/rosinterface/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/rosbag_controller/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/pure_pursuit/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/points_preprocessor/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/mpc_follower/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lidar_localizer/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/emergency_handler/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/roi_object_filter/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/range_vision_fusion/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/pos_db/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/points_downsampler/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/pixel_cloud_fusion/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/pc2_downsampler/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/oculus_socket/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/obj_db/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/multi_lidar_calibrator/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/marker_downsampler/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_tools/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/map_tf_generator/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/log_tools/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/ll2_global_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lidar_shape_estimation/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lidar_point_pillars/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lidar_fake_perception/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/libwaypoint_follower/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/kitti_launch/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/kitti_player/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/kitti_box_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/integrated_viewer/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/image_processor/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/graph_tools/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss_localizer/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/glviewer/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gazebo_world_description/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gazebo_imu_description/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/gazebo_camera_description/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/freespace_planner/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/fastvirtualscan/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/ekf_localizer/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/detected_objects_visualizer/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/decision_maker_panel/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/data_preprocessor/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/carla_autoware_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/calibration_publisher/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_rviz_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_quickstart_examples/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_connector/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/astar_search/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_launcher_rviz/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_launcher/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_external_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_bag_tools/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/wf_simulator/lib/pkgconfig:/home/ros/autoware.ai/install/lattice_planner/lib/pkgconfig:/home/ros/autoware.ai/install/waypoint_planner/lib/pkgconfig:/home/ros/autoware.ai/install/waypoint_maker/lib/pkgconfig:/home/ros/autoware.ai/install/way_planner/lib/pkgconfig:/home/ros/autoware.ai/install/vision_ssd_detect/lib/pkgconfig:/home/ros/autoware.ai/install/vision_segment_enet_detect/lib/pkgconfig:/home/ros/autoware.ai/install/vision_lane_detect/lib/pkgconfig:/home/ros/autoware.ai/install/vision_darknet_detect/lib/pkgconfig:/home/ros/autoware.ai/install/vision_beyond_track/lib/pkgconfig:/home/ros/autoware.ai/install/vel_pose_diff_checker/lib/pkgconfig:/home/ros/autoware.ai/install/vehicle_socket/lib/pkgconfig:/home/ros/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/ros/autoware.ai/install/vehicle_model/lib/pkgconfig:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher/lib/pkgconfig:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface/lib/pkgconfig:/home/ros/autoware.ai/install/vehicle_engage_panel/lib/pkgconfig:/home/ros/autoware.ai/install/vehicle_description/lib/pkgconfig:/home/ros/autoware.ai/install/trafficlight_recognizer/lib/pkgconfig:/home/ros/autoware.ai/install/op_utilities/lib/pkgconfig:/home/ros/autoware.ai/install/op_simulation_package/lib/pkgconfig:/home/ros/autoware.ai/install/op_local_planner/lib/pkgconfig:/home/ros/autoware.ai/install/op_global_planner/lib/pkgconfig:/home/ros/autoware.ai/install/lidar_kf_contour_track/lib/pkgconfig:/home/ros/autoware.ai/install/op_ros_helpers/lib/pkgconfig:/home/ros/autoware.ai/install/ff_waypoint_follower/lib/pkgconfig:/home/ros/autoware.ai/install/dp_planner/lib/pkgconfig:/home/ros/autoware.ai/install/op_simu/lib/pkgconfig:/home/ros/autoware.ai/install/op_planner/lib/pkgconfig:/home/ros/autoware.ai/install/op_utility/lib/pkgconfig:/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/ros/autoware.ai/install/road_occupancy_processor/lib/pkgconfig:/home/ros/autoware.ai/install/costmap_generator/lib/pkgconfig:/home/ros/autoware.ai/install/object_map/lib/pkgconfig:/home/ros/autoware.ai/install/naive_motion_predict/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet_aisan_converter/lib/pkgconfig:/home/ros/autoware.ai/install/map_file/lib/pkgconfig:/home/ros/autoware.ai/install/libvectormap/lib/pkgconfig:/home/ros/autoware.ai/install/lane_planner/lib/pkgconfig:/home/ros/autoware.ai/install/imm_ukf_pda_track/lib/pkgconfig:/home/ros/autoware.ai/install/decision_maker/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map/lib/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/udon_socket/lib/pkgconfig:/home/ros/autoware.ai/install/twist_generator/lib/pkgconfig:/home/ros/autoware.ai/install/twist_gate/lib/pkgconfig:/home/ros/autoware.ai/install/twist_filter/lib/pkgconfig:/home/ros/autoware.ai/install/twist2odom/lib/pkgconfig:/home/ros/autoware.ai/install/tablet_socket/lib/pkgconfig:/home/ros/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/ros/autoware.ai/install/mqtt_socket/lib/pkgconfig:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/system_monitor/lib/pkgconfig:/home/ros/autoware.ai/install/state_machine_lib/lib/pkgconfig:/home/ros/autoware.ai/install/sound_player/lib/pkgconfig:/home/ros/autoware.ai/install/points2image/lib/pkgconfig:/home/ros/autoware.ai/install/rosinterface/lib/pkgconfig:/home/ros/autoware.ai/install/rosbag_controller/lib/pkgconfig:/home/ros/autoware.ai/install/pure_pursuit/lib/pkgconfig:/home/ros/autoware.ai/install/points_preprocessor/lib/pkgconfig:/home/ros/autoware.ai/install/mpc_follower/lib/pkgconfig:/home/ros/autoware.ai/install/lidar_localizer/lib/pkgconfig:/home/ros/autoware.ai/install/emergency_handler/lib/pkgconfig:/home/ros/autoware.ai/install/roi_object_filter/lib/pkgconfig:/home/ros/autoware.ai/install/range_vision_fusion/lib/pkgconfig:/home/ros/autoware.ai/install/pos_db/lib/pkgconfig:/home/ros/autoware.ai/install/points_downsampler/lib/pkgconfig:/home/ros/autoware.ai/install/pixel_cloud_fusion/lib/pkgconfig:/home/ros/autoware.ai/install/pc2_downsampler/lib/pkgconfig:/home/ros/autoware.ai/install/oculus_socket/lib/pkgconfig:/home/ros/autoware.ai/install/obj_db/lib/pkgconfig:/home/ros/autoware.ai/install/multi_lidar_calibrator/lib/pkgconfig:/home/ros/autoware.ai/install/marker_downsampler/lib/pkgconfig:/home/ros/autoware.ai/install/map_tools/lib/pkgconfig:/home/ros/autoware.ai/install/map_tf_generator/lib/pkgconfig:/home/ros/autoware.ai/install/log_tools/lib/pkgconfig:/home/ros/autoware.ai/install/ll2_global_planner/lib/pkgconfig:/home/ros/autoware.ai/install/lidar_shape_estimation/lib/pkgconfig:/home/ros/autoware.ai/install/lidar_point_pillars/lib/pkgconfig:/home/ros/autoware.ai/install/lidar_naive_l_shape_detect/lib/pkgconfig:/home/ros/autoware.ai/install/lidar_fake_perception/lib/pkgconfig:/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect/lib/pkgconfig:/home/ros/autoware.ai/install/libwaypoint_follower/lib/pkgconfig:/home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/pkgconfig:/home/ros/autoware.ai/install/lanelet2_extension/lib/pkgconfig:/home/ros/autoware.ai/install/kitti_launch/lib/pkgconfig:/home/ros/autoware.ai/install/kitti_player/lib/pkgconfig:/home/ros/autoware.ai/install/kitti_box_publisher/lib/pkgconfig:/home/ros/autoware.ai/install/integrated_viewer/lib/pkgconfig:/home/ros/autoware.ai/install/image_processor/lib/pkgconfig:/home/ros/autoware.ai/install/graph_tools/lib/pkgconfig:/home/ros/autoware.ai/install/gnss_localizer/lib/pkgconfig:/home/ros/autoware.ai/install/gnss/lib/pkgconfig:/home/ros/autoware.ai/install/glviewer/lib/pkgconfig:/home/ros/autoware.ai/install/gazebo_world_description/lib/pkgconfig:/home/ros/autoware.ai/install/gazebo_imu_description/lib/pkgconfig:/home/ros/autoware.ai/install/gazebo_camera_description/lib/pkgconfig:/home/ros/autoware.ai/install/freespace_planner/lib/pkgconfig:/home/ros/autoware.ai/install/fastvirtualscan/lib/pkgconfig:/home/ros/autoware.ai/install/ekf_localizer/lib/pkgconfig:/home/ros/autoware.ai/install/detected_objects_visualizer/lib/pkgconfig:/home/ros/autoware.ai/install/decision_maker_panel/lib/pkgconfig:/home/ros/autoware.ai/install/data_preprocessor/lib/pkgconfig:/home/ros/autoware.ai/install/carla_autoware_bridge/lib/pkgconfig:/home/ros/autoware.ai/install/calibration_publisher/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_rviz_plugins/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_quickstart_examples/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_connector/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/pkgconfig:/home/ros/autoware.ai/install/astar_search/lib/pkgconfig:/home/ros/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_launcher_rviz/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_launcher/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_external_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_bag_tools/lib/pkgconfig:/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'ros'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/melodic/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin'), ('AUTOWARE_COMPILE_WITH_CUDA', '1'), ('SESSION_MANAGER', 'local/ros:@/tmp/.ICE-unix/1276,unix/ros:/tmp/.ICE-unix/1276'), ('XDG_MENU_PREFIX', 'gnome-'), ('S_COLORS', 'auto'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/829e82cc_5f26_4d2c_aa9d_8c906fa0d8a6'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ftp_proxy', 'http://127.0.0.1:8889/'), ('DISPLAY', ':0'), ('ROSLAUNCH_SSH_UNKNOWN', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.1366'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ros/catkin_ws/devel/share/common-lisp'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/ros/autoware.ai/build/lidar_localizer'), ('CUDA_HOME', ':/usr/local/cuda'), ('CLUTTER_IM_MODULE', 'xim'), ('FTP_PROXY', 'http://127.0.0.1:8889/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:8889/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/ros/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/kitti_player/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_launcher/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:/home/ros/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ros/autoware.ai/install/autoware_health_checker:/home/ros/autoware.ai/install/ros_observer:/home/ros/autoware.ai/install/pcl_omp_registration:/home/ros/autoware.ai/install/ndt_tku:/home/ros/autoware.ai/install/ndt_cpu:/home/ros/autoware.ai/install/autoware_system_msgs:/home/ros/autoware.ai/install/autoware_msgs:/home/ros/autoware.ai/install/autoware_config_msgs:/home/ros/autoware.ai/install/autoware_build_flags:/home/ros/autoware.ai/install/wf_simulator:/home/ros/autoware.ai/install/lattice_planner:/home/ros/autoware.ai/install/waypoint_planner:/home/ros/autoware.ai/install/waypoint_maker:/home/ros/autoware.ai/install/way_planner:/home/ros/autoware.ai/install/vision_ssd_detect:/home/ros/autoware.ai/install/vision_segment_enet_detect:/home/ros/autoware.ai/install/vision_lane_detect:/home/ros/autoware.ai/install/vision_darknet_detect:/home/ros/autoware.ai/install/vision_beyond_track:/home/ros/autoware.ai/install/vel_pose_diff_checker:/home/ros/autoware.ai/install/vehicle_socket:/home/ros/autoware.ai/install/vehicle_sim_model:/home/ros/autoware.ai/install/vehicle_model:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher:/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface:/home/ros/autoware.ai/install/vehicle_engage_panel:/home/ros/autoware.ai/install/vehicle_description:/home/ros/autoware.ai/install/trafficlight_recognizer:/home/ros/autoware.ai/install/op_utilities:/home/ros/autoware.ai/install/op_simulation_package:/home/ros/autoware.ai/install/op_local_planner:/home/ros/autoware.ai/install/op_global_planner:/home/ros/autoware.ai/install/lidar_kf_contour_track:/home/ros/autoware.ai/install/op_ros_helpers:/home/ros/autoware.ai/install/ff_waypoint_follower:/home/ros/autoware.ai/install/dp_planner:/home/ros/autoware.ai/install/op_simu:/home/ros/autoware.ai/install/op_planner:/home/ros/autoware.ai/install/op_utility:/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect:/home/ros/autoware.ai/install/vector_map_server:/home/ros/autoware.ai/install/road_occupancy_processor:/home/ros/autoware.ai/install/costmap_generator:/home/ros/autoware.ai/install/object_map:/home/ros/autoware.ai/install/naive_motion_predict:/home/ros/autoware.ai/install/lanelet_aisan_converter:/home/ros/autoware.ai/install/map_file:/home/ros/autoware.ai/install/libvectormap:/home/ros/autoware.ai/install/lane_planner:/home/ros/autoware.ai/install/imm_ukf_pda_track:/home/ros/autoware.ai/install/decision_maker:/home/ros/autoware.ai/install/vector_map:/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/udon_socket:/home/ros/autoware.ai/install/twist_generator:/home/ros/autoware.ai/install/twist_gate:/home/ros/autoware.ai/install/twist_filter:/home/ros/autoware.ai/install/twist2odom:/home/ros/autoware.ai/install/tablet_socket:/home/ros/autoware.ai/install/runtime_manager:/home/ros/autoware.ai/install/mqtt_socket:/home/ros/autoware.ai/install/tablet_socket_msgs:/home/ros/autoware.ai/install/system_monitor:/home/ros/autoware.ai/install/state_machine_lib:/home/ros/autoware.ai/install/sound_player:/home/ros/autoware.ai/install/points2image:/home/ros/autoware.ai/install/rosinterface:/home/ros/autoware.ai/install/rosbag_controller:/home/ros/autoware.ai/install/pure_pursuit:/home/ros/autoware.ai/install/points_preprocessor:/home/ros/autoware.ai/install/mpc_follower:/home/ros/autoware.ai/install/lidar_localizer:/home/ros/autoware.ai/install/emergency_handler:/home/ros/autoware.ai/install/roi_object_filter:/home/ros/autoware.ai/install/range_vision_fusion:/home/ros/autoware.ai/install/pos_db:/home/ros/autoware.ai/install/points_downsampler:/home/ros/autoware.ai/install/pixel_cloud_fusion:/home/ros/autoware.ai/install/pc2_downsampler:/home/ros/autoware.ai/install/oculus_socket:/home/ros/autoware.ai/install/obj_db:/home/ros/autoware.ai/install/multi_lidar_calibrator:/home/ros/autoware.ai/install/marker_downsampler:/home/ros/autoware.ai/install/map_tools:/home/ros/autoware.ai/install/map_tf_generator:/home/ros/autoware.ai/install/log_tools:/home/ros/autoware.ai/install/ll2_global_planner:/home/ros/autoware.ai/install/lidar_shape_estimation:/home/ros/autoware.ai/install/lidar_point_pillars:/home/ros/autoware.ai/install/lidar_naive_l_shape_detect:/home/ros/autoware.ai/install/lidar_fake_perception:/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect:/home/ros/autoware.ai/install/libwaypoint_follower:/home/ros/autoware.ai/install/lgsvl_simulator_bridge:/home/ros/autoware.ai/install/lanelet2_extension:/home/ros/autoware.ai/install/kitti_launch:/home/ros/autoware.ai/install/kitti_player:/home/ros/autoware.ai/install/kitti_box_publisher:/home/ros/autoware.ai/install/integrated_viewer:/home/ros/autoware.ai/install/image_processor:/home/ros/autoware.ai/install/graph_tools:/home/ros/autoware.ai/install/gnss_localizer:/home/ros/autoware.ai/install/gnss:/home/ros/autoware.ai/install/glviewer:/home/ros/autoware.ai/install/gazebo_world_description:/home/ros/autoware.ai/install/gazebo_imu_description:/home/ros/autoware.ai/install/gazebo_camera_description:/home/ros/autoware.ai/install/freespace_planner:/home/ros/autoware.ai/install/fastvirtualscan:/home/ros/autoware.ai/install/ekf_localizer:/home/ros/autoware.ai/install/detected_objects_visualizer:/home/ros/autoware.ai/install/decision_maker_panel:/home/ros/autoware.ai/install/data_preprocessor:/home/ros/autoware.ai/install/carla_autoware_bridge:/home/ros/autoware.ai/install/calibration_publisher:/home/ros/autoware.ai/install/autoware_rviz_plugins:/home/ros/autoware.ai/install/autoware_quickstart_examples:/home/ros/autoware.ai/install/autoware_connector:/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator:/home/ros/autoware.ai/install/astar_search:/home/ros/autoware.ai/install/amathutils_lib:/home/ros/autoware.ai/install/autoware_map_msgs:/home/ros/autoware.ai/install/autoware_launcher_rviz:/home/ros/autoware.ai/install/autoware_launcher:/home/ros/autoware.ai/install/autoware_lanelet2_msgs:/home/ros/autoware.ai/install/autoware_external_msgs:/home/ros/autoware.ai/install/autoware_can_msgs:/home/ros/autoware.ai/install/autoware_bag_tools:/home/ros/catkin_ws/devel:/opt/ros/melodic')]), 'shell': False}
+[0.161909] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.162203] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (eigen) does\n'}
+[0.162304] (lidar_localizer) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[0.162395] (lidar_localizer) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[0.162479] (lidar_localizer) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[0.162557] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.162641] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:153 (find_package_handle_standard_args)\n'}
+[0.162777] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:638 (find_eigen)\n'}
+[0.162910] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[0.163048] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.163196] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.163279] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.186039] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.186198] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (openni)\n'}
+[0.186301] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.186395] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.186490] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.186583] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.186684] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:235 (find_package_handle_standard_args)\n'}
+[0.186778] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:644 (find_openni)\n'}
+[0.186868] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.186962] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.187055] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.187148] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.187823] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.187936] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (OpenNI2)\n'}
+[0.188034] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.188133] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.188291] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.188389] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.188522] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:280 (find_package_handle_standard_args)\n'}
+[0.188610] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:646 (find_openni2)\n'}
+[0.188695] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.188780] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.188862] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.188944] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.199725] (-) TimerEvent: {}
+[0.202424] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.202560] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (ensenso)\n'}
+[0.202728] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.202879] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.203040] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.203132] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.203218] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:312 (find_package_handle_standard_args)\n'}
+[0.203302] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:648 (find_ensenso)\n'}
+[0.203385] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.203467] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.203549] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.203631] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.203711] (lidar_localizer) StdoutLine: {'line': b'-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) \n'}
+[0.203816] (lidar_localizer) StderrLine: {'line': b'** WARNING ** io features related to ensenso will be disabled\n'}
+[0.207792] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.207910] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DAVIDSDK)\n'}
+[0.208009] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.208128] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.208274] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.208390] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.208481] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:346 (find_package_handle_standard_args)\n'}
+[0.208568] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:650 (find_davidSDK)\n'}
+[0.208652] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.208742] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.208829] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.208916] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.208998] (lidar_localizer) StdoutLine: {'line': b'-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) \n'}
+[0.209086] (lidar_localizer) StderrLine: {'line': b'** WARNING ** io features related to davidSDK will be disabled\n'}
+[0.209940] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.210089] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DSSDK) does\n'}
+[0.210187] (lidar_localizer) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[0.210324] (lidar_localizer) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[0.210489] (lidar_localizer) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[0.210584] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.210694] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:388 (find_package_handle_standard_args)\n'}
+[0.210790] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:652 (find_dssdk)\n'}
+[0.210897] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.210989] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.211083] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.211177] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.211266] (lidar_localizer) StdoutLine: {'line': b'-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) \n'}
+[0.211360] (lidar_localizer) StderrLine: {'line': b'** WARNING ** io features related to dssdk will be disabled\n'}
+[0.211446] (lidar_localizer) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[0.211524] (lidar_localizer) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[0.299824] (-) TimerEvent: {}
+[0.314280] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.314461] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (libusb-1.0)\n'}
+[0.314563] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.314673] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.314768] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.314860] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.314950] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:515 (find_package_handle_standard_args)\n'}
+[0.315049] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:658 (find_libusb)\n'}
+[0.315145] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.315245] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.315335] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.315427] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.315521] (lidar_localizer) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[0.315656] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.315760] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Flann) does\n'}
+[0.315855] (lidar_localizer) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[0.315949] (lidar_localizer) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[0.316042] (lidar_localizer) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[0.316135] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.316288] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)\n'}
+[0.316381] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)\n'}
+[0.316470] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[0.316558] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.316649] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.316742] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.317121] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.317233] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Flann) does\n'}
+[0.317331] (lidar_localizer) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[0.317426] (lidar_localizer) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[0.317520] (lidar_localizer) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[0.317611] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.317704] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)\n'}
+[0.317795] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)\n'}
+[0.317887] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[0.317980] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.318072] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.318161] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.347311] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.347521] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (openni)\n'}
+[0.347666] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.347791] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.347885] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.347977] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.348068] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:235 (find_package_handle_standard_args)\n'}
+[0.348202] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:644 (find_openni)\n'}
+[0.348320] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.348464] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.348555] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.348637] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.349395] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.349518] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (OpenNI2)\n'}
+[0.349629] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.349743] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.349834] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.349928] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.350020] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:280 (find_package_handle_standard_args)\n'}
+[0.350108] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:646 (find_openni2)\n'}
+[0.350193] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.350281] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.350365] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.350448] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.358472] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.358609] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (ensenso)\n'}
+[0.358708] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.358886] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.359000] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.359197] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.359352] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:312 (find_package_handle_standard_args)\n'}
+[0.359439] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:648 (find_ensenso)\n'}
+[0.359523] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.359606] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.359687] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.359771] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.359849] (lidar_localizer) StdoutLine: {'line': b'-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) \n'}
+[0.359939] (lidar_localizer) StderrLine: {'line': b'** WARNING ** visualization features related to ensenso will be disabled\n'}
+[0.364028] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.364146] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DAVIDSDK)\n'}
+[0.364292] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.364426] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.364534] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.364625] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.364711] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:346 (find_package_handle_standard_args)\n'}
+[0.364795] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:650 (find_davidSDK)\n'}
+[0.364878] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.364966] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.365049] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.365131] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.365208] (lidar_localizer) StdoutLine: {'line': b'-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) \n'}
+[0.365299] (lidar_localizer) StderrLine: {'line': b'** WARNING ** visualization features related to davidSDK will be disabled\n'}
+[0.366041] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.366155] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DSSDK) does\n'}
+[0.366254] (lidar_localizer) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[0.366354] (lidar_localizer) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[0.366492] (lidar_localizer) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[0.366586] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.366672] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:388 (find_package_handle_standard_args)\n'}
+[0.366757] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:652 (find_dssdk)\n'}
+[0.366839] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.366926] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.367009] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.367090] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.367168] (lidar_localizer) StdoutLine: {'line': b'-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) \n'}
+[0.367260] (lidar_localizer) StderrLine: {'line': b'** WARNING ** visualization features related to dssdk will be disabled\n'}
+[0.367939] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.368053] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (RSSDK) does\n'}
+[0.368149] (lidar_localizer) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[0.368318] (lidar_localizer) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[0.368418] (lidar_localizer) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[0.368525] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.368618] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:432 (find_package_handle_standard_args)\n'}
+[0.368712] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:654 (find_rssdk)\n'}
+[0.368804] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.368900] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.368991] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.369092] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.369212] (lidar_localizer) StdoutLine: {'line': b'-- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) \n'}
+[0.369303] (lidar_localizer) StderrLine: {'line': b'** WARNING ** visualization features related to rssdk will be disabled\n'}
+[0.396421] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.396585] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (qhull) does\n'}
+[0.396685] (lidar_localizer) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[0.396781] (lidar_localizer) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[0.396875] (lidar_localizer) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[0.396968] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.397060] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:185 (find_package_handle_standard_args)\n'}
+[0.397151] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:642 (find_qhull)\n'}
+[0.397241] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.397330] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.397422] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.397572] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.397930] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.398041] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (openni)\n'}
+[0.398140] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.398234] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.398328] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.398419] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.398509] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:235 (find_package_handle_standard_args)\n'}
+[0.398601] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:644 (find_openni)\n'}
+[0.398694] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[0.398782] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.398873] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.398959] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.399881] (-) TimerEvent: {}
+[0.426255] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[0.426630] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.426744] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)\n'}
+[0.426839] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.426941] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.427032] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.427125] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.427281] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.427393] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.427522] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.427632] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.427765] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[0.427990] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.428089] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)\n'}
+[0.428183] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.428339] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.428433] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.428562] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.428683] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.428777] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.428868] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.429022] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.429122] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[0.429221] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.429321] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_IO)\n'}
+[0.429416] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.429506] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.429600] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.429696] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.429804] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.429896] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.429993] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.430085] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.430212] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[0.430314] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.430409] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)\n'}
+[0.430501] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.430595] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.430688] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.430792] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.430939] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.431031] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.431124] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.431217] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.431392] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[0.431518] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.431652] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)\n'}
+[0.431785] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.431883] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.431979] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.432076] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.432175] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.432321] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.432436] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.432544] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.432636] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[0.432837] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.432933] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.433028] (lidar_localizer) StderrLine: {'line': b'  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package\n'}
+[0.433120] (lidar_localizer) StderrLine: {'line': b'  (PCL).  This can lead to problems in calling code that expects\n'}
+[0.433214] (lidar_localizer) StderrLine: {'line': b'  `find_package` result variables (e.g., `_FOUND`) to follow a certain\n'}
+[0.433307] (lidar_localizer) StderrLine: {'line': b'  pattern.\n'}
+[0.433426] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.433546] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.433645] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.433751] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.433865] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.433994] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[0.434218] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.434328] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.434428] (lidar_localizer) StderrLine: {'line': b'  (PCL_FILTERS) does not match the name of the calling package (PCL).  This\n'}
+[0.434526] (lidar_localizer) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.434624] (lidar_localizer) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.434722] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.434825] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.434922] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.435041] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.435139] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.435239] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[0.435380] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.435486] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_2D)\n'}
+[0.435585] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.435684] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.435782] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.435881] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.435979] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[0.436098] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.436200] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.436303] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.436398] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[0.436564] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.436660] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.436754] (lidar_localizer) StderrLine: {'line': b'  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This\n'}
+[0.436849] (lidar_localizer) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.436945] (lidar_localizer) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.437055] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.437149] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[0.437241] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.437335] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.437425] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.437590] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[0.437691] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.437796] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.437894] (lidar_localizer) StderrLine: {'line': b'  (PCL_FEATURES) does not match the name of the calling package (PCL).  This\n'}
+[0.437991] (lidar_localizer) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.438089] (lidar_localizer) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.438188] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.438285] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.438419] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.438589] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.438719] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.438812] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[0.439076] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.439182] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_ML)\n'}
+[0.439278] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.439372] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.439467] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.439560] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.439674] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.439767] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.439860] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.439952] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.440043] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[0.440210] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.440326] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.440421] (lidar_localizer) StderrLine: {'line': b'  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).\n'}
+[0.440517] (lidar_localizer) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.440611] (lidar_localizer) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.440705] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.440799] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.440892] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.440985] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.441076] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.441289] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[0.441708] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.441815] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.441912] (lidar_localizer) StderrLine: {'line': b'  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).\n'}
+[0.442007] (lidar_localizer) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.442101] (lidar_localizer) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.442190] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.442284] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.442378] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.442471] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.442585] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.442680] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[0.442997] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.443107] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.443205] (lidar_localizer) StderrLine: {'line': b'  (PCL_SURFACE) does not match the name of the calling package (PCL).  This\n'}
+[0.443299] (lidar_localizer) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.443394] (lidar_localizer) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.443487] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.443582] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.443676] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.443770] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.443882] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.443976] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[0.444281] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.444393] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.444490] (lidar_localizer) StderrLine: {'line': b'  (PCL_REGISTRATION) does not match the name of the calling package (PCL).\n'}
+[0.444586] (lidar_localizer) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.444680] (lidar_localizer) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.444794] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.444906] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.444999] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.445093] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.445186] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.445347] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[0.445745] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.445861] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.445993] (lidar_localizer) StderrLine: {'line': b'  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This\n'}
+[0.446089] (lidar_localizer) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.446184] (lidar_localizer) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.446278] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.446371] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.446465] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.446553] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.446647] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.446782] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[0.447153] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.447262] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.447359] (lidar_localizer) StderrLine: {'line': b'  (PCL_TRACKING) does not match the name of the calling package (PCL).  This\n'}
+[0.447452] (lidar_localizer) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.447547] (lidar_localizer) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.447644] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.447738] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.447832] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.447926] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.448038] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.448132] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[0.448448] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.448558] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.448655] (lidar_localizer) StderrLine: {'line': b'  (PCL_RECOGNITION) does not match the name of the calling package (PCL).\n'}
+[0.448750] (lidar_localizer) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.448844] (lidar_localizer) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.448938] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.449032] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.449128] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.449220] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.449312] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.449743] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[0.450110] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.450221] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)\n'}
+[0.450317] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.450412] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.450506] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.450601] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.450695] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.450806] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.450900] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.450992] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.451085] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[0.451255] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.451366] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_APPS)\n'}
+[0.451461] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.451555] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.451648] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.451739] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.451831] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.451931] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.452023] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.452117] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.453815] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[0.454118] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.454233] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.454331] (lidar_localizer) StderrLine: {'line': b'  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).\n'}
+[0.454428] (lidar_localizer) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.454526] (lidar_localizer) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.454633] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.454728] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[0.454822] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.454914] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.455051] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.455145] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[0.455241] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.455337] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.455445] (lidar_localizer) StderrLine: {'line': b'  (PCL_MODELER) does not match the name of the calling package (PCL).  This\n'}
+[0.455543] (lidar_localizer) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.455637] (lidar_localizer) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.455728] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.455862] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[0.455962] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.456055] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.456150] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.456327] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[0.456438] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.456533] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.456631] (lidar_localizer) StderrLine: {'line': b'  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package\n'}
+[0.456723] (lidar_localizer) StderrLine: {'line': b'  (PCL).  This can lead to problems in calling code that expects\n'}
+[0.456854] (lidar_localizer) StderrLine: {'line': b'  `find_package` result variables (e.g., `_FOUND`) to follow a certain\n'}
+[0.456950] (lidar_localizer) StderrLine: {'line': b'  pattern.\n'}
+[0.457043] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.457136] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[0.457229] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.457320] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.457449] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.457542] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[0.457636] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.457732] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.457841] (lidar_localizer) StderrLine: {'line': b'  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This\n'}
+[0.457935] (lidar_localizer) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.458027] (lidar_localizer) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.458133] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.458241] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.458379] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.458470] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.458560] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.458650] (lidar_localizer) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[0.458743] (lidar_localizer) StderrLine: {'line': b'CMake Warning (dev) at /home/ros/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[0.458835] (lidar_localizer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)\n'}
+[0.458961] (lidar_localizer) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.459049] (lidar_localizer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.459141] (lidar_localizer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.459232] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.459323] (lidar_localizer) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[0.459436] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.459526] (lidar_localizer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.459648] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.496790] (lidar_localizer) StdoutLine: {'line': b'-- CUDA compilation status: 1.\n'}
+[0.499956] (-) TimerEvent: {}
+[0.503805] (lidar_localizer) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/lidar_localizer/devel\n'}
+[0.503992] (lidar_localizer) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/autoware_health_checker;/home/ros/autoware.ai/install/ros_observer;/home/ros/autoware.ai/install/pcl_omp_registration;/home/ros/autoware.ai/install/ndt_tku;/home/ros/autoware.ai/install/ndt_cpu;/home/ros/autoware.ai/install/autoware_system_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/home/ros/autoware.ai/install/wf_simulator;/home/ros/autoware.ai/install/lattice_planner;/home/ros/autoware.ai/install/waypoint_planner;/home/ros/autoware.ai/install/waypoint_maker;/home/ros/autoware.ai/install/way_planner;/home/ros/autoware.ai/install/vision_ssd_detect;/home/ros/autoware.ai/install/vision_segment_enet_detect;/home/ros/autoware.ai/install/vision_lane_detect;/home/ros/autoware.ai/install/vision_darknet_detect;/home/ros/autoware.ai/install/vision_beyond_track;/home/ros/autoware.ai/install/vel_pose_diff_checker;/home/ros/autoware.ai/install/vehicle_socket;/home/ros/autoware.ai/install/vehicle_sim_model;/home/ros/autoware.ai/install/vehicle_model;/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher;/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface;/home/ros/autoware.ai/install/vehicle_engage_panel;/home/ros/autoware.ai/install/vehicle_description;/home/ros/autoware.ai/install/trafficlight_recognizer;/home/ros/autoware.ai/install/op_utilities;/home/ros/autoware.ai/install/op_simulation_package;/home/ros/autoware.ai/install/op_local_planner;/home/ros/autoware.ai/install/op_global_planner;/home/ros/autoware.ai/install/lidar_kf_contour_track;/home/ros/autoware.ai/install/op_ros_helpers;/home/ros/autoware.ai/install/ff_waypoint_follower;/home/ros/autoware.ai/install/dp_planner;/home/ros/autoware.ai/install/op_simu;/home/ros/autoware.ai/install/op_planner;/home/ros/autoware.ai/install/op_utility;/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect;/home/ros/autoware.ai/install/vector_map_server;/home/ros/autoware.ai/install/road_occupancy_processor;/home/ros/autoware.ai/install/costmap_generator;/home/ros/autoware.ai/install/object_map;/home/ros/autoware.ai/install/naive_motion_predict;/home/ros/autoware.ai/install/lanelet_aisan_converter;/home/ros/autoware.ai/install/map_file;/home/ros/autoware.ai/install/libvectormap;/home/ros/autoware.ai/install/lane_planner;/home/ros/autoware.ai/install/imm_ukf_pda_track;/home/ros/autoware.ai/install/decision_maker;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/udon_socket;/home/ros/autoware.ai/install/twist_generator;/home/ros/autoware.ai/install/twist_gate;/home/ros/autoware.ai/install/twist_filter;/home/ros/autoware.ai/install/twist2odom;/home/ros/autoware.ai/install/tablet_socket;/home/ros/autoware.ai/install/runtime_manager;/home/ros/autoware.ai/install/mqtt_socket;/home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/system_monitor;/home/ros/autoware.ai/install/state_machine_lib;/home/ros/autoware.ai/install/sound_player;/home/ros/autoware.ai/install/points2image;/home/ros/autoware.ai/install/rosinterface;/home/ros/autoware.ai/install/rosbag_controller;/home/ros/autoware.ai/install/pure_pursuit;/home/ros/autoware.ai/install/points_preprocessor;/home/ros/autoware.ai/install/mpc_follower;/home/ros/autoware.ai/install/lidar_localizer;/home/ros/autoware.ai/install/emergency_handler;/home/ros/autoware.ai/install/roi_object_filter;/home/ros/autoware.ai/install/range_vision_fusion;/home/ros/autoware.ai/install/pos_db;/home/ros/autoware.ai/install/points_downsampler;/home/ros/autoware.ai/install/pixel_cloud_fusion;/home/ros/autoware.ai/install/pc2_downsampler;/home/ros/autoware.ai/install/oculus_socket;/home/ros/autoware.ai/install/obj_db;/home/ros/autoware.ai/install/multi_lidar_calibrator;/home/ros/autoware.ai/install/marker_downsampler;/home/ros/autoware.ai/install/map_tools;/home/ros/autoware.ai/install/map_tf_generator;/home/ros/autoware.ai/install/log_tools;/home/ros/autoware.ai/install/ll2_global_planner;/home/ros/autoware.ai/install/lidar_shape_estimation;/home/ros/autoware.ai/install/lidar_point_pillars;/home/ros/autoware.ai/install/lidar_naive_l_shape_detect;/home/ros/autoware.ai/install/lidar_fake_perception;/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect;/home/ros/autoware.ai/install/libwaypoint_follower;/home/ros/autoware.ai/install/lgsvl_simulator_bridge;/home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/kitti_launch;/home/ros/autoware.ai/install/kitti_player;/home/ros/autoware.ai/install/kitti_box_publisher;/home/ros/autoware.ai/install/integrated_viewer;/home/ros/autoware.ai/install/image_processor;/home/ros/autoware.ai/install/graph_tools;/home/ros/autoware.ai/install/gnss_localizer;/home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/glviewer;/home/ros/autoware.ai/install/gazebo_world_description;/home/ros/autoware.ai/install/gazebo_imu_description;/home/ros/autoware.ai/install/gazebo_camera_description;/home/ros/autoware.ai/install/freespace_planner;/home/ros/autoware.ai/install/fastvirtualscan;/home/ros/autoware.ai/install/ekf_localizer;/home/ros/autoware.ai/install/detected_objects_visualizer;/home/ros/autoware.ai/install/decision_maker_panel;/home/ros/autoware.ai/install/data_preprocessor;/home/ros/autoware.ai/install/carla_autoware_bridge;/home/ros/autoware.ai/install/calibration_publisher;/home/ros/autoware.ai/install/autoware_rviz_plugins;/home/ros/autoware.ai/install/autoware_quickstart_examples;/home/ros/autoware.ai/install/autoware_connector;/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator;/home/ros/autoware.ai/install/astar_search;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/autoware_map_msgs;/home/ros/autoware.ai/install/autoware_launcher_rviz;/home/ros/autoware.ai/install/autoware_launcher;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/home/ros/autoware.ai/install/autoware_external_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_bag_tools;/home/ros/catkin_ws/devel;/opt/ros/melodic\n'}
+[0.508023] (lidar_localizer) StdoutLine: {'line': b'-- This workspace overlays: /home/ros/autoware.ai/install/autoware_health_checker;/home/ros/autoware.ai/install/ros_observer;/home/ros/autoware.ai/install/pcl_omp_registration;/home/ros/autoware.ai/install/ndt_tku;/home/ros/autoware.ai/install/ndt_cpu;/home/ros/autoware.ai/install/autoware_system_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_config_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/home/ros/autoware.ai/install/wf_simulator;/home/ros/autoware.ai/install/lattice_planner;/home/ros/autoware.ai/install/waypoint_planner;/home/ros/autoware.ai/install/waypoint_maker;/home/ros/autoware.ai/install/way_planner;/home/ros/autoware.ai/install/vision_ssd_detect;/home/ros/autoware.ai/install/vision_segment_enet_detect;/home/ros/autoware.ai/install/vision_lane_detect;/home/ros/autoware.ai/install/vision_darknet_detect;/home/ros/autoware.ai/install/vision_beyond_track;/home/ros/autoware.ai/install/vel_pose_diff_checker;/home/ros/autoware.ai/install/vehicle_socket;/home/ros/autoware.ai/install/vehicle_sim_model;/home/ros/autoware.ai/install/vehicle_model;/home/ros/autoware.ai/install/vehicle_gazebo_simulation_launcher;/home/ros/autoware.ai/install/vehicle_gazebo_simulation_interface;/home/ros/autoware.ai/install/vehicle_engage_panel;/home/ros/autoware.ai/install/vehicle_description;/home/ros/autoware.ai/install/trafficlight_recognizer;/home/ros/autoware.ai/install/op_utilities;/home/ros/autoware.ai/install/op_simulation_package;/home/ros/autoware.ai/install/op_local_planner;/home/ros/autoware.ai/install/op_global_planner;/home/ros/autoware.ai/install/lidar_kf_contour_track;/home/ros/autoware.ai/install/op_ros_helpers;/home/ros/autoware.ai/install/ff_waypoint_follower;/home/ros/autoware.ai/install/dp_planner;/home/ros/autoware.ai/install/op_simu;/home/ros/autoware.ai/install/op_planner;/home/ros/autoware.ai/install/op_utility;/home/ros/autoware.ai/install/lidar_euclidean_cluster_detect;/home/ros/autoware.ai/install/vector_map_server;/home/ros/autoware.ai/install/road_occupancy_processor;/home/ros/autoware.ai/install/costmap_generator;/home/ros/autoware.ai/install/object_map;/home/ros/autoware.ai/install/naive_motion_predict;/home/ros/autoware.ai/install/lanelet_aisan_converter;/home/ros/autoware.ai/install/map_file;/home/ros/autoware.ai/install/libvectormap;/home/ros/autoware.ai/install/lane_planner;/home/ros/autoware.ai/install/imm_ukf_pda_track;/home/ros/autoware.ai/install/decision_maker;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/udon_socket;/home/ros/autoware.ai/install/twist_generator;/home/ros/autoware.ai/install/twist_gate;/home/ros/autoware.ai/install/twist_filter;/home/ros/autoware.ai/install/twist2odom;/home/ros/autoware.ai/install/tablet_socket;/home/ros/autoware.ai/install/runtime_manager;/home/ros/autoware.ai/install/mqtt_socket;/home/ros/autoware.ai/install/tablet_socket_msgs;/home/ros/autoware.ai/install/system_monitor;/home/ros/autoware.ai/install/state_machine_lib;/home/ros/autoware.ai/install/sound_player;/home/ros/autoware.ai/install/points2image;/home/ros/autoware.ai/install/rosinterface;/home/ros/autoware.ai/install/rosbag_controller;/home/ros/autoware.ai/install/pure_pursuit;/home/ros/autoware.ai/install/points_preprocessor;/home/ros/autoware.ai/install/mpc_follower;/home/ros/autoware.ai/install/lidar_localizer;/home/ros/autoware.ai/install/emergency_handler;/home/ros/autoware.ai/install/roi_object_filter;/home/ros/autoware.ai/install/range_vision_fusion;/home/ros/autoware.ai/install/pos_db;/home/ros/autoware.ai/install/points_downsampler;/home/ros/autoware.ai/install/pixel_cloud_fusion;/home/ros/autoware.ai/install/pc2_downsampler;/home/ros/autoware.ai/install/oculus_socket;/home/ros/autoware.ai/install/obj_db;/home/ros/autoware.ai/install/multi_lidar_calibrator;/home/ros/autoware.ai/install/marker_downsampler;/home/ros/autoware.ai/install/map_tools;/home/ros/autoware.ai/install/map_tf_generator;/home/ros/autoware.ai/install/log_tools;/home/ros/autoware.ai/install/ll2_global_planner;/home/ros/autoware.ai/install/lidar_shape_estimation;/home/ros/autoware.ai/install/lidar_point_pillars;/home/ros/autoware.ai/install/lidar_naive_l_shape_detect;/home/ros/autoware.ai/install/lidar_fake_perception;/home/ros/autoware.ai/install/lidar_apollo_cnn_seg_detect;/home/ros/autoware.ai/install/libwaypoint_follower;/home/ros/autoware.ai/install/lgsvl_simulator_bridge;/home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/kitti_launch;/home/ros/autoware.ai/install/kitti_player;/home/ros/autoware.ai/install/kitti_box_publisher;/home/ros/autoware.ai/install/integrated_viewer;/home/ros/autoware.ai/install/image_processor;/home/ros/autoware.ai/install/graph_tools;/home/ros/autoware.ai/install/gnss_localizer;/home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/glviewer;/home/ros/autoware.ai/install/gazebo_world_description;/home/ros/autoware.ai/install/gazebo_imu_description;/home/ros/autoware.ai/install/gazebo_camera_description;/home/ros/autoware.ai/install/freespace_planner;/home/ros/autoware.ai/install/fastvirtualscan;/home/ros/autoware.ai/install/ekf_localizer;/home/ros/autoware.ai/install/detected_objects_visualizer;/home/ros/autoware.ai/install/decision_maker_panel;/home/ros/autoware.ai/install/data_preprocessor;/home/ros/autoware.ai/install/carla_autoware_bridge;/home/ros/autoware.ai/install/calibration_publisher;/home/ros/autoware.ai/install/autoware_rviz_plugins;/home/ros/autoware.ai/install/autoware_quickstart_examples;/home/ros/autoware.ai/install/autoware_connector;/home/ros/autoware.ai/install/autoware_camera_lidar_calibrator;/home/ros/autoware.ai/install/astar_search;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/autoware_map_msgs;/home/ros/autoware.ai/install/autoware_launcher_rviz;/home/ros/autoware.ai/install/autoware_launcher;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/home/ros/autoware.ai/install/autoware_external_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_bag_tools;/home/ros/catkin_ws/devel;/opt/ros/melodic\n'}
+[0.521487] (lidar_localizer) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[0.521670] (lidar_localizer) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[0.521786] (lidar_localizer) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[0.521886] (lidar_localizer) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[0.600072] (-) TimerEvent: {}
+[0.638439] (lidar_localizer) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[0.638674] (lidar_localizer) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[0.639101] (lidar_localizer) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/lidar_localizer/test_results\n'}
+[0.660579] (lidar_localizer) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[0.660820] (lidar_localizer) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[0.676923] (lidar_localizer) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[0.682459] (lidar_localizer) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[0.700211] (-) TimerEvent: {}
+[0.717465] (lidar_localizer) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[0.717640] (lidar_localizer) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[0.800249] (-) TimerEvent: {}
+[0.824013] (lidar_localizer) StdoutLine: {'line': b'-- Could NOT find ndt_gpu (missing: ndt_gpu_DIR)\n'}
+[0.824316] (lidar_localizer) StdoutLine: {'line': b"-- Could not find the required component 'ndt_gpu'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.\n"}
+[0.824422] (lidar_localizer) StderrLine: {'line': b'CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):\n'}
+[0.824517] (lidar_localizer) StderrLine: {'line': b'  Could not find a package configuration file provided by "ndt_gpu" with any\n'}
+[0.824617] (lidar_localizer) StderrLine: {'line': b'  of the following names:\n'}
+[0.824701] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.824789] (lidar_localizer) StderrLine: {'line': b'    ndt_gpuConfig.cmake\n'}
+[0.824873] (lidar_localizer) StderrLine: {'line': b'    ndt_gpu-config.cmake\n'}
+[0.824976] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.825149] (lidar_localizer) StderrLine: {'line': b'  Add the installation prefix of "ndt_gpu" to CMAKE_PREFIX_PATH or set\n'}
+[0.825339] (lidar_localizer) StderrLine: {'line': b'  "ndt_gpu_DIR" to a directory containing one of the above files.  If\n'}
+[0.825453] (lidar_localizer) StderrLine: {'line': b'  "ndt_gpu" provides a separate development package or SDK, be sure it has\n'}
+[0.825555] (lidar_localizer) StderrLine: {'line': b'  been installed.\n'}
+[0.825638] (lidar_localizer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.825719] (lidar_localizer) StderrLine: {'line': b'  CMakeLists.txt:38 (find_package)\n'}
+[0.825799] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.825878] (lidar_localizer) StderrLine: {'line': b'\n'}
+[0.825954] (lidar_localizer) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.826035] (lidar_localizer) StdoutLine: {'line': b'See also "/home/ros/autoware.ai/build/lidar_localizer/CMakeFiles/CMakeOutput.log".\n'}
+[0.826122] (lidar_localizer) StdoutLine: {'line': b'See also "/home/ros/autoware.ai/build/lidar_localizer/CMakeFiles/CMakeError.log".\n'}
+[0.837106] (lidar_localizer) CommandEnded: {'returncode': 1}
+[0.896332] (lidar_localizer) JobEnded: {'identifier': 'lidar_localizer', 'rc': 1}
+[0.900295] (-) TimerEvent: {}
+[0.906977] (-) EventReactorShutdown: {}

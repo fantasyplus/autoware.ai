@@ -1,0 +1,14 @@
+CUDA is available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart_static.a;Threads::Threads;dl;/usr/lib/x86_64-linux-gnu/librt.so
+CUDA Headers: /usr/local/cuda/include
+TensorRT is available!
+NVINFER: /usr/local/lib/libnvinfer.so
+NVPARSERS: /usr/local/lib/libnvparsers.so
+NVONNXPARSERS: /usr/local/lib/libnvonnxparser.so
+CUDNN is available!
+CUDNN_LIBRARY: usr/local/cuda/lib64
+/usr/bin/ld: cannot find -lusr/local/cuda/lib64
+collect2: error: ld returned 1 exit status
+make[2]: *** [devel/lib/libpoint_pillars_lib.so] Error 1
+make[1]: *** [CMakeFiles/point_pillars_lib.dir/all] Error 2
+make: *** [all] Error 2

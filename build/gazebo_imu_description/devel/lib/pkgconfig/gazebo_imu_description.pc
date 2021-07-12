@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/gazebo_imu_description/devel
+
+Name: gazebo_imu_description
+Description: Description of gazebo_imu_description
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

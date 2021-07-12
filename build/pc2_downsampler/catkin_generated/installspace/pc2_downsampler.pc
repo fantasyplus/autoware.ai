@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/pc2_downsampler
+
+Name: pc2_downsampler
+Description: Description of pc2_downsampler
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

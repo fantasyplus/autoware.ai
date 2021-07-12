@@ -1,0 +1,101 @@
+[0.028s] Invoking command in '/home/ros/autoware.ai/build/vehicle_description': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vehicle_description
+[0.118s] -- The C compiler identification is GNU 7.5.0
+[0.240s] -- The CXX compiler identification is GNU 7.5.0
+[0.247s] -- Check for working C compiler: /usr/bin/cc
+[0.488s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.488s] -- Detecting C compiler ABI info
+[0.631s] -- Detecting C compiler ABI info - done
+[0.645s] -- Detecting C compile features
+[1.123s] -- Detecting C compile features - done
+[1.128s] -- Check for working CXX compiler: /usr/bin/c++
+[1.271s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.273s] -- Detecting CXX compiler ABI info
+[1.416s] -- Detecting CXX compiler ABI info - done
+[1.426s] -- Detecting CXX compile features
+[1.987s] -- Detecting CXX compile features - done
+[1.988s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/vehicle_description/devel
+[1.994s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.994s] -- This workspace overlays: /opt/ros/melodic
+[2.013s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.013s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.014s] -- Using Debian Python package layout
+[2.015s] -- Using empy: /usr/bin/empy
+[2.279s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.279s] -- Call enable_testing()
+[2.282s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/vehicle_description/test_results
+[2.307s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.307s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.337s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.338s] -- Looking for pthread.h
+[2.453s] -- Looking for pthread.h - found
+[2.454s] -- Looking for pthread_create
+[2.574s] -- Looking for pthread_create - not found
+[2.574s] -- Looking for pthread_create in pthreads
+[2.679s] -- Looking for pthread_create in pthreads - not found
+[2.679s] -- Looking for pthread_create in pthread
+[2.829s] -- Looking for pthread_create in pthread - found
+[2.830s] -- Found Threads: TRUE  
+[2.835s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.898s] -- catkin 0.7.29
+[2.898s] -- BUILD_SHARED_LIBS is on
+[3.304s] -- Configuring done
+[3.316s] -- Generating done
+[3.323s] -- Build files have been written to: /home/ros/autoware.ai/build/vehicle_description
+[3.330s] Invoked command in '/home/ros/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vehicle_description
+[3.332s] Invoking command in '/home/ros/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description -- -j12 -l12
+[3.467s] [35m[1mScanning dependencies of target vehicle_description_xacro_generated_to_devel_space_[0m
+[3.504s] Built target vehicle_description_xacro_generated_to_devel_space_
+[3.520s] Invoked command in '/home/ros/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description -- -j12 -l12
+[3.733s] Invoking command in '/home/ros/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description --target tests -- -j12 -l12
+[3.830s] [35m[1mScanning dependencies of target tests[0m
+[3.851s] Built target tests
+[3.867s] Invoked command in '/home/ros/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description --target tests -- -j12 -l12
+[3.949s] Invoking command in '/home/ros/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description --target install -- -j12 -l12
+[4.034s] Built target vehicle_description_xacro_generated_to_devel_space_
+[4.071s] [36mInstall the project...[0m
+[4.084s] -- Install configuration: "Release"
+[4.084s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/lib/pkgconfig/vehicle_description.pc
+[4.085s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/cmake/vehicle_descriptionConfig.cmake
+[4.085s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/cmake/vehicle_descriptionConfig-version.cmake
+[4.085s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/package.xml
+[4.085s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/launch
+[4.086s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/launch/estima_gray.launch
+[4.086s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/launch/milee.launch
+[4.086s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/launch/lexus.launch
+[4.086s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/launch/estima_white.launch
+[4.086s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/launch/vehicle_model.launch
+[4.087s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/launch/estima_black.launch
+[4.087s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh
+[4.087s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_left_white.jpg
+[4.087s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/xe.dae
+[4.137s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_right_gray.jpg
+[4.138s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_right_black.jpg
+[4.138s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_bg_gray.jpg
+[4.138s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/milee.dae
+[4.147s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_gray.dae
+[4.153s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/lexus.dae
+[4.174s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_white.dae
+[4.183s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/_51225ex1diffuse.jpeg
+[4.184s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/prius.dae
+[4.185s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/CAR_original.stl
+[4.190s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_bg_white.jpg
+[4.190s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/lexus.jpg
+[4.191s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/_51225ex2diffuse.jpeg
+[4.192s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_bg_black.jpg
+[4.192s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/CAR_original.dae
+[4.197s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_black.dae
+[4.205s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_right_white.jpg
+[4.205s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_left_black.jpg
+[4.205s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_left_gray.jpg
+[4.206s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/default.dae
+[4.212s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf
+[4.213s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/default.urdf
+[4.213s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/xe.urdf
+[4.213s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/lexus.urdf
+[4.213s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/estima_white.urdf
+[4.214s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/sim_default.urdf
+[4.214s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/prius.urdf
+[4.214s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/estima_black.urdf
+[4.214s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/milee.urdf
+[4.215s] -- Installing: /home/ros/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/estima_gray.urdf
+[4.222s] Invoked command in '/home/ros/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/vehicle_description --target install -- -j12 -l12

@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/integrated_viewer
+
+Name: integrated_viewer
+Description: Description of integrated_viewer
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz

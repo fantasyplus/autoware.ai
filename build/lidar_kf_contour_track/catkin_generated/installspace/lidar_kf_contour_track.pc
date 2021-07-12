@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/lidar_kf_contour_track
+
+Name: lidar_kf_contour_track
+Description: Description of lidar_kf_contour_track
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: op_ros_helpers cv_bridge

@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/points_downsampler
+
+Name: points_downsampler
+Description: Description of points_downsampler
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime pcl_conversions pcl_ros sensor_msgs

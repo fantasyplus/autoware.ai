@@ -1,0 +1,97 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: .
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/way_planner/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/op_simu;/home/ros/autoware.ai/install/op_planner;/home/ros/autoware.ai/install/op_utility;/home/ros/autoware.ai/install/vector_map_server;/home/ros/autoware.ai/install/libwaypoint_follower;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/op_simu;/home/ros/autoware.ai/install/op_planner;/home/ros/autoware.ai/install/op_utility;/home/ros/autoware.ai/install/vector_map_server;/home/ros/autoware.ai/install/libwaypoint_follower;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/way_planner/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/way_planner
+[35m[1mScanning dependencies of target way_planner[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/way_planner.dir/nodes/way_planner.cpp.o[0m
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/way_planner_core.h:50:0[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/nodes/way_planner.cpp:27[m[K:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[ 40%] [32mBuilding CXX object CMakeFiles/way_planner.dir/nodes/SocketServer.cpp.o[0m
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/SocketServer.h:19:0[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/nodes/SocketServer.cpp:8[m[K:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[ 60%] [32mBuilding CXX object CMakeFiles/way_planner.dir/nodes/ROSHelpers.cpp.o[0m
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/nodes/ROSHelpers.cpp:8:0[m[K:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[ 80%] [32mBuilding CXX object CMakeFiles/way_planner.dir/nodes/way_planner_core.cpp.o[0m
+In file included from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/way_planner_core.h:50:0[m[K,
+                 from [01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:17[m[K:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/ROSHelpers.h:[m[K In static member function ‘[01m[Kstatic std::vector<std::__cxx11::basic_string<char> > WayPlannerNS::HMI_MSG::SplitString(const string&, const string&)[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/include/ROSHelpers.h:105:43:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     while (iSecondPart > 0 && [01;35m[KiSecondPart < str.size()[m[K)
+                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:[m[K In member function ‘[01m[Kvoid WayPlannerNS::way_planner_core::PlannerMainLoop()[m[K’:
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:712:72:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+           if(ret == true && info.iGlobalPath >= 0 &&  [01;35m[Kinfo.iGlobalPath < m_GeneratedTotalPaths.size()[m[K && info.iFront > 0 && info.iFront < m_GeneratedTotalPaths.at(info.iGlobalPath).size())
+                                                       [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:712:137:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+           if(ret == true && info.iGlobalPath >= 0 &&  info.iGlobalPath < m_GeneratedTotalPaths.size() && info.iFront > 0 && [01;35m[Kinfo.iFront < m_GeneratedTotalPaths.at(info.iGlobalPath).size()[m[K)
+                                                                                                                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/autoware.ai/src/autoware/core_planning/way_planner/nodes/way_planner_core.cpp:718:38:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+               if([01;35m[Km_iCurrentGoalIndex >= m_GoalsPos.size()[m[K)
+                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable devel/lib/way_planner/way_planner[0m
+[100%] Built target way_planner
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[100%] Built target way_planner
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/way_planner/lib/pkgconfig/way_planner.pc
+-- Installing: /home/ros/autoware.ai/install/way_planner/share/way_planner/cmake/way_plannerConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/way_planner/share/way_planner/cmake/way_plannerConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/way_planner/share/way_planner/package.xml
+-- Installing: /home/ros/autoware.ai/install/way_planner/lib/way_planner/way_planner
+-- Set runtime path of "/home/ros/autoware.ai/install/way_planner/lib/way_planner/way_planner" to ""
+-- Installing: /home/ros/autoware.ai/install/way_planner/share/way_planner/launch
+-- Installing: /home/ros/autoware.ai/install/way_planner/share/way_planner/launch/way_planner.launch

@@ -1,0 +1,1 @@
+Invoking command in '/home/ros/autoware.ai/build/ros_observer': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/common/ros_observer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/ros_observer

@@ -1,0 +1,635 @@
+[0.019s] Invoking command in '/home/ros/autoware.ai/build/autoware_map_msgs': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/messages/autoware_map_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_map_msgs
+[0.434s] -- The C compiler identification is GNU 7.5.0
+[0.741s] -- The CXX compiler identification is GNU 7.5.0
+[0.747s] -- Check for working C compiler: /usr/bin/cc
+[1.141s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.142s] -- Detecting C compiler ABI info
+[1.464s] -- Detecting C compiler ABI info - done
+[1.476s] -- Detecting C compile features
+[2.031s] -- Detecting C compile features - done
+[2.035s] -- Check for working CXX compiler: /usr/bin/c++
+[2.289s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.292s] -- Detecting CXX compiler ABI info
+[2.428s] -- Detecting CXX compiler ABI info - done
+[2.440s] -- Detecting CXX compile features
+[3.335s] -- Detecting CXX compile features - done
+[3.337s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/autoware_map_msgs/devel
+[3.337s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[3.337s] -- This workspace overlays: /opt/ros/melodic
+[3.357s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.359s] -- Using Debian Python package layout
+[3.359s] -- Using empy: /usr/bin/empy
+[3.571s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.571s] -- Call enable_testing()
+[3.574s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/autoware_map_msgs/test_results
+[3.607s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.608s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.631s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.632s] -- Looking for pthread.h
+[3.778s] -- Looking for pthread.h - found
+[3.778s] -- Looking for pthread_create
+[3.968s] -- Looking for pthread_create - not found
+[3.969s] -- Looking for pthread_create in pthreads
+[4.129s] -- Looking for pthread_create in pthreads - not found
+[4.129s] -- Looking for pthread_create in pthread
+[4.272s] -- Looking for pthread_create in pthread - found
+[4.273s] -- Found Threads: TRUE  
+[4.278s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.333s] -- catkin 0.7.29
+[4.334s] -- BUILD_SHARED_LIBS is on
+[4.532s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.884s] -- autoware_map_msgs: 30 messages, 0 services
+[5.241s] -- Configuring done
+[5.301s] -- Generating done
+[5.311s] -- Build files have been written to: /home/ros/autoware.ai/build/autoware_map_msgs
+[5.322s] Invoked command in '/home/ros/autoware.ai/build/autoware_map_msgs' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/messages/autoware_map_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/autoware_map_msgs
+[5.323s] Invoking command in '/home/ros/autoware.ai/build/autoware_map_msgs': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_map_msgs -- -j12 -l12
+[5.438s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneSignalLightRelation[0m
+[5.444s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_WaypointRelationArray[0m
+[5.448s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_WaypointLaneRelation[0m
+[5.460s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_WaypointLaneRelationArray[0m
+[5.551s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneSignalLightRelation
+[5.552s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointLaneRelation
+[5.563s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointLaneRelationArray
+[5.571s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointRelationArray
+[5.582s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_SignalLight[0m
+[5.588s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneChangeRelation[0m
+[5.598s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_WayareaArray[0m
+[5.598s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_OppositeLaneRelationArray[0m
+[5.688s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneChangeRelation
+[5.743s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_OppositeLaneRelationArray
+[5.744s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_SignalLight
+[5.757s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[5.781s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WayareaArray
+[5.803s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_WaypointSignalRelation[0m
+[5.810s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneArray[0m
+[5.844s] [  0%] Built target std_msgs_generate_messages_lisp
+[5.846s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_Point[0m
+[5.895s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneAttributeRelation[0m
+[5.918s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointSignalRelation
+[5.932s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneArray
+[5.963s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Point
+[5.976s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneChangeRelationArray[0m
+[5.991s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_AreaArray[0m
+[5.992s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_Waypoint[0m
+[6.048s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneAttributeRelation
+[6.100s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneChangeRelationArray
+[6.111s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_Lane[0m
+[6.112s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Waypoint
+[6.125s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_AreaArray
+[6.153s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_WaypointRelation[0m
+[6.173s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_WaypointSignalRelationArray[0m
+[6.187s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_SignalLightArray[0m
+[6.229s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Lane
+[6.303s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_Wayarea[0m
+[6.309s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointRelation
+[6.310s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_Area[0m
+[6.351s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointSignalRelationArray
+[6.394s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_PointArray[0m
+[6.395s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_SignalLightArray
+[6.401s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneSignalLightRelationArray[0m
+[6.482s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Area
+[6.492s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneRelation[0m
+[6.492s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Wayarea
+[6.525s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[6.556s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_PointArray
+[6.560s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneSignalLightRelationArray
+[6.560s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[6.593s] [  0%] Built target std_msgs_generate_messages_cpp
+[6.606s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneRelation
+[6.626s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[6.639s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[6.649s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_OppositeLaneRelation[0m
+[6.657s] [  0%] Built target std_msgs_generate_messages_py
+[6.657s] [  0%] Built target std_msgs_generate_messages_nodejs
+[6.663s] [  0%] Built target std_msgs_generate_messages_eus
+[6.687s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneRelationArray[0m
+[6.688s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_Signal[0m
+[6.719s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_WaypointArray[0m
+[6.720s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_SignalArray[0m
+[6.727s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_OppositeLaneRelation
+[6.760s] [35m[1mScanning dependencies of target _autoware_map_msgs_generate_messages_check_deps_LaneAttributeRelationArray[0m
+[6.776s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Signal
+[6.813s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneRelationArray
+[6.814s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_SignalArray
+[6.831s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointArray
+[6.845s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneAttributeRelationArray
+[6.868s] [35m[1mScanning dependencies of target autoware_map_msgs_generate_messages_lisp[0m
+[6.886s] [35m[1mScanning dependencies of target autoware_map_msgs_generate_messages_cpp[0m
+[6.892s] [  1%] [34m[1mGenerating Lisp code from autoware_map_msgs/Signal.msg[0m
+[6.903s] [  1%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneAttributeRelationArray.msg[0m
+[6.904s] [  1%] [34m[1mGenerating Lisp code from autoware_map_msgs/WaypointLaneRelationArray.msg[0m
+[6.907s] [  1%] [34m[1mGenerating C++ code from autoware_map_msgs/Signal.msg[0m
+[6.926s] [  2%] [34m[1mGenerating Lisp code from autoware_map_msgs/WaypointRelationArray.msg[0m
+[6.971s] [  3%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneAttributeRelationArray.msg[0m
+[6.974s] [  3%] [34m[1mGenerating Lisp code from autoware_map_msgs/WaypointSignalRelation.msg[0m
+[6.986s] [  3%] [34m[1mGenerating C++ code from autoware_map_msgs/WaypointRelationArray.msg[0m
+[6.999s] [  4%] [34m[1mGenerating Lisp code from autoware_map_msgs/WayareaArray.msg[0m
+[7.009s] [  5%] [34m[1mGenerating Lisp code from autoware_map_msgs/OppositeLaneRelationArray.msg[0m
+[7.014s] [  6%] [34m[1mGenerating Lisp code from autoware_map_msgs/WaypointRelation.msg[0m
+[7.020s] [  7%] [34m[1mGenerating C++ code from autoware_map_msgs/WaypointLaneRelationArray.msg[0m
+[7.208s] [  7%] [34m[1mGenerating C++ code from autoware_map_msgs/WayareaArray.msg[0m
+[7.248s] [  7%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneArray.msg[0m
+[7.258s] [  8%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneArray.msg[0m
+[7.259s] [  9%] [34m[1mGenerating C++ code from autoware_map_msgs/WaypointSignalRelation.msg[0m
+[7.287s] [ 10%] [34m[1mGenerating C++ code from autoware_map_msgs/AreaArray.msg[0m
+[7.303s] [ 10%] [34m[1mGenerating C++ code from autoware_map_msgs/OppositeLaneRelationArray.msg[0m
+[7.411s] [ 10%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneChangeRelationArray.msg[0m
+[7.501s] [ 11%] [34m[1mGenerating Lisp code from autoware_map_msgs/AreaArray.msg[0m
+[7.503s] [ 12%] [34m[1mGenerating C++ code from autoware_map_msgs/Waypoint.msg[0m
+[7.588s] [ 12%] [34m[1mGenerating C++ code from autoware_map_msgs/Area.msg[0m
+[7.599s] [ 13%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneChangeRelationArray.msg[0m
+[7.657s] [ 15%] [34m[1mGenerating C++ code from autoware_map_msgs/WaypointRelation.msg[0m
+[7.676s] [ 16%] [34m[1mGenerating C++ code from autoware_map_msgs/Lane.msg[0m
+[7.722s] [ 17%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneSignalLightRelation.msg[0m
+[7.746s] [ 17%] [34m[1mGenerating Lisp code from autoware_map_msgs/Waypoint.msg[0m
+[7.789s] [ 18%] [34m[1mGenerating Lisp code from autoware_map_msgs/Area.msg[0m
+[7.854s] [ 18%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneAttributeRelation.msg[0m
+[7.969s] [ 19%] [34m[1mGenerating C++ code from autoware_map_msgs/SignalArray.msg[0m
+[8.027s] [ 20%] [34m[1mGenerating Lisp code from autoware_map_msgs/Lane.msg[0m
+[8.052s] [ 20%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneSignalLightRelation.msg[0m
+[8.091s] [ 21%] [34m[1mGenerating C++ code from autoware_map_msgs/SignalLightArray.msg[0m
+[8.158s] [ 21%] [34m[1mGenerating C++ code from autoware_map_msgs/WaypointSignalRelationArray.msg[0m
+[8.179s] [ 22%] [34m[1mGenerating C++ code from autoware_map_msgs/Wayarea.msg[0m
+[8.206s] [ 23%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneAttributeRelation.msg[0m
+[8.208s] [ 23%] [34m[1mGenerating C++ code from autoware_map_msgs/Point.msg[0m
+[8.230s] [ 23%] [34m[1mGenerating Lisp code from autoware_map_msgs/SignalArray.msg[0m
+[8.273s] [ 24%] [34m[1mGenerating Lisp code from autoware_map_msgs/SignalLightArray.msg[0m
+[8.315s] [ 25%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneSignalLightRelationArray.msg[0m
+[8.320s] [ 26%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneRelation.msg[0m
+[8.330s] [ 27%] [34m[1mGenerating Lisp code from autoware_map_msgs/WaypointSignalRelationArray.msg[0m
+[8.435s] [ 27%] [34m[1mGenerating C++ code from autoware_map_msgs/WaypointLaneRelation.msg[0m
+[8.435s] [ 27%] [34m[1mGenerating Lisp code from autoware_map_msgs/Wayarea.msg[0m
+[8.450s] [ 29%] [34m[1mGenerating Lisp code from autoware_map_msgs/Point.msg[0m
+[8.466s] [ 30%] [34m[1mGenerating C++ code from autoware_map_msgs/PointArray.msg[0m
+[8.493s] [ 30%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneChangeRelation.msg[0m
+[8.564s] [ 30%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneSignalLightRelationArray.msg[0m
+[8.570s] [ 31%] [34m[1mGenerating C++ code from autoware_map_msgs/OppositeLaneRelation.msg[0m
+[8.710s] [ 32%] [34m[1mGenerating Lisp code from autoware_map_msgs/WaypointLaneRelation.msg[0m
+[8.815s] [ 33%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneChangeRelation.msg[0m
+[8.855s] [ 34%] [34m[1mGenerating C++ code from autoware_map_msgs/WaypointArray.msg[0m
+[8.897s] [ 35%] [34m[1mGenerating Lisp code from autoware_map_msgs/SignalLight.msg[0m
+[9.006s] [ 35%] [34m[1mGenerating Lisp code from autoware_map_msgs/WaypointArray.msg[0m
+[9.087s] [ 36%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneRelationArray.msg[0m
+[9.117s] [ 36%] [34m[1mGenerating C++ code from autoware_map_msgs/SignalLight.msg[0m
+[9.168s] [ 36%] [34m[1mGenerating Lisp code from autoware_map_msgs/OppositeLaneRelation.msg[0m
+[9.274s] [ 36%] [34m[1mGenerating Lisp code from autoware_map_msgs/PointArray.msg[0m
+[9.333s] [ 37%] [34m[1mGenerating Lisp code from autoware_map_msgs/LaneRelation.msg[0m
+[9.347s] [ 38%] [34m[1mGenerating C++ code from autoware_map_msgs/LaneRelationArray.msg[0m
+[9.415s] [ 38%] Built target autoware_map_msgs_generate_messages_lisp
+[9.560s] [ 38%] Built target autoware_map_msgs_generate_messages_cpp
+[9.576s] [35m[1mScanning dependencies of target autoware_map_msgs_generate_messages_nodejs[0m
+[9.623s] [ 39%] [34m[1mGenerating Javascript code from autoware_map_msgs/Signal.msg[0m
+[9.711s] [ 39%] [34m[1mGenerating Javascript code from autoware_map_msgs/AreaArray.msg[0m
+[9.807s] [ 40%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneChangeRelationArray.msg[0m
+[9.960s] [ 41%] [34m[1mGenerating Javascript code from autoware_map_msgs/Waypoint.msg[0m
+[10.100s] [ 41%] [34m[1mGenerating Javascript code from autoware_map_msgs/Area.msg[0m
+[10.252s] [ 43%] [34m[1mGenerating Javascript code from autoware_map_msgs/Lane.msg[0m
+[10.319s] [ 44%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneSignalLightRelation.msg[0m
+[10.448s] [ 44%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneAttributeRelation.msg[0m
+[10.508s] [ 45%] [34m[1mGenerating Javascript code from autoware_map_msgs/SignalArray.msg[0m
+[10.603s] [ 45%] [34m[1mGenerating Javascript code from autoware_map_msgs/SignalLightArray.msg[0m
+[10.656s] [ 46%] [34m[1mGenerating Javascript code from autoware_map_msgs/WaypointSignalRelationArray.msg[0m
+[10.740s] [ 47%] [34m[1mGenerating Javascript code from autoware_map_msgs/Wayarea.msg[0m
+[10.794s] [ 47%] [34m[1mGenerating Javascript code from autoware_map_msgs/Point.msg[0m
+[10.860s] [ 48%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneSignalLightRelationArray.msg[0m
+[10.923s] [ 48%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneRelation.msg[0m
+[10.987s] [ 49%] [34m[1mGenerating Javascript code from autoware_map_msgs/WaypointLaneRelation.msg[0m
+[11.047s] [ 50%] [34m[1mGenerating Javascript code from autoware_map_msgs/PointArray.msg[0m
+[11.139s] [ 50%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneChangeRelation.msg[0m
+[11.204s] [ 51%] [34m[1mGenerating Javascript code from autoware_map_msgs/OppositeLaneRelation.msg[0m
+[11.276s] [ 52%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneRelationArray.msg[0m
+[11.339s] [ 52%] [34m[1mGenerating Javascript code from autoware_map_msgs/SignalLight.msg[0m
+[11.430s] [ 53%] [34m[1mGenerating Javascript code from autoware_map_msgs/WaypointArray.msg[0m
+[11.489s] [ 54%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneArray.msg[0m
+[11.542s] [ 54%] [34m[1mGenerating Javascript code from autoware_map_msgs/WayareaArray.msg[0m
+[11.604s] [ 55%] [34m[1mGenerating Javascript code from autoware_map_msgs/WaypointSignalRelation.msg[0m
+[11.661s] [ 56%] [34m[1mGenerating Javascript code from autoware_map_msgs/OppositeLaneRelationArray.msg[0m
+[11.715s] [ 56%] [34m[1mGenerating Javascript code from autoware_map_msgs/WaypointRelation.msg[0m
+[11.763s] [ 58%] [34m[1mGenerating Javascript code from autoware_map_msgs/WaypointLaneRelationArray.msg[0m
+[11.815s] [ 58%] [34m[1mGenerating Javascript code from autoware_map_msgs/WaypointRelationArray.msg[0m
+[11.884s] [ 59%] [34m[1mGenerating Javascript code from autoware_map_msgs/LaneAttributeRelationArray.msg[0m
+[11.941s] [ 59%] Built target autoware_map_msgs_generate_messages_nodejs
+[11.956s] [35m[1mScanning dependencies of target autoware_map_msgs_generate_messages_eus[0m
+[11.975s] [ 60%] [34m[1mGenerating EusLisp code from autoware_map_msgs/Signal.msg[0m
+[12.062s] [ 61%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneChangeRelationArray.msg[0m
+[12.160s] [ 61%] [34m[1mGenerating EusLisp code from autoware_map_msgs/Waypoint.msg[0m
+[12.251s] [ 62%] [34m[1mGenerating EusLisp code from autoware_map_msgs/Area.msg[0m
+[12.360s] [ 62%] [34m[1mGenerating EusLisp code from autoware_map_msgs/Lane.msg[0m
+[12.495s] [ 63%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneSignalLightRelation.msg[0m
+[12.600s] [ 64%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneAttributeRelation.msg[0m
+[12.694s] [ 64%] [34m[1mGenerating EusLisp code from autoware_map_msgs/SignalArray.msg[0m
+[12.798s] [ 65%] [34m[1mGenerating EusLisp code from autoware_map_msgs/SignalLightArray.msg[0m
+[12.879s] [ 66%] [34m[1mGenerating EusLisp code from autoware_map_msgs/WaypointSignalRelationArray.msg[0m
+[12.967s] [ 66%] [34m[1mGenerating EusLisp code from autoware_map_msgs/Wayarea.msg[0m
+[13.063s] [ 67%] [34m[1mGenerating EusLisp code from autoware_map_msgs/Point.msg[0m
+[13.148s] [ 67%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneSignalLightRelationArray.msg[0m
+[13.236s] [ 68%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneRelation.msg[0m
+[13.327s] [ 69%] [34m[1mGenerating EusLisp code from autoware_map_msgs/WaypointLaneRelation.msg[0m
+[13.415s] [ 69%] [34m[1mGenerating EusLisp code from autoware_map_msgs/PointArray.msg[0m
+[13.502s] [ 70%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneChangeRelation.msg[0m
+[13.659s] [ 70%] [34m[1mGenerating EusLisp code from autoware_map_msgs/OppositeLaneRelation.msg[0m
+[13.755s] [ 72%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneRelationArray.msg[0m
+[13.848s] [ 73%] [34m[1mGenerating EusLisp code from autoware_map_msgs/SignalLight.msg[0m
+[13.941s] [ 73%] [34m[1mGenerating EusLisp code from autoware_map_msgs/WaypointArray.msg[0m
+[14.038s] [ 74%] [34m[1mGenerating EusLisp manifest code for autoware_map_msgs[0m
+[14.824s] [ 75%] [34m[1mGenerating EusLisp code from autoware_map_msgs/AreaArray.msg[0m
+[14.937s] [ 75%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneArray.msg[0m
+[15.039s] [ 76%] [34m[1mGenerating EusLisp code from autoware_map_msgs/WayareaArray.msg[0m
+[15.152s] [ 76%] [34m[1mGenerating EusLisp code from autoware_map_msgs/WaypointSignalRelation.msg[0m
+[15.304s] [ 77%] [34m[1mGenerating EusLisp code from autoware_map_msgs/OppositeLaneRelationArray.msg[0m
+[15.410s] [ 78%] [34m[1mGenerating EusLisp code from autoware_map_msgs/WaypointRelation.msg[0m
+[15.534s] [ 78%] [34m[1mGenerating EusLisp code from autoware_map_msgs/WaypointLaneRelationArray.msg[0m
+[15.697s] [ 79%] [34m[1mGenerating EusLisp code from autoware_map_msgs/WaypointRelationArray.msg[0m
+[15.798s] [ 79%] [34m[1mGenerating EusLisp code from autoware_map_msgs/LaneAttributeRelationArray.msg[0m
+[15.909s] [ 79%] Built target autoware_map_msgs_generate_messages_eus
+[15.927s] [35m[1mScanning dependencies of target autoware_map_msgs_generate_messages_py[0m
+[15.960s] [ 79%] [34m[1mGenerating Python from MSG autoware_map_msgs/Signal[0m
+[16.137s] [ 80%] [34m[1mGenerating Python from MSG autoware_map_msgs/Waypoint[0m
+[16.315s] [ 81%] [34m[1mGenerating Python from MSG autoware_map_msgs/Area[0m
+[16.466s] [ 81%] [34m[1mGenerating Python from MSG autoware_map_msgs/Lane[0m
+[16.599s] [ 82%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneSignalLightRelation[0m
+[16.739s] [ 83%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneAttributeRelation[0m
+[16.871s] [ 83%] [34m[1mGenerating Python from MSG autoware_map_msgs/SignalArray[0m
+[16.997s] [ 84%] [34m[1mGenerating Python from MSG autoware_map_msgs/SignalLightArray[0m
+[17.120s] [ 84%] [34m[1mGenerating Python from MSG autoware_map_msgs/WaypointSignalRelationArray[0m
+[17.254s] [ 86%] [34m[1mGenerating Python from MSG autoware_map_msgs/Wayarea[0m
+[17.385s] [ 87%] [34m[1mGenerating Python from MSG autoware_map_msgs/Point[0m
+[17.543s] [ 87%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneSignalLightRelationArray[0m
+[17.697s] [ 88%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneRelation[0m
+[17.848s] [ 88%] [34m[1mGenerating Python from MSG autoware_map_msgs/WaypointLaneRelation[0m
+[17.972s] [ 89%] [34m[1mGenerating Python from MSG autoware_map_msgs/PointArray[0m
+[18.102s] [ 90%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneChangeRelation[0m
+[18.234s] [ 90%] [34m[1mGenerating Python from MSG autoware_map_msgs/OppositeLaneRelation[0m
+[18.385s] [ 91%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneRelationArray[0m
+[18.537s] [ 92%] [34m[1mGenerating Python from MSG autoware_map_msgs/SignalLight[0m
+[18.711s] [ 92%] [34m[1mGenerating Python from MSG autoware_map_msgs/WaypointArray[0m
+[18.854s] [ 92%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneChangeRelationArray[0m
+[19.038s] [ 93%] [34m[1mGenerating Python from MSG autoware_map_msgs/AreaArray[0m
+[19.170s] [ 93%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneArray[0m
+[19.302s] [ 94%] [34m[1mGenerating Python from MSG autoware_map_msgs/WayareaArray[0m
+[19.427s] [ 95%] [34m[1mGenerating Python from MSG autoware_map_msgs/WaypointSignalRelation[0m
+[19.567s] [ 95%] [34m[1mGenerating Python from MSG autoware_map_msgs/OppositeLaneRelationArray[0m
+[19.728s] [ 96%] [34m[1mGenerating Python from MSG autoware_map_msgs/WaypointRelation[0m
+[19.917s] [ 96%] [34m[1mGenerating Python from MSG autoware_map_msgs/WaypointLaneRelationArray[0m
+[20.118s] [ 97%] [34m[1mGenerating Python from MSG autoware_map_msgs/WaypointRelationArray[0m
+[20.275s] [ 98%] [34m[1mGenerating Python from MSG autoware_map_msgs/LaneAttributeRelationArray[0m
+[20.435s] [100%] [34m[1mGenerating Python msg __init__.py for autoware_map_msgs[0m
+[20.574s] [100%] Built target autoware_map_msgs_generate_messages_py
+[20.602s] [35m[1mScanning dependencies of target autoware_map_msgs_generate_messages[0m
+[20.641s] [100%] Built target autoware_map_msgs_generate_messages
+[20.666s] Invoked command in '/home/ros/autoware.ai/build/autoware_map_msgs' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_map_msgs -- -j12 -l12
+[21.075s] Invoking command in '/home/ros/autoware.ai/build/autoware_map_msgs': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_map_msgs --target tests -- -j12 -l12
+[21.218s] [35m[1mScanning dependencies of target tests[0m
+[21.234s] Built target tests
+[21.311s] Invoked command in '/home/ros/autoware.ai/build/autoware_map_msgs' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_map_msgs --target tests -- -j12 -l12
+[21.655s] Invoking command in '/home/ros/autoware.ai/build/autoware_map_msgs': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_map_msgs --target install -- -j12 -l12
+[21.802s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointLaneRelation
+[21.869s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_SignalLight
+[21.999s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Area
+[22.151s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WayareaArray
+[22.238s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_OppositeLaneRelationArray
+[22.346s] [  0%] Built target std_msgs_generate_messages_lisp
+[22.512s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointSignalRelation
+[22.586s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneArray
+[22.666s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Point
+[22.759s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneAttributeRelation
+[22.836s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_AreaArray
+[22.949s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneChangeRelationArray
+[23.111s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Waypoint
+[23.200s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Lane
+[23.324s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointRelation
+[23.517s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointSignalRelationArray
+[23.623s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_SignalLightArray
+[23.740s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Wayarea
+[23.828s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_PointArray
+[23.909s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneSignalLightRelationArray
+[23.966s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneRelation
+[23.993s] [  0%] Built target std_msgs_generate_messages_cpp
+[24.047s] [  0%] Built target std_msgs_generate_messages_py
+[24.086s] [  0%] Built target std_msgs_generate_messages_eus
+[24.143s] [  0%] Built target std_msgs_generate_messages_nodejs
+[24.308s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneChangeRelation
+[24.474s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_OppositeLaneRelation
+[24.578s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneRelationArray
+[24.669s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointArray
+[24.754s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_SignalArray
+[24.873s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_Signal
+[24.939s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneAttributeRelationArray
+[25.064s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointLaneRelationArray
+[25.201s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_WaypointRelationArray
+[25.336s] [  0%] Built target _autoware_map_msgs_generate_messages_check_deps_LaneSignalLightRelation
+[25.373s] [ 19%] Built target autoware_map_msgs_generate_messages_lisp
+[25.409s] [ 39%] Built target autoware_map_msgs_generate_messages_nodejs
+[25.461s] [ 60%] Built target autoware_map_msgs_generate_messages_eus
+[25.520s] [ 80%] Built target autoware_map_msgs_generate_messages_py
+[25.564s] [100%] Built target autoware_map_msgs_generate_messages_cpp
+[25.601s] [100%] Built target autoware_map_msgs_generate_messages
+[25.643s] [36mInstall the project...[0m
+[25.664s] -- Install configuration: "Release"
+[25.664s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/Area.msg
+[25.664s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/AreaArray.msg
+[25.664s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/Lane.msg
+[25.665s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneArray.msg
+[25.665s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneAttributeRelation.msg
+[25.665s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneAttributeRelationArray.msg
+[25.665s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneChangeRelation.msg
+[25.666s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneChangeRelationArray.msg
+[25.666s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneRelation.msg
+[25.666s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneRelationArray.msg
+[25.666s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneSignalLightRelation.msg
+[25.666s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/LaneSignalLightRelationArray.msg
+[25.666s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/OppositeLaneRelation.msg
+[25.666s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/OppositeLaneRelationArray.msg
+[25.666s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/Point.msg
+[25.672s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/PointArray.msg
+[25.672s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/Signal.msg
+[25.673s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/SignalArray.msg
+[25.673s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/SignalLight.msg
+[25.673s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/SignalLightArray.msg
+[25.673s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/Wayarea.msg
+[25.674s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/WayareaArray.msg
+[25.675s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/Waypoint.msg
+[25.676s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/WaypointArray.msg
+[25.676s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/WaypointLaneRelation.msg
+[25.676s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/WaypointLaneRelationArray.msg
+[25.676s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/WaypointRelation.msg
+[25.676s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/WaypointRelationArray.msg
+[25.676s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/WaypointSignalRelation.msg
+[25.676s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/msg/WaypointSignalRelationArray.msg
+[25.677s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/cmake/autoware_map_msgs-msg-paths.cmake
+[25.677s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs
+[25.677s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneChangeRelationArray.h
+[25.677s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/SignalArray.h
+[25.677s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneChangeRelation.h
+[25.677s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/SignalLight.h
+[25.677s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/WaypointRelation.h
+[25.678s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneAttributeRelation.h
+[25.678s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/SignalLightArray.h
+[25.678s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/OppositeLaneRelationArray.h
+[25.678s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneRelation.h
+[25.678s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/Waypoint.h
+[25.678s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/WayareaArray.h
+[25.678s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/WaypointLaneRelation.h
+[25.679s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/PointArray.h
+[25.679s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/WaypointRelationArray.h
+[25.679s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneArray.h
+[25.679s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/WaypointLaneRelationArray.h
+[25.679s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneAttributeRelationArray.h
+[25.679s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/AreaArray.h
+[25.680s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/WaypointSignalRelationArray.h
+[25.680s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneRelationArray.h
+[25.680s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/WaypointArray.h
+[25.680s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/Signal.h
+[25.681s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/Wayarea.h
+[25.681s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/WaypointSignalRelation.h
+[25.681s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneSignalLightRelationArray.h
+[25.681s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/Area.h
+[25.681s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/LaneSignalLightRelation.h
+[25.681s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/Lane.h
+[25.681s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/OppositeLaneRelation.h
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/include/autoware_map_msgs/Point.h
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/WaypointRelationArray.l
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/WayareaArray.l
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/AreaArray.l
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/WaypointLaneRelation.l
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/Lane.l
+[25.682s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneArray.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/WaypointRelation.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/Area.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/OppositeLaneRelation.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/OppositeLaneRelationArray.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/SignalLightArray.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/SignalLight.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneChangeRelationArray.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneChangeRelation.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/SignalArray.l
+[25.683s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/WaypointSignalRelation.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneRelation.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/WaypointSignalRelationArray.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneAttributeRelation.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/Wayarea.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneAttributeRelationArray.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/WaypointArray.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/Point.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneSignalLightRelationArray.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/Signal.l
+[25.684s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/WaypointLaneRelationArray.l
+[25.685s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/Waypoint.l
+[25.685s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/PointArray.l
+[25.685s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneRelationArray.l
+[25.685s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/msg/LaneSignalLightRelation.l
+[25.685s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/roseus/ros/autoware_map_msgs/manifest.l
+[25.685s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs
+[25.685s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg
+[25.685s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/AreaArray.lisp
+[25.686s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_WaypointRelation.lisp
+[25.686s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/WaypointLaneRelation.lisp
+[25.686s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_Wayarea.lisp
+[25.686s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_SignalArray.lisp
+[25.686s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneSignalLightRelationArray.lisp
+[25.686s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneRelationArray.lisp
+[25.686s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/autoware_map_msgs-msg.asd
+[25.686s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/OppositeLaneRelation.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_WaypointSignalRelationArray.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_WaypointLaneRelationArray.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/WaypointSignalRelation.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_Signal.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneArray.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/Point.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/WaypointRelationArray.lisp
+[25.687s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_Waypoint.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/WaypointArray.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_AreaArray.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_WayareaArray.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_WaypointRelationArray.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/Area.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneSignalLightRelation.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_OppositeLaneRelationArray.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneAttributeRelation.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneAttributeRelationArray.lisp
+[25.688s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/SignalArray.lisp
+[25.689s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/SignalLightArray.lisp
+[25.689s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneAttributeRelation.lisp
+[25.689s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_SignalLight.lisp
+[25.689s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/OppositeLaneRelationArray.lisp
+[25.689s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneArray.lisp
+[25.689s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_Area.lisp
+[25.689s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/Waypoint.lisp
+[25.689s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneRelation.lisp
+[25.690s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneSignalLightRelation.lisp
+[25.690s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_Lane.lisp
+[25.690s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/SignalLight.lisp
+[25.690s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_OppositeLaneRelation.lisp
+[25.690s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_WaypointLaneRelation.lisp
+[25.690s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneChangeRelation.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/Signal.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneChangeRelationArray.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneSignalLightRelationArray.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/PointArray.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/WayareaArray.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/Wayarea.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_Point.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_WaypointSignalRelation.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/WaypointLaneRelationArray.lisp
+[25.691s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/Lane.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneRelation.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_SignalLightArray.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/WaypointRelation.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneChangeRelation.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneRelationArray.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/LaneChangeRelationArray.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_LaneAttributeRelationArray.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/WaypointSignalRelationArray.lisp
+[25.692s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_WaypointArray.lisp
+[25.693s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/common-lisp/ros/autoware_map_msgs/msg/_package_PointArray.lisp
+[25.693s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs
+[25.693s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg
+[25.693s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneRelationArray.js
+[25.693s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/SignalLightArray.js
+[25.693s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/AreaArray.js
+[25.694s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneChangeRelationArray.js
+[25.694s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneAttributeRelation.js
+[25.694s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/WaypointLaneRelationArray.js
+[25.694s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/Waypoint.js
+[25.694s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/WaypointLaneRelation.js
+[25.694s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneChangeRelation.js
+[25.694s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/Lane.js
+[25.694s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneAttributeRelationArray.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/WaypointRelation.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/OppositeLaneRelationArray.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/OppositeLaneRelation.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/Wayarea.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/WaypointArray.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneSignalLightRelationArray.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/SignalArray.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/_index.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/Area.js
+[25.695s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneRelation.js
+[25.696s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/Point.js
+[25.696s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneSignalLightRelation.js
+[25.696s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/SignalLight.js
+[25.696s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/WaypointRelationArray.js
+[25.696s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/WayareaArray.js
+[25.696s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/LaneArray.js
+[25.696s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/PointArray.js
+[25.696s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/WaypointSignalRelation.js
+[25.697s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/WaypointSignalRelationArray.js
+[25.697s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/msg/Signal.js
+[25.697s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/gennodejs/ros/autoware_map_msgs/_index.js
+[25.731s] Listing /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs ...
+[25.731s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/__init__.py ...
+[25.731s] Listing /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg ...
+[25.731s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Area.py ...
+[25.731s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_AreaArray.py ...
+[25.731s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Lane.py ...
+[25.732s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneArray.py ...
+[25.732s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneAttributeRelation.py ...
+[25.732s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneAttributeRelationArray.py ...
+[25.732s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneChangeRelation.py ...
+[25.732s]   File "/home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneChangeRelation.py", line 34
+[25.732s]     None = 0
+[25.732s] SyntaxError: cannot assign to None
+[25.732s] 
+[25.733s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneChangeRelationArray.py ...
+[25.733s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneRelation.py ...
+[25.733s]   File "/home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneRelation.py", line 33
+[25.733s]     None = 0
+[25.733s] SyntaxError: cannot assign to None
+[25.733s] 
+[25.733s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneRelationArray.py ...
+[25.733s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneSignalLightRelation.py ...
+[25.733s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneSignalLightRelationArray.py ...
+[25.734s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_OppositeLaneRelation.py ...
+[25.734s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_OppositeLaneRelationArray.py ...
+[25.734s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Point.py ...
+[25.734s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_PointArray.py ...
+[25.734s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Signal.py ...
+[25.734s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalArray.py ...
+[25.734s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalLight.py ...
+[25.735s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalLightArray.py ...
+[25.735s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Wayarea.py ...
+[25.736s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WayareaArray.py ...
+[25.736s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Waypoint.py ...
+[25.736s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointArray.py ...
+[25.739s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointLaneRelation.py ...
+[25.739s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointLaneRelationArray.py ...
+[25.739s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointRelation.py ...
+[25.739s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointRelationArray.py ...
+[25.739s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointSignalRelation.py ...
+[25.740s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointSignalRelationArray.py ...
+[25.740s] Compiling /home/ros/autoware.ai/build/autoware_map_msgs/devel/lib/python2.7/dist-packages/autoware_map_msgs/msg/__init__.py ...
+[25.741s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs
+[25.741s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg
+[25.741s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_PointArray.py
+[25.741s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalLightArray.py
+[25.741s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalArray.pyc
+[25.741s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneRelationArray.py
+[25.743s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointArray.pyc
+[25.743s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointRelationArray.pyc
+[25.743s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneChangeRelationArray.pyc
+[25.743s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointSignalRelationArray.py
+[25.743s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneChangeRelationArray.py
+[25.743s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalArray.py
+[25.744s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Lane.py
+[25.744s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneRelation.py
+[25.751s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_OppositeLaneRelationArray.pyc
+[25.751s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneSignalLightRelationArray.pyc
+[25.752s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneAttributeRelationArray.py
+[25.752s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalLight.py
+[25.752s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_AreaArray.py
+[25.752s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneAttributeRelationArray.pyc
+[25.752s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneSignalLightRelation.py
+[25.753s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_AreaArray.pyc
+[25.753s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_PointArray.pyc
+[25.753s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Signal.py
+[25.753s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointRelationArray.py
+[25.753s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneAttributeRelation.py
+[25.753s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/__init__.py
+[25.754s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneArray.pyc
+[25.754s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WayareaArray.pyc
+[25.754s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Wayarea.py
+[25.754s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointSignalRelationArray.pyc
+[25.754s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Area.py
+[25.754s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointLaneRelationArray.py
+[25.755s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointSignalRelation.pyc
+[25.755s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_OppositeLaneRelationArray.py
+[25.755s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointLaneRelationArray.pyc
+[25.755s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/__init__.pyc
+[25.755s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Signal.pyc
+[25.755s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointRelation.py
+[25.755s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Waypoint.pyc
+[25.755s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneRelationArray.pyc
+[25.756s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointSignalRelation.py
+[25.756s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalLight.pyc
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_OppositeLaneRelation.pyc
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneAttributeRelation.pyc
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Area.pyc
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointLaneRelation.py
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_OppositeLaneRelation.py
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneArray.py
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Point.py
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Waypoint.py
+[25.757s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Point.pyc
+[25.758s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WayareaArray.py
+[25.758s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneSignalLightRelationArray.py
+[25.758s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Wayarea.pyc
+[25.758s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointArray.py
+[25.758s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneChangeRelation.py
+[25.758s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_LaneSignalLightRelation.pyc
+[25.758s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointLaneRelation.pyc
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_SignalLightArray.pyc
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_Lane.pyc
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/msg/_WaypointRelation.pyc
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/__init__.py
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/python2.7/dist-packages/autoware_map_msgs/__init__.pyc
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/lib/pkgconfig/autoware_map_msgs.pc
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/cmake/autoware_map_msgs-msg-extras.cmake
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/cmake/autoware_map_msgsConfig.cmake
+[25.759s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/cmake/autoware_map_msgsConfig-version.cmake
+[25.760s] -- Installing: /home/ros/autoware.ai/install/autoware_map_msgs/share/autoware_map_msgs/package.xml
+[25.782s] Invoked command in '/home/ros/autoware.ai/build/autoware_map_msgs' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/autoware_map_msgs --target install -- -j12 -l12

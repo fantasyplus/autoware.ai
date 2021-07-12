@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/rosbag_controller': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/rosbag_controller -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/rosbag_controller
+Invoked command in '/home/ros/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/utilities/rosbag_controller -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/rosbag_controller
+Invoking command in '/home/ros/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/rosbag_controller --target install -- -j12 -l12

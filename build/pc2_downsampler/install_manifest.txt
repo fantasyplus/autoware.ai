@@ -1,0 +1,5 @@
+/home/ros/autoware.ai/install/pc2_downsampler/lib/pkgconfig/pc2_downsampler.pc
+/home/ros/autoware.ai/install/pc2_downsampler/share/pc2_downsampler/cmake/pc2_downsamplerConfig.cmake
+/home/ros/autoware.ai/install/pc2_downsampler/share/pc2_downsampler/cmake/pc2_downsamplerConfig-version.cmake
+/home/ros/autoware.ai/install/pc2_downsampler/share/pc2_downsampler/package.xml
+/home/ros/autoware.ai/install/pc2_downsampler/lib/pc2_downsampler/app.py

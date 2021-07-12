@@ -1,0 +1,171 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: .
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/obj_db/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/gnss;/home/ros/autoware.ai/install/autoware_can_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/obj_db/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/obj_db
+[35m[1mScanning dependencies of target obj_db[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/obj_db.dir/lib/obj_db/SendData.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/obj_db.dir/lib/obj_db/util.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library devel/lib/libobj_db.so[0m
+[ 33%] Built target obj_db
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 33%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 33%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_nodejs[0m
+[ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_lisp[0m
+[ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_cpp[0m
+[ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 33%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 33%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 33%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 33%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 33%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[ 33%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[ 33%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 33%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[ 33%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[ 33%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 33%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 33%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 33%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target obj_uploader[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/obj_uploader.dir/nodes/obj_uploader/obj_uploader.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable devel/lib/obj_db/obj_uploader[0m
+[ 55%] Built target obj_uploader
+[35m[1mScanning dependencies of target obj_downloader[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/obj_downloader.dir/nodes/obj_downloader/obj_downloader.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable devel/lib/obj_db/obj_downloader[0m
+[ 77%] Built target obj_downloader
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_eus[0m
+[ 77%] Built target autoware_can_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 77%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 77%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 77%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[ 77%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[ 77%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_py[0m
+[ 77%] Built target autoware_can_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[ 77%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 77%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 77%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target can_uploader[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/can_uploader.dir/nodes/can_uploader/can_uploader.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/obj_db/can_uploader[0m
+[100%] Built target can_uploader
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 33%] Built target obj_db
+[ 33%] Built target roscpp_generate_messages_lisp
+[ 33%] Built target geometry_msgs_generate_messages_nodejs
+[ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[ 33%] Built target roscpp_generate_messages_py
+[ 33%] Built target roscpp_generate_messages_nodejs
+[ 33%] Built target roscpp_generate_messages_eus
+[ 33%] Built target geometry_msgs_generate_messages_eus
+[ 33%] Built target rosgraph_msgs_generate_messages_eus
+[ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[ 33%] Built target visualization_msgs_generate_messages_cpp
+[ 33%] Built target visualization_msgs_generate_messages_eus
+[ 33%] Built target std_msgs_generate_messages_cpp
+[ 33%] Built target visualization_msgs_generate_messages_lisp
+[ 33%] Built target visualization_msgs_generate_messages_nodejs
+[ 33%] Built target geometry_msgs_generate_messages_cpp
+[ 33%] Built target geometry_msgs_generate_messages_lisp
+[ 33%] Built target std_msgs_generate_messages_py
+[ 55%] Built target obj_uploader
+[ 77%] Built target obj_downloader
+[ 77%] Built target autoware_can_msgs_generate_messages_eus
+[ 77%] Built target rosgraph_msgs_generate_messages_py
+[ 77%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 77%] Built target std_msgs_generate_messages_eus
+[ 77%] Built target geometry_msgs_generate_messages_py
+[ 77%] Built target visualization_msgs_generate_messages_py
+[ 77%] Built target autoware_can_msgs_generate_messages_py
+[ 77%] Built target roscpp_generate_messages_cpp
+[ 77%] Built target std_msgs_generate_messages_lisp
+[ 77%] Built target std_msgs_generate_messages_nodejs
+[100%] Built target can_uploader
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/obj_db/lib/pkgconfig/obj_db.pc
+-- Installing: /home/ros/autoware.ai/install/obj_db/share/obj_db/cmake/obj_dbConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/obj_db/share/obj_db/cmake/obj_dbConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/obj_db/share/obj_db/package.xml
+-- Installing: /home/ros/autoware.ai/install/obj_db/lib/obj_db/can_uploader
+-- Set runtime path of "/home/ros/autoware.ai/install/obj_db/lib/obj_db/can_uploader" to ""
+-- Installing: /home/ros/autoware.ai/install/obj_db/lib/obj_db/obj_uploader
+-- Set runtime path of "/home/ros/autoware.ai/install/obj_db/lib/obj_db/obj_uploader" to ""
+-- Installing: /home/ros/autoware.ai/install/obj_db/lib/libobj_db.so
+-- Installing: /home/ros/autoware.ai/install/obj_db/lib/obj_db/obj_downloader
+-- Set runtime path of "/home/ros/autoware.ai/install/obj_db/lib/obj_db/obj_downloader" to ""
+-- Installing: /home/ros/autoware.ai/install/obj_db/include/obj_db/include
+-- Installing: /home/ros/autoware.ai/install/obj_db/include/obj_db/include/obj_db.h

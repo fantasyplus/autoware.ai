@@ -1,0 +1,2 @@
+/usr/bin/ar qc devel/lib/libaisan_map.a  CMakeFiles/aisan_map.dir/lib/aisan_map/aisan_map.cpp.o
+/usr/bin/ranlib devel/lib/libaisan_map.a

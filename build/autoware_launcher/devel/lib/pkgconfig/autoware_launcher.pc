@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/autoware_launcher/devel
+
+Name: autoware_launcher
+Description: Description of autoware_launcher
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib -lautoware_launcher
+Requires: python_qt_binding

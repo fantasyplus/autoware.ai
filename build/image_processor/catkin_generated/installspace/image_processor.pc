@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/image_processor
+
+Name: image_processor
+Description: Description of image_processor
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs cv_bridge

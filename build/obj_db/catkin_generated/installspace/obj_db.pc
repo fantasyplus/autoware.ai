@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/obj_db
+
+Name: obj_db
+Description: Description of obj_db
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: autoware_can_msgs gnss visualization_msgs

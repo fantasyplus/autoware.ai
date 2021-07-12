@@ -1,0 +1,237 @@
+[0.174s] Invoking command in '/home/ros/autoware.ai/build/vector_map': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/common/vector_map -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vector_map
+[0.624s] -- The C compiler identification is GNU 7.5.0
+[0.860s] -- The CXX compiler identification is GNU 7.5.0
+[0.867s] -- Check for working C compiler: /usr/bin/cc
+[1.105s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.105s] -- Detecting C compiler ABI info
+[1.413s] -- Detecting C compiler ABI info - done
+[1.445s] -- Detecting C compile features
+[2.092s] -- Detecting C compile features - done
+[2.096s] -- Check for working CXX compiler: /usr/bin/c++
+[2.743s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.744s] -- Detecting CXX compiler ABI info
+[3.389s] -- Detecting CXX compiler ABI info - done
+[3.393s] -- Detecting CXX compile features
+[4.487s] -- Detecting CXX compile features - done
+[4.489s] -- CUDA compilation status: .
+[4.490s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/vector_map/devel
+[4.491s] -- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[4.491s] -- This workspace overlays: /home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[4.507s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.508s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.508s] -- Using Debian Python package layout
+[4.508s] -- Using empy: /usr/bin/empy
+[4.707s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.708s] -- Call enable_testing()
+[4.725s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/vector_map/test_results
+[4.729s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.729s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.759s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.761s] -- Looking for pthread.h
+[4.899s] -- Looking for pthread.h - found
+[4.899s] -- Looking for pthread_create
+[5.081s] -- Looking for pthread_create - not found
+[5.082s] -- Looking for pthread_create in pthreads
+[5.219s] -- Looking for pthread_create in pthreads - not found
+[5.220s] -- Looking for pthread_create in pthread
+[5.418s] -- Looking for pthread_create in pthread - found
+[5.420s] -- Found Threads: TRUE  
+[5.426s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.473s] -- catkin 0.7.29
+[5.473s] -- BUILD_SHARED_LIBS is on
+[5.843s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[6.396s] -- Configuring done
+[6.448s] -- Generating done
+[6.459s] -- Build files have been written to: /home/ros/autoware.ai/build/vector_map
+[6.467s] Invoked command in '/home/ros/autoware.ai/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/ros/autoware.ai/src/autoware/common/vector_map -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/vector_map
+[6.469s] Invoking command in '/home/ros/autoware.ai/build/vector_map': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map -- -j12 -l12
+[6.644s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[6.699s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[6.699s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[6.700s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[6.702s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[6.704s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[6.704s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[6.732s] [  0%] Built target visualization_msgs_generate_messages_eus
+[6.751s] [  0%] Built target visualization_msgs_generate_messages_py
+[6.763s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[6.764s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[6.790s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[6.790s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[6.790s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[6.796s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[6.796s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[6.821s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[6.860s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[6.868s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.886s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[6.898s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.898s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[6.899s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[6.904s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[6.920s] [  0%] Built target actionlib_generate_messages_nodejs
+[6.974s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[6.974s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[6.974s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[6.974s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[7.000s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[7.004s] [  0%] Built target actionlib_generate_messages_py
+[7.009s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[7.027s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[7.050s] [  0%] Built target actionlib_generate_messages_lisp
+[7.071s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[7.083s] [  0%] Built target vector_map_msgs_generate_messages_py
+[7.091s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[7.092s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[7.094s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[7.096s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[7.115s] [  0%] Built target geometry_msgs_generate_messages_py
+[7.115s] [  0%] Built target actionlib_generate_messages_eus
+[7.126s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[7.127s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[7.127s] [  0%] Built target std_msgs_generate_messages_eus
+[7.133s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[7.163s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[7.175s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[7.184s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[7.188s] [  0%] Built target tf2_msgs_generate_messages_eus
+[7.203s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[7.203s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[7.205s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[7.210s] [  0%] Built target tf_generate_messages_nodejs
+[7.229s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[7.229s] [  0%] Built target tf2_msgs_generate_messages_py
+[7.232s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[7.232s] [  0%] Built target tf_generate_messages_lisp
+[7.246s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[7.252s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[7.258s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[7.260s] [  0%] Built target roscpp_generate_messages_lisp
+[7.262s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[7.269s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[7.286s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[7.289s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[7.290s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[7.296s] [  0%] Built target roscpp_generate_messages_py
+[7.296s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[7.316s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[7.321s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[7.326s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[7.326s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[7.327s] [  0%] Built target tf_generate_messages_eus
+[7.361s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[7.363s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[7.363s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[7.363s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[7.391s] [  0%] Built target std_msgs_generate_messages_lisp
+[7.398s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[7.404s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[7.407s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[7.408s] [  0%] Built target tf_generate_messages_cpp
+[7.415s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[7.422s] [  0%] Built target _catkin_empty_exported_target
+[7.437s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[7.453s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.477s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[7.477s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[7.479s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[7.485s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[7.492s] [  0%] Built target sensor_msgs_generate_messages_eus
+[7.496s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[7.498s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[7.502s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[7.507s] [  0%] Built target geometry_msgs_generate_messages_eus
+[7.511s] [  0%] Built target tf_generate_messages_py
+[7.524s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[7.536s] [  0%] Built target std_msgs_generate_messages_py
+[7.540s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.560s] [  0%] Built target roscpp_generate_messages_nodejs
+[7.564s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[7.567s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.576s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[7.576s] [  0%] Built target roscpp_generate_messages_eus
+[7.591s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[7.591s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[7.592s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[7.615s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[7.619s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[7.630s] [  0%] Built target roscpp_generate_messages_cpp
+[7.636s] [  0%] Built target actionlib_generate_messages_cpp
+[7.658s] [35m[1mScanning dependencies of target vector_map[0m
+[7.723s] [ 50%] [32mBuilding CXX object CMakeFiles/vector_map.dir/lib/vector_map/vector_map.cpp.o[0m
+[33.027s] [100%] [32m[1mLinking CXX shared library devel/lib/libvector_map.so[0m
+[33.281s] [100%] Built target vector_map
+[33.309s] Invoked command in '/home/ros/autoware.ai/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map -- -j12 -l12
+[33.618s] Invoking command in '/home/ros/autoware.ai/build/vector_map': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map --target tests -- -j12 -l12
+[33.721s] [35m[1mScanning dependencies of target tests[0m
+[33.736s] Built target tests
+[33.753s] Invoked command in '/home/ros/autoware.ai/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map --target tests -- -j12 -l12
+[34.473s] Invoking command in '/home/ros/autoware.ai/build/vector_map': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map --target install -- -j12 -l12
+[34.569s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[34.609s] [  0%] Built target actionlib_msgs_generate_messages_py
+[34.655s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[34.684s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[34.752s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[34.873s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[34.931s] [  0%] Built target actionlib_generate_messages_py
+[34.988s] [  0%] Built target actionlib_generate_messages_nodejs
+[35.019s] [  0%] Built target actionlib_generate_messages_lisp
+[35.075s] [  0%] Built target actionlib_generate_messages_eus
+[35.114s] [  0%] Built target geometry_msgs_generate_messages_py
+[35.193s] [  0%] Built target vector_map_msgs_generate_messages_py
+[35.298s] [  0%] Built target std_msgs_generate_messages_eus
+[35.380s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35.479s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[35.527s] [  0%] Built target tf_generate_messages_nodejs
+[35.564s] [  0%] Built target tf_generate_messages_lisp
+[35.595s] [  0%] Built target roscpp_generate_messages_lisp
+[35.674s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[35.706s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[35.732s] [  0%] Built target roscpp_generate_messages_py
+[35.775s] [  0%] Built target tf_generate_messages_eus
+[35.814s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[35.865s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35.899s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[35.981s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[36.081s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[36.127s] [  0%] Built target std_msgs_generate_messages_cpp
+[36.203s] [  0%] Built target tf_generate_messages_cpp
+[36.326s] [  0%] Built target std_msgs_generate_messages_lisp
+[36.399s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[36.451s] [  0%] Built target _catkin_empty_exported_target
+[36.500s] [  0%] Built target sensor_msgs_generate_messages_eus
+[36.554s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[36.624s] [  0%] Built target tf_generate_messages_py
+[36.674s] [  0%] Built target sensor_msgs_generate_messages_py
+[36.716s] [  0%] Built target std_msgs_generate_messages_nodejs
+[36.751s] [  0%] Built target std_msgs_generate_messages_py
+[36.818s] [  0%] Built target geometry_msgs_generate_messages_eus
+[36.918s] [  0%] Built target roscpp_generate_messages_nodejs
+[36.982s] [  0%] Built target roscpp_generate_messages_eus
+[37.022s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[37.090s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[37.160s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[37.204s] [  0%] Built target roscpp_generate_messages_cpp
+[37.240s] [  0%] Built target actionlib_generate_messages_cpp
+[37.294s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[37.345s] [  0%] Built target tf2_msgs_generate_messages_eus
+[37.389s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[37.415s] [  0%] Built target tf2_msgs_generate_messages_py
+[37.441s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[37.486s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[37.557s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[37.617s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[37.676s] [  0%] Built target visualization_msgs_generate_messages_eus
+[37.726s] [  0%] Built target visualization_msgs_generate_messages_py
+[37.772s] [100%] Built target vector_map
+[37.807s] [36mInstall the project...[0m
+[37.818s] -- Install configuration: "Release"
+[37.819s] -- Installing: /home/ros/autoware.ai/install/vector_map/lib/pkgconfig/vector_map.pc
+[37.819s] -- Installing: /home/ros/autoware.ai/install/vector_map/share/vector_map/cmake/vector_mapConfig.cmake
+[37.819s] -- Installing: /home/ros/autoware.ai/install/vector_map/share/vector_map/cmake/vector_mapConfig-version.cmake
+[37.819s] -- Installing: /home/ros/autoware.ai/install/vector_map/share/vector_map/package.xml
+[37.819s] -- Installing: /home/ros/autoware.ai/install/vector_map/include/vector_map
+[37.819s] -- Installing: /home/ros/autoware.ai/install/vector_map/include/vector_map/vector_map.h
+[37.820s] -- Installing: /home/ros/autoware.ai/install/vector_map/lib/libvector_map.so
+[37.820s] -- Set runtime path of "/home/ros/autoware.ai/install/vector_map/lib/libvector_map.so" to ""
+[37.827s] Invoked command in '/home/ros/autoware.ai/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/ros/autoware.ai/install/vector_map_msgs:/home/ros/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/ros/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ros/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/ros/autoware.ai/install/vector_map_msgs/share:/home/ros/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/ros/autoware.ai/build/vector_map --target install -- -j12 -l12

@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/naive_motion_predict
+
+Name: naive_motion_predict
+Description: Description of naive_motion_predict
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

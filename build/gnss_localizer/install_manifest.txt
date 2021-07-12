@@ -1,0 +1,8 @@
+/home/ros/autoware.ai/install/gnss_localizer/lib/pkgconfig/gnss_localizer.pc
+/home/ros/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig.cmake
+/home/ros/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig-version.cmake
+/home/ros/autoware.ai/install/gnss_localizer/share/gnss_localizer/package.xml
+/home/ros/autoware.ai/install/gnss_localizer/lib/gnss_localizer/nmea2tfpose
+/home/ros/autoware.ai/install/gnss_localizer/lib/gnss_localizer/fix2tfpose
+/home/ros/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/nmea2tfpose.launch
+/home/ros/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/fix2tfpose.launch

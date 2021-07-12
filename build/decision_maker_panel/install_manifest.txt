@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/decision_maker_panel/lib/pkgconfig/decision_maker_panel.pc
+/home/ros/autoware.ai/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig.cmake
+/home/ros/autoware.ai/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig-version.cmake
+/home/ros/autoware.ai/install/decision_maker_panel/share/decision_maker_panel/package.xml
+/home/ros/autoware.ai/install/decision_maker_panel/lib/libdecision_maker_panel.so
+/home/ros/autoware.ai/install/decision_maker_panel/share/decision_maker_panel/plugin_description.xml

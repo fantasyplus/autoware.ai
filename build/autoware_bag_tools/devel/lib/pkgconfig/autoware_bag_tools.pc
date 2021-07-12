@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/build/autoware_bag_tools/devel
+
+Name: autoware_bag_tools
+Description: Description of autoware_bag_tools
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

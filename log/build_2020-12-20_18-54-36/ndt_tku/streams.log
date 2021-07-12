@@ -1,0 +1,70 @@
+[0.114s] Invoking command in '/home/ros/autoware.ai/build/ndt_tku': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/ndt_tku -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/ndt_tku
+[0.428s] -- The C compiler identification is GNU 7.5.0
+[0.621s] -- The CXX compiler identification is GNU 7.5.0
+[0.635s] -- Check for working C compiler: /usr/bin/cc
+[1.113s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.113s] -- Detecting C compiler ABI info
+[1.639s] -- Detecting C compiler ABI info - done
+[1.652s] -- Detecting C compile features
+[3.219s] -- Detecting C compile features - done
+[3.223s] -- Check for working CXX compiler: /usr/bin/c++
+[3.808s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.808s] -- Detecting CXX compiler ABI info
+[4.404s] -- Detecting CXX compiler ABI info - done
+[4.422s] -- Detecting CXX compile features
+[6.798s] -- Detecting CXX compile features - done
+[6.800s] -- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/ndt_tku/devel
+[6.800s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[6.800s] -- This workspace overlays: /opt/ros/melodic
+[6.875s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[6.875s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[6.876s] -- Using Debian Python package layout
+[6.876s] -- Using empy: /usr/bin/empy
+[7.846s] -- Using CATKIN_ENABLE_TESTING: ON
+[7.847s] -- Call enable_testing()
+[7.857s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/ndt_tku/test_results
+[8.039s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[8.039s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[8.127s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[8.128s] -- Looking for pthread.h
+[8.639s] -- Looking for pthread.h - found
+[8.639s] -- Looking for pthread_create
+[8.955s] -- Looking for pthread_create - not found
+[8.956s] -- Looking for pthread_create in pthreads
+[9.320s] -- Looking for pthread_create in pthreads - not found
+[9.320s] -- Looking for pthread_create in pthread
+[9.505s] -- Looking for pthread_create in pthread - found
+[9.507s] -- Found Threads: TRUE  
+[9.512s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[9.590s] -- catkin 0.7.29
+[9.590s] -- BUILD_SHARED_LIBS is on
+[10.074s] -- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+[10.077s] -- Configuring done
+[10.092s] -- Generating done
+[10.095s] -- Build files have been written to: /home/ros/autoware.ai/build/ndt_tku
+[10.113s] Invoked command in '/home/ros/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/ndt_tku -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/ndt_tku
+[10.115s] Invoking command in '/home/ros/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_tku -- -j12 -l12
+[10.258s] [35m[1mScanning dependencies of target ndt_tku[0m
+[10.283s] [ 25%] [32mBuilding CXX object CMakeFiles/ndt_tku.dir/src/manage_ND.cpp.o[0m
+[10.294s] [ 50%] [32mBuilding CXX object CMakeFiles/ndt_tku.dir/src/algebra.cpp.o[0m
+[10.295s] [ 75%] [32mBuilding CXX object CMakeFiles/ndt_tku.dir/src/newton.cpp.o[0m
+[10.842s] [100%] [32m[1mLinking CXX shared library devel/lib/libndt_tku.so[0m
+[10.946s] [100%] Built target ndt_tku
+[10.978s] Invoked command in '/home/ros/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_tku -- -j12 -l12
+[11.444s] Invoking command in '/home/ros/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_tku --target tests -- -j12 -l12
+[11.622s] [35m[1mScanning dependencies of target tests[0m
+[11.643s] Built target tests
+[11.670s] Invoked command in '/home/ros/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_tku --target tests -- -j12 -l12
+[12.193s] Invoking command in '/home/ros/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_tku --target install -- -j12 -l12
+[12.497s] [100%] Built target ndt_tku
+[12.604s] [36mInstall the project...[0m
+[12.657s] -- Install configuration: "Release"
+[12.657s] -- Installing: /home/ros/autoware.ai/install/ndt_tku/lib/pkgconfig/ndt_tku.pc
+[12.657s] -- Installing: /home/ros/autoware.ai/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig.cmake
+[12.660s] -- Installing: /home/ros/autoware.ai/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig-version.cmake
+[12.660s] -- Installing: /home/ros/autoware.ai/install/ndt_tku/share/ndt_tku/package.xml
+[12.660s] -- Installing: /home/ros/autoware.ai/install/ndt_tku/lib/libndt_tku.so
+[12.661s] -- Installing: /home/ros/autoware.ai/install/ndt_tku/include
+[12.661s] -- Installing: /home/ros/autoware.ai/install/ndt_tku/include/algebra.h
+[12.661s] -- Installing: /home/ros/autoware.ai/install/ndt_tku/include/ndt.h
+[12.665s] Invoked command in '/home/ros/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_tku --target install -- -j12 -l12

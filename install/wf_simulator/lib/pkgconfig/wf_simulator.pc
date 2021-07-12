@@ -1,0 +1,8 @@
+prefix=/home/ros/autoware.ai/install/wf_simulator
+
+Name: wf_simulator
+Description: Description of wf_simulator
+Version: 1.12.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

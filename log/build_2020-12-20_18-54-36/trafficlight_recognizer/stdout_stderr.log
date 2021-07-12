@@ -1,0 +1,591 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CUDA compilation status: .
+-- Using CATKIN_DEVEL_PREFIX: /home/ros/autoware.ai/build/trafficlight_recognizer/devel
+-- Using CMAKE_PREFIX_PATH: /home/ros/autoware.ai/install/vector_map_server;/home/ros/autoware.ai/install/libvectormap;/home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/ros/autoware.ai/install/vector_map_server;/home/ros/autoware.ai/install/libvectormap;/home/ros/autoware.ai/install/lanelet2_extension;/home/ros/autoware.ai/install/vector_map;/home/ros/autoware.ai/install/amathutils_lib;/home/ros/autoware.ai/install/vector_map_msgs;/home/ros/autoware.ai/install/autoware_msgs;/home/ros/autoware.ai/install/autoware_lanelet2_msgs;/home/ros/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ros/autoware.ai/build/trafficlight_recognizer/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   wserialization
+--   thread
+--   random
+--   serialization
+--   log_setup
+--   prg_exec_monitor
+--   wave
+--   system
+--   chrono
+--   filesystem
+--   locale
+--   timer
+--   date_time
+--   regex
+--   graph
+--   program_options
+--   unit_test_framework
+--   log
+--   atomic
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+-- Found OpenCV: /usr (found version "3.2.0") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+CMake Warning at /home/ros/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+  CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+  variable and recompile to enable it
+Call Stack (most recent call first):
+  CMakeLists.txt:251 (AW_CHECK_CUDA)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/autoware.ai/build/trafficlight_recognizer
+[35m[1mScanning dependencies of target label_maker_autogen[0m
+[  2%] [34m[1mAutomatic MOC, UIC and RCC for target label_maker[0m
+[  2%] Built target label_maker_autogen
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  2%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  2%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  2%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  2%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  2%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_eus[0m
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  2%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_lisp[0m
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  2%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_nodejs[0m
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_nodejs[0m
+[  2%] Built target vector_map_server_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[  2%] Built target vector_map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[  2%] Built target vector_map_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[  2%] Built target vector_map_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[  2%] Built target vector_map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[  2%] Built target vector_map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  2%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  2%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_cpp[0m
+[  2%] Built target vector_map_server_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  2%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  2%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_eus[0m
+[  2%] Built target vector_map_server_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  2%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  2%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  2%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  2%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[  2%] Built target jsk_recognition_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[  2%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  2%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  2%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[  2%] Built target autoware_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  2%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  2%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[  2%] Built target _catkin_empty_exported_target
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  2%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[  2%] Built target autoware_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  2%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[  2%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[  2%] Built target jsk_recognition_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  2%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  2%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  2%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  2%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[  2%] Built target jsk_footstep_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  2%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  2%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  2%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  2%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  2%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  2%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  2%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[  2%] Built target jsk_recognition_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[  2%] Built target autoware_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[  2%] Built target autoware_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  2%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  2%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[  2%] Built target autoware_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[  2%] Built target jsk_footstep_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  2%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_lisp[0m
+[  2%] Built target vector_map_server_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[  2%] Built target jsk_footstep_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[  2%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  2%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  2%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[  2%] Built target jsk_footstep_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  2%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  2%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  2%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  2%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_cpp[0m
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[  2%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_py[0m
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  2%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  2%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  2%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target vector_map_server_generate_messages_py[0m
+[  2%] Built target vector_map_server_generate_messages_py
+[  4%] [34m[1mGenerating ui_label_maker_gui.h[0m
+[35m[1mScanning dependencies of target label_maker[0m
+[  7%] [32mBuilding CXX object CMakeFiles/label_maker.dir/nodes/label_maker/custom_graphics_view.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/label_maker.dir/nodes/label_maker/file_system_operator.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/label_maker.dir/nodes/label_maker/label_maker.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/label_maker.dir/nodes/label_maker/label_maker_gui.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/label_maker.dir/label_maker_autogen/mocs_compilation.cpp.o[0m
+[ 19%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/label_maker[0m
+[ 19%] Built target label_maker
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[ 19%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[ 19%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[ 19%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[ 19%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 19%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[ 19%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[ 19%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 19%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[ 19%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 19%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target tlr_tuner_autogen[0m
+[ 21%] [34m[1mAutomatic MOC, UIC and RCC for target tlr_tuner[0m
+[ 21%] Built target tlr_tuner_autogen
+[35m[1mScanning dependencies of target feat_proj_autogen[0m
+[ 24%] [34m[1mAutomatic MOC, UIC and RCC for target feat_proj[0m
+[ 24%] Built target feat_proj_autogen
+[ 26%] [34m[1mGenerating ui_mainwindow.h[0m
+[35m[1mScanning dependencies of target tlr_tuner[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/tlr_tuner.dir/nodes/tlr_tuner/tlr_tuner.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/tlr_tuner.dir/tlr_tuner_autogen/mocs_compilation.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/tlr_tuner.dir/nodes/tlr_tuner/tuner_body.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/tlr_tuner.dir/nodes/tlr_tuner/mainwindow.cpp.o[0m
+[ 39%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/tlr_tuner[0m
+[ 39%] Built target tlr_tuner
+[35m[1mScanning dependencies of target feat_proj[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/feat_proj.dir/nodes/feat_proj/feat_proj.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/feat_proj.dir/feat_proj_autogen/mocs_compilation.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/feat_proj[0m
+[ 46%] Built target feat_proj
+[35m[1mScanning dependencies of target feat_proj_lanelet2_autogen[0m
+[ 48%] [34m[1mAutomatic MOC, UIC and RCC for target feat_proj_lanelet2[0m
+[ 48%] Built target feat_proj_lanelet2_autogen
+[35m[1mScanning dependencies of target tl_switch_autogen[0m
+[ 51%] [34m[1mAutomatic MOC, UIC and RCC for target tl_switch[0m
+[ 51%] Built target tl_switch_autogen
+[35m[1mScanning dependencies of target feat_proj_lanelet2[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/feat_proj_lanelet2.dir/feat_proj_lanelet2_autogen/mocs_compilation.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_node.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/feat_proj_lanelet2[0m
+[ 60%] Built target feat_proj_lanelet2
+[35m[1mScanning dependencies of target tl_switch[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/tl_switch.dir/nodes/tl_switch/tl_switch.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/tl_switch.dir/tl_switch_autogen/mocs_compilation.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/tl_switch[0m
+[ 68%] Built target tl_switch
+[35m[1mScanning dependencies of target libcontext_autogen[0m
+[ 70%] [34m[1mAutomatic MOC, UIC and RCC for target libcontext[0m
+[ 70%] Built target libcontext_autogen
+[35m[1mScanning dependencies of target libcontext[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/libcontext.dir/lib/context.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/libcontext.dir/libcontext_autogen/mocs_compilation.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library devel/lib/liblibcontext.so[0m
+[ 78%] Built target libcontext
+[35m[1mScanning dependencies of target region_tlr_autogen[0m
+[ 80%] [34m[1mAutomatic MOC, UIC and RCC for target region_tlr[0m
+[ 80%] Built target region_tlr_autogen
+[35m[1mScanning dependencies of target roi_extractor_autogen[0m
+[ 82%] [34m[1mAutomatic MOC, UIC and RCC for target roi_extractor[0m
+[ 82%] Built target roi_extractor_autogen
+[35m[1mScanning dependencies of target region_tlr[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/region_tlr.dir/nodes/region_tlr/region_tlr.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/region_tlr.dir/region_tlr_autogen/mocs_compilation.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/region_tlr.dir/nodes/region_tlr/traffic_light_detector.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/region_tlr[0m
+[ 92%] Built target region_tlr
+[35m[1mScanning dependencies of target roi_extractor[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/roi_extractor.dir/nodes/roi_extractor/roi_extractor.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/roi_extractor.dir/roi_extractor_autogen/mocs_compilation.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/roi_extractor[0m
+[100%] Built target roi_extractor
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target gtest[0m
+[ 14%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 28%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 28%] Built target gtest
+[ 28%] Built target vector_map_server_generate_messages_nodejs
+[ 28%] Built target vector_map_msgs_generate_messages_py
+[ 28%] Built target vector_map_msgs_generate_messages_nodejs
+[ 28%] Built target vector_map_msgs_generate_messages_lisp
+[ 28%] Built target vector_map_msgs_generate_messages_eus
+[ 28%] Built target vector_map_msgs_generate_messages_cpp
+[ 28%] Built target visualization_msgs_generate_messages_py
+[ 28%] Built target visualization_msgs_generate_messages_nodejs
+[ 28%] Built target vector_map_server_generate_messages_cpp
+[ 28%] Built target visualization_msgs_generate_messages_eus
+[ 28%] Built target sensor_msgs_generate_messages_nodejs
+[ 28%] Built target vector_map_server_generate_messages_eus
+[ 28%] Built target roscpp_generate_messages_cpp
+[ 28%] Built target actionlib_generate_messages_cpp
+[ 28%] Built target pcl_msgs_generate_messages_eus
+[ 28%] Built target rosgraph_msgs_generate_messages_eus
+[ 28%] Built target jsk_recognition_msgs_generate_messages_lisp
+[ 28%] Built target jsk_recognition_msgs_generate_messages_eus
+[ 28%] Built target tf2_msgs_generate_messages_cpp
+[ 28%] Built target std_msgs_generate_messages_py
+[ 28%] Built target autoware_msgs_generate_messages_py
+[ 28%] Built target std_msgs_generate_messages_nodejs
+[ 28%] Built target sensor_msgs_generate_messages_eus
+[ 28%] Built target _catkin_empty_exported_target
+[ 28%] Built target sensor_msgs_generate_messages_cpp
+[ 28%] Built target autoware_msgs_generate_messages_cpp
+[ 28%] Built target rosgraph_msgs_generate_messages_cpp
+[ 28%] Built target pcl_msgs_generate_messages_nodejs
+[ 28%] Built target jsk_recognition_msgs_generate_messages_py
+[ 28%] Built target sensor_msgs_generate_messages_lisp
+[ 28%] Built target sensor_msgs_generate_messages_py
+[ 28%] Built target tf_generate_messages_py
+[ 28%] Built target std_msgs_generate_messages_cpp
+[ 28%] Built target jsk_footstep_msgs_generate_messages_py
+[ 28%] Built target actionlib_msgs_generate_messages_nodejs
+[ 28%] Built target geometry_msgs_generate_messages_eus
+[ 28%] Built target std_msgs_generate_messages_lisp
+[ 28%] Built target roscpp_generate_messages_nodejs
+[ 28%] Built target geometry_msgs_generate_messages_nodejs
+[ 28%] Built target geometry_msgs_generate_messages_lisp
+[ 28%] Built target pcl_msgs_generate_messages_cpp
+[ 28%] Built target jsk_recognition_msgs_generate_messages_cpp
+[ 28%] Built target autoware_msgs_generate_messages_eus
+[ 28%] Built target autoware_msgs_generate_messages_lisp
+[ 28%] Built target visualization_msgs_generate_messages_lisp
+[ 28%] Built target std_msgs_generate_messages_eus
+[ 28%] Built target autoware_msgs_generate_messages_nodejs
+[ 28%] Built target jsk_footstep_msgs_generate_messages_eus
+[ 28%] Built target actionlib_msgs_generate_messages_py
+[ 28%] Built target vector_map_server_generate_messages_lisp
+[ 28%] Built target jsk_footstep_msgs_generate_messages_lisp
+[ 28%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[ 28%] Built target actionlib_msgs_generate_messages_lisp
+[ 28%] Built target geometry_msgs_generate_messages_py
+[ 28%] Built target jsk_footstep_msgs_generate_messages_cpp
+[ 28%] Built target actionlib_msgs_generate_messages_cpp
+[ 28%] Built target tf_generate_messages_eus
+[ 28%] Built target tf_generate_messages_lisp
+[ 28%] Built target tf_generate_messages_nodejs
+[ 28%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[ 28%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[ 28%] Built target autoware_lanelet2_msgs_generate_messages_py
+[ 28%] Built target roscpp_generate_messages_lisp
+[ 28%] Built target rosgraph_msgs_generate_messages_lisp
+[ 28%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 28%] Built target vector_map_server_generate_messages_py
+[ 28%] Built target visualization_msgs_generate_messages_cpp
+[ 28%] Built target actionlib_generate_messages_nodejs
+[ 28%] Built target tf_generate_messages_cpp
+[ 28%] Built target pcl_msgs_generate_messages_lisp
+[ 28%] Built target actionlib_generate_messages_lisp
+[ 28%] Built target geometry_msgs_generate_messages_cpp
+[ 28%] Built target actionlib_generate_messages_eus
+[ 28%] Built target pcl_msgs_generate_messages_py
+[ 28%] Built target rosgraph_msgs_generate_messages_py
+[ 28%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target test-feat_proj_lanelet2_autogen[0m
+[ 42%] [34m[1mAutomatic MOC, UIC and RCC for target test-feat_proj_lanelet2[0m
+[ 42%] Built target test-feat_proj_lanelet2_autogen
+[35m[1mScanning dependencies of target test-feat_proj_lanelet2[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/test-feat_proj_lanelet2.dir/test/src/test_feat_proj_lanelet2.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/test-feat_proj_lanelet2.dir/nodes/feat_proj_lanelet2/feat_proj_lanelet2_core.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/test-feat_proj_lanelet2.dir/test-feat_proj_lanelet2_autogen/mocs_compilation.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/test-feat_proj_lanelet2[0m
+[100%] Built target test-feat_proj_lanelet2
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+[  2%] [34m[1mAutomatic MOC, UIC and RCC for target label_maker[0m
+[  2%] Built target label_maker_autogen
+[  2%] Built target visualization_msgs_generate_messages_cpp
+[  2%] Built target tf2_msgs_generate_messages_eus
+[  2%] Built target tf2_msgs_generate_messages_lisp
+[  2%] Built target actionlib_generate_messages_py
+[  2%] Built target tf2_msgs_generate_messages_py
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[  2%] Built target tf2_msgs_generate_messages_nodejs
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[  2%] Built target roscpp_generate_messages_py
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[  2%] Built target vector_map_server_generate_messages_nodejs
+[  2%] Built target vector_map_msgs_generate_messages_py
+[  2%] Built target vector_map_msgs_generate_messages_nodejs
+[  2%] Built target vector_map_msgs_generate_messages_lisp
+[  2%] Built target vector_map_msgs_generate_messages_eus
+[  2%] Built target vector_map_msgs_generate_messages_cpp
+[  2%] Built target visualization_msgs_generate_messages_py
+[  2%] Built target visualization_msgs_generate_messages_nodejs
+[  2%] Built target vector_map_server_generate_messages_cpp
+[  2%] Built target visualization_msgs_generate_messages_eus
+[  2%] Built target sensor_msgs_generate_messages_nodejs
+[  2%] Built target vector_map_server_generate_messages_eus
+[  2%] Built target roscpp_generate_messages_cpp
+[  2%] Built target actionlib_generate_messages_cpp
+[  2%] Built target pcl_msgs_generate_messages_eus
+[  2%] Built target rosgraph_msgs_generate_messages_eus
+[  2%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  2%] Built target jsk_recognition_msgs_generate_messages_eus
+[  2%] Built target tf2_msgs_generate_messages_cpp
+[  2%] Built target std_msgs_generate_messages_py
+[  2%] Built target autoware_msgs_generate_messages_py
+[  2%] Built target std_msgs_generate_messages_nodejs
+[  2%] Built target sensor_msgs_generate_messages_eus
+[  2%] Built target _catkin_empty_exported_target
+[  2%] Built target sensor_msgs_generate_messages_cpp
+[  2%] Built target autoware_msgs_generate_messages_cpp
+[  2%] Built target rosgraph_msgs_generate_messages_cpp
+[  2%] Built target pcl_msgs_generate_messages_nodejs
+[  2%] Built target jsk_recognition_msgs_generate_messages_py
+[  2%] Built target sensor_msgs_generate_messages_lisp
+[  2%] Built target sensor_msgs_generate_messages_py
+[  2%] Built target tf_generate_messages_py
+[  2%] Built target actionlib_generate_messages_nodejs
+[  2%] Built target jsk_footstep_msgs_generate_messages_py
+[  2%] Built target std_msgs_generate_messages_cpp
+[  2%] Built target actionlib_msgs_generate_messages_nodejs
+[  2%] Built target geometry_msgs_generate_messages_eus
+[  2%] Built target std_msgs_generate_messages_lisp
+[  2%] Built target roscpp_generate_messages_nodejs
+[  2%] Built target geometry_msgs_generate_messages_nodejs
+[  2%] Built target geometry_msgs_generate_messages_lisp
+[  2%] Built target pcl_msgs_generate_messages_cpp
+[  2%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  2%] Built target autoware_msgs_generate_messages_eus
+[  2%] Built target autoware_msgs_generate_messages_lisp
+[  2%] Built target visualization_msgs_generate_messages_lisp
+[  2%] Built target std_msgs_generate_messages_eus
+[  2%] Built target autoware_msgs_generate_messages_nodejs
+[  2%] Built target jsk_footstep_msgs_generate_messages_eus
+[  2%] Built target actionlib_msgs_generate_messages_py
+[  2%] Built target vector_map_server_generate_messages_lisp
+[  2%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  2%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  2%] Built target actionlib_msgs_generate_messages_lisp
+[  2%] Built target geometry_msgs_generate_messages_py
+[  2%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  2%] Built target actionlib_msgs_generate_messages_cpp
+[  2%] Built target tf_generate_messages_cpp
+[  2%] Built target pcl_msgs_generate_messages_lisp
+[  2%] Built target tf_generate_messages_eus
+[  2%] Built target tf_generate_messages_nodejs
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[  2%] Built target tf_generate_messages_lisp
+[  2%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  2%] Built target autoware_lanelet2_msgs_generate_messages_py
+[  2%] Built target roscpp_generate_messages_lisp
+[  2%] Built target rosgraph_msgs_generate_messages_nodejs
+[  2%] Built target rosgraph_msgs_generate_messages_lisp
+[  2%] Built target vector_map_server_generate_messages_py
+[  2%] Built target geometry_msgs_generate_messages_cpp
+[  2%] Built target actionlib_generate_messages_lisp
+[ 19%] Built target label_maker
+[ 19%] Built target actionlib_generate_messages_eus
+[ 19%] Built target pcl_msgs_generate_messages_py
+[ 19%] Built target rosgraph_msgs_generate_messages_py
+[ 19%] Built target roscpp_generate_messages_eus
+[ 19%] Built target actionlib_msgs_generate_messages_eus
+[ 21%] [34m[1mAutomatic MOC, UIC and RCC for target libcontext[0m
+[ 24%] [34m[1mAutomatic MOC, UIC and RCC for target tlr_tuner[0m
+[ 24%] Built target libcontext_autogen
+[ 24%] Built target tlr_tuner_autogen
+[ 26%] [34m[1mAutomatic MOC, UIC and RCC for target feat_proj[0m
+[ 34%] Built target libcontext
+[ 34%] Built target feat_proj_autogen
+[ 36%] [34m[1mAutomatic MOC, UIC and RCC for target roi_extractor[0m
+[ 51%] Built target tlr_tuner
+[ 51%] Built target roi_extractor_autogen
+[ 53%] [34m[1mAutomatic MOC, UIC and RCC for target region_tlr[0m
+[ 60%] Built target feat_proj
+[ 60%] Built target region_tlr_autogen
+[ 68%] Built target roi_extractor
+[ 70%] [34m[1mAutomatic MOC, UIC and RCC for target feat_proj_lanelet2[0m
+[ 80%] Built target region_tlr
+[ 80%] Built target feat_proj_lanelet2_autogen
+[ 82%] [34m[1mAutomatic MOC, UIC and RCC for target tl_switch[0m
+[ 92%] Built target feat_proj_lanelet2
+[ 92%] Built target tl_switch_autogen
+[100%] Built target tl_switch
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/pkgconfig/trafficlight_recognizer.pc
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/cmake/trafficlight_recognizerConfig.cmake
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/cmake/trafficlight_recognizerConfig-version.cmake
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/package.xml
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/region_tlr
+-- Set runtime path of "/home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/region_tlr" to ""
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/feat_proj
+-- Set runtime path of "/home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/feat_proj" to ""
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/tlr_tuner
+-- Set runtime path of "/home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/tlr_tuner" to ""
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/feat_proj_lanelet2
+-- Set runtime path of "/home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/feat_proj_lanelet2" to ""
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/roi_extractor
+-- Set runtime path of "/home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/roi_extractor" to ""
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/label_maker
+-- Set runtime path of "/home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/label_maker" to ""
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/liblibcontext.so
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/tl_switch
+-- Set runtime path of "/home/ros/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/tl_switch" to ""
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/label_maker
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/label_maker/label_maker_gui.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/label_maker/file_system_operator.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/label_maker/custom_graphics_view.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/roi_extractor
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/roi_extractor/roi_extractor.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr/region_tlr.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr/traffic_light_detector.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/traffic_light.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_mxnet
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_mxnet/mxnet_traffic_light_recognizer.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_mxnet/region_tlr_mxnet.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/tlr_tuner
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/tlr_tuner/tuner_body.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/tlr_tuner/mainwindow.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/rate.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/context.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/feat_proj_lanelet2
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/feat_proj_lanelet2/feat_proj_lanelet2_core.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/traffic_light_recognizer.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/trafficlight_recognizer/region_tlr_ssd/region_tlr_ssd.h
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/traffic_light_recognition_mxnet.launch
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/traffic_light_recognition_ssd.launch
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/feat_proj_lanelet2.launch
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/feat_proj_option.launch
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/traffic_light_recognition.launch
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/roi_extractor.launch
+-- Installing: /home/ros/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/feat_proj.launch

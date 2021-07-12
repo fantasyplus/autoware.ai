@@ -1,0 +1,8 @@
+Invoking command in '/home/ros/autoware.ai/build/ndt_cpu': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/ndt_cpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/ndt_cpu
+Invoked command in '/home/ros/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake /home/ros/autoware.ai/src/autoware/core_perception/ndt_cpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ros/autoware.ai/install/ndt_cpu
+Invoking command in '/home/ros/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_cpu -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_cpu -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_cpu --target tests -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_cpu --target tests -- -j12 -l12
+Invoking command in '/home/ros/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_cpu --target install -- -j12 -l12
+Invoked command in '/home/ros/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/ros/autoware.ai/build/ndt_cpu --target install -- -j12 -l12

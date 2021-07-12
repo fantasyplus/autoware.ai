@@ -1,0 +1,6 @@
+/home/ros/autoware.ai/install/roi_object_filter/lib/pkgconfig/roi_object_filter.pc
+/home/ros/autoware.ai/install/roi_object_filter/share/roi_object_filter/cmake/roi_object_filterConfig.cmake
+/home/ros/autoware.ai/install/roi_object_filter/share/roi_object_filter/cmake/roi_object_filterConfig-version.cmake
+/home/ros/autoware.ai/install/roi_object_filter/share/roi_object_filter/package.xml
+/home/ros/autoware.ai/install/roi_object_filter/lib/libroi_object_filter_lib.so
+/home/ros/autoware.ai/install/roi_object_filter/lib/roi_object_filter/roi_object_filter
